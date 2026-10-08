@@ -1,0 +1,51 @@
+{
+  "recordId": "noaa-ocean-service-greenland-shark",
+  "sourceId": "noaa-ocean-service",
+  "sourceName": "NOAA National Ocean Service",
+  "sourceUrl": "https://oceanservice.noaa.gov/",
+  "title": "How long do Greenland sharks live?",
+  "canonicalUrl": "https://oceanservice.noaa.gov/facts/greenland-shark.html",
+  "externalId": "greenland-shark",
+  "authors": [
+    "NOAA"
+  ],
+  "publishedAt": "2026-09-23",
+  "language": "en",
+  "description": "Scientists estimate the Greenland shark lives at least 250 years.",
+  "contentType": "expository",
+  "classification": {
+    "contentGroup": "articles",
+    "primaryCategory": "science",
+    "secondaryCategories": [
+      "environment"
+    ]
+  },
+  "libraryPresentation": {
+    "description": "Scientists estimate the Greenland shark lives at least 250 years.",
+    "genre": "Science & Nature",
+    "level": "B2",
+    "readingTime": "Under 3 min",
+    "imageReference": null
+  },
+  "receivedAt": "2026-10-05",
+  "rightsStatus": "verified",
+  "reuseMode": "verified-full-text",
+  "rightsBasis": "public-domain",
+  "rightsEvidenceUrl": "https://oceanservice.noaa.gov/disclaimer.html",
+  "rightsEvidenceExcerpt": "Information presented on this website is considered public information and may be distributed or copied, unless specifically noted otherwise. This website is maintained by NOAA’s National Ocean Service.",
+  "attributionRequired": true,
+  "attributionText": "NOAA Ocean Service, oceanservice.noaa.gov",
+  "body": "Scientists estimate the Greenland shark lives at least 250 years. They may live over 500 years.\n\nScientists have suspected for a while that Greenland sharks lived extremely long lives, but they didn’t have a way to determine how long. The age of other shark species can be estimated by counting growth bands on fin spines or on the shark’s vertebrae, much like rings on a tree. Greenland sharks, however, have no fin spines and no hard tissues in their bodies. Their vertebrae are too soft to form the growth bands seen in other sharks. Scientists could only guess that the sharks lived a long time based on what they knew — the sharks grow at a very slow rate (less than 1 cm per year) and they can reach over 6 meters in size.\n\nBut recent breakthroughs allowed scientists to use carbon dating to estimate the age of Greenland sharks. Inside the shark’s eyes, there are proteins that are formed before birth and do not degrade with age, like a fossil preserved in amber. Scientists discovered that they could determine the age of the sharks by carbon-dating these proteins. One study examined Greenland sharks that were bycatch in fishermen’s nets. The largest shark they found, a 5-meter female, was between 272 and 512 years old according to their estimates. Carbon dating can only provide estimates, not a definitive age. Scientists continue to refine this method and may provide more accurate measurements in the future. But even at the lower end of the estimates, a 272-year lifespan makes the Greenland shark the longest-lived vertebrate.\n\nOne theory to explain this long lifespan is that the Greenland shark has a very slow metabolism, an adaptation to the deep, cold waters it inhabits. A NOAA remotely operated vehicle doing a dive off New England encountered a Greenland shark at a depth of 783 meters, but these sharks are known to dive as deep as 2,200 meters. They’re also the only shark that can withstand the cold waters of the Arctic Ocean year-round.\n\nThe slow metabolism could explain the shark’s slow growth, slow aging, and sluggish movement — its top speed is under 2.9 kilometers per hour. Because the sharks grow so slowly, they aren’t thought to reach sexual maturity until they’re over a century old. That means removing mature Greenland sharks from the ocean affects the species and the ecosystem for many decades. Though the Greenland shark used to be hunted for its liver oil, the majority of Greenland sharks that end up in fishing nets and lines now are caught by accident. Reducing bycatch is critical in conserving this unique species.",
+  "mediaAssets": [],
+  "reviewStatus": "approved",
+  "reviewNotes": [
+    "Official NOAA Ocean Service page fetched and its full text extracted verbatim: 5 paragraphs, 438 words.",
+    "Page-level author credit recorded verbatim as authors: [\"NOAA\"]; page citation date 2026-09-23.",
+    "Page text inspected individually for copyright, third-party credit, courtesy/licence and restriction notices: none found.",
+    "Page-level provenance signals recorded: [\"wikipedia-or-wikimedia\"]. Any image/media credit on the page is excluded because no asset is reused.",
+    "No image or media is retained: no item-level asset-rights evidence was recorded, so imageReference is null.",
+    "B2 is a Library-level editorial mapping for this English-learning article, not a claimed formal CEFR label.",
+    "Reading time \"Under 3 min\" is mapped from the full-text word count (438) at 200 WPM.",
+    "Genre \"Science & Nature\": Species explainer on Greenland shark longevity; subject is marine biology."
+  ]
+}

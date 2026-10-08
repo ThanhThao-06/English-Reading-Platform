@@ -1,0 +1,27 @@
+{
+  "userVersion": 5,
+  "rowCount": 9,
+  "auditHash": "5c21a50386dfac7fb155097e92cbe54e1d2eb584706f908a285bc182ea6f9734",
+  "ids": [
+    "imported-dafec482cb21951786b393d7",
+    "imported-47a000c551359c85ee07d664",
+    "imported-8651fcc63d19b5008a681824",
+    "imported-96b1c58cb2a8e199b7c03862",
+    "imported-d0fe641c7592f647ffc7c86f",
+    "imported-bd01d8daf2300b65c5ade0e7",
+    "imported-2e74c73af7539c8f5ad98923",
+    "imported-55a9c7167e59f08ed83d2135",
+    "imported-b68b2851caf3a433ab2f1809"
+  ],
+  "genres": {
+    "voa-learning-english-3947928": "Society",
+    "voa-learning-english-5649722": "Business & Economics",
+    "voa-learning-english-7940837": "Society",
+    "voa-learning-english-7963076": "Society",
+    "voa-learning-english-7979814": "Society",
+    "voa-learning-english-7980848": "Society",
+    "voa-learning-english-7990415": "Society",
+    "voa-learning-english-7998765": "Science",
+    "voa-learning-english-8003108": "Society"
+  }
+}

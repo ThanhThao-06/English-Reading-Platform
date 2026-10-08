@@ -1,0 +1,51 @@
+{
+  "recordId": "voa-learning-english-4804792",
+  "sourceId": "voa-learning-english",
+  "sourceName": "VOA Learning English",
+  "sourceUrl": "https://learningenglish.voanews.com/",
+  "title": "Can Language Learning Happen During Sleep?",
+  "canonicalUrl": "https://learningenglish.voanews.com/a/can-language-learning-happen-during-sleep-/4804792.html",
+  "externalId": "4804792",
+  "authors": [
+    "Bryan Lynn wrote this story for VOA Learning English, based on reports from Current Biology and the University of Bern.",
+    "VOA - Voice of America"
+  ],
+  "publishedAt": "2019-02-26",
+  "receivedAt": "2026-10-04",
+  "contentType": "expository",
+  "language": "en",
+  "description": "A new study suggests some language learning can take place during sleep.",
+  "classification": {
+    "contentGroup": "articles",
+    "primaryCategory": "psychology",
+    "secondaryCategories": [
+      "education",
+      "language-learning"
+    ]
+  },
+  "libraryPresentation": {
+    "description": "A new study suggests some language learning can take place during sleep.",
+    "imageReference": null,
+    "level": "B2",
+    "genre": "Health & Psychology",
+    "readingTime": "5–10 min"
+  },
+  "rightsStatus": "verified",
+  "reuseMode": "verified-full-text",
+  "rightsEvidenceUrl": "https://learningenglish.voanews.com/p/6861.html",
+  "rightsEvidenceExcerpt": "Learning English texts, MP3s, photos and videos are in the public domain. You are allowed to reprint them for educational and commercial purposes, with credit to learningenglish.voanews.com. However, stories, photos and video images from news agencies such as AP, Reuters and AFP are copyrighted, so you are not allowed to republish them.",
+  "attributionRequired": true,
+  "attributionText": "Credit to learningenglish.voanews.com",
+  "body": "A new study suggests some language learning can take place during sleep.\n\nResearchers from Switzerland’s University of Bern say they discovered people were able to learn new language words during deep levels of sleep. Results of the study recently appeared in the publication Current Biology.\n\nSleeping hours are generally considered unproductive time. But several studies have suggested some learning activity can happen. Studies involving mice provided evidence that sleep learning is possible in the brain of mammals.\n\nOther human studies, the Swiss researchers said, found that simple learning through sounds may be possible during sleep. But they added that “complex verbal learning” has not yet been demonstrated.\n\nMuch of the earlier research found that memories made when people were awake were reinforced and strengthened during sleep. This supported the idea that information learned while awake is replayed and deeply embedded in the sleeping brain.\n\nThe researchers theorized that, if replay during sleep improves the storage of information that is learned while awake, the processing and storage of new information should also be possible during sleep.\n\nThe research group was led by Katharina Henke, a professor at the University of Bern and founder of the school’s Center for Cognition, Learning and Memory. The researchers carried out experiments on a group of young German-speaking men and women.\n\nKatharina Henke (far left) is pictured with two fellow researchers at the University of Bern, Marc Zuest (far left) and Simon Ruch (center). (University of Bern)\n\nThe experiments centered on periods of deep sleep called “up-states.” They identified these slow-wave peaks as the best moments for sleep-learning.\n\nDuring normal sleep, human brain cells are commonly active for a short period of time before they enter a state of brief inactivity, the researchers said. The two states are continuously changing.\n\nThe researchers observed individuals in a controlled environment during brief periods of sleep. They recorded brain activity as pairs of words were played for the study subjects. One word in the pair was a real German word. The other was a made-up foreign word.\n\nFor later identification purposes, the German words chosen were things clearly larger or smaller than a shoebox.\n\nEach word pair was played four times, with the order of the words changed each time. The researchers said the word pairs were played at a rhythm that is similar to actual brain activity during deep sleep.\n\nThe goal was to create a lasting memory link between the false word and the German word that individuals could identify when awake.\n\nWhen the subjects woke, they were presented with the false language words – both by sight and sound. They were then asked to guess whether the false word played during sleep represented an object smaller or larger than a shoebox.\n\nTwo Chinese men take a lunch-time rest in the old part of Shanghai, Sunday Nov. 16, 1997. (AP Photo/Paola Vanzo)\n\nDuring this part of the experiment, some of the subjects had their brain activity recorded by magnetic imaging technology. This was meant to measure brain activity when the subjects were giving their answers to the questions.\n\nResults of the study found that a majority of subjects gave more correct answers about the sleep-learned words than would be expected if they had only guessed at random.\n\nThe researchers said they measured increased signals affecting a part of the brain known as the hippocampus. This brain structure is very important for building relational memory during non-sleep periods. The researchers said memory was best for word pairs presented during slow-wave peaks during sleep.\n\nThe study suggests that memory formation in sleep appears to be caused by the same brain structures that support vocabulary learning while awake.\n\nThe researchers say more studies are needed to support their findings. However, the experiments do provide new evidence that memories can be formed and vocabulary learning can take place in both conscious and unconscious states.\n\nI’m Bryan Lynn.\n\nBryan Lynn wrote this story for VOA Learning English, based on reports from Current Biology and the University of Bern. Ashley Thompson was the editor.\n\nWe want to hear from you. Write to us in the Comments section, and visit our Facebook page.",
+  "mediaAssets": [],
+  "reviewStatus": "approved",
+  "reviewNotes": [
+    "Official article page inspected and its full text extracted verbatim: 24 paragraphs, 689 words.",
+    "Closing producer credit and page byline recorded as authors: [\"Bryan Lynn wrote this story for VOA Learning English, based on reports from Current Biology and the University of Bern.\",\"VOA - Voice of America\"].",
+    "No AP, Reuters, AFP or other agency credit appears in the byline or credit surfaces.",
+    "No image or media is retained: no item-level asset-rights evidence was recorded, so imageReference is null.",
+    "B2 is a Library-level editorial mapping for this English-learning article, not a claimed formal CEFR label.",
+    "Reading time \"5–10 min\" is mapped from the full-text word count (689) at 200 WPM.",
+    "Genre \"Health & Psychology\": Reports sleep-based memory and vocabulary research from the University of Bern; the subject is cognition."
+  ]
+}

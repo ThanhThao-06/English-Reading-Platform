@@ -1,0 +1,9 @@
+{
+  "approvalStatus": "APPROVED_FOR_LIBRARY_IMPORT",
+  "packageId": "content-dd8d6411c5deb06636031f16",
+  "packageVersion": 1,
+  "packageSha256": "bee035502f614206f52e4a10afbfe74af51bfacd8bc49904505909a41ba1ca5e",
+  "approvedAt": "2026-10-04T02:31:52.985Z",
+  "approver": "User (explicit production import request)",
+  "decision": "The user explicitly authorized production import of exactly this article, conditional on all validation gates passing. The item-specific VOA author credit, full article text, required attribution, and official rights policy were reviewed."
+}

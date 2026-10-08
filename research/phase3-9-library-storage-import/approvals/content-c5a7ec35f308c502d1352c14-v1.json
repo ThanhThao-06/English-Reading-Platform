@@ -1,0 +1,9 @@
+{
+  "approvalStatus": "APPROVED_FOR_LIBRARY_IMPORT",
+  "packageId": "content-c5a7ec35f308c502d1352c14",
+  "packageVersion": 1,
+  "packageSha256": "fa2c1dc25b949a918a901cbeb9ed1174a1067299276d2bb5009d29efb4b57b53",
+  "approvedAt": "2026-10-05T00:00:00.000Z",
+  "approver": "User (explicit request to import a PDR + Wiktionary batch for educational reading)",
+  "decision": "The user explicitly authorized this real import batch for educational reading. Every item was fetched from its official source page and its full text extracted, then reviewed individually. For The Public Domain Review the item's OWN page had to carry article-level CC BY or CC BY-SA evidence: the publisher states that some of its Articles are \"published under more restrictive terms\", so the site-wide statement was never used to decide an item, and any \"All rights reserved\", \"Reprinted by permission\" or NonCommercial-only item was excluded. For Wiktionary the CC BY-SA statement carried on each page was required, and third-party or non-free content (fair-use quotations, usage examples carrying quotations, File/Image links) was excluded from the stored body rather than assumed compatible. No image, audio or other media is reused from either source: imageReference is null for every item."
+}

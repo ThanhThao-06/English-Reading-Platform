@@ -1,0 +1,285 @@
+{
+  "manifestId": "reading-platform-content-source-whitelist",
+  "manifestVersion": 1,
+  "effectiveDate": "2026-10-04",
+  "purpose": "Govern which publishers may supply content for the Reading Library production import pipeline. This manifest does not itself grant rights, approve an article, create an import approval, or replace article-level validation.",
+  "runtimeEnforcement": {
+    "integratedWithProductionImporter": false,
+    "note": "The production importer currently loads Phase 3.5 source-policy fixtures. This manifest is the governing whitelist record but is not yet consumed by runtime code; existing validation, approval, duplicate, provenance, and transaction gates remain unchanged."
+  },
+  "globalRules": {
+    "defaultSourceStatus": "NOT_ALLOWED",
+    "internetAvailabilityIsReusePermission": false,
+    "rightsStatusMayBeSetToVerifiedWithoutEvidence": false,
+    "articleApprovalCanBeSkipped": false,
+    "duplicateAndProvenanceGatesCanBeSkipped": false,
+    "articleLevelRightsEvidenceRequiredForNonWhitelistedSources": true,
+    "conditionsForAddingSource": [
+      "Record clear, applicable rights evidence from an authoritative source; mere Internet availability, accessibility, or a source being widely used is not evidence of reuse permission.",
+      "Assess whether the evidence covers the intended full-text reuse and the relevant jurisdiction; retain any geographic, term, attribution, non-commercial, or other limits.",
+      "Review article-level author/byline, body, embedded quotations, image/media credits, and other third-party material independently. Exclude assets or content without rights evidence covering the intended reuse.",
+      "Record rights evidence and required attribution in intake/package provenance. Never assert rightsStatus=verified unless the existing rights validator accepts evidence that supports that status.",
+      "Register or update the applicable production source-policy fixture through an explicitly reviewed policy change before attempting import; a whitelist entry alone does not override a stricter existing runtime policy.",
+      "Pass all existing intake, package, human approval, duplicate, provenance, and atomic import gates."
+    ],
+    "unresolvedRightsOutcome": "SKIP; do not persist the full text or create an approved package or import approval.",
+    "prohibitedRightsOutcome": "REJECT or SKIP according to the existing pipeline outcome; do not persist prohibited full text."
+  },
+  "sources": [
+    {
+      "sourceId": "voa-learning-english",
+      "sourceName": "VOA Learning English",
+      "status": "ALLOWED_CONDITIONAL",
+      "allowedReuse": "A qualifying VOA-produced Learning English article may be considered for full-text reuse under the existing conditional grant; this is not blanket approval for every item or asset.",
+      "policyEvidence": [
+        "https://learningenglish.voanews.com/p/6861.html"
+      ],
+      "conditions": [
+        "The canonical article URL is on the official learningenglish.voanews.com host.",
+        "The article has a byline or author credit identifying VOA Learning English or VOA as the producer.",
+        "The full text is obtained from the official article page and inspected for third-party copyright notices, agency reporting/credits, and other material not covered by the VOA grant.",
+        "Do not reuse AP, Reuters, AFP, or other third-party copyrighted text or assets unless separate evidence establishes permission for the intended reuse. Exclude unverified images/media; text-only import is permitted when the article text independently qualifies.",
+        "Record the official policy URL and captured policy wording as rights evidence.",
+        "Set attributionRequired=true and preserve the policy credit: Credit to learningenglish.voanews.com.",
+        "Run the existing Phase 3.5 conditional rights validator; do not treat this manifest entry as authorization to set rightsStatus=verified manually.",
+        "Create a valid approved package and separate hash-bound library import approval, then pass the official importer duplicate, provenance, and transaction checks."
+      ],
+      "excludedContent": "Any item or asset identified as third-party or otherwise not established as VOA-produced and reusable is excluded unless separate item/asset-level permission evidence covers the intended reuse."
+    },
+    {
+      "sourceId": "noaa-ocean-service",
+      "sourceName": "NOAA National Ocean Service",
+      "status": "ALLOWED_CONDITIONAL",
+      "allowedReuse": "A NOAA-authored Ocean Service explainer page whose own text carries a NOAA author credit, a citation date and no copyright, third-party or restriction notice may be considered for full-text reuse under the official NOS website disclaimer. This is not blanket approval for every item, every NOS page, or any asset.",
+      "policyEvidence": [
+        "https://oceanservice.noaa.gov/disclaimer.html"
+      ],
+      "conditions": [
+        "The canonical article URL is on the official oceanservice.noaa.gov host.",
+        "The page itself carries an explicit NOAA author credit and a readable citation ('Last updated') date; an item without a NOAA credit is excluded.",
+        "The official disclaimer permission is qualified by 'unless specifically noted otherwise', so each page is inspected individually for copyright, third-party credit, courtesy/licence or other restriction notices; any such notice excludes the item.",
+        "Do not reuse third-party or partner material credited to other agencies, organisations or individuals. Exclude unverified images/media; text-only import is permitted when the article text independently qualifies.",
+        "Record the official disclaimer URL and its captured wording as rights evidence, with a public-domain rights basis.",
+        "Set attributionRequired=true and preserve the credit: NOAA Ocean Service, oceanservice.noaa.gov.",
+        "Set imageReference to null unless independent asset-level rights evidence covers the intended reuse; no NOAA image is imported in this batch.",
+        "Run the existing Phase 3.5 and Phase 3.7 validators; do not treat this manifest entry as authorization to bypass a gate.",
+        "Create a valid approved package and separate hash-bound library import approval, then pass the official importer duplicate, provenance, and transaction checks."
+      ],
+      "excludedContent": "Any item or asset identified as third-party, separately copyrighted, courtesy/licensed, or otherwise not established as NOAA-authored public information is excluded. Agency seals, logos and agency identification are excluded entirely."
+    },
+    {
+      "sourceId": "nasa",
+      "sourceName": "NASA",
+      "status": "ALLOWED_CONDITIONAL",
+      "allowedReuse": "A NASA-authored science explainer whose text carries NASA page provenance, a readable citation date and no third-party credit, courtesy/licence notice, syndicated or contributed content may be considered for full-text reuse for educational and informational purposes under NASA's official Images and Media Usage Guidelines. This is not blanket approval for every NASA item, every NASA page, or any image or identifier.",
+      "policyEvidence": [
+        "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+      ],
+      "conditions": [
+        "The canonical article URL is on an official NASA host (nasa.gov or a subdomain).",
+        "Use is educational or informational, factual, and does not imply NASA endorsement.",
+        "NASA is acknowledged as the source: set attributionRequired=true with a NASA credit line.",
+        "Third-party copyright-protected material is excluded. NASA states its use of such material conveys no rights to others, so any page whose text carries a third-party credit, courtesy line, licence note, syndicated or contributed/guest content or a news-agency credit is skipped.",
+        "A credit naming a partner agency or non-NASA provider (ESA, CSA, STScI, a university, a commercial provider) excludes the item.",
+        "Each item must carry NASA page provenance (page editor or responsible NASA official) and a readable 'Page Last Updated' date.",
+        "Set imageReference to null. The NASA Insignia, Logotype and NASA identifiers are expressly not in the public domain and are never reused.",
+        "Topic hub and index pages are excluded; a page that is mostly in-body links is navigation, not an article.",
+        "Run the existing Phase 3.5 and Phase 3.7 validators; this manifest entry does not authorize bypassing any gate.",
+        "Create a valid approved package and separate hash-bound library import approval, then pass the official importer duplicate, provenance and transaction checks."
+      ],
+      "excludedContent": "Any item carrying third-party, separately copyrighted, courtesy/licensed, syndicated, contributed or guest material is excluded, as are all NASA images, insignia, logotypes and identifiers."
+    },
+    {
+      "sourceId": "plos-one",
+      "sourceName": "PLOS ONE",
+      "status": "NOT_ALLOWED",
+      "reason": "The existing Phase 3.5 source policy is unknown/link-only and expressly does not permit an item-level override. A future explicit policy review with clear article-level licence evidence is required before whitelist admission."
+    },
+    {
+      "sourceId": "bbc-news",
+      "sourceName": "BBC News",
+      "status": "NOT_ALLOWED",
+      "reason": "No applicable reuse-rights evidence is recorded in the current project whitelist review."
+    },
+    {
+      "sourceId": "the-guardian",
+      "sourceName": "The Guardian",
+      "status": "NOT_ALLOWED",
+      "reason": "No applicable reuse-rights evidence is recorded in the current project whitelist review."
+    },
+    {
+      "sourceId": "npr",
+      "sourceName": "NPR",
+      "status": "NOT_ALLOWED",
+      "reason": "No applicable reuse-rights evidence is recorded in the current project whitelist review."
+    },
+    {
+      "sourceId": "vn-express-international",
+      "sourceName": "VnExpress International",
+      "status": "NOT_ALLOWED",
+      "reason": "No applicable reuse-rights evidence is recorded in the current project whitelist review."
+    },
+    {
+      "sourceId": "vietnamnet-global",
+      "sourceName": "VietNamNet Global",
+      "status": "NOT_ALLOWED",
+      "reason": "No applicable reuse-rights evidence is recorded in the current project whitelist review."
+    },
+    {
+      "sourceId": "tuoi-tre-news",
+      "sourceName": "Tuoi Tre News",
+      "status": "NOT_ALLOWED",
+      "reason": "No applicable reuse-rights evidence is recorded in the current project whitelist review."
+    },
+    {
+      "sourceId": "simple-english-wikipedia",
+      "sourceName": "Simple English Wikipedia",
+      "status": "NOT_ALLOWED",
+      "reason": "No licence evidence applicable to the specific item and intended reuse has been approved for this whitelist."
+    },
+    {
+      "sourceId": "kiddle",
+      "sourceName": "Kiddle",
+      "status": "NOT_ALLOWED",
+      "reason": "No applicable reuse-rights evidence is recorded in the current project whitelist review."
+    },
+    {
+      "sourceId": "dk-findout",
+      "sourceName": "DK Findout!",
+      "status": "NOT_ALLOWED",
+      "reason": "No applicable reuse-rights evidence is recorded in the current project whitelist review."
+    },
+    {
+      "sourceId": "national-geographic-kids",
+      "sourceName": "National Geographic Kids",
+      "status": "NOT_ALLOWED",
+      "reason": "No applicable reuse-rights evidence is recorded in the current project whitelist review."
+    },
+    {
+      "sourceId": "the-conversation",
+      "sourceName": "The Conversation",
+      "status": "NOT_ALLOWED",
+      "reason": "No reuse licence has been verified and approved for the relevant article and intended use in this whitelist."
+    },
+    {
+      "sourceId": "world-economic-forum",
+      "sourceName": "World Economic Forum",
+      "status": "NOT_ALLOWED",
+      "reason": "No applicable reuse-rights evidence is recorded in the current project whitelist review."
+    },
+    {
+      "sourceId": "mckinsey-insights",
+      "sourceName": "McKinsey Insights",
+      "status": "NOT_ALLOWED",
+      "reason": "No applicable reuse-rights evidence is recorded in the current project whitelist review."
+    },
+    {
+      "sourceId": "science-daily",
+      "sourceName": "ScienceDaily",
+      "status": "NOT_ALLOWED",
+      "reason": "No source-level reuse rights are approved, and individual items may contain third-party press-release content requiring separate evidence."
+    },
+    {
+      "sourceId": "phys-org",
+      "sourceName": "Phys.org",
+      "status": "NOT_ALLOWED",
+      "reason": "No applicable reuse-rights evidence is recorded in the current project whitelist review."
+    },
+    {
+      "sourceId": "nasa",
+      "sourceName": "NASA",
+      "status": "NOT_ALLOWED",
+      "reason": "No item-level evidence has been approved for this whitelist; any public-domain claim must account for third-party, contractor, and other excluded material."
+    },
+    {
+      "sourceId": "medical-news-today",
+      "sourceName": "Medical News Today",
+      "status": "NOT_ALLOWED",
+      "reason": "No applicable reuse-rights evidence is recorded in the current project whitelist review."
+    },
+    {
+      "sourceId": "who",
+      "sourceName": "World Health Organization",
+      "status": "NOT_ALLOWED",
+      "reason": "No applicable reuse-rights evidence is recorded in the current project whitelist review."
+    },
+    {
+      "sourceId": "greater-good-magazine",
+      "sourceName": "Greater Good Magazine",
+      "status": "NOT_ALLOWED",
+      "reason": "No applicable reuse-rights evidence is recorded in the current project whitelist review."
+    },
+    {
+      "sourceId": "psychology-today",
+      "sourceName": "Psychology Today",
+      "status": "NOT_ALLOWED",
+      "reason": "No applicable reuse-rights evidence is recorded in the current project whitelist review."
+    },
+    {
+      "sourceId": "oyez",
+      "sourceName": "Oyez",
+      "status": "NOT_ALLOWED",
+      "reason": "No applicable reuse-rights evidence is recorded in the current project whitelist review."
+    },
+    {
+      "sourceId": "un-news",
+      "sourceName": "UN News",
+      "status": "NOT_ALLOWED",
+      "reason": "No applicable reuse-rights evidence is recorded in the current project whitelist review."
+    },
+    {
+      "sourceId": "archdaily",
+      "sourceName": "ArchDaily",
+      "status": "NOT_ALLOWED",
+      "reason": "No applicable reuse-rights evidence is recorded in the current project whitelist review."
+    },
+    {
+      "sourceId": "smarthistory",
+      "sourceName": "Smarthistory",
+      "status": "NOT_ALLOWED",
+      "reason": "No licence evidence applicable to the specific item and intended use has been approved for this whitelist."
+    },
+    {
+      "sourceId": "bbc-travel",
+      "sourceName": "BBC Travel",
+      "status": "NOT_ALLOWED",
+      "reason": "No applicable reuse-rights evidence is recorded in the current project whitelist review."
+    },
+    {
+      "sourceId": "national-geographic-travel",
+      "sourceName": "National Geographic Travel",
+      "status": "NOT_ALLOWED",
+      "reason": "No applicable reuse-rights evidence is recorded in the current project whitelist review."
+    },
+    {
+      "sourceId": "project-gutenberg",
+      "sourceName": "Project Gutenberg",
+      "status": "NOT_ALLOWED",
+      "reason": "No evidence establishing item-level reuse rights in the target jurisdiction and intended use has been approved for this whitelist."
+    },
+    {
+      "sourceId": "standard-ebooks",
+      "sourceName": "Standard Ebooks",
+      "status": "NOT_ALLOWED",
+      "reason": "No licence evidence applicable to the specific item and intended reuse has been approved for this whitelist."
+    },
+    {
+      "sourceId": "american-literature",
+      "sourceName": "American Literature",
+      "status": "NOT_ALLOWED",
+      "reason": "No item-level rights evidence covering the specific text and intended reuse has been approved for this whitelist."
+    }
+  ],
+  "nonProductionEntries": [
+    {
+      "sourceId": "synthetic-open-source",
+      "status": "EXCLUDED_TEST_ONLY",
+      "reason": "Synthetic validation fixture; not a real publisher, whitelist source, or permission grant."
+    },
+    {
+      "sourceId": "synthetic-metadata-source",
+      "status": "EXCLUDED_TEST_ONLY",
+      "reason": "Synthetic validation fixture; not a real publisher, whitelist source, or permission grant."
+    }
+  ]
+}

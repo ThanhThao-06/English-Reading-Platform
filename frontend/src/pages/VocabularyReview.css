@@ -1,0 +1,229 @@
+/* ==========================================================================
+   Vocabulary Review Session (Phase 2.4)
+   ========================================================================== */
+
+.vocab-review-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-primary);
+}
+
+.vocab-review-main {
+  flex: 1;
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 32px 24px 72px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.vocab-review-header {
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.vocab-review-title {
+  font-family: var(--font-family-display);
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin: 0 0 6px;
+  color: var(--text-primary);
+}
+
+.vocab-review-subtitle {
+  font-size: 0.9375rem;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+/* Session progress */
+.vocab-review-progress {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.vocab-review-progress-text {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  font-variant-numeric: tabular-nums;
+}
+
+.vocab-review-progress-new {
+  color: var(--text-muted);
+}
+
+.vocab-review-progress-bar {
+  height: 6px;
+  border-radius: var(--radius-full);
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-subtle);
+  overflow: hidden;
+}
+
+.vocab-review-progress-fill {
+  height: 100%;
+  background-color: var(--accent-primary);
+  transition: width 0.25s ease;
+}
+
+.vocab-review-session {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Rating buttons: Again / Hard / Good / Easy */
+.vocab-review-ratings {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.vocab-review-rating-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 12px 8px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-subtle);
+  background-color: var(--bg-card);
+  color: var(--text-primary);
+  font-family: var(--font-family-body);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.vocab-review-rating-btn:hover {
+  background-color: var(--bg-card-hover);
+  border-color: var(--accent-primary);
+}
+
+.vocab-review-rating-btn:focus-visible {
+  outline: 2px solid var(--border-focus);
+  outline-offset: 2px;
+}
+
+.vocab-review-rating-label {
+  font-size: 0.9375rem;
+  font-weight: 700;
+}
+
+.vocab-review-rating-hint {
+  font-size: 0.6875rem;
+  color: var(--text-muted);
+}
+
+/* Subtle distinction, using existing tokens rather than new brand colours. */
+.vocab-review-rating-btn.is-again .vocab-review-rating-label {
+  color: #f85149;
+}
+
+.vocab-review-rating-btn.is-easy .vocab-review-rating-label {
+  color: #3fb950;
+}
+
+/* Empty and completion states */
+.vocab-review-empty {
+  text-align: center;
+  padding: 48px 24px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-subtle);
+  background-color: var(--bg-secondary);
+}
+
+.vocab-review-empty h2 {
+  font-family: var(--font-family-display);
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0 0 10px;
+  color: var(--text-primary);
+}
+
+.vocab-review-empty p {
+  font-size: 0.9375rem;
+  color: var(--text-secondary);
+  margin: 0 0 6px;
+}
+
+.vocab-review-empty-hint {
+  color: var(--text-muted) !important;
+  font-size: 0.875rem !important;
+  margin-bottom: 20px !important;
+}
+
+.vocab-review-complete-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 18px;
+}
+
+.vocab-review-primary-btn {
+  padding: 10px 24px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--accent-primary);
+  background-color: var(--accent-primary);
+  color: var(--text-inverse);
+  font-family: var(--font-family-body);
+  font-size: 0.9375rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.vocab-review-primary-btn:hover {
+  background-color: var(--accent-primary-hover);
+  border-color: var(--accent-primary-hover);
+}
+
+.vocab-review-primary-btn:focus-visible,
+.vocab-review-secondary-btn:focus-visible {
+  outline: 2px solid var(--border-focus);
+  outline-offset: 2px;
+}
+
+.vocab-review-secondary-btn {
+  padding: 10px 24px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--border-subtle);
+  background-color: var(--bg-card);
+  color: var(--text-primary);
+  font-family: var(--font-family-body);
+  font-size: 0.9375rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.vocab-review-secondary-btn:hover {
+  background-color: var(--bg-card-hover);
+}
+
+/* Responsive */
+@media (max-width: 560px) {
+  .vocab-review-main {
+    padding: 24px 16px 56px;
+  }
+
+  .vocab-review-ratings {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .flashcard {
+    padding: 24px 18px;
+  }
+
+  .flashcard-word {
+    font-size: 2rem;
+  }
+}

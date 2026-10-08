@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "packageId": "content-23b485b8b2af3b8ed50c7812",
+  "version": 1,
+  "createdAt": "2026-10-05T00:00:00.000Z",
+  "supersedes": null,
+  "packageStatus": "ELIGIBLE",
+  "eligibleForPhase38": true,
+  "libraryPresentation": {
+    "description": "Etymology 1 Most likely derived from posh , either because posh-kooroona (originally a substantial sum of money) was used metaphorically for anything pricey or upper-class, or because posh-houri came to refer to money generally.",
+    "genre": "Education",
+    "level": "A2",
+    "readingTime": "Under 3 min",
+    "imageReference": null
+  },
+  "content": {
+    "recordId": "wiktionary-posh",
+    "title": "posh",
+    "contentType": "educational",
+    "contentGroup": "articles",
+    "categories": {
+      "primary": "language-learning",
+      "secondary": []
+    },
+    "language": "en",
+    "authors": [
+      "Wiktionary contributors"
+    ],
+    "reuseMode": "verified-full-text",
+    "body": "Etymology 1\n\nMost likely derived from posh , either because posh-kooroona (originally a substantial sum of money) was used metaphorically for anything pricey or upper-class, or because posh-houri came to refer to money generally.\n\nA period slang dictionary defines \"posh\" as a term used by thieves for \"money generic, but specifically, a halfpenny or other small coin\". An example is given from James Payn's The Eavesdropper (1888) \"They used such funny terms 'brads,' and 'dibbs,' and 'mopusses,' and 'posh' ... at last it was borne in upon me that they were talking about money.\"\n\nEvidence exists for a slang sense from the 1890s meaning dandy , which is quite possibly related.\n\nA popular folk etymology holds that the term is an acronym for \"port out, starboard home\", describing the cooler, north-facing cabins taken by the most aristocratic or rich passengers travelling from Britain to India and back. However, there is no evidence for this claim.\n\nIt could also possibly be a .\n\nSee also the articles mentioned in the References section below for additional discussion.\n\nEtymology 2\n\nCompare pash .",
+    "bodyReference": null
+  },
+  "source": {
+    "sourceId": "wiktionary",
+    "sourceName": "Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/",
+    "canonicalUrl": "https://en.wiktionary.org/wiki/posh",
+    "externalId": "posh",
+    "doi": null
+  },
+  "rights": {
+    "verificationStatus": "verified",
+    "permittedReuseMode": "verified-full-text",
+    "rightsBasis": "license",
+    "sourcePolicy": null,
+    "license": {
+      "type": "creative-commons",
+      "identifier": "CC-BY-SA-4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "attributionRequired": true,
+    "attributionText": "Wiktionary contributors, CC BY-SA 4.0 (via https://en.wiktionary.org/wiki/posh)",
+    "evidence": [
+      {
+        "evidenceId": "wiktionary-posh-metadata",
+        "evidenceType": "item-metadata",
+        "sourceUrl": "https://en.wiktionary.org/wiki/posh",
+        "reference": "Item metadata captured from the canonical source page.",
+        "excerpt": null,
+        "retrievedAt": "2026-10-05",
+        "scope": "item",
+        "appliesToRecordId": "wiktionary-posh"
+      },
+      {
+        "evidenceId": "wiktionary-posh-item-license",
+        "evidenceType": "item-license",
+        "sourceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "reference": "CC-BY-SA-4.0",
+        "excerpt": "Definitions and other text are available under the Creative Commons Attribution-ShareAlike License ; additional terms may apply.",
+        "retrievedAt": "2026-10-05",
+        "scope": "item",
+        "appliesToRecordId": "wiktionary-posh"
+      }
+    ]
+  },
+  "validation": {
+    "validator": "Phase 3.5 validateIntake",
+    "result": "PASS",
+    "errorCodes": []
+  },
+  "review": {
+    "reviewStatus": "approved",
+    "reviewer": "User (explicit request to import a PDR + Wiktionary batch for educational reading)",
+    "decision": "The user explicitly authorized this real import batch for educational reading. Every item was fetched from its official source page and its full text extracted, then reviewed individually. For The Public Domain Review the item's OWN page had to carry article-level CC BY or CC BY-SA evidence: the publisher states that some of its Articles are \"published under more restrictive terms\", so the site-wide statement was never used to decide an item, and any \"All rights reserved\", \"Reprinted by permission\" or NonCommercial-only item was excluded. For Wiktionary the CC BY-SA statement carried on each page was required, and third-party or non-free content (fair-use quotations, usage examples carrying quotations, File/Image links) was excluded from the stored body rather than assumed compatible. No image, audio or other media is reused from either source: imageReference is null for every item.",
+    "reviewedAt": "2026-10-05T00:00:00.000Z"
+  },
+  "provenance": {
+    "sourceRecordId": "wiktionary-posh",
+    "intakeRecordId": "wiktionary-posh",
+    "intakeSchemaVersion": "phase3.5-independent-intake-v1",
+    "intakeValidationResult": "PASS",
+    "dryRunResult": "PASS",
+    "dryRunRecordId": "wiktionary-posh",
+    "reviewStatus": "approved",
+    "packageCreatedAt": "2026-10-05T00:00:00.000Z",
+    "sourceManifest": "research/phase4-8-pdr-wiktionary/intake/public-domain-review-the-mowing-devil.json; research/phase4-8-pdr-wiktionary/intake/public-domain-review-animal-vegetable-lamb.json; research/phase4-8-pdr-wiktionary/intake/public-domain-review-glass-delusion.json; research/phase4-8-pdr-wiktionary/intake/public-domain-review-maskenfest.json; research/phase4-8-pdr-wiktionary/intake/public-domain-review-mail-order-occult.json; research/phase4-8-pdr-wiktionary/intake/wiktionary-salary.json; research/phase4-8-pdr-wiktionary/intake/wiktionary-quarantine.json; research/phase4-8-pdr-wiktionary/intake/wiktionary-window.json; research/phase4-8-pdr-wiktionary/intake/wiktionary-posh.json; research/phase4-8-pdr-wiktionary/intake/wiktionary-gossip.json"
+  }
+}

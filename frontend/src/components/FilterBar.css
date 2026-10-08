@@ -1,0 +1,296 @@
+.filter-bar-container {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 32px;
+  padding: 20px 24px;
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+/*
+ * One column per dropdown: Genre, CEFR Level, Reading Time and Curiosities &
+ * Deep Dives all stay on a single horizontal line, as the three originals did.
+ */
+.filter-select-row {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.filter-select-group {
+  position: relative;
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.filter-group-label {
+  overflow: hidden;
+  color: var(--text-secondary);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.filter-select-trigger {
+  display: flex;
+  min-height: 42px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 9px 12px;
+  overflow: hidden;
+  color: var(--text-primary);
+  font-size: 0.875rem;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.filter-select-trigger:hover,
+.filter-select-trigger[aria-expanded='true'] {
+  background: var(--bg-card-hover);
+  border-color: var(--accent-primary);
+}
+
+.filter-select-trigger:focus-visible,
+.filter-select-option:focus-visible,
+.filter-reset-btn:focus-visible {
+  outline: 2px solid var(--accent-primary);
+  outline-offset: 2px;
+}
+
+.filter-select-chevron {
+  width: 8px;
+  height: 8px;
+  flex: 0 0 auto;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  transform: rotate(45deg) translateY(-2px);
+  transition: transform 0.2s ease;
+}
+
+.filter-select-trigger[aria-expanded='true'] .filter-select-chevron {
+  transform: rotate(225deg) translate(-1px, -1px);
+}
+
+.filter-select-options {
+  position: absolute;
+  z-index: 5;
+  top: calc(100% + 6px);
+  left: 0;
+  display: flex;
+  width: max(100%, 190px);
+  max-width: calc(100vw - 40px);
+  max-height: min(280px, 60vh);
+  flex-direction: column;
+  gap: 3px;
+  padding: 6px;
+  overflow-y: auto;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg);
+}
+
+/*
+ * Single-genre pages fix the genre via the route, so the control is rendered as
+ * a read-only value instead of a dropdown. Same footprint as the dropdown
+ * trigger so the three filter groups stay on one horizontal line.
+ */
+.filter-locked-value {
+  display: flex;
+  min-height: 42px;
+  width: 100%;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  padding: 9px 12px;
+  overflow: hidden;
+  color: var(--text-primary);
+  font-size: 0.875rem;
+  background: var(--accent-subtle);
+  border: 1px solid rgba(56, 139, 253, 0.3);
+  border-radius: var(--radius-md);
+  cursor: default;
+}
+
+.filter-locked-dot {
+  width: 6px;
+  height: 6px;
+  flex: 0 0 auto;
+  background: var(--accent-primary-hover);
+  border-radius: var(--radius-full);
+}
+
+.filter-locked-text {
+  overflow: hidden;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.filter-select-options-right {
+  right: 0;
+  left: auto;
+}
+
+.filter-select-option {
+  width: 100%;
+  padding: 9px 10px;
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  text-align: left;
+  background: transparent;
+  border: 0;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: color 0.15s ease, background-color 0.15s ease;
+}
+
+.filter-select-option:hover,
+.filter-select-option.active {
+  color: var(--text-primary);
+  background: var(--accent-subtle);
+}
+
+.filter-select-option.active {
+  font-weight: 600;
+}
+
+.filter-select-option[data-level='A1'].active {
+  color: var(--badge-a1-text);
+  background: var(--badge-a1-bg);
+}
+
+.filter-select-option[data-level='A2'].active {
+  color: var(--badge-a2-text);
+  background: var(--badge-a2-bg);
+}
+
+.filter-select-option[data-level='B1'].active {
+  color: var(--badge-b1-text);
+  background: var(--badge-b1-bg);
+}
+
+.filter-select-option[data-level='B2'].active {
+  color: var(--badge-b2-text);
+  background: var(--badge-b2-bg);
+}
+
+.filter-select-option[data-level='C1'].active {
+  color: var(--badge-c1-text);
+  background: var(--badge-c1-bg);
+}
+
+.filter-select-option[data-level='C2'].active {
+  color: var(--badge-c2-text);
+  background: var(--badge-c2-bg);
+}
+
+.filter-actions-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(48, 54, 61, 0.6);
+}
+
+.active-filters-summary {
+  color: var(--text-secondary);
+  font-size: 0.8125rem;
+}
+
+.active-filter-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: 6px;
+  padding: 2px 8px;
+  color: var(--text-primary);
+  font-weight: 500;
+  background-color: rgba(240, 246, 252, 0.08);
+  border-radius: var(--radius-sm);
+}
+
+.filter-reset-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  color: var(--accent-primary-hover);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  border-radius: var(--radius-sm);
+  transition: all 0.2s ease;
+}
+
+.filter-reset-btn:hover {
+  color: #ffffff;
+  background-color: var(--accent-subtle);
+}
+
+.filter-reset-btn svg {
+  width: 14px;
+  height: 14px;
+}
+
+/*
+ * Four columns need more room than three. Below this width the row wraps to two
+ * columns rather than squeezing the longer "Curiosities & Deep Dives" label into
+ * an ellipsis; the groups keep the same styling and stay in the same order.
+ */
+@media (max-width: 900px) {
+  .filter-select-row {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .filter-bar-container {
+    gap: 12px;
+    padding: 14px;
+  }
+
+  .filter-select-row {
+    gap: 8px;
+  }
+
+  .filter-select-group {
+    gap: 5px;
+  }
+
+  .filter-select-trigger,
+  .filter-locked-value {
+    min-height: 40px;
+    padding: 8px;
+    font-size: 0.75rem;
+  }
+
+  .filter-select-options {
+    width: max(100%, 160px);
+  }
+
+  .filter-actions-row {
+    align-items: flex-start;
+  }
+
+  .active-filters-summary {
+    line-height: 1.8;
+  }
+}

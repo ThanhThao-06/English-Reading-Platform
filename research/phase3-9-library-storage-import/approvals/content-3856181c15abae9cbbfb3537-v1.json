@@ -1,0 +1,9 @@
+{
+  "approvalStatus": "APPROVED_FOR_LIBRARY_IMPORT",
+  "packageId": "content-3856181c15abae9cbbfb3537",
+  "packageVersion": 1,
+  "packageSha256": "d5943af2e1404c1c74a687795fd13d4d18af26cb93f7122e22c546cc33f544b2",
+  "approvedAt": "2026-10-05T00:00:00.000Z",
+  "approver": "User (explicit request to import NOAA Ocean Service articles)",
+  "decision": "The user explicitly authorized a real NOAA Ocean Service import batch. Each official oceanservice.noaa.gov page was fetched and its full text extracted verbatim, then reviewed individually for reuse rights and provenance: a NOAA author credit and citation date are required, and any copyright, third-party credit, courtesy/licence or restriction notice excludes the item. The official NOS disclaimer is recorded as source-policy evidence. No images or media are reused: imageReference is null for every item."
+}

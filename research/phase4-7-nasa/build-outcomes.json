@@ -1,0 +1,232 @@
+[
+  {
+    "recordId": "nasa-saturn",
+    "slug": "saturn",
+    "status": "INTENDED",
+    "reason": "passed per-item rights and provenance review",
+    "words": 346,
+    "genre": "Science & Nature",
+    "level": "A2"
+  },
+  {
+    "recordId": "nasa-black-holes",
+    "slug": "black-holes",
+    "status": "INTENDED",
+    "reason": "passed per-item rights and provenance review",
+    "words": 555,
+    "genre": "Science & Nature",
+    "level": "B1"
+  },
+  {
+    "recordId": "nasa-sun",
+    "slug": "sun",
+    "status": "INTENDED",
+    "reason": "passed per-item rights and provenance review",
+    "words": 577,
+    "genre": "Science & Nature",
+    "level": "B1"
+  },
+  {
+    "recordId": "nasa-moon",
+    "slug": "moon",
+    "status": "INTENDED",
+    "reason": "passed per-item rights and provenance review",
+    "words": 840,
+    "genre": "Science & Nature",
+    "level": "B2"
+  },
+  {
+    "recordId": "nasa-exoplanets",
+    "slug": "exoplanets",
+    "status": "INTENDED",
+    "reason": "passed per-item rights and provenance review",
+    "words": 1509,
+    "genre": "Science & Nature",
+    "level": "B2"
+  },
+  {
+    "recordId": "nasa-dark-matter",
+    "slug": "dark-matter",
+    "status": "INTENDED",
+    "reason": "passed per-item rights and provenance review",
+    "words": 1820,
+    "genre": "Science & Nature",
+    "level": "C1"
+  },
+  {
+    "recordId": "nasa-earth-science",
+    "slug": "earth-science",
+    "status": "INTENDED",
+    "reason": "passed per-item rights and provenance review",
+    "words": 930,
+    "genre": "Environment",
+    "level": "B2"
+  },
+  {
+    "recordId": "nasa-climate-change",
+    "slug": "climate-change",
+    "status": "INTENDED",
+    "reason": "passed per-item rights and provenance review",
+    "words": 148,
+    "genre": "Environment",
+    "level": "B2"
+  },
+  {
+    "recordId": "nasa-skywatching",
+    "slug": "skywatching",
+    "status": "INTENDED",
+    "reason": "passed per-item rights and provenance review",
+    "words": 2370,
+    "genre": "Culture, Art & Travel",
+    "level": "B1"
+  },
+  {
+    "recordId": "nasa-machine-learning",
+    "slug": "machine-learning",
+    "status": "INTENDED",
+    "reason": "passed per-item rights and provenance review",
+    "words": 749,
+    "genre": "Technology & AI",
+    "level": "B2"
+  },
+  {
+    "recordId": "nasa-saturn",
+    "slug": "saturn",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "nasa-black-holes",
+    "slug": "black-holes",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "nasa-sun",
+    "slug": "sun",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "nasa-moon",
+    "slug": "moon",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "nasa-exoplanets",
+    "slug": "exoplanets",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "nasa-dark-matter",
+    "slug": "dark-matter",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "nasa-earth-science",
+    "slug": "earth-science",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "nasa-climate-change",
+    "slug": "climate-change",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "nasa-skywatching",
+    "slug": "skywatching",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "nasa-machine-learning",
+    "slug": "machine-learning",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "nasa-saturn",
+    "slug": "saturn",
+    "status": "PACKAGED",
+    "reason": "package content-22bb30a014a2f0a47cfb54df v1 + approval written",
+    "genre": "Science & Nature",
+    "level": "A2"
+  },
+  {
+    "recordId": "nasa-black-holes",
+    "slug": "black-holes",
+    "status": "PACKAGED",
+    "reason": "package content-053a2beb217a9ce3233ce42b v1 + approval written",
+    "genre": "Science & Nature",
+    "level": "B1"
+  },
+  {
+    "recordId": "nasa-sun",
+    "slug": "sun",
+    "status": "PACKAGED",
+    "reason": "package content-7aa7cf15a69fc0faee53c829 v1 + approval written",
+    "genre": "Science & Nature",
+    "level": "B1"
+  },
+  {
+    "recordId": "nasa-moon",
+    "slug": "moon",
+    "status": "PACKAGED",
+    "reason": "package content-1fc75fc219027c7bdc9ab938 v1 + approval written",
+    "genre": "Science & Nature",
+    "level": "B2"
+  },
+  {
+    "recordId": "nasa-exoplanets",
+    "slug": "exoplanets",
+    "status": "PACKAGED",
+    "reason": "package content-ee85ca1639bb13498b1cec02 v1 + approval written",
+    "genre": "Science & Nature",
+    "level": "B2"
+  },
+  {
+    "recordId": "nasa-dark-matter",
+    "slug": "dark-matter",
+    "status": "PACKAGED",
+    "reason": "package content-3bac383963ea855ad045b4c2 v1 + approval written",
+    "genre": "Science & Nature",
+    "level": "C1"
+  },
+  {
+    "recordId": "nasa-earth-science",
+    "slug": "earth-science",
+    "status": "PACKAGED",
+    "reason": "package content-696546c0c5e0fd78b12c2a1f v1 + approval written",
+    "genre": "Environment",
+    "level": "B2"
+  },
+  {
+    "recordId": "nasa-climate-change",
+    "slug": "climate-change",
+    "status": "PACKAGED",
+    "reason": "package content-91900225bfec7ad21ec3f878 v1 + approval written",
+    "genre": "Environment",
+    "level": "B2"
+  },
+  {
+    "recordId": "nasa-skywatching",
+    "slug": "skywatching",
+    "status": "PACKAGED",
+    "reason": "package content-8a9bba8208481140f77debe4 v1 + approval written",
+    "genre": "Culture, Art & Travel",
+    "level": "B1"
+  },
+  {
+    "recordId": "nasa-machine-learning",
+    "slug": "machine-learning",
+    "status": "PACKAGED",
+    "reason": "package content-584ab6f2845aa59b5102d519 v1 + approval written",
+    "genre": "Technology & AI",
+    "level": "B2"
+  }
+]

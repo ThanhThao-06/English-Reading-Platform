@@ -1,0 +1,52 @@
+{
+  "recordId": "noaa-ocean-service-oceaneconomy",
+  "sourceId": "noaa-ocean-service",
+  "sourceName": "NOAA National Ocean Service",
+  "sourceUrl": "https://oceanservice.noaa.gov/",
+  "title": "How important is the ocean to our economy?",
+  "canonicalUrl": "https://oceanservice.noaa.gov/facts/oceaneconomy.html",
+  "externalId": "oceaneconomy",
+  "authors": [
+    "NOAA"
+  ],
+  "publishedAt": "2026-09-23",
+  "language": "en",
+  "description": "The ocean is the trading route for the planet.",
+  "contentType": "expository",
+  "classification": {
+    "contentGroup": "articles",
+    "primaryCategory": "business",
+    "secondaryCategories": [
+      "finance",
+      "society"
+    ]
+  },
+  "libraryPresentation": {
+    "description": "The ocean is the trading route for the planet.",
+    "genre": "Business & Economics",
+    "level": "B1",
+    "readingTime": "Under 3 min",
+    "imageReference": null
+  },
+  "receivedAt": "2026-10-05",
+  "rightsStatus": "verified",
+  "reuseMode": "verified-full-text",
+  "rightsBasis": "public-domain",
+  "rightsEvidenceUrl": "https://oceanservice.noaa.gov/disclaimer.html",
+  "rightsEvidenceExcerpt": "Information presented on this website is considered public information and may be distributed or copied, unless specifically noted otherwise. This website is maintained by NOAA’s National Ocean Service.",
+  "attributionRequired": true,
+  "attributionText": "NOAA Ocean Service, oceanservice.noaa.gov",
+  "body": "The ocean is the trading route for the planet.\n\nThe U.S. economy is very dependent on healthy coastal and ocean resources. Consider the following facts:\n\nFourteen percent of U.S. counties that are adjacent to the coast produce 45 percent of the nation's gross domestic product (GDP), with over three million jobs (one in 45) directly dependent on the resources of the oceans and Great Lakes.\n\nIn 2017, the ocean economy, which includes six economic sectors that depend on the ocean and Great Lakes, contributed $307 billion to the U.S. GDP and supported 3.3 million jobs.\n\nTourism and recreation account for 73 percent of the ocean economy's total employment and 42 percent of its GDP. Offshore mineral extraction accounts for another 25 percent of the ocean economy's GDP.",
+  "mediaAssets": [],
+  "reviewStatus": "approved",
+  "reviewNotes": [
+    "Official NOAA Ocean Service page fetched and its full text extracted verbatim: 5 paragraphs, 127 words.",
+    "Page-level author credit recorded verbatim as authors: [\"NOAA\"]; page citation date 2026-09-23.",
+    "Page text inspected individually for copyright, third-party credit, courtesy/licence and restriction notices: none found.",
+    "Page-level provenance signals recorded: []. Any image/media credit on the page is excluded because no asset is reused.",
+    "No image or media is retained: no item-level asset-rights evidence was recorded, so imageReference is null.",
+    "B1 is a Library-level editorial mapping for this English-learning article, not a claimed formal CEFR label.",
+    "Reading time \"Under 3 min\" is mapped from the full-text word count (127) at 200 WPM.",
+    "Genre \"Business & Economics\": Explains the ocean economy: jobs, goods and services derived from marine and coastal resources."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "recordId": "synthetic-invalid-unknown-body",
+  "sourceId": "synthetic-metadata-source",
+  "title": "Synthetic invalid example: unknown rights with body",
+  "canonicalUrl": "https://example.invalid/items/unknown-body",
+  "receivedAt": "2026-10-03",
+  "rightsStatus": "unknown",
+  "reuseMode": "unknown",
+  "attributionRequired": false,
+  "body": "This deliberately invalid synthetic body must be rejected.",
+  "mediaAssets": [],
+  "reviewStatus": "received"
+}

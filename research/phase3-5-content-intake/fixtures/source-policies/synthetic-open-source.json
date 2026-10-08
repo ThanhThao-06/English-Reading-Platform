@@ -1,0 +1,7 @@
+{
+  "sourceId": "synthetic-open-source",
+  "rightsStatus": "verified",
+  "maxReuseMode": "verified-full-text",
+  "synthetic": true,
+  "note": "Synthetic policy fixture used only to exercise the full-text validation path; not a real source or evidence."
+}

@@ -1,0 +1,368 @@
+{
+  "footer": {
+    "status": 200,
+    "excerpt": "Definitions and other text are available under the Creative Commons Attribution-ShareAlike License ; additional terms may apply."
+  },
+  "rows": [
+    {
+      "word": "thought experiment",
+      "topic": "Philosophy & Thought Experiments",
+      "words": 13,
+      "excludedBlocks": 0,
+      "footerVerified": true,
+      "status": "THIN-BODY"
+    },
+    {
+      "word": "philosophy",
+      "topic": "Philosophy & Thought Experiments",
+      "words": 87,
+      "excludedBlocks": 4,
+      "footerVerified": true,
+      "status": "THIN-BODY"
+    },
+    {
+      "word": "epistemology",
+      "topic": "Philosophy & Thought Experiments",
+      "words": 78,
+      "excludedBlocks": 2,
+      "footerVerified": true,
+      "status": "THIN-BODY"
+    },
+    {
+      "word": "empiricism",
+      "topic": "Philosophy & Thought Experiments",
+      "words": 83,
+      "excludedBlocks": 5,
+      "footerVerified": true,
+      "status": "THIN-BODY"
+    },
+    {
+      "word": "utilitarianism",
+      "topic": "Philosophy & Thought Experiments",
+      "words": 51,
+      "excludedBlocks": 1,
+      "footerVerified": true,
+      "status": "THIN-BODY"
+    },
+    {
+      "word": "paradox",
+      "topic": "Philosophy & Thought Experiments",
+      "words": 138,
+      "excludedBlocks": 11,
+      "footerVerified": true,
+      "status": "ELIGIBLE"
+    },
+    {
+      "word": "syllogism",
+      "topic": "Philosophy & Thought Experiments",
+      "words": 72,
+      "excludedBlocks": 1,
+      "footerVerified": true,
+      "status": "THIN-BODY"
+    },
+    {
+      "word": "dialectics",
+      "topic": "Philosophy & Thought Experiments",
+      "words": 15,
+      "excludedBlocks": 0,
+      "footerVerified": true,
+      "status": "THIN-BODY"
+    },
+    {
+      "word": "free will",
+      "topic": "Philosophy & Thought Experiments",
+      "words": 63,
+      "excludedBlocks": 7,
+      "footerVerified": true,
+      "status": "THIN-BODY"
+    },
+    {
+      "word": "a priori",
+      "topic": "Philosophy & Thought Experiments",
+      "words": 70,
+      "excludedBlocks": 2,
+      "footerVerified": true,
+      "status": "THIN-BODY"
+    },
+    {
+      "word": "consciousness",
+      "topic": "Philosophy & Thought Experiments",
+      "words": 61,
+      "excludedBlocks": 7,
+      "footerVerified": true,
+      "status": "THIN-BODY"
+    },
+    {
+      "word": "determinism",
+      "topic": "Philosophy & Thought Experiments",
+      "words": 42,
+      "excludedBlocks": 2,
+      "footerVerified": true,
+      "status": "THIN-BODY"
+    },
+    {
+      "word": "sophistry",
+      "topic": "Philosophy & Thought Experiments",
+      "words": 81,
+      "excludedBlocks": 3,
+      "footerVerified": true,
+      "status": "THIN-BODY"
+    },
+    {
+      "word": "metaphysics",
+      "topic": "Philosophy & Thought Experiments",
+      "words": 167,
+      "excludedBlocks": 2,
+      "footerVerified": true,
+      "status": "ELIGIBLE"
+    },
+    {
+      "word": "nihilism",
+      "topic": "Philosophy & Thought Experiments",
+      "words": 154,
+      "excludedBlocks": 22,
+      "footerVerified": true,
+      "status": "ELIGIBLE"
+    },
+    {
+      "word": "paranormal",
+      "topic": "Unsolved Mysteries & Fringe Science",
+      "words": 45,
+      "excludedBlocks": 1,
+      "footerVerified": true,
+      "status": "THIN-BODY"
+    },
+    {
+      "word": "spiritualism",
+      "topic": "Unsolved Mysteries & Fringe Science",
+      "words": 79,
+      "excludedBlocks": 2,
+      "footerVerified": true,
+      "status": "THIN-BODY"
+    },
+    {
+      "word": "clairvoyance",
+      "topic": "Unsolved Mysteries & Fringe Science",
+      "words": 31,
+      "excludedBlocks": 0,
+      "footerVerified": true,
+      "status": "THIN-BODY"
+    },
+    {
+      "word": "astrology",
+      "topic": "Unsolved Mysteries & Fringe Science",
+      "words": 52,
+      "excludedBlocks": 3,
+      "footerVerified": true,
+      "status": "THIN-BODY"
+    },
+    {
+      "word": "alchemy",
+      "topic": "Unsolved Mysteries & Fringe Science",
+      "words": 83,
+      "excludedBlocks": 6,
+      "footerVerified": true,
+      "status": "THIN-BODY"
+    },
+    {
+      "word": "pseudoscience",
+      "topic": "Unsolved Mysteries & Fringe Science",
+      "words": 52,
+      "excludedBlocks": 3,
+      "footerVerified": true,
+      "status": "THIN-BODY"
+    },
+    {
+      "word": "superstition",
+      "topic": "Unsolved Mysteries & Fringe Science",
+      "words": 42,
+      "excludedBlocks": 2,
+      "footerVerified": true,
+      "status": "THIN-BODY"
+    },
+    {
+      "word": "poltergeist",
+      "topic": "Unsolved Mysteries & Fringe Science",
+      "words": 32,
+      "excludedBlocks": 1,
+      "footerVerified": true,
+      "status": "THIN-BODY"
+    },
+    {
+      "word": "divination",
+      "topic": "Unsolved Mysteries & Fringe Science",
+      "words": 45,
+      "excludedBlocks": 0,
+      "footerVerified": true,
+      "status": "THIN-BODY"
+    },
+    {
+      "word": "mesmerism",
+      "topic": "Unsolved Mysteries & Fringe Science",
+      "words": 67,
+      "excludedBlocks": 2,
+      "footerVerified": true,
+      "status": "THIN-BODY"
+    },
+    {
+      "word": "phrenology",
+      "topic": "Unsolved Mysteries & Fringe Science",
+      "words": 18,
+      "excludedBlocks": 3,
+      "footerVerified": true,
+      "status": "THIN-BODY"
+    },
+    {
+      "word": "cryptozoology",
+      "topic": "Unsolved Mysteries & Fringe Science",
+      "words": 14,
+      "excludedBlocks": 1,
+      "footerVerified": true,
+      "status": "THIN-BODY"
+    },
+    {
+      "word": "ufology",
+      "topic": "Unsolved Mysteries & Fringe Science",
+      "words": 5,
+      "excludedBlocks": 1,
+      "footerVerified": true,
+      "status": "THIN-BODY"
+    },
+    {
+      "word": "occult",
+      "topic": "Unsolved Mysteries & Fringe Science",
+      "words": 38,
+      "excludedBlocks": 7,
+      "footerVerified": true,
+      "status": "THIN-BODY"
+    },
+    {
+      "word": "prophecy",
+      "topic": "Unsolved Mysteries & Fringe Science",
+      "words": 26,
+      "excludedBlocks": 0,
+      "footerVerified": true,
+      "status": "THIN-BODY"
+    },
+    {
+      "word": "forensic science",
+      "topic": "True Crime & Forensic Science",
+      "words": 17,
+      "excludedBlocks": 0,
+      "footerVerified": true,
+      "status": "THIN-BODY"
+    },
+    {
+      "word": "ballistics",
+      "topic": "True Crime & Forensic Science",
+      "words": 57,
+      "excludedBlocks": 0,
+      "footerVerified": true,
+      "status": "THIN-BODY"
+    },
+    {
+      "word": "fingerprint",
+      "topic": "True Crime & Forensic Science",
+      "words": 107,
+      "excludedBlocks": 8,
+      "footerVerified": true,
+      "status": "THIN-BODY"
+    },
+    {
+      "word": "autopsy",
+      "topic": "True Crime & Forensic Science",
+      "words": 57,
+      "excludedBlocks": 1,
+      "footerVerified": true,
+      "status": "THIN-BODY"
+    },
+    {
+      "word": "alibi",
+      "topic": "True Crime & Forensic Science",
+      "words": 73,
+      "excludedBlocks": 4,
+      "footerVerified": true,
+      "status": "THIN-BODY"
+    },
+    {
+      "word": "manslaughter",
+      "topic": "True Crime & Forensic Science",
+      "words": 75,
+      "excludedBlocks": 2,
+      "footerVerified": true,
+      "status": "THIN-BODY"
+    },
+    {
+      "word": "perjury",
+      "topic": "True Crime & Forensic Science",
+      "words": 24,
+      "excludedBlocks": 0,
+      "footerVerified": true,
+      "status": "THIN-BODY"
+    },
+    {
+      "word": "coroner",
+      "topic": "True Crime & Forensic Science",
+      "words": 75,
+      "excludedBlocks": 0,
+      "footerVerified": true,
+      "status": "THIN-BODY"
+    },
+    {
+      "word": "detective",
+      "topic": "True Crime & Forensic Science",
+      "words": 111,
+      "excludedBlocks": 13,
+      "footerVerified": true,
+      "status": "THIN-BODY"
+    },
+    {
+      "word": "pickpocket",
+      "topic": "True Crime & Forensic Science",
+      "words": 21,
+      "excludedBlocks": 3,
+      "footerVerified": true,
+      "status": "THIN-BODY"
+    },
+    {
+      "word": "embezzlement",
+      "topic": "True Crime & Forensic Science",
+      "words": 15,
+      "excludedBlocks": 2,
+      "footerVerified": true,
+      "status": "THIN-BODY"
+    },
+    {
+      "word": "extortion",
+      "topic": "True Crime & Forensic Science",
+      "words": 34,
+      "excludedBlocks": 1,
+      "footerVerified": true,
+      "status": "THIN-BODY"
+    },
+    {
+      "word": "forgery",
+      "topic": "True Crime & Forensic Science",
+      "words": 104,
+      "excludedBlocks": 1,
+      "footerVerified": true,
+      "status": "THIN-BODY"
+    },
+    {
+      "word": "inquest",
+      "topic": "True Crime & Forensic Science",
+      "words": 74,
+      "excludedBlocks": 4,
+      "footerVerified": true,
+      "status": "THIN-BODY"
+    },
+    {
+      "word": "evidence",
+      "topic": "True Crime & Forensic Science",
+      "words": 76,
+      "excludedBlocks": 11,
+      "footerVerified": true,
+      "status": "THIN-BODY"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "packageId": "content-6c7cd338514ed768c7a148d7",
+  "version": 1,
+  "createdAt": "2026-10-04T00:00:00.000Z",
+  "supersedes": null,
+  "packageStatus": "ELIGIBLE",
+  "eligibleForPhase38": true,
+  "libraryPresentation": {
+    "description": "The American computer company IBM says it has developed a microprocessor -- a computer chip -- that works much like the human brain.",
+    "imageReference": null,
+    "level": "B1",
+    "genre": "Technology & AI",
+    "readingTime": "Under 3 min"
+  },
+  "content": {
+    "recordId": "voa-learning-english-2414963",
+    "title": "A Big Step Forward in Artificial Intelligence Research",
+    "contentType": "expository",
+    "contentGroup": "articles",
+    "categories": {
+      "primary": "technology",
+      "secondary": [
+        "science"
+      ]
+    },
+    "language": "en",
+    "authors": [
+      "This story was reported by VOA reporters George Putic and Aida Akl in Washington.",
+      "It was adapted into Special English by Jonathan Evans, who also narrated the report.",
+      "VOA - Voice of America"
+    ],
+    "reuseMode": "verified-full-text",
+    "body": "The American computer company IBM says it has developed a microprocessor -- a computer chip -- that works much like the human brain.\n\nIBM calls the chip TrueNorth. It is the size of a postage stamp. The chip has 5.4 billion tiny parts that work like the human brain’s neurons and synapses. Neurons and synapses are the cells and electric forces that carry messages to and from the brain.\n\nTrueNorth has 1 million neurons and 256 million synapses. The human brain has 100 billion neurons and up to 150 trillion synapses. IBM says it can program the new chip to understand difficult problems and then solve them as humans would.\n\nrenderExternalContent(\"https://www.youtube.com/embed/5izS3lAZHmI?&&&fs=1&enablejsapi=1\")\n\nThe company says the TrueNorth chip could be used as a brain for search-and-rescue robots. It can also be used for controlling new kinds of wheelchairs or for recording conversations involving several people and then making a printed record of those conversations.\n\nTrueNorth is still being tested. But IBM says it could be available for public use in two to three years.\n\nThe chip is just one example of machines becoming more and more like humans. This field of study is called artificial intelligence, or AI. Some experts believe computers will someday become more intelligent than humans.\n\nResearchers are trying to develop ways for humans and computers to work together more closely. Someday, humans and computers may be joined. The combination of a human and a computer is called a cyborg.\n\nJonathan Mugan has written a book about the relationship between humans and computers, called “The Curiosity Cycle.” He told VOA by email that it is time to prepare for a future where computers have more control over our lives.\n\nIn his words, “machines are technology. And technology expands as human knowledge expands. By contrast, human intelligence developed through evolution, which is a much slower process.”\n\nMr. Mugan believes that smarter computers are good for humans. He says intelligent machines can help humans solve many of our most difficult problems.\n\nBut he says “once computers become broadly smarter than humans, it’s hard to predict what will happen.”\n\nI’m Jonathan Evans.\n\nThis story was reported by VOA reporters George Putic and Aida Akl in Washington. It was adapted into Special English by Jonathan Evans, who also narrated the report. It was edited by Christopher Cruise.",
+    "bodyReference": null
+  },
+  "source": {
+    "sourceId": "voa-learning-english",
+    "sourceName": "VOA Learning English",
+    "sourceUrl": "https://learningenglish.voanews.com/",
+    "canonicalUrl": "https://learningenglish.voanews.com/a/artificial-intelligence/2414963.html",
+    "externalId": "2414963",
+    "doi": null
+  },
+  "rights": {
+    "verificationStatus": "verified",
+    "permittedReuseMode": "verified-full-text",
+    "rightsBasis": "conditional-source-policy",
+    "sourcePolicy": {
+      "rightsStatus": "partially-verified",
+      "maxReuseMode": "metadata-only"
+    },
+    "license": {
+      "type": null,
+      "identifier": null,
+      "url": null
+    },
+    "attributionRequired": true,
+    "attributionText": "Credit to learningenglish.voanews.com",
+    "evidence": [
+      {
+        "evidenceId": "voa-learning-english-2414963-metadata",
+        "evidenceType": "item-metadata",
+        "sourceUrl": "https://learningenglish.voanews.com/a/artificial-intelligence/2414963.html",
+        "reference": "Item metadata captured from the canonical source page.",
+        "excerpt": null,
+        "retrievedAt": "2026-10-04",
+        "scope": "item",
+        "appliesToRecordId": "voa-learning-english-2414963"
+      },
+      {
+        "evidenceId": "voa-learning-english-2414963-source-policy",
+        "evidenceType": "source-policy",
+        "sourceUrl": "https://learningenglish.voanews.com/p/6861.html",
+        "reference": "https://learningenglish.voanews.com/p/6861.html",
+        "excerpt": "Learning English texts, MP3s, photos and videos are in the public domain. You are allowed to reprint them for educational and commercial purposes, with credit to learningenglish.voanews.com. However, stories, photos and video images from news agencies such as AP, Reuters and AFP are copyrighted, so you are not allowed to republish them.",
+        "retrievedAt": "2026-10-04",
+        "scope": "source",
+        "appliesToRecordId": "voa-learning-english"
+      }
+    ]
+  },
+  "validation": {
+    "validator": "Phase 3.5 validateIntake",
+    "result": "PASS",
+    "errorCodes": []
+  },
+  "review": {
+    "reviewStatus": "approved",
+    "reviewer": "User (explicit request to import 12 audited VOA articles)",
+    "decision": "The user explicitly authorized importing 12 VOA Learning English articles that passed extraction verification and rights validation. Each official page and its full article text were inspected; items without a VOA-named producer credit were excluded rather than force-fitted; unverified third-party media was excluded.",
+    "reviewedAt": "2026-10-04T00:00:00.000Z"
+  },
+  "provenance": {
+    "sourceRecordId": "voa-learning-english-2414963",
+    "intakeRecordId": "voa-learning-english-2414963",
+    "intakeSchemaVersion": "phase3.5-independent-intake-v1",
+    "intakeValidationResult": "PASS",
+    "dryRunResult": "PASS",
+    "dryRunRecordId": "voa-learning-english-2414963",
+    "reviewStatus": "approved",
+    "packageCreatedAt": "2026-10-04T00:00:00.000Z",
+    "sourceManifest": "research/phase4-5-woa-genre-diversity/intake/voa-learning-english-3303557.json; research/phase4-5-woa-genre-diversity/intake/voa-learning-english-3637982.json; research/phase4-5-woa-genre-diversity/intake/voa-learning-english-4804792.json; research/phase4-5-woa-genre-diversity/intake/voa-learning-english-2563047.json; research/phase4-5-woa-genre-diversity/intake/voa-learning-english-1519967.json; research/phase4-5-woa-genre-diversity/intake/voa-learning-english-2436970.json; research/phase4-5-woa-genre-diversity/intake/voa-learning-english-1615769.json; research/phase4-5-woa-genre-diversity/intake/voa-learning-english-3913365.json; research/phase4-5-woa-genre-diversity/intake/voa-learning-english-2414963.json; research/phase4-5-woa-genre-diversity/intake/voa-learning-english-3472132.json; research/phase4-5-woa-genre-diversity/intake/voa-learning-english-3482437.json; research/phase4-5-woa-genre-diversity/intake/voa-learning-english-3370560.json"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "packageId": "content-24d1596c227198eca842dab1",
+  "version": 1,
+  "createdAt": "2026-10-05T00:00:00.000Z",
+  "supersedes": null,
+  "packageStatus": "ELIGIBLE",
+  "eligibleForPhase38": true,
+  "libraryPresentation": {
+    "description": "Sea foam forms when dissolved organic matter in the ocean is churned up.",
+    "genre": "Science & Nature",
+    "level": "A2",
+    "readingTime": "Under 3 min",
+    "imageReference": null
+  },
+  "content": {
+    "recordId": "noaa-ocean-service-seafoam",
+    "title": "What is sea foam?",
+    "contentType": "expository",
+    "contentGroup": "articles",
+    "categories": {
+      "primary": "science",
+      "secondary": [
+        "environment"
+      ]
+    },
+    "language": "en",
+    "authors": [
+      "NOAA"
+    ],
+    "reuseMode": "verified-full-text",
+    "body": "Sea foam forms when dissolved organic matter in the ocean is churned up.\n\nIf you scoop up some water from the ocean in a clear glass and look at it closely, you'll see that it's chock full of tiny particles. Seawater contains dissolved salts, proteins, fats, dead algae, detergents and other pollutants, and a bunch of other bits and pieces of organic and artificial matter. If you shake this glass of ocean water vigorously, small bubbles will form on the surface of the liquid.\n\nSea foam forms in this way - but on a much grander scale - when the ocean is agitated by wind and waves. Each coastal region has differing conditions governing the formation of sea foams.\n\nAlgal blooms are one common source of thick sea foams. When large blooms of algae decay offshore, great amounts of decaying algal matter often wash ashore. Foam forms as this organic matter is churned up by the surf.\n\nMost sea foam is not harmful to humans and is often an indication of a productive ocean ecosystem. But when large harmful algal blooms decay near shore, there are potential for impacts to human health and the environment. Along Gulf coast beaches during blooms of Karenia brevis, for example, popping sea foam bubbles are one way that algal toxins become airborne. The resulting aerosol can irritate the eyes of beach goers and poses a health risk for those with asthma or other respiratory conditions. Scientists studying the cause of a seabird die-offs off California in 2007 and in the Pacific Northwest in 2009 also found a soap-like foam from a decaying Akashiwo sanguinea algae bloom had removed the waterproofing on feathers, making it harder for birds to fly. This led to the onset of fatal hypothermia in many birds.",
+    "bodyReference": null
+  },
+  "source": {
+    "sourceId": "noaa-ocean-service",
+    "sourceName": "NOAA National Ocean Service",
+    "sourceUrl": "https://oceanservice.noaa.gov/",
+    "canonicalUrl": "https://oceanservice.noaa.gov/facts/seafoam.html",
+    "externalId": "seafoam",
+    "doi": null
+  },
+  "rights": {
+    "verificationStatus": "verified",
+    "permittedReuseMode": "verified-full-text",
+    "rightsBasis": "public-domain",
+    "sourcePolicy": {
+      "rightsStatus": "verified",
+      "maxReuseMode": "verified-full-text"
+    },
+    "license": {
+      "type": null,
+      "identifier": null,
+      "url": null
+    },
+    "attributionRequired": true,
+    "attributionText": "NOAA Ocean Service, oceanservice.noaa.gov",
+    "evidence": [
+      {
+        "evidenceId": "noaa-ocean-service-seafoam-metadata",
+        "evidenceType": "item-metadata",
+        "sourceUrl": "https://oceanservice.noaa.gov/facts/seafoam.html",
+        "reference": "Item metadata captured from the canonical source page.",
+        "excerpt": null,
+        "retrievedAt": "2026-10-05",
+        "scope": "item",
+        "appliesToRecordId": "noaa-ocean-service-seafoam"
+      },
+      {
+        "evidenceId": "noaa-ocean-service-seafoam-item-rights",
+        "evidenceType": "item-rights",
+        "sourceUrl": "https://oceanservice.noaa.gov/disclaimer.html",
+        "reference": "https://oceanservice.noaa.gov/disclaimer.html",
+        "excerpt": "Information presented on this website is considered public information and may be distributed or copied, unless specifically noted otherwise. This website is maintained by NOAA’s National Ocean Service.",
+        "retrievedAt": "2026-10-05",
+        "scope": "item",
+        "appliesToRecordId": "noaa-ocean-service-seafoam"
+      }
+    ]
+  },
+  "validation": {
+    "validator": "Phase 3.5 validateIntake",
+    "result": "PASS",
+    "errorCodes": []
+  },
+  "review": {
+    "reviewStatus": "approved",
+    "reviewer": "User (explicit request to import NOAA Ocean Service articles)",
+    "decision": "The user explicitly authorized a real NOAA Ocean Service import batch. Each official oceanservice.noaa.gov page was fetched and its full text extracted verbatim, then reviewed individually for reuse rights and provenance: a NOAA author credit and citation date are required, and any copyright, third-party credit, courtesy/licence or restriction notice excludes the item. The official NOS disclaimer is recorded as source-policy evidence. No images or media are reused: imageReference is null for every item.",
+    "reviewedAt": "2026-10-05T00:00:00.000Z"
+  },
+  "provenance": {
+    "sourceRecordId": "noaa-ocean-service-seafoam",
+    "intakeRecordId": "noaa-ocean-service-seafoam",
+    "intakeSchemaVersion": "phase3.5-independent-intake-v1",
+    "intakeValidationResult": "PASS",
+    "dryRunResult": "PASS",
+    "dryRunRecordId": "noaa-ocean-service-seafoam",
+    "reviewStatus": "approved",
+    "packageCreatedAt": "2026-10-05T00:00:00.000Z",
+    "sourceManifest": "research/phase4-6-noaa-ocean-service/intake/noaa-ocean-service-seafoam.json; research/phase4-6-noaa-ocean-service/intake/noaa-ocean-service-oceaneconomy.json; research/phase4-6-noaa-ocean-service/intake/noaa-ocean-service-lighthouse.json; research/phase4-6-noaa-ocean-service/intake/noaa-ocean-service-marheritage.json; research/phase4-6-noaa-ocean-service/intake/noaa-ocean-service-ocean-gliders.json; research/phase4-6-noaa-ocean-service/intake/noaa-ocean-service-lawofsea.json; research/phase4-6-noaa-ocean-service/intake/noaa-ocean-service-coral_medicine.json; research/phase4-6-noaa-ocean-service/intake/noaa-ocean-service-greenland-shark.json; research/phase4-6-noaa-ocean-service/intake/noaa-ocean-service-coral_bleach.json; research/phase4-6-noaa-ocean-service/intake/noaa-ocean-service-amoc.json"
+  }
+}

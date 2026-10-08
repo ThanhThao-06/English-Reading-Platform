@@ -1,0 +1,51 @@
+{
+  "recordId": "noaa-ocean-service-ocean-gliders",
+  "sourceId": "noaa-ocean-service",
+  "sourceName": "NOAA National Ocean Service",
+  "sourceUrl": "https://oceanservice.noaa.gov/",
+  "title": "What is an ocean glider?",
+  "canonicalUrl": "https://oceanservice.noaa.gov/facts/ocean-gliders.html",
+  "externalId": "ocean-gliders",
+  "authors": [
+    "NOAA"
+  ],
+  "publishedAt": "2026-09-23",
+  "language": "en",
+  "description": "An ocean glider is an autonomous underwater vehicle used to collect ocean data.",
+  "contentType": "expository",
+  "classification": {
+    "contentGroup": "articles",
+    "primaryCategory": "technology",
+    "secondaryCategories": [
+      "science"
+    ]
+  },
+  "libraryPresentation": {
+    "description": "An ocean glider is an autonomous underwater vehicle used to collect ocean data.",
+    "genre": "Technology & AI",
+    "level": "B2",
+    "readingTime": "Under 3 min",
+    "imageReference": null
+  },
+  "receivedAt": "2026-10-05",
+  "rightsStatus": "verified",
+  "reuseMode": "verified-full-text",
+  "rightsBasis": "public-domain",
+  "rightsEvidenceUrl": "https://oceanservice.noaa.gov/disclaimer.html",
+  "rightsEvidenceExcerpt": "Information presented on this website is considered public information and may be distributed or copied, unless specifically noted otherwise. This website is maintained by NOAA’s National Ocean Service.",
+  "attributionRequired": true,
+  "attributionText": "NOAA Ocean Service, oceanservice.noaa.gov",
+  "body": "An ocean glider is an autonomous underwater vehicle used to collect ocean data.\n\nDid you know?\n\nIn 2009, a glider named the \"Scarlet Knight\" made history by crossing the Atlantic Ocean from New Jersey to Spain. Learn more.\n\nAn ocean glider is an autonomous, unmanned underwater vehicle used for ocean science. Since gliders require little or no human assistance while traveling, these little robots are uniquely suited for collecting data in remote locations, safely and at relatively low cost.\n\nGliders may be equipped with a wide variety of sensors to monitor temperature, salinity, currents, and other ocean conditions. This information creates a more complete picture of what is happening in the ocean, as well as trends scientists might not otherwise be able to detect from satellites or large research ships.\n\nWhile there are many glider designs that use different techniques to move through the water, all gliders share the ability to travel far distances over long periods, without servicing. Unmanned gliders sample the ocean in places where it is impractical to send people, and at a fraction of the cost, allowing us to collect data even in the middle of a hurricane. It is these characteristics along with advancements in sensor technologies that make gliders increasingly important as tools for collecting ocean data.\n\nThe glider illustrated in this animation is the Slocum glider. It may look like a torpedo, but it doesn’t have propellors or an internal engine. Instead, it uses a pump to gently change its buoyancy over time. This allows the glider to slowly move up and down through the water. And as it does so, the big fins sticking out of the sides of the craft create lift to propel it forward. It’s similar to how a glider in the air works, except the ocean glider can glide up as easily as it glides down.\n\nVideo Transcript\n\nAn ocean glider is autonomous: it travels through the ocean without human help. It is pre-programmed with travel waypoints and then set free to collect ocean data for days, weeks, or months. Different sensors mounted on the glider collect different kinds of data. This glider is fitted with an acoustic sensor to listen for and record noises made by fish during spawning season. After collecting data for a set period of time, the glider completes its journey. The glider then surfaces and transmits its position so people can come pick it up. Mission complete!",
+  "mediaAssets": [],
+  "reviewStatus": "approved",
+  "reviewNotes": [
+    "Official NOAA Ocean Service page fetched and its full text extracted verbatim: 9 paragraphs, 404 words.",
+    "Page-level author credit recorded verbatim as authors: [\"NOAA\"]; page citation date 2026-09-23.",
+    "Page text inspected individually for copyright, third-party credit, courtesy/licence and restriction notices: none found.",
+    "Page-level provenance signals recorded: []. Any image/media credit on the page is excluded because no asset is reused.",
+    "No image or media is retained: no item-level asset-rights evidence was recorded, so imageReference is null.",
+    "B2 is a Library-level editorial mapping for this English-learning article, not a claimed formal CEFR label.",
+    "Reading time \"Under 3 min\" is mapped from the full-text word count (404) at 200 WPM.",
+    "Genre \"Technology & AI\": Describes autonomous ocean glider instrumentation used in ocean observation."
+  ]
+}

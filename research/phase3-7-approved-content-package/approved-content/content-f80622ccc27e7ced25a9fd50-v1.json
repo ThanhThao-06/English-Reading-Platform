@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "packageId": "content-f80622ccc27e7ced25a9fd50",
+  "version": 1,
+  "createdAt": "2026-10-05T00:00:00.000Z",
+  "supersedes": null,
+  "packageStatus": "ELIGIBLE",
+  "eligibleForPhase38": true,
+  "libraryPresentation": {
+    "description": "Animal Costumes from the 1862 Fairytale Ball of the Jung-München Artist’s Association Joseph Albert’s photograph of hare and hedgehog costumes — worn by the sculptor Hermann Oehlmann and an unknown person — at the 1862 Jung-München...",
+    "genre": "Culture, Art & Travel",
+    "level": "A2",
+    "readingTime": "5–10 min",
+    "imageReference": null
+  },
+  "content": {
+    "recordId": "public-domain-review-maskenfest",
+    "title": "Animal Costumes from the 1862 Fairytale Ball of the Jung-München Artist’s Association",
+    "contentType": "expository",
+    "contentGroup": "articles",
+    "categories": {
+      "primary": "culture",
+      "secondary": [
+        "history"
+      ]
+    },
+    "language": "en",
+    "authors": [
+      "Thea Applebaum Licht"
+    ],
+    "reuseMode": "verified-full-text",
+    "body": "Animal Costumes from the 1862 Fairytale Ball of the Jung-München Artist’s Association\n\nJoseph Albert’s photograph of hare and hedgehog costumes — worn by the sculptor Hermann Oehlmann and an unknown person — at the 1862 Jung-München Maskenfest.\n\nThis dandyish hare and hedgehog, photographed at an 1862 Munich costume ball by Joseph Albert (1825–1886), seem drawn from timeless folklore.\n\nBut the characters may have been surprisingly new to these costumed revelers.\n\nThe fable referenced here, “Der Hase und der Igel”, was recorded in the 1843 fifth edition of Grimm’s Fairy Tales , less than twenty years prior.\n\nThe oral tale was first transcribed in the Hannoversche Volksblatt newspaper, after being told to editor Wilhelm Schröder near Bexhövede in Lower Saxony around 1840.\n\nThe fable plays on Aesop’s classic tale of the Tortoise and the Hare, some two millennia older.\n\nWhereas its narrative predecessor emphasized perseverance (“slow and steady wins the race”), the Hare and the Hedgehog’s catchphrase — the Low German “Ick bün all hier!” (“I’m already here!”) — revels in wit and trickery.\n\nIn this later story, the hare teases his neighbor’s stubby, crooked legs, only to be challenged to a footrace by the insulted hedgehog.\n\nThe hedgehog conceals his identical wife on the far end of a race course through turnip and cabbage fields.\n\nHidden in the furrows, she pops up to claim victory before the hare reaches the finish line.\n\nSensing something amiss, the hare demands a race in the reverse direction: the husband hedgehog pops up, victorious again.\n\nEnraged, the hare exhausts himself racing from end to end, before dropping dead in his lane.\n\nThe yarn was a good match for the fairytale-themed masked ball hosted by the Jung-München artists’ association during the 1862 Carnival.\n\nThe invited milieu, including the Bavarian Court, future “fairy tale king” Ludwig II, and the crème of the Munich art scene, was a far cry from the Hedgehog and the Hare’s recent, rustic origins.\n\nBut fairytales and folklore — as collected by the Brothers Grimm, Ludwig Bechstein (who adapted the Hare and the Hedgehog in his 1853 Deutsches Märchenbuch ), and others — were all the rage, and Munich was in the midst of a mask festival craze.\n\nAlbert photographed dozens of guests in lavish costumes depicting medieval royalty, mermaids, and several swaggering animals: the hare, arm around the hedgehog (carrying a bottle of brandy, the reward for his bad-faith victory), and the “gestiefelter Kater”, or Puss in Boots.\n\nThe cat, bowing theatrically in his knee-highs, is listed in the “ festival newspaper ” alongside a golden goose, implying at least one more uncanny animal, whose photograph is perhaps lost.\n\nScroll through the whole page to download all images before printing.\n\nJoseph Albert’s photograph of a Puss in Boots costume — worn by Heinrich Lang — at the 1862 Jung-München Maskenfest.\n\nCarnival season in Germany — a period of costumed revelry, parties, and parades — reaches its fevered peak in the week before Ash Wednesday.\n\nThe festival calls for inversions of class and gender (and, perhaps, species too), making it an apt moment to drive home one of the morals of the Hare and the Hedgehog: never mock the little guy.\n\nThe tale’s final lesson, however, was perhaps too subtle to render in fur and leather.\n\nAs the Brothers Grimm conclude, “it teaches that whenever a man marries, he should take a wife . . . who looks just as he himself looks.\n\nSo whosoever is a hedgehog let him see to it that his wife is a hedgehog also, and so forth.”\n\nScroll through the whole page to download all images before printing.\n\nJoseph Albert’s photograph of Puss in Boots and other costumes — worn by Heinrich, Eduard, and Clara Lang — at the 1862 Jung-München Maskenfest.\n\nText by Thea Applebaum Licht",
+    "bodyReference": null
+  },
+  "source": {
+    "sourceId": "public-domain-review",
+    "sourceName": "The Public Domain Review",
+    "sourceUrl": "https://publicdomainreview.org/",
+    "canonicalUrl": "https://publicdomainreview.org/collection/maskenfest/",
+    "externalId": "maskenfest",
+    "doi": null
+  },
+  "rights": {
+    "verificationStatus": "verified",
+    "permittedReuseMode": "verified-full-text",
+    "rightsBasis": "license",
+    "sourcePolicy": null,
+    "license": {
+      "type": "creative-commons",
+      "identifier": "CC-BY-SA",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "attributionRequired": true,
+    "attributionText": "Thea Applebaum Licht / The Public Domain Review (CC-BY-SA)",
+    "evidence": [
+      {
+        "evidenceId": "public-domain-review-maskenfest-metadata",
+        "evidenceType": "item-metadata",
+        "sourceUrl": "https://publicdomainreview.org/collection/maskenfest/",
+        "reference": "Item metadata captured from the canonical source page.",
+        "excerpt": null,
+        "retrievedAt": "2026-10-05",
+        "scope": "item",
+        "appliesToRecordId": "public-domain-review-maskenfest"
+      },
+      {
+        "evidenceId": "public-domain-review-maskenfest-item-license",
+        "evidenceType": "item-license",
+        "sourceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "reference": "CC-BY-SA",
+        "excerpt": "Digital Copy Rights Attribution-ShareAlike Labelled CC BY-SA license",
+        "retrievedAt": "2026-10-05",
+        "scope": "item",
+        "appliesToRecordId": "public-domain-review-maskenfest"
+      }
+    ]
+  },
+  "validation": {
+    "validator": "Phase 3.5 validateIntake",
+    "result": "PASS",
+    "errorCodes": []
+  },
+  "review": {
+    "reviewStatus": "approved",
+    "reviewer": "User (explicit request to import a PDR + Wiktionary batch for educational reading)",
+    "decision": "The user explicitly authorized this real import batch for educational reading. Every item was fetched from its official source page and its full text extracted, then reviewed individually. For The Public Domain Review the item's OWN page had to carry article-level CC BY or CC BY-SA evidence: the publisher states that some of its Articles are \"published under more restrictive terms\", so the site-wide statement was never used to decide an item, and any \"All rights reserved\", \"Reprinted by permission\" or NonCommercial-only item was excluded. For Wiktionary the CC BY-SA statement carried on each page was required, and third-party or non-free content (fair-use quotations, usage examples carrying quotations, File/Image links) was excluded from the stored body rather than assumed compatible. No image, audio or other media is reused from either source: imageReference is null for every item.",
+    "reviewedAt": "2026-10-05T00:00:00.000Z"
+  },
+  "provenance": {
+    "sourceRecordId": "public-domain-review-maskenfest",
+    "intakeRecordId": "public-domain-review-maskenfest",
+    "intakeSchemaVersion": "phase3.5-independent-intake-v1",
+    "intakeValidationResult": "PASS",
+    "dryRunResult": "PASS",
+    "dryRunRecordId": "public-domain-review-maskenfest",
+    "reviewStatus": "approved",
+    "packageCreatedAt": "2026-10-05T00:00:00.000Z",
+    "sourceManifest": "research/phase4-8-pdr-wiktionary/intake/public-domain-review-the-mowing-devil.json; research/phase4-8-pdr-wiktionary/intake/public-domain-review-animal-vegetable-lamb.json; research/phase4-8-pdr-wiktionary/intake/public-domain-review-glass-delusion.json; research/phase4-8-pdr-wiktionary/intake/public-domain-review-maskenfest.json; research/phase4-8-pdr-wiktionary/intake/public-domain-review-mail-order-occult.json; research/phase4-8-pdr-wiktionary/intake/wiktionary-salary.json; research/phase4-8-pdr-wiktionary/intake/wiktionary-quarantine.json; research/phase4-8-pdr-wiktionary/intake/wiktionary-window.json; research/phase4-8-pdr-wiktionary/intake/wiktionary-posh.json; research/phase4-8-pdr-wiktionary/intake/wiktionary-gossip.json"
+  }
+}

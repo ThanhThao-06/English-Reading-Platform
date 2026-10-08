@@ -1,0 +1,22 @@
+{
+  "recordId": "synthetic-meta-001",
+  "sourceId": "synthetic-metadata-source",
+  "title": "Synthetic metadata-only example",
+  "canonicalUrl": "https://example.invalid/items/metadata-001",
+  "externalId": "meta-001",
+  "authors": ["Synthetic Author"],
+  "publishedAt": "2024-04-12",
+  "receivedAt": "2026-10-03",
+  "contentType": "educational",
+  "classification": {
+    "contentGroup": "articles",
+    "primaryCategory": "science",
+    "secondaryCategories": ["education"]
+  },
+  "rightsStatus": "partially-verified",
+  "reuseMode": "metadata-only",
+  "attributionRequired": false,
+  "mediaAssets": [],
+  "reviewStatus": "needs-rights-review",
+  "reviewNotes": ["Synthetic fixture only; no external item was inspected."]
+}

@@ -1,0 +1,52 @@
+{
+  "recordId": "nasa-black-holes",
+  "sourceId": "nasa",
+  "sourceName": "NASA",
+  "sourceUrl": "https://www.nasa.gov/",
+  "title": "Black Hole Basics",
+  "canonicalUrl": "https://science.nasa.gov/universe/black-holes/",
+  "externalId": "black-holes",
+  "authors": [
+    "NASA"
+  ],
+  "publishedAt": "2026-08-12",
+  "language": "en",
+  "description": "Black Holes Black holes are among the most mysterious cosmic objects, much studied but not fully understood.",
+  "contentType": "expository",
+  "classification": {
+    "contentGroup": "articles",
+    "primaryCategory": "science",
+    "secondaryCategories": [
+      "technology"
+    ]
+  },
+  "libraryPresentation": {
+    "description": "Black Holes Black holes are among the most mysterious cosmic objects, much studied but not fully understood.",
+    "genre": "Science & Nature",
+    "level": "B1",
+    "readingTime": "Under 3 min",
+    "imageReference": null
+  },
+  "receivedAt": "2026-10-05",
+  "rightsStatus": "verified",
+  "reuseMode": "verified-full-text",
+  "rightsBasis": "permission",
+  "rightsEvidenceUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+  "rightsEvidenceExcerpt": "NASA content - images, audio, video, and media files used in the rendition of 3-dimensional models, such as texture maps and polygon data in any format - generally are not subject to copyright in the United States. You may use this material for educational or informational purposes, including photo collections, textbooks, public exhibits, computer graphical simulations and Internet Web pages. News outlets, schools, and text-book authors may use NASA content without needing explicit permission, subject to compliance with these guidelines. NASA content used in a factual manner that does not imply endorsement may be used without needing explicit permission. NASA should be acknowledged as the source of the material.",
+  "attributionRequired": true,
+  "attributionText": "NASA",
+  "body": "Black Holes\n\nBlack holes are among the most mysterious cosmic objects, much studied but not fully understood. These objects aren’t really holes. They’re huge concentrations of matter packed into very tiny spaces. A black hole is so dense that gravity just beneath its surface, the event horizon, is strong enough that nothing – not even light – can escape. The event horizon isn’t a surface like Earth’s or even the Sun’s. It’s a boundary that contains all the matter that makes up the black hole.\n\nThere is much we don’t know about black holes, like what matter looks like inside their event horizons. However, there is a lot that scientists do know about black holes.\n\nFinding Black Holes\n\nBlack holes don’t emit or reflect light, making them effectively invisible to telescopes. Scientists primarily detect and study them based on how they affect their surroundings:\n\nBlack holes can be surrounded by rings of gas and dust, called accretion disks, that emit light across many wavelengths, including X-rays.\n\nA supermassive black hole’s intense gravity can cause stars to orbit around it in a particular way. Astronomers tracked the orbits of several stars near the center of the Milky Way to prove it houses a supermassive black hole, a discovery that won the 2020 Nobel Prize.\n\nWhen very massive objects accelerate through space, they create ripples in the fabric of space-time called gravitational waves. Scientists can detect some of these by the ripples’ effect on detectors.\n\nMassive objects like black holes can bend and distort light from more distant objects. This effect, called gravitational lensing, can be used to find isolated black holes that are otherwise invisible.\n\nBlack Holes Are Not ...\n\nWormholes. They don’t provide shortcuts between different points in space, or portals to other dimensions or universes.\n\nCosmic vacuum cleaners. Black holes don’t suck in other matter. From far enough away, their gravitational effects are just like those of other objects of the same mass.\n\nEssential Black Hole Facts\n\n01\n\nClosest\n\nThe nearest known black hole, called Gaia BH1, is about 1,500 light-years away.\n\n02\n\nFarthest\n\nThe most distant black hole detected, at the center of a galaxy called QSO J0313-1806, is around 13 billion light-years away.\n\n03\n\nBiggest\n\nThe most massive black hole observed, TON 618, tips the scales at 66 billion times the Sun’s mass.\n\n04\n\nSmallest\n\nThe lightest-known black hole is only 3.8 times the Sun’s mass. It’s paired up with a star.\n\n05\n\nSpaghettification\n\nA real term that describes what happens when matter gets too close to a black hole. It’s squeezed horizontally and stretched vertically, resembling a noodle.\n\n06\n\nSpin\n\nAll black holes spin. The fastest-known – named GRS 1915+105 – clocks in at over 1,000 rotations per second.\n\n07\n\nParticle accelerators\n\nMonster black holes at the centers of galaxies can launch particles to near light speed.\n\n08\n\nGravity's the same\n\nIf you replaced the Sun with a black hole of the same mass, the solar system would get a lot colder, but the planets would stay in their orbits.\n\n09\n\nStar booms\n\nOne type of black hole is born when massive stars run out of fuel and explode in supernovae.\n\n10\n\nNot so rare\n\nMost Milky Way-sized galaxies have monster black holes at their centers. Our is called Sagittarius A* (pronounced ey-star), and it’s 4 million times the Sun’s mass.",
+  "mediaAssets": [],
+  "reviewStatus": "approved",
+  "reviewNotes": [
+    "Official NASA page fetched and its full text extracted verbatim: 43 paragraphs, 555 words.",
+    "NASA page provenance recorded verbatim: [\"NASA Page Editor: Jeanette Kazmierczak\",\"Responsible NASA Official: Dana Bolles\"]; \"Page Last Updated\" 2026-08-12.",
+    "Page text inspected individually for copyright notices, third-party credits, courtesy/licence notes, syndicated or contributed/guest content and news-agency credits: none found.",
+    "In-body link density checked: 0 links across 43 blocks - this is an article, not a topic hub.",
+    "No image, insignia, logotype or NASA identifier is retained: no item-level asset-rights evidence was recorded and those marks are expressly not in the public domain, so imageReference is null.",
+    "B1 is a Library-level editorial mapping for this English-learning article, not a claimed formal CEFR label.",
+    "Reading time \"Under 3 min\" is mapped from the full-text word count (555) at 200 WPM.",
+    "Genre \"Science & Nature\": Explainer on what black holes are, how they are detected and what they are not.",
+    "Reuse is educational/informational, factual, and does not imply NASA endorsement; NASA is acknowledged as the source."
+  ]
+}

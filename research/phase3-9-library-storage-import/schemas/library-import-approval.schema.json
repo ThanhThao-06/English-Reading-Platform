@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "library-import-approval.schema.json",
+  "title": "Phase 3.9 Library Import Approval",
+  "description": "A separate human approval bound to the exact bytes of one approved-content package.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "approvalStatus",
+    "packageId",
+    "packageVersion",
+    "packageSha256",
+    "approvedAt",
+    "approver",
+    "decision"
+  ],
+  "properties": {
+    "approvalStatus": { "const": "APPROVED_FOR_LIBRARY_IMPORT" },
+    "packageId": { "type": "string", "minLength": 1 },
+    "packageVersion": { "type": "integer", "minimum": 1 },
+    "packageSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "approvedAt": { "type": "string", "format": "date-time" },
+    "approver": { "type": "string", "minLength": 1 },
+    "decision": { "type": "string", "minLength": 1 }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "approvalStatus": "APPROVED_FOR_LIBRARY_IMPORT",
+  "packageId": "content-8e650761fc0a8714bcb315a1",
+  "packageVersion": 1,
+  "packageSha256": "2307a9d567050ff0e244d253ffc9c2ed4e1f565a48f4fe65b767bf3a44c5fa81",
+  "approvedAt": "2026-10-04T03:17:22.377Z",
+  "approver": "User (explicit request to import this article if every gate passes)",
+  "decision": "The user explicitly authorized import of this article conditional on all rights, intake, package, provenance, duplicate, and approval gates passing. The gates passed; unverified image/media is excluded."
+}

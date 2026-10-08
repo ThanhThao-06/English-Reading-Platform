@@ -1,0 +1,292 @@
+[
+  {
+    "recordId": "public-domain-review-the-tragical-death-of-a-apple-pye",
+    "slug": "the-tragical-death-of-a-apple-pye",
+    "status": "SKIPPED",
+    "reason": "NO-ARTICLE-LEVEL-CC-EVIDENCE"
+  },
+  {
+    "recordId": "public-domain-review-rarebit-fiend",
+    "slug": "rarebit-fiend",
+    "status": "SKIPPED",
+    "reason": "NO-ARTICLE-LEVEL-CC-EVIDENCE"
+  },
+  {
+    "recordId": "public-domain-review-giant-produce-postcards",
+    "slug": "giant-produce-postcards",
+    "status": "SKIPPED",
+    "reason": "NO-ARTICLE-LEVEL-CC-EVIDENCE"
+  },
+  {
+    "recordId": "public-domain-review-women-having-tea",
+    "slug": "women-having-tea",
+    "status": "SKIPPED",
+    "reason": "NO-ARTICLE-LEVEL-CC-EVIDENCE"
+  },
+  {
+    "recordId": "wiktionary-dandelion",
+    "slug": "dandelion",
+    "status": "INTENDED",
+    "reason": "passed per-item rights review (CC-BY-SA-4.0)",
+    "words": 131,
+    "genre": "Education",
+    "level": "B1",
+    "curiosityTopic": "Gastronomy & Food History"
+  },
+  {
+    "recordId": "wiktionary-dandelion",
+    "slug": "wiktionary-dandelion",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "wiktionary-dandelion",
+    "slug": "wiktionary-dandelion",
+    "status": "PACKAGED",
+    "reason": "package content-e638ddaf798dc6f2376989f5 v1 + approval written",
+    "genre": "Education",
+    "level": "B1"
+  },
+  {
+    "recordId": "public-domain-review-the-blinkered-flaneur",
+    "slug": "the-blinkered-flaneur",
+    "status": "INTENDED",
+    "reason": "passed per-item rights review (CC-BY-SA)",
+    "words": 4154,
+    "genre": "History",
+    "level": "B2",
+    "curiosityTopic": "Urbanism & Everyday Objects"
+  },
+  {
+    "recordId": "wiktionary-dandelion",
+    "slug": "wiktionary-dandelion",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-the-blinkered-flaneur",
+    "slug": "public-domain-review-the-blinkered-flaneur",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "wiktionary-dandelion",
+    "slug": "wiktionary-dandelion",
+    "status": "PACKAGED",
+    "reason": "package content-e638ddaf798dc6f2376989f5 v1 + approval written",
+    "genre": "Education",
+    "level": "B1"
+  },
+  {
+    "recordId": "public-domain-review-the-blinkered-flaneur",
+    "slug": "public-domain-review-the-blinkered-flaneur",
+    "status": "PACKAGED",
+    "reason": "package content-cfa3437d3ba201bbf85a2607 v1 + approval written",
+    "genre": "History",
+    "level": "B2"
+  },
+  {
+    "recordId": "public-domain-review-typing-for-love-or-money",
+    "slug": "typing-for-love-or-money",
+    "status": "INTENDED",
+    "reason": "passed per-item rights review (CC-BY-SA)",
+    "words": 3677,
+    "genre": "History",
+    "level": "B2",
+    "curiosityTopic": "Urbanism & Everyday Objects"
+  },
+  {
+    "recordId": "wiktionary-dandelion",
+    "slug": "wiktionary-dandelion",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-the-blinkered-flaneur",
+    "slug": "public-domain-review-the-blinkered-flaneur",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-typing-for-love-or-money",
+    "slug": "public-domain-review-typing-for-love-or-money",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "wiktionary-dandelion",
+    "slug": "wiktionary-dandelion",
+    "status": "PACKAGED",
+    "reason": "package content-e638ddaf798dc6f2376989f5 v1 + approval written",
+    "genre": "Education",
+    "level": "B1"
+  },
+  {
+    "recordId": "public-domain-review-the-blinkered-flaneur",
+    "slug": "public-domain-review-the-blinkered-flaneur",
+    "status": "PACKAGED",
+    "reason": "package content-cfa3437d3ba201bbf85a2607 v1 + approval written",
+    "genre": "History",
+    "level": "B2"
+  },
+  {
+    "recordId": "public-domain-review-typing-for-love-or-money",
+    "slug": "public-domain-review-typing-for-love-or-money",
+    "status": "PACKAGED",
+    "reason": "package content-898e653736b067d7b55b8aac v1 + approval written",
+    "genre": "History",
+    "level": "B2"
+  },
+  {
+    "recordId": "public-domain-review-cybernetic-attention",
+    "slug": "cybernetic-attention",
+    "status": "INTENDED",
+    "reason": "passed per-item rights review (CC-BY-SA)",
+    "words": 2384,
+    "genre": "Technology & AI",
+    "level": "B2",
+    "curiosityTopic": "Urbanism & Everyday Objects"
+  },
+  {
+    "recordId": "wiktionary-dandelion",
+    "slug": "wiktionary-dandelion",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-the-blinkered-flaneur",
+    "slug": "public-domain-review-the-blinkered-flaneur",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-typing-for-love-or-money",
+    "slug": "public-domain-review-typing-for-love-or-money",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-cybernetic-attention",
+    "slug": "public-domain-review-cybernetic-attention",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "wiktionary-dandelion",
+    "slug": "wiktionary-dandelion",
+    "status": "PACKAGED",
+    "reason": "package content-e638ddaf798dc6f2376989f5 v1 + approval written",
+    "genre": "Education",
+    "level": "B1"
+  },
+  {
+    "recordId": "public-domain-review-the-blinkered-flaneur",
+    "slug": "public-domain-review-the-blinkered-flaneur",
+    "status": "PACKAGED",
+    "reason": "package content-cfa3437d3ba201bbf85a2607 v1 + approval written",
+    "genre": "History",
+    "level": "B2"
+  },
+  {
+    "recordId": "public-domain-review-typing-for-love-or-money",
+    "slug": "public-domain-review-typing-for-love-or-money",
+    "status": "PACKAGED",
+    "reason": "package content-898e653736b067d7b55b8aac v1 + approval written",
+    "genre": "History",
+    "level": "B2"
+  },
+  {
+    "recordId": "public-domain-review-cybernetic-attention",
+    "slug": "public-domain-review-cybernetic-attention",
+    "status": "PACKAGED",
+    "reason": "package content-cac50c666358aec01b46b40b v1 + approval written",
+    "genre": "Technology & AI",
+    "level": "B2"
+  },
+  {
+    "recordId": "wiktionary-robot",
+    "slug": "robot",
+    "status": "INTENDED",
+    "reason": "passed per-item rights review (CC-BY-SA-4.0)",
+    "words": 134,
+    "genre": "Education",
+    "level": "B2",
+    "curiosityTopic": "Urbanism & Everyday Objects"
+  },
+  {
+    "recordId": "wiktionary-dandelion",
+    "slug": "wiktionary-dandelion",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-the-blinkered-flaneur",
+    "slug": "public-domain-review-the-blinkered-flaneur",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-typing-for-love-or-money",
+    "slug": "public-domain-review-typing-for-love-or-money",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-cybernetic-attention",
+    "slug": "public-domain-review-cybernetic-attention",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "wiktionary-robot",
+    "slug": "wiktionary-robot",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "wiktionary-dandelion",
+    "slug": "wiktionary-dandelion",
+    "status": "PACKAGED",
+    "reason": "package content-e638ddaf798dc6f2376989f5 v1 + approval written",
+    "genre": "Education",
+    "level": "B1"
+  },
+  {
+    "recordId": "public-domain-review-the-blinkered-flaneur",
+    "slug": "public-domain-review-the-blinkered-flaneur",
+    "status": "PACKAGED",
+    "reason": "package content-cfa3437d3ba201bbf85a2607 v1 + approval written",
+    "genre": "History",
+    "level": "B2"
+  },
+  {
+    "recordId": "public-domain-review-typing-for-love-or-money",
+    "slug": "public-domain-review-typing-for-love-or-money",
+    "status": "PACKAGED",
+    "reason": "package content-898e653736b067d7b55b8aac v1 + approval written",
+    "genre": "History",
+    "level": "B2"
+  },
+  {
+    "recordId": "public-domain-review-cybernetic-attention",
+    "slug": "public-domain-review-cybernetic-attention",
+    "status": "PACKAGED",
+    "reason": "package content-cac50c666358aec01b46b40b v1 + approval written",
+    "genre": "Technology & AI",
+    "level": "B2"
+  },
+  {
+    "recordId": "wiktionary-robot",
+    "slug": "wiktionary-robot",
+    "status": "PACKAGED",
+    "reason": "package content-059d3f099944c30c73502a53 v1 + approval written",
+    "genre": "Education",
+    "level": "B2"
+  },
+  {
+    "recordId": "public-domain-review-twilight-of-the-velocipede",
+    "slug": "twilight-of-the-velocipede",
+    "status": "SKIPPED",
+    "reason": "NO-ARTICLE-LEVEL-CC-EVIDENCE | ALL-RIGHTS-RESERVED | REPRINTED-BY-PERMISSION"
+  }
+]

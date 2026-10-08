@@ -1,0 +1,29 @@
+{
+  "sourceId": "voa-learning-english",
+  "rightsStatus": "partially-verified",
+  "maxReuseMode": "metadata-only",
+  "synthetic": false,
+  "note": "Phase 3.3/3.4 ceiling is unchanged. Third-party item provenance remains a source caveat, so reuse beyond metadata still requires the item-level decision recorded in conditionalFullText below.",
+  "conditionalFullText": {
+    "grantId": "voa-learning-english-official-producer-grant-v1",
+    "policyEvidenceUrl": "https://learningenglish.voanews.com/p/6861.html",
+    "supportingPolicyUrls": [
+      "https://learningenglish.voanews.com/p/6021.html"
+    ],
+    "allowedHosts": [
+      "learningenglish.voanews.com"
+    ],
+    "requiredAttributionText": "Credit to learningenglish.voanews.com",
+    "policyWording": "Learning English texts, MP3s, photos and videos are in the public domain. You are allowed to reprint them for educational and commercial purposes, with credit to learningenglish.voanews.com. However, stories, photos and video images from news agencies such as AP, Reuters and AFP are copyrighted, so you are not allowed to republish them.",
+    "supportingWording": "All text, audio and video material produced exclusively by the Voice of America is in the public domain. Credit for any use of VOA material should be given to voanews.com, Voice of America, or VOA. However, voanews.com content may also contain text, video, audio, images, graphics, and other copyrighted material that is licensed for use in VOA programming only.",
+    "basis": "The official VOA Learning English reuse policy places Learning English material produced by VOA in the public domain, conditional on credit, and expressly excludes AP, Reuters, AFP and other third-party agency material. This grant therefore replaces the former blanket requirement that every individual VOA article carry its own separate item-level license or rights document. It still requires, per item: an official-host canonical URL, VOA producer byline evidence, no third-party copyright attribution, recorded policy evidence, and the required credit line.",
+    "conditions": [
+      "canonicalUrl is an official VOA Learning English URL",
+      "a byline/author credit identifies VOA Learning English or VOA as the producer",
+      "no AP, Reuters, AFP or other third-party copyright attribution is present",
+      "rightsEvidenceUrl and rightsEvidenceExcerpt record the official policy statement",
+      "attributionRequired is true with the official credit line",
+      "no per-article license document is required"
+    ]
+  }
+}

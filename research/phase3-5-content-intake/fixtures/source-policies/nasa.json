@@ -1,0 +1,23 @@
+{
+  "sourceId": "nasa",
+  "rightsStatus": "verified",
+  "maxReuseMode": "verified-full-text",
+  "synthetic": false,
+  "note": "Narrowly scoped policy added in Phase 4.7 for NASA-authored science explainers. It raises the ceiling for this one sourceId only and changes no other source policy. Every item still requires its own item-scoped rights evidence and passes the existing full-text, attribution, duplicate, provenance and transaction gates.",
+  "basis": "NASA's official Images and Media Usage Guidelines state that NASA content is generally not subject to copyright in the United States and may be used for educational or informational purposes without needing explicit permission, provided NASA is acknowledged as the source, the use is factual and does not imply endorsement, and the guidelines are followed.",
+  "policyEvidenceUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+  "policyWording": "NASA content - images, audio, video, and media files used in the rendition of 3-dimensional models, such as texture maps and polygon data in any format - generally are not subject to copyright in the United States. You may use this material for educational or informational purposes, including photo collections, textbooks, public exhibits, computer graphical simulations and Internet Web pages. News outlets, schools, and text-book authors may use NASA content without needing explicit permission, subject to compliance with these guidelines. NASA content used in a factual manner that does not imply endorsement may be used without needing explicit permission. NASA should be acknowledged as the source of the material.",
+  "thirdPartyLimitWording": "NASA occasionally uses copyright-protected material of third parties with permission on its website. Those images will be marked identified as copyright protected with the name of the copyright holder. NASA's use does not convey any rights to others to use the same material. Those wishing to use copyright protected material of third parties must contact the copyright holder directly.",
+  "identifierLimitWording": "The NASA Insignia, Logotype, identifiers, and imagery are not in the public domain. The use of the Insignia, Logotype and NASA identifiers is protected by law, and imagery is made available for use consistent with Media Usage Guidelines.",
+  "limits": [
+    "Applies only to canonical URLs on official NASA hosts (nasa.gov and its subdomains).",
+    "The permission is for educational or informational use, used factually and without implying NASA endorsement. This Library presents articles factually and endorses nothing.",
+    "NASA must be acknowledged as the source: attributionRequired is true with a NASA credit line.",
+    "Third-party copyright-protected material is NOT covered. NASA states its use of such material conveys no rights to others, so any page whose text carries a third-party credit, courtesy line, licence note, syndicated or contributed/guest content, or a news-agency credit is excluded rather than assumed to be NASA content.",
+    "A credit naming a partner agency or non-NASA provider (ESA, CSA, STScI, a university, a commercial provider and so on) excludes the item.",
+    "Every item must carry NASA page provenance (a NASA page editor or responsible NASA official) and a readable 'Page Last Updated' date.",
+    "The NASA Insignia, Logotype and NASA identifiers are expressly not reusable and are never imported.",
+    "Images and other media are excluded from every item: imageReference is null unless independent asset-level rights evidence is recorded, and none was recorded for this batch.",
+    "Topic hub and index pages are excluded: a page that is mostly in-body links is navigation, not an article."
+  ]
+}

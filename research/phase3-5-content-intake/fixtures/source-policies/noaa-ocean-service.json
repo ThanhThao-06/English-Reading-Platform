@@ -1,0 +1,18 @@
+{
+  "sourceId": "noaa-ocean-service",
+  "rightsStatus": "verified",
+  "maxReuseMode": "verified-full-text",
+  "synthetic": false,
+  "note": "Narrowly scoped policy added in Phase 4.6 for NOAA National Ocean Service Ocean Facts explainers. It raises the ceiling for this one sourceId only and changes no other source policy. Every item still requires its own item-scoped rights evidence and passes the existing full-text, attribution, duplicate, provenance and transaction gates.",
+  "basis": "NOAA National Ocean Service states on its own website disclaimer that the information presented on the site is public information and may be distributed or copied, unless specifically noted otherwise. The site is maintained by NOAA's National Ocean Service, a United States federal agency. This is the source-scoped permission statement relied on here.",
+  "policyEvidenceUrl": "https://oceanservice.noaa.gov/disclaimer.html",
+  "policyWording": "Information presented on this website is considered public information and may be distributed or copied, unless specifically noted otherwise. This website is maintained by NOAA's National Ocean Service.",
+  "limits": [
+    "Applies only to canonical URLs on the official oceanservice.noaa.gov host.",
+    "The permission is expressly qualified by 'unless specifically noted otherwise'. Each item is therefore checked individually and an item carrying any copyright, third-party credit, courtesy/licence notice or other restriction is excluded rather than assumed public domain.",
+    "Each item must carry its own NOAA author credit on the page and its own citation date. An item with no NOAA credit is excluded.",
+    "Agency seals, initials and agency identification are expressly not reusable without written permission and are never imported.",
+    "Images and other media are excluded from every item: imageReference is null unless independent asset-level rights evidence is recorded, and none was recorded for this batch.",
+    "Third-party or partner material appearing on a page, including material credited to other agencies, organisations or individuals, is not covered by this policy."
+  ]
+}

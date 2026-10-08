@@ -1,0 +1,9 @@
+{
+  "approvalStatus": "APPROVED_FOR_LIBRARY_IMPORT",
+  "packageId": "content-d3d70f6f16c9a557ce9d03de",
+  "packageVersion": 1,
+  "packageSha256": "b3a0cbe16b0189fd00709cb33f6ca4a7515e8690df77a112f8dab3abc3b08698",
+  "approvedAt": "2026-10-04T00:00:00.000Z",
+  "approver": "User (explicit request to import 12 audited VOA articles)",
+  "decision": "The user explicitly authorized importing 12 VOA Learning English articles that passed extraction verification and rights validation. Each official page and its full article text were inspected; items without a VOA-named producer credit were excluded rather than force-fitted; unverified third-party media was excluded."
+}

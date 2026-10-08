@@ -1,0 +1,232 @@
+[
+  {
+    "recordId": "noaa-ocean-service-seafoam",
+    "slug": "seafoam",
+    "status": "INTENDED",
+    "reason": "passed per-item rights review",
+    "words": 296,
+    "genre": "Science & Nature",
+    "level": "A2"
+  },
+  {
+    "recordId": "noaa-ocean-service-oceaneconomy",
+    "slug": "oceaneconomy",
+    "status": "INTENDED",
+    "reason": "passed per-item rights review",
+    "words": 127,
+    "genre": "Business & Economics",
+    "level": "B1"
+  },
+  {
+    "recordId": "noaa-ocean-service-lighthouse",
+    "slug": "lighthouse",
+    "status": "INTENDED",
+    "reason": "passed per-item rights review",
+    "words": 288,
+    "genre": "Culture, Art & Travel",
+    "level": "B1"
+  },
+  {
+    "recordId": "noaa-ocean-service-marheritage",
+    "slug": "marheritage",
+    "status": "INTENDED",
+    "reason": "passed per-item rights review",
+    "words": 193,
+    "genre": "History",
+    "level": "B1"
+  },
+  {
+    "recordId": "noaa-ocean-service-ocean-gliders",
+    "slug": "ocean-gliders",
+    "status": "INTENDED",
+    "reason": "passed per-item rights review",
+    "words": 404,
+    "genre": "Technology & AI",
+    "level": "B2"
+  },
+  {
+    "recordId": "noaa-ocean-service-lawofsea",
+    "slug": "lawofsea",
+    "status": "INTENDED",
+    "reason": "passed per-item rights review",
+    "words": 336,
+    "genre": "Law & Politics",
+    "level": "B2"
+  },
+  {
+    "recordId": "noaa-ocean-service-coral_medicine",
+    "slug": "coral_medicine",
+    "status": "INTENDED",
+    "reason": "passed per-item rights review",
+    "words": 619,
+    "genre": "Health & Psychology",
+    "level": "B2"
+  },
+  {
+    "recordId": "noaa-ocean-service-greenland-shark",
+    "slug": "greenland-shark",
+    "status": "INTENDED",
+    "reason": "passed per-item rights review",
+    "words": 438,
+    "genre": "Science & Nature",
+    "level": "B2"
+  },
+  {
+    "recordId": "noaa-ocean-service-coral_bleach",
+    "slug": "coral_bleach",
+    "status": "INTENDED",
+    "reason": "passed per-item rights review",
+    "words": 417,
+    "genre": "Environment",
+    "level": "B2"
+  },
+  {
+    "recordId": "noaa-ocean-service-amoc",
+    "slug": "amoc",
+    "status": "INTENDED",
+    "reason": "passed per-item rights review",
+    "words": 425,
+    "genre": "Science & Nature",
+    "level": "C1"
+  },
+  {
+    "recordId": "noaa-ocean-service-seafoam",
+    "slug": "seafoam",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "noaa-ocean-service-oceaneconomy",
+    "slug": "oceaneconomy",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "noaa-ocean-service-lighthouse",
+    "slug": "lighthouse",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "noaa-ocean-service-marheritage",
+    "slug": "marheritage",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "noaa-ocean-service-ocean-gliders",
+    "slug": "ocean-gliders",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "noaa-ocean-service-lawofsea",
+    "slug": "lawofsea",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "noaa-ocean-service-coral_medicine",
+    "slug": "coral_medicine",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "noaa-ocean-service-greenland-shark",
+    "slug": "greenland-shark",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "noaa-ocean-service-coral_bleach",
+    "slug": "coral_bleach",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "noaa-ocean-service-amoc",
+    "slug": "amoc",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "noaa-ocean-service-seafoam",
+    "slug": "seafoam",
+    "status": "PACKAGED",
+    "reason": "package content-24d1596c227198eca842dab1 v1 + approval written",
+    "genre": "Science & Nature",
+    "level": "A2"
+  },
+  {
+    "recordId": "noaa-ocean-service-oceaneconomy",
+    "slug": "oceaneconomy",
+    "status": "PACKAGED",
+    "reason": "package content-2edd664f020a8d163d679520 v1 + approval written",
+    "genre": "Business & Economics",
+    "level": "B1"
+  },
+  {
+    "recordId": "noaa-ocean-service-lighthouse",
+    "slug": "lighthouse",
+    "status": "PACKAGED",
+    "reason": "package content-ce57692e80510065087a2897 v1 + approval written",
+    "genre": "Culture, Art & Travel",
+    "level": "B1"
+  },
+  {
+    "recordId": "noaa-ocean-service-marheritage",
+    "slug": "marheritage",
+    "status": "PACKAGED",
+    "reason": "package content-743dbc300e077d47b9bf5c27 v1 + approval written",
+    "genre": "History",
+    "level": "B1"
+  },
+  {
+    "recordId": "noaa-ocean-service-ocean-gliders",
+    "slug": "ocean-gliders",
+    "status": "PACKAGED",
+    "reason": "package content-cb3361ac99afd895c5ff82c6 v1 + approval written",
+    "genre": "Technology & AI",
+    "level": "B2"
+  },
+  {
+    "recordId": "noaa-ocean-service-lawofsea",
+    "slug": "lawofsea",
+    "status": "PACKAGED",
+    "reason": "package content-3856181c15abae9cbbfb3537 v1 + approval written",
+    "genre": "Law & Politics",
+    "level": "B2"
+  },
+  {
+    "recordId": "noaa-ocean-service-coral_medicine",
+    "slug": "coral_medicine",
+    "status": "PACKAGED",
+    "reason": "package content-73ea9d3b900ec8bfd7795c2c v1 + approval written",
+    "genre": "Health & Psychology",
+    "level": "B2"
+  },
+  {
+    "recordId": "noaa-ocean-service-greenland-shark",
+    "slug": "greenland-shark",
+    "status": "PACKAGED",
+    "reason": "package content-0e00fd07b9675627330e10ee v1 + approval written",
+    "genre": "Science & Nature",
+    "level": "B2"
+  },
+  {
+    "recordId": "noaa-ocean-service-coral_bleach",
+    "slug": "coral_bleach",
+    "status": "PACKAGED",
+    "reason": "package content-25dc68d5ebed04667bbd058a v1 + approval written",
+    "genre": "Environment",
+    "level": "B2"
+  },
+  {
+    "recordId": "noaa-ocean-service-amoc",
+    "slug": "amoc",
+    "status": "PACKAGED",
+    "reason": "package content-b06ff2f8ad09202113d6a80f v1 + approval written",
+    "genre": "Science & Nature",
+    "level": "C1"
+  }
+]

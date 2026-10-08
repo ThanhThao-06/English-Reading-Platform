@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "packageId": "content-ce57692e80510065087a2897",
+  "version": 1,
+  "createdAt": "2026-10-05T00:00:00.000Z",
+  "supersedes": null,
+  "packageStatus": "ELIGIBLE",
+  "eligibleForPhase38": true,
+  "libraryPresentation": {
+    "description": "Though numerous lighthouses still serve seafarers, modern electronic aids to navigation play a larger role in maritime safety in the 21st century.",
+    "genre": "Culture, Art & Travel",
+    "level": "B1",
+    "readingTime": "Under 3 min",
+    "imageReference": null
+  },
+  "content": {
+    "recordId": "noaa-ocean-service-lighthouse",
+    "title": "Do We Still Need Lighthouses?",
+    "contentType": "expository",
+    "contentGroup": "articles",
+    "categories": {
+      "primary": "travel",
+      "secondary": [
+        "history",
+        "culture"
+      ]
+    },
+    "language": "en",
+    "authors": [
+      "NOAA"
+    ],
+    "reuseMode": "verified-full-text",
+    "body": "Though numerous lighthouses still serve seafarers, modern electronic aids to navigation play a larger role in maritime safety in the 21st century.\n\nLighthouses and beacons are towers with bright lights and fog horns located at important or dangerous locations. They can be found on rocky cliffs or sandy shoals on land, on wave-swept reefs in the sea, and at entrances to harbors and bays. They serve to warn mariners of dangerous shallows and perilous rocky coasts, and they help guide vessels safely into and out of harbors. The messages of these long-trusted aids to navigation are simple: either STAY AWAY, DANGER, BEWARE! or COME THIS WAY!\n\nWhile lighthouses still guide seafarers, nowadays, the Global Positioning System (GPS), NOAA’s nautical charts, lighted navigational aids, buoys, radar beacons, and other aids to navigation effectively warn mariners of dangerous areas and guide them to safe harbors. Some 48,000 federal buoys, beacons, and electronic aids of the marine transportation system mark more than 25,000 miles of waterways, harbor channels, and inland, intracoastal and coastal waterways, and serve more than 300 ports.\n\nOn August 7, 1789, Congress approved the Lighthouse Act—the first public works program undertaken by the new federal government—which established and supported lighthouses, beacons, buoys, and public piers. Members of Congress thought the bill was so important that they passed the measure even before they established pay for themselves!\n\nAugust 7 Is recognized as National Lighthouse Day. Even with the advent of advanced navigation technology, many lighthouses still sparkle for seafarers.\n\nDid you know?\n\nWhile many lighthouses still shine, cartographers in NOAA’s Office of Coast Survey practice the art and science of designing, compiling, updating, and distributing Electronic Navigational Charts. These charts are specifically tailored to the needs of marine navigation.",
+    "bodyReference": null
+  },
+  "source": {
+    "sourceId": "noaa-ocean-service",
+    "sourceName": "NOAA National Ocean Service",
+    "sourceUrl": "https://oceanservice.noaa.gov/",
+    "canonicalUrl": "https://oceanservice.noaa.gov/facts/lighthouse.html",
+    "externalId": "lighthouse",
+    "doi": null
+  },
+  "rights": {
+    "verificationStatus": "verified",
+    "permittedReuseMode": "verified-full-text",
+    "rightsBasis": "public-domain",
+    "sourcePolicy": {
+      "rightsStatus": "verified",
+      "maxReuseMode": "verified-full-text"
+    },
+    "license": {
+      "type": null,
+      "identifier": null,
+      "url": null
+    },
+    "attributionRequired": true,
+    "attributionText": "NOAA Ocean Service, oceanservice.noaa.gov",
+    "evidence": [
+      {
+        "evidenceId": "noaa-ocean-service-lighthouse-metadata",
+        "evidenceType": "item-metadata",
+        "sourceUrl": "https://oceanservice.noaa.gov/facts/lighthouse.html",
+        "reference": "Item metadata captured from the canonical source page.",
+        "excerpt": null,
+        "retrievedAt": "2026-10-05",
+        "scope": "item",
+        "appliesToRecordId": "noaa-ocean-service-lighthouse"
+      },
+      {
+        "evidenceId": "noaa-ocean-service-lighthouse-item-rights",
+        "evidenceType": "item-rights",
+        "sourceUrl": "https://oceanservice.noaa.gov/disclaimer.html",
+        "reference": "https://oceanservice.noaa.gov/disclaimer.html",
+        "excerpt": "Information presented on this website is considered public information and may be distributed or copied, unless specifically noted otherwise. This website is maintained by NOAA’s National Ocean Service.",
+        "retrievedAt": "2026-10-05",
+        "scope": "item",
+        "appliesToRecordId": "noaa-ocean-service-lighthouse"
+      }
+    ]
+  },
+  "validation": {
+    "validator": "Phase 3.5 validateIntake",
+    "result": "PASS",
+    "errorCodes": []
+  },
+  "review": {
+    "reviewStatus": "approved",
+    "reviewer": "User (explicit request to import NOAA Ocean Service articles)",
+    "decision": "The user explicitly authorized a real NOAA Ocean Service import batch. Each official oceanservice.noaa.gov page was fetched and its full text extracted verbatim, then reviewed individually for reuse rights and provenance: a NOAA author credit and citation date are required, and any copyright, third-party credit, courtesy/licence or restriction notice excludes the item. The official NOS disclaimer is recorded as source-policy evidence. No images or media are reused: imageReference is null for every item.",
+    "reviewedAt": "2026-10-05T00:00:00.000Z"
+  },
+  "provenance": {
+    "sourceRecordId": "noaa-ocean-service-lighthouse",
+    "intakeRecordId": "noaa-ocean-service-lighthouse",
+    "intakeSchemaVersion": "phase3.5-independent-intake-v1",
+    "intakeValidationResult": "PASS",
+    "dryRunResult": "PASS",
+    "dryRunRecordId": "noaa-ocean-service-lighthouse",
+    "reviewStatus": "approved",
+    "packageCreatedAt": "2026-10-05T00:00:00.000Z",
+    "sourceManifest": "research/phase4-6-noaa-ocean-service/intake/noaa-ocean-service-seafoam.json; research/phase4-6-noaa-ocean-service/intake/noaa-ocean-service-oceaneconomy.json; research/phase4-6-noaa-ocean-service/intake/noaa-ocean-service-lighthouse.json; research/phase4-6-noaa-ocean-service/intake/noaa-ocean-service-marheritage.json; research/phase4-6-noaa-ocean-service/intake/noaa-ocean-service-ocean-gliders.json; research/phase4-6-noaa-ocean-service/intake/noaa-ocean-service-lawofsea.json; research/phase4-6-noaa-ocean-service/intake/noaa-ocean-service-coral_medicine.json; research/phase4-6-noaa-ocean-service/intake/noaa-ocean-service-greenland-shark.json; research/phase4-6-noaa-ocean-service/intake/noaa-ocean-service-coral_bleach.json; research/phase4-6-noaa-ocean-service/intake/noaa-ocean-service-amoc.json"
+  }
+}

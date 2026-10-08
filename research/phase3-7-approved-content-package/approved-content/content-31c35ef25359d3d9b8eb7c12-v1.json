@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "packageId": "content-31c35ef25359d3d9b8eb7c12",
+  "version": 1,
+  "createdAt": "2026-10-04T02:42:47.054Z",
+  "supersedes": null,
+  "packageStatus": "ELIGIBLE",
+  "eligibleForPhase38": true,
+  "libraryPresentation": {
+    "description": "About five kilometers from the White House in Washington, DC lies an historic building closely linked to the life of one of America’s most famous presidents: Abraham Lincoln.",
+    "imageReference": null,
+    "level": "B1",
+    "genre": "Society",
+    "readingTime": "Under 3 min"
+  },
+  "content": {
+    "recordId": "voa-learning-english-7990415",
+    "title": "Lincoln's Cottage: a Country House for the President",
+    "contentType": "educational",
+    "contentGroup": "articles",
+    "categories": {
+      "primary": "history",
+      "secondary": [
+        "culture"
+      ]
+    },
+    "language": "en",
+    "authors": [
+      "Nancy Steinbach wrote this story for VOA Learning English",
+      "John Russell adapted it"
+    ],
+    "reuseMode": "verified-full-text",
+    "body": "About five kilometers from the White House in Washington, D.C., stands an historic building closely linked to one of America’s most famous presidents: Abraham Lincoln.\n\nThe building, known as President Lincoln's Cottage, is where Lincoln spent about one-fourth of his time while in office. And he made some very important decisions while there.\n\nSummertime can get very hot in Washington, D.C. So, President Lincoln used a country house to escape the worst of the heat. Each morning and evening, Lincoln rode between the two houses on horseback, unguarded.\n\nThe trip took about thirty minutes.\n\nThe large house he rode to was on the grounds of the Soldiers’ Home. The house stood on much higher ground than the White House, so the wind kept it cooler. It was also quiet -- a place to think.\n\nLincoln spent much of his time there writing. That work included early versions of what would become one of the most important documents in American history: The Emancipation Proclamation.\n\nThe Emancipation Proclamation came during the Civil War in the United States. The proclamation declared people held as slaves in the rebellious states were free.\n\nThe Civil War lasted from 1861 to 1865. Troops remained at the Soldiers' Home to protect President Lincoln during the war. At first, Lincoln did not welcome the soldiers. He did not think he needed their protection. But he began to enjoy talking to them. In fact, much of what historians know about the president's time at the house is from stories told by those soldiers.\n\nOne night in 1864, President Lincoln survived a murder attempt. He was alone and on horseback near the country house when someone shot at him. His tall hat flew off his head. Soldiers found the hat and saw that a bullet had torn through it. The president was not injured in the attack.\n\nAfter that, the War Department increased protection for Lincoln. But it was not enough to save his life.\n\nRecords show that he visited his country house for the last time on April 13, 1865. The next day, John Wilkes Booth, an actor and supporter of the defeated Confederacy, shot President Lincoln at Ford's Theatre in Washington.\n\nPresident Lincoln’s Cottage opened to the public in 2008.\n\nI’m John Russell.\n\nNancy Steinbach wrote this story for VOA Learning English. John Russell adapted it.",
+    "bodyReference": null
+  },
+  "source": {
+    "sourceId": "voa-learning-english",
+    "sourceName": "VOA Learning English",
+    "sourceUrl": "https://learningenglish.voanews.com/",
+    "canonicalUrl": "https://learningenglish.voanews.com/a/lincoln-s-cottage-a-country-house-for-the-president-/7990415.html",
+    "externalId": "7990415",
+    "doi": null
+  },
+  "rights": {
+    "verificationStatus": "verified",
+    "permittedReuseMode": "verified-full-text",
+    "rightsBasis": "conditional-source-policy",
+    "sourcePolicy": {
+      "rightsStatus": "partially-verified",
+      "maxReuseMode": "metadata-only"
+    },
+    "license": {
+      "type": null,
+      "identifier": null,
+      "url": null
+    },
+    "attributionRequired": true,
+    "attributionText": "Credit to learningenglish.voanews.com",
+    "evidence": [
+      {
+        "evidenceId": "voa-learning-english-7990415-metadata",
+        "evidenceType": "item-metadata",
+        "sourceUrl": "https://learningenglish.voanews.com/a/lincoln-s-cottage-a-country-house-for-the-president-/7990415.html",
+        "reference": "Item metadata captured from the canonical source page.",
+        "excerpt": null,
+        "retrievedAt": "2026-10-04",
+        "scope": "item",
+        "appliesToRecordId": "voa-learning-english-7990415"
+      },
+      {
+        "evidenceId": "voa-learning-english-7990415-source-policy",
+        "evidenceType": "source-policy",
+        "sourceUrl": "https://learningenglish.voanews.com/p/6861.html",
+        "reference": "https://learningenglish.voanews.com/p/6861.html",
+        "excerpt": "Learning English texts, MP3s, photos and videos are in the public domain. You are allowed to reprint them for educational and commercial purposes, with credit to learningenglish.voanews.com. However, stories, photos and video images from news agencies such as AP, Reuters and AFP are copyrighted, so you are not allowed to republish them.",
+        "retrievedAt": "2026-10-04",
+        "scope": "source",
+        "appliesToRecordId": "voa-learning-english"
+      }
+    ]
+  },
+  "validation": {
+    "validator": "Phase 3.5 validateIntake",
+    "result": "PASS",
+    "errorCodes": []
+  },
+  "review": {
+    "reviewStatus": "approved",
+    "reviewedAt": "2026-10-04T02:42:47.054Z",
+    "reviewer": "User (explicit request to import two articles)",
+    "decision": "The user explicitly authorized importing two real VOA Learning English articles after all pipeline and rights gates pass. The original source page, byline, full text, required attribution, and third-party content exclusions were reviewed."
+  },
+  "provenance": {
+    "sourceRecordId": "voa-learning-english-7990415",
+    "intakeRecordId": "voa-learning-english-7990415",
+    "intakeSchemaVersion": "phase3.5-independent-intake-v1",
+    "intakeValidationResult": "PASS",
+    "dryRunResult": "PASS",
+    "dryRunRecordId": "voa-learning-english-7990415",
+    "reviewStatus": "approved",
+    "packageCreatedAt": "2026-10-04T02:42:47.054Z",
+    "sourceManifest": "research/phase4-1-voa-first-import/intake/voa-learning-english-7990415.json; research/phase4-1-voa-first-import/intake/voa-learning-english-7998765.json"
+  }
+}

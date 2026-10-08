@@ -1,0 +1,47 @@
+{
+  "recordId": "voa-learning-english-7990415",
+  "sourceId": "voa-learning-english",
+  "sourceName": "VOA Learning English",
+  "sourceUrl": "https://learningenglish.voanews.com/",
+  "title": "Lincoln's Cottage: a Country House for the President",
+  "canonicalUrl": "https://learningenglish.voanews.com/a/lincoln-s-cottage-a-country-house-for-the-president-/7990415.html",
+  "externalId": "7990415",
+  "authors": [
+    "Nancy Steinbach wrote this story for VOA Learning English",
+    "John Russell adapted it"
+  ],
+  "publishedAt": "2025-03-16",
+  "receivedAt": "2026-10-04",
+  "contentType": "educational",
+  "language": "en",
+  "description": "About five kilometers from the White House in Washington, DC lies an historic building closely linked to the life of one of America’s most famous presidents: Abraham Lincoln.",
+  "classification": {
+    "contentGroup": "articles",
+    "primaryCategory": "history",
+    "secondaryCategories": [
+      "culture"
+    ]
+  },
+  "libraryPresentation": {
+    "description": "About five kilometers from the White House in Washington, DC lies an historic building closely linked to the life of one of America’s most famous presidents: Abraham Lincoln.",
+    "imageReference": null,
+    "level": "B1",
+    "genre": "Society",
+    "readingTime": "Under 3 min"
+  },
+  "rightsStatus": "verified",
+  "reuseMode": "verified-full-text",
+  "rightsEvidenceUrl": "https://learningenglish.voanews.com/p/6861.html",
+  "rightsEvidenceExcerpt": "Learning English texts, MP3s, photos and videos are in the public domain. You are allowed to reprint them for educational and commercial purposes, with credit to learningenglish.voanews.com. However, stories, photos and video images from news agencies such as AP, Reuters and AFP are copyrighted, so you are not allowed to republish them.",
+  "attributionRequired": true,
+  "attributionText": "Credit to learningenglish.voanews.com",
+  "body": "About five kilometers from the White House in Washington, D.C., stands an historic building closely linked to one of America’s most famous presidents: Abraham Lincoln.\n\nThe building, known as President Lincoln's Cottage, is where Lincoln spent about one-fourth of his time while in office. And he made some very important decisions while there.\n\nSummertime can get very hot in Washington, D.C. So, President Lincoln used a country house to escape the worst of the heat. Each morning and evening, Lincoln rode between the two houses on horseback, unguarded.\n\nThe trip took about thirty minutes.\n\nThe large house he rode to was on the grounds of the Soldiers’ Home. The house stood on much higher ground than the White House, so the wind kept it cooler. It was also quiet -- a place to think.\n\nLincoln spent much of his time there writing. That work included early versions of what would become one of the most important documents in American history: The Emancipation Proclamation.\n\nThe Emancipation Proclamation came during the Civil War in the United States. The proclamation declared people held as slaves in the rebellious states were free.\n\nThe Civil War lasted from 1861 to 1865. Troops remained at the Soldiers' Home to protect President Lincoln during the war. At first, Lincoln did not welcome the soldiers. He did not think he needed their protection. But he began to enjoy talking to them. In fact, much of what historians know about the president's time at the house is from stories told by those soldiers.\n\nOne night in 1864, President Lincoln survived a murder attempt. He was alone and on horseback near the country house when someone shot at him. His tall hat flew off his head. Soldiers found the hat and saw that a bullet had torn through it. The president was not injured in the attack.\n\nAfter that, the War Department increased protection for Lincoln. But it was not enough to save his life.\n\nRecords show that he visited his country house for the last time on April 13, 1865. The next day, John Wilkes Booth, an actor and supporter of the defeated Confederacy, shot President Lincoln at Ford's Theatre in Washington.\n\nPresident Lincoln’s Cottage opened to the public in 2008.\n\nI’m John Russell.\n\nNancy Steinbach wrote this story for VOA Learning English. John Russell adapted it.",
+  "mediaAssets": [],
+  "reviewStatus": "received",
+  "reviewNotes": [
+    "Official article page and complete article text inspected. Its closing author credit says Nancy Steinbach wrote the story for VOA Learning English and John Russell adapted it.",
+    "The page's photo credit identifies Brian Rimm and President Lincoln's Cottage as image sources; that image and its caption are excluded, and imageReference is null.",
+    "No AP, Reuters, AFP, or other third-party credit appears in the imported article text. The article appears in VOA's Lessons of the Day listing under its Intermediate Level section; B1 is a Library taxonomy mapping, not an explicit CEFR label.",
+    "Reading duration is calculated from the complete imported text at 200 words per minute and mapped to the existing Library reading-time enum."
+  ]
+}

@@ -1,0 +1,161 @@
+================================================================================
+PASS  [3303557] Learning How to Ask Questions
+  genre=Education  date=2024-12-10  blocks=39  words=775
+  authors: ["John Russell wrote this lesson for Learning English.","VOA - Voice of America"]
+  START: In the Education Tips series, education experts in the United States give you tips about how to improve your English skills. This week, Suzanne Meyer, the assistant direc
+  END  : nd let us know how it works for you!
+
+I'm John Russell.
+
+John Russell wrote this lesson for Learning English. Hai Do was the editor.
+
+We want to hear from you. Write to us in the Comments Section or on our Facebook page.
+================================================================================
+PASS  [3637982] Start New Year by Setting Reasonable Learning Goals
+  genre=Education  date=2024-12-31  blocks=35  words=905
+  authors: ["John Russell wrote this lesson for Learning English.","VOA - Voice of America"]
+  START: In the Education Tips series, education experts in the United States give you ideas about how you can improve your English skills. This week, Eli Hinkel, a professor at S
+  END  : oving your pronunciation.
+
+I'm John Russell.
+
+John Russell wrote this lesson for Learning English. George Grow was the editor.
+
+We want to hear from you. Write to us in the Comments section and post on our Facebook page.
+================================================================================
+PASS  [4804792] Can Language Learning Happen During Sleep?
+  genre=Health & Psychology  date=2019-02-26  blocks=24  words=689
+  authors: ["Bryan Lynn wrote this story for VOA Learning English, based on reports from Current Biology and the University of Bern.","VOA - Voice of America"]
+  START: A new study suggests some language learning can take place during sleep.
+
+Researchers from Switzerland’s University of Bern say they discovered people were able to learn 
+  END  : ory for VOA Learning English, based on reports from Current Biology and the University of Bern. Ashley Thompson was the editor.
+
+We want to hear from you. Write to us in the Comments section, and visit our Facebook page.
+================================================================================
+PASS  [2563047] The Civil War Ends
+  genre=History  date=2014-12-31  blocks=23  words=559
+  authors: ["Frank Beardsley wrote this story.","From VOA Learning English, this is The Making of a Nation.","VOA - Voice of America"]
+  START: From VOA Learning English, this is The Making of a Nation. I’m Kelly Jean Kelly.
+
+Abraham Lincoln did not live to see the final surrender of the armies of the Confederacy
+  END  : end!
+
+In 2015, we will be updating the series with more interviews, videos, and lessons. While we are working on the new series, you can still read and listen to the original series in our The Making of a Nation archive.
+================================================================================
+PASS  [1519967] American History: A New World Clash of Cultures
+  genre=History  date=2012-10-03  blocks=34  words=1439
+  authors: ["From VOA Learning English, this is THE MAKING OF A NATION – American history in Special English."]
+  START: From VOA Learning English, this is THE MAKING OF A NATION – American history in Special English. I’m Steve Ember.
+
+This week in our series, we tell the story of a clash o
+  END  : aspecialenglish.com. You can also follow us on Facebook and Twitter at VOA Learning English. I’m Steve Ember, inviting you to join us again next week for THE MAKING OF A NATION -- American history in VOA Special English.
+================================================================================
+PASS  [2436970] Southern States Form a New Nation
+  genre=History  date=2014-09-04  blocks=24  words=528
+  authors: ["From VOA Learning English, this is The Making of a Nation.","VOA - Voice of America"]
+  START: From VOA Learning English, this is The Making of a Nation. I’m Kelly Jean Kelly.
+
+And I’m Christopher Cruise.
+
+South Carolina withdrew from the United States on December 
+  END  : ry 11.
+
+On that same day, Abraham Lincoln left his home in Illinois to become president of the United States.
+
+I’m Christopher Cruise.
+
+And I’m Kelly Jean Kelly.
+
+This is The Making of a Nation from VOA Learning English.
+================================================================================
+PASS  [1615769] Plastic Recycling
+  genre=Environment  date=2013-03-05  blocks=61  words=1669
+  authors: ["From VOA Learning English, this is EXPLORATIONS in Special English."]
+  START: From VOA Learning English, this is EXPLORATIONS in Special English. I’m Kelly Jean Kelly.
+
+And I’m Christopher Cruise. Today we follow plastic bottles and other plastic o
+  END  :  that we don’t have these bags blowing in our trees and our environment.”
+
+There is still much work to be done to clean up the nation’s capital and the Anacostia River. But change is taking place -- five cents at a time.
+================================================================================
+PASS  [3913365] Sleep Helps Us Learn
+  genre=Health & Psychology  date=2017-06-26  blocks=33  words=753
+  authors: ["VOA’s Kevin Enochs reported on the research at University of Wisconsin - Madison.","Anna Matteo adapted his report and added additional information for Learning English.","VOA - Voice of America"]
+  START: From VOA Learning English, this is the Health & Lifestyle report.
+
+We humans spend about one-third of our lives asleep. This may sound like a lot of time, but it is not w
+  END  :  on the research at University of Wisconsin - Madison. Anna Matteo adapted his report and added additional information for Learning English. Caty Weaver was the editor.
+
+Now, test your understanding with this short quiz.
+================================================================================
+PASS  [2414963] A Big Step Forward in Artificial Intelligence Research
+  genre=Technology & AI  date=2014-08-18  blocks=14  words=385
+  authors: ["This story was reported by VOA reporters George Putic and Aida Akl in Washington.","It was adapted into Special English by Jonathan Evans, who also narrated the report.","VOA - Voice of America"]
+  START: The American computer company IBM says it has developed a microprocessor -- a computer chip -- that works much like the human brain.
+
+IBM calls the chip TrueNorth. It is 
+  END  : Jonathan Evans.
+
+This story was reported by VOA reporters George Putic and Aida Akl in Washington. It was adapted into Special English by Jonathan Evans, who also narrated the report. It was edited by Christopher Cruise.
+================================================================================
+PASS  [128165] The Information Age: The Internet
+  genre=Technology & AI  date=2008-06-17  blocks=59  words=1363
+  authors: ["It was produced by Mario Ritter."]
+  START: VOICE ONE:
+
+I'm Barbara Klein.
+
+VOICE TWO:
+
+And I'm Steve Ember with EXPLORATIONS in VOA Special English. Today we present the second part of our series about communicati
+  END  : y Mario Ritter.
+
+I'm Steve Ember.
+
+VOICE ONE:
+
+And I'm Barbara Klein. Our programs are online with pictures, transcripts and MP3s at voaspecialenglish.com. Join us again next week for EXPLORATIONS in VOA Special English.
+================================================================================
+PASS  [3472132] The Grand Canyon: A Sight Beyond Words
+  genre=Culture, Art & Travel  date=2016-08-19  blocks=56  words=1296
+  authors: ["Ashley Thompson adapted this report, with materials from VOA Learning English archive and the National Parks Service.","VOA - Voice of America"]
+  START: The Grand Canyon: Beyond Words
+
+EDITOR'S NOTE: This year, the U.S. National Park Service turns 100. American’s 28th President, Woodrow Wilson, formed the National Park Se
+  END  : space.
+
+grand canyon from space
+
+I'm Ashley Thompson.
+
+And I'm Jonathan Evans.
+
+Ashley Thompson adapted this report, with materials from VOA Learning English archive and the National Parks Service. Hai Do was the editor.
+================================================================================
+PASS  [3482437] Yellowstone: America's First National Park
+  genre=Culture, Art & Travel  date=2016-08-26  blocks=22  words=483
+  authors: ["Dorothy Gundy adapted this report, with materials from VOA Learning English archive and the National Parks Service.","VOA - Voice of America"]
+  START: This week, America celebrated the National Park Service’s 100th birthday.
+
+Yellowstone National Park became America’s first national park in 1872. The National Park Servi
+  END  : ll a wild west in America and its name is Yellowstone.
+
+I’m Dorothy Gundy.
+
+Dorothy Gundy adapted this report, with materials from VOA Learning English archive and the National Parks Service. Mario Ritter was the editor.
+================================================================================
+PASS  [3370560] Yosemite: A Park of Extremes
+  genre=Culture, Art & Travel  date=2016-06-10  blocks=40  words=1148
+  authors: ["VOA - Voice of America"]
+  START: Today, we visit one of the most famous national parks in America. You can find it high in the Sierra Nevada Mountains of the western state of California. It is one of the
+  END  : ountain peaks keep their snow until the last hot days of summer.
+
+But, whenever visitors come to Yosemite, they experience great natural beauty in one of America’s first parks.
+
+I'm Caty Weaver.
+
+And I'm Ashley Thompson.
+================================================================================
+TOTAL: 13 PASS / 0 FAIL / 13 URLs
+written to research/phase4-5-woa-genre-diversity/extraction-dry-run.txt

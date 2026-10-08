@@ -1,0 +1,50 @@
+{
+  "recordId": "voa-learning-english-2436970",
+  "sourceId": "voa-learning-english",
+  "sourceName": "VOA Learning English",
+  "sourceUrl": "https://learningenglish.voanews.com/",
+  "title": "Southern States Form a New Nation",
+  "canonicalUrl": "https://learningenglish.voanews.com/a/2436970.html",
+  "externalId": "2436970",
+  "authors": [
+    "From VOA Learning English, this is The Making of a Nation.",
+    "VOA - Voice of America"
+  ],
+  "publishedAt": "2014-09-04",
+  "receivedAt": "2026-10-04",
+  "contentType": "expository",
+  "language": "en",
+  "description": "From VOA Learning English, this is The Making of a Nation.",
+  "classification": {
+    "contentGroup": "articles",
+    "primaryCategory": "history",
+    "secondaryCategories": [
+      "society"
+    ]
+  },
+  "libraryPresentation": {
+    "description": "From VOA Learning English, this is The Making of a Nation.",
+    "imageReference": null,
+    "level": "B1",
+    "genre": "History",
+    "readingTime": "Under 3 min"
+  },
+  "rightsStatus": "verified",
+  "reuseMode": "verified-full-text",
+  "rightsEvidenceUrl": "https://learningenglish.voanews.com/p/6861.html",
+  "rightsEvidenceExcerpt": "Learning English texts, MP3s, photos and videos are in the public domain. You are allowed to reprint them for educational and commercial purposes, with credit to learningenglish.voanews.com. However, stories, photos and video images from news agencies such as AP, Reuters and AFP are copyrighted, so you are not allowed to republish them.",
+  "attributionRequired": true,
+  "attributionText": "Credit to learningenglish.voanews.com",
+  "body": "From VOA Learning English, this is The Making of a Nation. I’m Kelly Jean Kelly.\n\nAnd I’m Christopher Cruise.\n\nSouth Carolina withdrew from the United States on December 20, 1860. South Carolina seceded because a Republican, Abraham Lincoln, had been elected president. Republicans wanted to stop slavery from spreading.\n\nBut South Carolina and other southern states said they had a right to take property -- which, they believed, included slaves -- anywhere.\n\nU.S. lawmakers debate\n\nWhen South Carolina seceded, Abraham Lincoln had not yet taken office. James Buchanan was still president. His advisors were deeply divided about what to do.\n\nThe southern advisors wanted him to recognize South Carolina’s independence. They said the president should order all federal troops out of the state – especially out of Charleston Harbor.\n\nBut northern advisors said the president must not give up any federal property or rights. The attorney general and the secretary of state even threatened to resign if President Buchanan agreed to South Carolina's demands.\n\nBuchanan finally agreed with his northern advisors. He said he would defend U.S. government property against all hostile action.\n\nOn the last day of 1860, he ordered the army to send federal troops and extra supplies to a military base in Charleston Harbor called Fort Sumter.\n\nCongress tried to find a compromise that might prevent war. Lawmakers proposed a new line across the country. South of the line, slavery would be permitted. North of the line, slavery would be illegal.\n\nMany Republicans supported the proposal. But at least one rejected the idea completely. Abraham Lincoln said there could be no compromise on extending slavery.\n\n\"If there is,\" he said, \"then all our hard work is lost. If trouble comes, it is better to let it come now than at some later time.\"\n\nThe South writes a new constitution The trouble came soon. By February 1, 1861, the southern states of Mississippi, Florida, Alabama, Georgia, Louisiana and Texas followed South Carolina out of the Union.\n\nTheir representatives met in Montgomery, Alabama. They agreed to create a new nation. It would be an independent republic called the Confederate States of America.\n\nThe convention approved a constitution for the new nation. The document was like the Constitution of the United States, but with major changes. The Confederate Constitution gave greater importance to the rights of states. And it said there could be no laws against slavery.\n\nJefferson Davis leads the Confederacy\n\nJefferson Davis The convention named former United States senator Jefferson Davis to be president of the Confederate States of America.\n\nDavis did not want civil war. But he was not afraid of it. He said: \"Our separation from the old Union is complete. The time for compromise has passed. Should others try to change our decision with force, they will smell southern gunpowder and feel the steel of southern swords.\"\n\nJefferson Davis left his farm in Mississippi to become president of the Confederate States of America on February 11.\n\nOn that same day, Abraham Lincoln left his home in Illinois to become president of the United States.\n\nI’m Christopher Cruise.\n\nAnd I’m Kelly Jean Kelly.\n\nThis is The Making of a Nation from VOA Learning English.",
+  "mediaAssets": [],
+  "reviewStatus": "approved",
+  "reviewNotes": [
+    "Official article page inspected and its full text extracted verbatim: 24 paragraphs, 528 words.",
+    "Closing producer credit and page byline recorded as authors: [\"From VOA Learning English, this is The Making of a Nation.\",\"VOA - Voice of America\"].",
+    "No AP, Reuters, AFP or other agency credit appears in the byline or credit surfaces.",
+    "No image or media is retained: no item-level asset-rights evidence was recorded, so imageReference is null.",
+    "B1 is a Library-level editorial mapping for this English-learning article, not a claimed formal CEFR label.",
+    "Reading time \"Under 3 min\" is mapped from the full-text word count (528) at 200 WPM.",
+    "Genre \"History\": The Making of a Nation episode on southern secession and the Confederate constitution."
+  ]
+}

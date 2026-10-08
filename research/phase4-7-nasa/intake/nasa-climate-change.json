@@ -1,0 +1,52 @@
+{
+  "recordId": "nasa-climate-change",
+  "sourceId": "nasa",
+  "sourceName": "NASA",
+  "sourceUrl": "https://www.nasa.gov/",
+  "title": "Climate Change",
+  "canonicalUrl": "https://science.nasa.gov/climate-change/",
+  "externalId": "climate-change",
+  "authors": [
+    "NASA"
+  ],
+  "publishedAt": "2026-06-03",
+  "language": "en",
+  "description": "From the unique vantage point in space, NASA collects critical long-term observations of our changing planet.",
+  "contentType": "expository",
+  "classification": {
+    "contentGroup": "articles",
+    "primaryCategory": "environment",
+    "secondaryCategories": [
+      "science"
+    ]
+  },
+  "libraryPresentation": {
+    "description": "From the unique vantage point in space, NASA collects critical long-term observations of our changing planet.",
+    "genre": "Environment",
+    "level": "B2",
+    "readingTime": "Under 3 min",
+    "imageReference": null
+  },
+  "receivedAt": "2026-10-05",
+  "rightsStatus": "verified",
+  "reuseMode": "verified-full-text",
+  "rightsBasis": "permission",
+  "rightsEvidenceUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+  "rightsEvidenceExcerpt": "NASA content - images, audio, video, and media files used in the rendition of 3-dimensional models, such as texture maps and polygon data in any format - generally are not subject to copyright in the United States. You may use this material for educational or informational purposes, including photo collections, textbooks, public exhibits, computer graphical simulations and Internet Web pages. News outlets, schools, and text-book authors may use NASA content without needing explicit permission, subject to compliance with these guidelines. NASA content used in a factual manner that does not imply endorsement may be used without needing explicit permission. NASA should be acknowledged as the source of the material.",
+  "attributionRequired": true,
+  "attributionText": "NASA",
+  "body": "From the unique vantage point in space, NASA collects critical long-term observations of our changing planet.\n\nNASA applies ingenuity and expertise gained from decades of planetary and deep-space exploration to the study of our home planet. The Earth Science Division operates more than 20 satellites in orbit, sponsors hundreds of research programs and studies, and funds opportunities to put data to use for societal needs. We develop new ways to observe the oceans, land cover, ice, atmosphere, and life, and we measure how changes in one drive changes in others over the short and long term. While listening to and collaborating with industry leaders, international partners, academic institutions, and other users of our data, we deepen knowledge of our planet, drive innovations, and deliver science to help inform decisions that benefit the nation and the world.\n\nLearn more about how NASA Earth science helps Americans respond to challenges.",
+  "mediaAssets": [],
+  "reviewStatus": "approved",
+  "reviewNotes": [
+    "Official NASA page fetched and its full text extracted verbatim: 3 paragraphs, 148 words.",
+    "NASA page provenance recorded verbatim: [\"NASA Page Editor: James Riordon\",\"Responsible NASA Official: Dana Bolles\"]; \"Page Last Updated\" 2026-06-03.",
+    "Page text inspected individually for copyright notices, third-party credits, courtesy/licence notes, syndicated or contributed/guest content and news-agency credits: none found.",
+    "In-body link density checked: 1 links across 3 blocks - this is an article, not a topic hub.",
+    "No image, insignia, logotype or NASA identifier is retained: no item-level asset-rights evidence was recorded and those marks are expressly not in the public domain, so imageReference is null.",
+    "B2 is a Library-level editorial mapping for this English-learning article, not a claimed formal CEFR label.",
+    "Reading time \"Under 3 min\" is mapped from the full-text word count (148) at 200 WPM.",
+    "Genre \"Environment\": States NASA’s role in collecting long-term observations of a changing planet.",
+    "Reuse is educational/informational, factual, and does not imply NASA endorsement; NASA is acknowledged as the source."
+  ]
+}

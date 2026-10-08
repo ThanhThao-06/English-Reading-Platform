@@ -1,0 +1,201 @@
+.genre-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-primary);
+}
+
+.genre-main {
+  flex: 1;
+  width: 100%;
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding: 32px 24px 80px;
+}
+
+/* Breadcrumb: Library / Genre */
+.genre-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+  color: var(--text-muted);
+  font-size: 0.8125rem;
+}
+
+.genre-breadcrumb a {
+  color: var(--text-secondary);
+  transition: color 0.2s ease;
+}
+
+.genre-breadcrumb a:hover {
+  color: var(--accent-primary-hover);
+}
+
+.genre-breadcrumb [aria-current='page'] {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.genre-breadcrumb-separator {
+  color: var(--border-subtle);
+}
+
+/* Back to Library */
+.genre-back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px 8px 12px;
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: var(--radius-md);
+  border: 1px solid transparent;
+  transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.genre-back-btn:hover {
+  color: var(--text-primary);
+  background-color: var(--bg-card);
+  border-color: var(--border-subtle);
+}
+
+.genre-back-btn:focus-visible {
+  outline: 2px solid var(--accent-primary);
+  outline-offset: 2px;
+}
+
+.genre-back-btn svg {
+  width: 16px;
+  height: 16px;
+  transition: transform 0.2s ease;
+}
+
+.genre-back-btn:hover svg {
+  transform: translateX(-2px);
+}
+
+/* Topic header */
+.genre-hero {
+  margin: 24px 0 28px;
+}
+
+.genre-hero-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 14px;
+  margin-bottom: 14px;
+  color: var(--accent-primary-hover);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  background: var(--accent-subtle);
+  border: 1px solid rgba(56, 139, 253, 0.3);
+  border-radius: var(--radius-full);
+}
+
+.genre-hero-title {
+  font-size: 2.25rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  margin-bottom: 10px;
+}
+
+.genre-hero-subtitle {
+  color: var(--text-secondary);
+  font-size: 1rem;
+}
+
+.genre-data-error {
+  margin-top: 12px;
+  color: var(--badge-c2-text);
+  font-size: 0.8125rem;
+}
+
+/* Scoped search, centred above the horizontal filter row. */
+.genre-search-section {
+  margin-bottom: 24px;
+}
+
+/* Empty states: unknown topic, and a search/filter with no matches. */
+.genre-empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 64px 20px;
+  text-align: center;
+  background-color: var(--bg-secondary);
+  border: 1px dashed var(--border-subtle);
+  border-radius: var(--radius-lg);
+  margin: 20px 0;
+}
+
+.genre-empty-state .empty-state-icon {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-muted);
+  background-color: rgba(240, 246, 252, 0.05);
+  border-radius: var(--radius-full);
+}
+
+.genre-empty-state .empty-state-icon svg {
+  width: 32px;
+  height: 32px;
+}
+
+.genre-empty-title {
+  margin-bottom: 8px;
+  color: var(--text-primary);
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.genre-empty-text {
+  max-width: 460px;
+  margin-bottom: 24px;
+  color: var(--text-secondary);
+  font-size: 0.9375rem;
+}
+
+.genre-empty-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  color: #ffffff;
+  font-size: 0.875rem;
+  font-weight: 600;
+  background-color: var(--accent-primary);
+  border-radius: var(--radius-md);
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.genre-empty-btn:hover {
+  background-color: var(--accent-primary-hover);
+  transform: translateY(-1px);
+}
+
+.genre-empty-btn:active {
+  transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+  .genre-main {
+    padding: 24px 16px 48px;
+  }
+
+  .genre-hero-title {
+    font-size: 1.75rem;
+  }
+
+  .genre-hero-subtitle {
+    font-size: 0.9375rem;
+  }
+}

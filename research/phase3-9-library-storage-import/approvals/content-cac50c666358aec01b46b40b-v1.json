@@ -1,0 +1,9 @@
+{
+  "approvalStatus": "APPROVED_FOR_LIBRARY_IMPORT",
+  "packageId": "content-cac50c666358aec01b46b40b",
+  "packageVersion": 1,
+  "packageSha256": "e005921e84f5c92a3a2d80c4a318695697a5dad2f6371266696d24f26537558c",
+  "approvedAt": "2026-10-06T00:00:00.000Z",
+  "approver": "User (explicit request to import a Gastronomy + Urbanism batch for educational reading)",
+  "decision": "The user explicitly authorized this real import batch for educational reading. The 10 articles (5 Gastronomy & Food History, 5 Urbanism & Everyday Objects) were selected from the existing Phase 4.8 audit artifacts (pdr-audit.json, wiktionary-audit.json, pdr-licence-probe.json); no new research or new source was used to form the selection. Every selected item was then fetched from its official source page and its full text extracted, then reviewed individually. For The Public Domain Review the item's OWN page had to carry article-level CC BY or CC BY-SA evidence: the publisher states that some of its Articles are \"published under more restrictive terms\", so the site-wide statement was never used to decide an item, and any \"All rights reserved\", \"Reprinted by permission\" or NonCommercial-only item was excluded. For Wiktionary the CC BY-SA statement carried on each page was required, and third-party or non-free content (fair-use quotations, usage examples carrying quotations, File/Image links) was excluded from the stored body rather than assumed compatible. No image, audio or other media is reused from either source: imageReference is null for every item."
+}

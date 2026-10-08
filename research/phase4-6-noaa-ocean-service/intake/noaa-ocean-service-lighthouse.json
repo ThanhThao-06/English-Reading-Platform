@@ -1,0 +1,52 @@
+{
+  "recordId": "noaa-ocean-service-lighthouse",
+  "sourceId": "noaa-ocean-service",
+  "sourceName": "NOAA National Ocean Service",
+  "sourceUrl": "https://oceanservice.noaa.gov/",
+  "title": "Do We Still Need Lighthouses?",
+  "canonicalUrl": "https://oceanservice.noaa.gov/facts/lighthouse.html",
+  "externalId": "lighthouse",
+  "authors": [
+    "NOAA"
+  ],
+  "publishedAt": "2026-09-23",
+  "language": "en",
+  "description": "Though numerous lighthouses still serve seafarers, modern electronic aids to navigation play a larger role in maritime safety in the 21st century.",
+  "contentType": "expository",
+  "classification": {
+    "contentGroup": "articles",
+    "primaryCategory": "travel",
+    "secondaryCategories": [
+      "history",
+      "culture"
+    ]
+  },
+  "libraryPresentation": {
+    "description": "Though numerous lighthouses still serve seafarers, modern electronic aids to navigation play a larger role in maritime safety in the 21st century.",
+    "genre": "Culture, Art & Travel",
+    "level": "B1",
+    "readingTime": "Under 3 min",
+    "imageReference": null
+  },
+  "receivedAt": "2026-10-05",
+  "rightsStatus": "verified",
+  "reuseMode": "verified-full-text",
+  "rightsBasis": "public-domain",
+  "rightsEvidenceUrl": "https://oceanservice.noaa.gov/disclaimer.html",
+  "rightsEvidenceExcerpt": "Information presented on this website is considered public information and may be distributed or copied, unless specifically noted otherwise. This website is maintained by NOAA’s National Ocean Service.",
+  "attributionRequired": true,
+  "attributionText": "NOAA Ocean Service, oceanservice.noaa.gov",
+  "body": "Though numerous lighthouses still serve seafarers, modern electronic aids to navigation play a larger role in maritime safety in the 21st century.\n\nLighthouses and beacons are towers with bright lights and fog horns located at important or dangerous locations. They can be found on rocky cliffs or sandy shoals on land, on wave-swept reefs in the sea, and at entrances to harbors and bays. They serve to warn mariners of dangerous shallows and perilous rocky coasts, and they help guide vessels safely into and out of harbors. The messages of these long-trusted aids to navigation are simple: either STAY AWAY, DANGER, BEWARE! or COME THIS WAY!\n\nWhile lighthouses still guide seafarers, nowadays, the Global Positioning System (GPS), NOAA’s nautical charts, lighted navigational aids, buoys, radar beacons, and other aids to navigation effectively warn mariners of dangerous areas and guide them to safe harbors. Some 48,000 federal buoys, beacons, and electronic aids of the marine transportation system mark more than 25,000 miles of waterways, harbor channels, and inland, intracoastal and coastal waterways, and serve more than 300 ports.\n\nOn August 7, 1789, Congress approved the Lighthouse Act—the first public works program undertaken by the new federal government—which established and supported lighthouses, beacons, buoys, and public piers. Members of Congress thought the bill was so important that they passed the measure even before they established pay for themselves!\n\nAugust 7 Is recognized as National Lighthouse Day. Even with the advent of advanced navigation technology, many lighthouses still sparkle for seafarers.\n\nDid you know?\n\nWhile many lighthouses still shine, cartographers in NOAA’s Office of Coast Survey practice the art and science of designing, compiling, updating, and distributing Electronic Navigational Charts. These charts are specifically tailored to the needs of marine navigation.",
+  "mediaAssets": [],
+  "reviewStatus": "approved",
+  "reviewNotes": [
+    "Official NOAA Ocean Service page fetched and its full text extracted verbatim: 7 paragraphs, 288 words.",
+    "Page-level author credit recorded verbatim as authors: [\"NOAA\"]; page citation date 2026-09-23.",
+    "Page text inspected individually for copyright, third-party credit, courtesy/licence and restriction notices: none found.",
+    "Page-level provenance signals recorded: []. Any image/media credit on the page is excluded because no asset is reused.",
+    "No image or media is retained: no item-level asset-rights evidence was recorded, so imageReference is null.",
+    "B1 is a Library-level editorial mapping for this English-learning article, not a claimed formal CEFR label.",
+    "Reading time \"Under 3 min\" is mapped from the full-text word count (288) at 200 WPM.",
+    "Genre \"Culture, Art & Travel\": Human-interest piece on lighthouses as coastal landmarks and visitor destinations."
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "recordId": "noaa-ocean-service-seafoam",
+  "sourceId": "noaa-ocean-service",
+  "sourceName": "NOAA National Ocean Service",
+  "sourceUrl": "https://oceanservice.noaa.gov/",
+  "title": "What is sea foam?",
+  "canonicalUrl": "https://oceanservice.noaa.gov/facts/seafoam.html",
+  "externalId": "seafoam",
+  "authors": [
+    "NOAA"
+  ],
+  "publishedAt": "2026-09-23",
+  "language": "en",
+  "description": "Sea foam forms when dissolved organic matter in the ocean is churned up.",
+  "contentType": "expository",
+  "classification": {
+    "contentGroup": "articles",
+    "primaryCategory": "science",
+    "secondaryCategories": [
+      "environment"
+    ]
+  },
+  "libraryPresentation": {
+    "description": "Sea foam forms when dissolved organic matter in the ocean is churned up.",
+    "genre": "Science & Nature",
+    "level": "A2",
+    "readingTime": "Under 3 min",
+    "imageReference": null
+  },
+  "receivedAt": "2026-10-05",
+  "rightsStatus": "verified",
+  "reuseMode": "verified-full-text",
+  "rightsBasis": "public-domain",
+  "rightsEvidenceUrl": "https://oceanservice.noaa.gov/disclaimer.html",
+  "rightsEvidenceExcerpt": "Information presented on this website is considered public information and may be distributed or copied, unless specifically noted otherwise. This website is maintained by NOAA’s National Ocean Service.",
+  "attributionRequired": true,
+  "attributionText": "NOAA Ocean Service, oceanservice.noaa.gov",
+  "body": "Sea foam forms when dissolved organic matter in the ocean is churned up.\n\nIf you scoop up some water from the ocean in a clear glass and look at it closely, you'll see that it's chock full of tiny particles. Seawater contains dissolved salts, proteins, fats, dead algae, detergents and other pollutants, and a bunch of other bits and pieces of organic and artificial matter. If you shake this glass of ocean water vigorously, small bubbles will form on the surface of the liquid.\n\nSea foam forms in this way - but on a much grander scale - when the ocean is agitated by wind and waves. Each coastal region has differing conditions governing the formation of sea foams.\n\nAlgal blooms are one common source of thick sea foams. When large blooms of algae decay offshore, great amounts of decaying algal matter often wash ashore. Foam forms as this organic matter is churned up by the surf.\n\nMost sea foam is not harmful to humans and is often an indication of a productive ocean ecosystem. But when large harmful algal blooms decay near shore, there are potential for impacts to human health and the environment. Along Gulf coast beaches during blooms of Karenia brevis, for example, popping sea foam bubbles are one way that algal toxins become airborne. The resulting aerosol can irritate the eyes of beach goers and poses a health risk for those with asthma or other respiratory conditions. Scientists studying the cause of a seabird die-offs off California in 2007 and in the Pacific Northwest in 2009 also found a soap-like foam from a decaying Akashiwo sanguinea algae bloom had removed the waterproofing on feathers, making it harder for birds to fly. This led to the onset of fatal hypothermia in many birds.",
+  "mediaAssets": [],
+  "reviewStatus": "approved",
+  "reviewNotes": [
+    "Official NOAA Ocean Service page fetched and its full text extracted verbatim: 5 paragraphs, 296 words.",
+    "Page-level author credit recorded verbatim as authors: [\"NOAA\"]; page citation date 2026-09-23.",
+    "Page text inspected individually for copyright, third-party credit, courtesy/licence and restriction notices: none found.",
+    "Page-level provenance signals recorded: []. Any image/media credit on the page is excluded because no asset is reused.",
+    "No image or media is retained: no item-level asset-rights evidence was recorded, so imageReference is null.",
+    "A2 is a Library-level editorial mapping for this English-learning article, not a claimed formal CEFR label.",
+    "Reading time \"Under 3 min\" is mapped from the full-text word count (296) at 200 WPM.",
+    "Genre \"Science & Nature\": Short, plain-language explainer on what sea foam is and how it forms."
+  ]
+}

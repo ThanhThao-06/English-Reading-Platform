@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "packageId": "content-696546c0c5e0fd78b12c2a1f",
+  "version": 1,
+  "createdAt": "2026-10-05T00:00:00.000Z",
+  "supersedes": null,
+  "packageStatus": "ELIGIBLE",
+  "eligibleForPhase38": true,
+  "libraryPresentation": {
+    "description": "For our research community NASA is an exploration agency, and one of our missions is to know our home.",
+    "genre": "Environment",
+    "level": "B2",
+    "readingTime": "5–10 min",
+    "imageReference": null
+  },
+  "content": {
+    "recordId": "nasa-earth-science",
+    "title": "NASA Earth Science",
+    "contentType": "expository",
+    "contentGroup": "articles",
+    "categories": {
+      "primary": "environment",
+      "secondary": [
+        "science"
+      ]
+    },
+    "language": "en",
+    "authors": [
+      "NASA"
+    ],
+    "reuseMode": "verified-full-text",
+    "body": "For our research community\n\nNASA is an exploration agency, and one of our missions is to know our home. We develop novel tools and techniques for understanding how our planet works — for the benefit of humanity and for insights we need to explore other moons and planets. NASA’s Earth Science Division operates more than 20 satellites in orbit, sponsors hundreds of research programs and studies, and funds opportunities to put data to use for societal needs. We develop new ways to observe the oceans, land cover, ice, atmosphere, and life, and we measure how changes in one drive changes in others over the short and long term. While listening to and collaborating with industry leaders, international partners, academic institutions, and other users of our data, we drive innovations and deliver science to help inform decisions that benefit the nation and the world.\n\nLearn more about how NASA Earth science helps Americans respond to challenges.\n\nNASA’s Earth Science Division (ESD) missions help us to understand our planet’s interconnected systems, from a global scale down to minute processes.\n\nESD delivers the technology, expertise, global observations, and applications that help us map the myriad connections between our planet’s vital processes and the climate effects of ongoing natural and human-caused changes.\n\nEarth Science Missions\n\nReview the full catalog of NASA’s Earth Science Division (ESD) missions that help us to understand our planet’s interconnected systems\n\nLearn More\n\nUsing observations from satellites, instruments on the International Space Station, airplanes, balloons, ships and on land, ESD researchers collect data about the science of our planet’s atmospheric motion and composition; land cover, land use and vegetation; ocean currents, temperatures and upper-ocean life; and ice on land and sea. These data sets, which cover even the most remote areas of Earth, are freely and openly available to anyone.\n\nESD offers end-to-end development, launch, data collection, analysis, and application of its missions, including those with partners in U.S. and international government, and the private sector. ESD also sponsors research and extends science and technology education to learners of all ages, inspiring the next generation of explorers.\n\nScience Questions\n\nNASA’s Science Mission Directorate Strategic Plan reflects the agency’s science agenda, as proscribed by the Executive and Legislative branches. Published every four years, the SMD plan is designed to complement the agency’s overall strategic plan and is informed by the most recent Decadal Survey.\n\nNASA’s strategic objective for Earth science is to advance knowledge of Earth as a system in order to meet the challenges of environmental change and to improve life on our planet.\n\nThe Earth Science Division (ESD) programs address this objective by asking the following key science questions:\n\nHow is the global Earth system changing?\n\nWhat causes these changes in the Earth system?\n\nHow will the Earth system change in the future?\n\nHow can Earth system science provide societal benefit?\n\nThese science questions translate into five science spheres to guide the Earth Science Division’s selection of investigations and other programmatic decisions:\n\nAtmosphere fosters research and innovation targeting the dynamics and thermodynamics of the atmosphere, its physical and chemical composition, and the interdependent impacts that these have on the Earth’s radiative balance, air quality, and weather.\n\nBiosphere provides foundational knowledge on interactions between and within terrestrial and aquatic ecosystems, along with changes in their biogeochemistry and biodiversity. The goal is to further understand the Earth system in which both human-induced and natural changes influence productivity and the availability of natural resources.\n\nCryosphere investigates polar ice, including the Antarctic and Greenland ice sheets, polar glaciers, and sea ice in the Arctic and Southern Oceans, with a focus on satellite and airborne observations. Cryosphere also seeks to improve our understanding of processes, advance prediction, and link the cryosphere to the Earth system.\n\nGeosphere studies processes and changes in the Earth’s core, mantle, and crust along with surface topography and geology, and the hazards they generate. Geosphere relies on essential measurements including gravity, GNSS, InSAR, lidar, stereo optical, and hyperspectral observations. Geosphere also contributes to geodesy and geodynamics research along with cross-Sphere research.\n\nHydrosphere improves the observation, understanding, and prediction of water and energy in the Earth System across land, ocean, and the atmosphere through the integration of measurements from satellites, surface networks, and airborne campaigns.\n\nNASA Earth System Observatory\n\nNASA is developing the Earth System Observatory, a suite of satellite missions providing critical data on climate change, severe weather and other natural hazards, wildfires, and global food production.\n\nThese observations will address the most pressing questions about our changing planet, as identified in the 2017 Earth Science Decadal Survey by the National Academies of Science, Engineering, and Medicine. The Observatory's measurements will focus on five areas: Aerosols; Cloud, Convection, and Precipitation; Mass Change; Surface Biology and Geology; and Surface Deformation and Change.\n\nEach of the missions will deliver important environmental measurements. Taken together, as a single Observatory, NASA will have a holistic, 3D view of Earth to better understand how our planet’s complex systems work together and improve our capability to predict how our climate may change. NASA’s Open Source Science strategy is the key to bringing the data from these missions together into a single observatory to help understand the earth as a system and accelerate our ability to use this understanding. These observations will better inform decision-makers on how our planet is changing, with greater precision on previously unimaginable scales – from entire continents down to individual trees, from atmosphere to bedrock.\n\nLearn more about NASA's Earth System Observatory.\n\nLearn more\n\nAbout ESD\n\nOur leadership and division organization.\n\nResearch Opportunities in Space and Earth Science (ROSES)\n\nEarly Career Opportunities",
+    "bodyReference": null
+  },
+  "source": {
+    "sourceId": "nasa",
+    "sourceName": "NASA",
+    "sourceUrl": "https://www.nasa.gov/",
+    "canonicalUrl": "https://science.nasa.gov/earth-science/",
+    "externalId": "earth-science",
+    "doi": null
+  },
+  "rights": {
+    "verificationStatus": "verified",
+    "permittedReuseMode": "verified-full-text",
+    "rightsBasis": "permission",
+    "sourcePolicy": {
+      "rightsStatus": "verified",
+      "maxReuseMode": "verified-full-text"
+    },
+    "license": {
+      "type": null,
+      "identifier": null,
+      "url": null
+    },
+    "attributionRequired": true,
+    "attributionText": "NASA",
+    "evidence": [
+      {
+        "evidenceId": "nasa-earth-science-metadata",
+        "evidenceType": "item-metadata",
+        "sourceUrl": "https://science.nasa.gov/earth-science/",
+        "reference": "Item metadata captured from the canonical source page.",
+        "excerpt": null,
+        "retrievedAt": "2026-10-05",
+        "scope": "item",
+        "appliesToRecordId": "nasa-earth-science"
+      },
+      {
+        "evidenceId": "nasa-earth-science-item-rights",
+        "evidenceType": "item-rights",
+        "sourceUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "reference": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "excerpt": "NASA content - images, audio, video, and media files used in the rendition of 3-dimensional models, such as texture maps and polygon data in any format - generally are not subject to copyright in the United States. You may use this material for educational or informational purposes, including photo collections, textbooks, public exhibits, computer graphical simulations and Internet Web pages. News outlets, schools, and text-book authors may use NASA content without needing explicit permission, subject to compliance with these guidelines. NASA content used in a factual manner that does not imply endorsement may be used without needing explicit permission. NASA should be acknowledged as the source of the material.",
+        "retrievedAt": "2026-10-05",
+        "scope": "item",
+        "appliesToRecordId": "nasa-earth-science"
+      }
+    ]
+  },
+  "validation": {
+    "validator": "Phase 3.5 validateIntake",
+    "result": "PASS",
+    "errorCodes": []
+  },
+  "review": {
+    "reviewStatus": "approved",
+    "reviewer": "User (explicit request to import the next real article batch from NASA)",
+    "decision": "The user explicitly authorized a real NASA import batch for educational and informational use. Each official NASA page was fetched and its full text extracted verbatim, then reviewed individually: NASA page provenance and a readable citation date are required, and any third-party credit, courtesy/licence notice, syndicated or contributed content, or topic-hub shape excludes the item. NASA Images and Media Usage Guidelines are recorded as the source-policy evidence. No NASA image, insignia or identifier is reused: imageReference is null for every item.",
+    "reviewedAt": "2026-10-05T00:00:00.000Z"
+  },
+  "provenance": {
+    "sourceRecordId": "nasa-earth-science",
+    "intakeRecordId": "nasa-earth-science",
+    "intakeSchemaVersion": "phase3.5-independent-intake-v1",
+    "intakeValidationResult": "PASS",
+    "dryRunResult": "PASS",
+    "dryRunRecordId": "nasa-earth-science",
+    "reviewStatus": "approved",
+    "packageCreatedAt": "2026-10-05T00:00:00.000Z",
+    "sourceManifest": "research/phase4-7-nasa/intake/nasa-saturn.json; research/phase4-7-nasa/intake/nasa-black-holes.json; research/phase4-7-nasa/intake/nasa-sun.json; research/phase4-7-nasa/intake/nasa-moon.json; research/phase4-7-nasa/intake/nasa-exoplanets.json; research/phase4-7-nasa/intake/nasa-dark-matter.json; research/phase4-7-nasa/intake/nasa-earth-science.json; research/phase4-7-nasa/intake/nasa-climate-change.json; research/phase4-7-nasa/intake/nasa-skywatching.json; research/phase4-7-nasa/intake/nasa-machine-learning.json"
+  }
+}

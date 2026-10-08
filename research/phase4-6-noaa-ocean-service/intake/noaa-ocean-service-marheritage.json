@@ -1,0 +1,51 @@
+{
+  "recordId": "noaa-ocean-service-marheritage",
+  "sourceId": "noaa-ocean-service",
+  "sourceName": "NOAA National Ocean Service",
+  "sourceUrl": "https://oceanservice.noaa.gov/",
+  "title": "What is maritime heritage?",
+  "canonicalUrl": "https://oceanservice.noaa.gov/facts/marheritage.html",
+  "externalId": "marheritage",
+  "authors": [
+    "NOAA"
+  ],
+  "publishedAt": "2026-09-23",
+  "language": "en",
+  "description": "Maritime heritage preserves and protects valuable historical, cultural, and archaeological resources within our coastal, marine, and Great Lakes environments.",
+  "contentType": "expository",
+  "classification": {
+    "contentGroup": "articles",
+    "primaryCategory": "history",
+    "secondaryCategories": [
+      "culture"
+    ]
+  },
+  "libraryPresentation": {
+    "description": "Maritime heritage preserves and protects valuable historical, cultural, and archaeological resources within our coastal, marine, and Great Lakes environments.",
+    "genre": "History",
+    "level": "B1",
+    "readingTime": "Under 3 min",
+    "imageReference": null
+  },
+  "receivedAt": "2026-10-05",
+  "rightsStatus": "verified",
+  "reuseMode": "verified-full-text",
+  "rightsBasis": "public-domain",
+  "rightsEvidenceUrl": "https://oceanservice.noaa.gov/disclaimer.html",
+  "rightsEvidenceExcerpt": "Information presented on this website is considered public information and may be distributed or copied, unless specifically noted otherwise. This website is maintained by NOAA’s National Ocean Service.",
+  "attributionRequired": true,
+  "attributionText": "NOAA Ocean Service, oceanservice.noaa.gov",
+  "body": "Maritime heritage preserves and protects valuable historical, cultural, and archaeological resources within our coastal, marine, and Great Lakes environments.\n\nMaritime heritage includes not only physical resources such as historic shipwrecks and prehistoric archaeological sites, but also archival documents and oral histories. Maritime heritage can also include the stories of indigenous cultures that have lived and used the oceans for thousands of years.\n\nThere is a maritime heritage component in each of our national marine sanctuaries and two national monuments, whether this is a shipwreck or study of indigenous cultures. The first sanctuary that was created with a maritime heritage component was the Monitor National Marine Sanctuary off the coast of North Carolina in 1975.\n\nMaritime heritage resources are best studied without disturbing them and leaving them in place. In some rare cases, careful archaeological recovery followed by long-term conservation is done to preserve these artifacts in a museum for future generations.\n\nMaritime heritage resources, when properly studied and interpreted, add an important dimension to our understanding and appreciation of our nation’s rich maritime legacy, and make us more aware of the critical need for us to be wise stewards of our ocean planet.",
+  "mediaAssets": [],
+  "reviewStatus": "approved",
+  "reviewNotes": [
+    "Official NOAA Ocean Service page fetched and its full text extracted verbatim: 5 paragraphs, 193 words.",
+    "Page-level author credit recorded verbatim as authors: [\"NOAA\"]; page citation date 2026-09-23.",
+    "Page text inspected individually for copyright, third-party credit, courtesy/licence and restriction notices: none found.",
+    "Page-level provenance signals recorded: []. Any image/media credit on the page is excluded because no asset is reused.",
+    "No image or media is retained: no item-level asset-rights evidence was recorded, so imageReference is null.",
+    "B1 is a Library-level editorial mapping for this English-learning article, not a claimed formal CEFR label.",
+    "Reading time \"Under 3 min\" is mapped from the full-text word count (193) at 200 WPM.",
+    "Genre \"History\": Introduces the maritime heritage program and the history it protects."
+  ]
+}

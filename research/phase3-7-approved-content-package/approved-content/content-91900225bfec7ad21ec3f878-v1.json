@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "packageId": "content-91900225bfec7ad21ec3f878",
+  "version": 1,
+  "createdAt": "2026-10-05T00:00:00.000Z",
+  "supersedes": null,
+  "packageStatus": "ELIGIBLE",
+  "eligibleForPhase38": true,
+  "libraryPresentation": {
+    "description": "From the unique vantage point in space, NASA collects critical long-term observations of our changing planet.",
+    "genre": "Environment",
+    "level": "B2",
+    "readingTime": "Under 3 min",
+    "imageReference": null
+  },
+  "content": {
+    "recordId": "nasa-climate-change",
+    "title": "Climate Change",
+    "contentType": "expository",
+    "contentGroup": "articles",
+    "categories": {
+      "primary": "environment",
+      "secondary": [
+        "science"
+      ]
+    },
+    "language": "en",
+    "authors": [
+      "NASA"
+    ],
+    "reuseMode": "verified-full-text",
+    "body": "From the unique vantage point in space, NASA collects critical long-term observations of our changing planet.\n\nNASA applies ingenuity and expertise gained from decades of planetary and deep-space exploration to the study of our home planet. The Earth Science Division operates more than 20 satellites in orbit, sponsors hundreds of research programs and studies, and funds opportunities to put data to use for societal needs. We develop new ways to observe the oceans, land cover, ice, atmosphere, and life, and we measure how changes in one drive changes in others over the short and long term. While listening to and collaborating with industry leaders, international partners, academic institutions, and other users of our data, we deepen knowledge of our planet, drive innovations, and deliver science to help inform decisions that benefit the nation and the world.\n\nLearn more about how NASA Earth science helps Americans respond to challenges.",
+    "bodyReference": null
+  },
+  "source": {
+    "sourceId": "nasa",
+    "sourceName": "NASA",
+    "sourceUrl": "https://www.nasa.gov/",
+    "canonicalUrl": "https://science.nasa.gov/climate-change/",
+    "externalId": "climate-change",
+    "doi": null
+  },
+  "rights": {
+    "verificationStatus": "verified",
+    "permittedReuseMode": "verified-full-text",
+    "rightsBasis": "permission",
+    "sourcePolicy": {
+      "rightsStatus": "verified",
+      "maxReuseMode": "verified-full-text"
+    },
+    "license": {
+      "type": null,
+      "identifier": null,
+      "url": null
+    },
+    "attributionRequired": true,
+    "attributionText": "NASA",
+    "evidence": [
+      {
+        "evidenceId": "nasa-climate-change-metadata",
+        "evidenceType": "item-metadata",
+        "sourceUrl": "https://science.nasa.gov/climate-change/",
+        "reference": "Item metadata captured from the canonical source page.",
+        "excerpt": null,
+        "retrievedAt": "2026-10-05",
+        "scope": "item",
+        "appliesToRecordId": "nasa-climate-change"
+      },
+      {
+        "evidenceId": "nasa-climate-change-item-rights",
+        "evidenceType": "item-rights",
+        "sourceUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "reference": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "excerpt": "NASA content - images, audio, video, and media files used in the rendition of 3-dimensional models, such as texture maps and polygon data in any format - generally are not subject to copyright in the United States. You may use this material for educational or informational purposes, including photo collections, textbooks, public exhibits, computer graphical simulations and Internet Web pages. News outlets, schools, and text-book authors may use NASA content without needing explicit permission, subject to compliance with these guidelines. NASA content used in a factual manner that does not imply endorsement may be used without needing explicit permission. NASA should be acknowledged as the source of the material.",
+        "retrievedAt": "2026-10-05",
+        "scope": "item",
+        "appliesToRecordId": "nasa-climate-change"
+      }
+    ]
+  },
+  "validation": {
+    "validator": "Phase 3.5 validateIntake",
+    "result": "PASS",
+    "errorCodes": []
+  },
+  "review": {
+    "reviewStatus": "approved",
+    "reviewer": "User (explicit request to import the next real article batch from NASA)",
+    "decision": "The user explicitly authorized a real NASA import batch for educational and informational use. Each official NASA page was fetched and its full text extracted verbatim, then reviewed individually: NASA page provenance and a readable citation date are required, and any third-party credit, courtesy/licence notice, syndicated or contributed content, or topic-hub shape excludes the item. NASA Images and Media Usage Guidelines are recorded as the source-policy evidence. No NASA image, insignia or identifier is reused: imageReference is null for every item.",
+    "reviewedAt": "2026-10-05T00:00:00.000Z"
+  },
+  "provenance": {
+    "sourceRecordId": "nasa-climate-change",
+    "intakeRecordId": "nasa-climate-change",
+    "intakeSchemaVersion": "phase3.5-independent-intake-v1",
+    "intakeValidationResult": "PASS",
+    "dryRunResult": "PASS",
+    "dryRunRecordId": "nasa-climate-change",
+    "reviewStatus": "approved",
+    "packageCreatedAt": "2026-10-05T00:00:00.000Z",
+    "sourceManifest": "research/phase4-7-nasa/intake/nasa-saturn.json; research/phase4-7-nasa/intake/nasa-black-holes.json; research/phase4-7-nasa/intake/nasa-sun.json; research/phase4-7-nasa/intake/nasa-moon.json; research/phase4-7-nasa/intake/nasa-exoplanets.json; research/phase4-7-nasa/intake/nasa-dark-matter.json; research/phase4-7-nasa/intake/nasa-earth-science.json; research/phase4-7-nasa/intake/nasa-climate-change.json; research/phase4-7-nasa/intake/nasa-skywatching.json; research/phase4-7-nasa/intake/nasa-machine-learning.json"
+  }
+}

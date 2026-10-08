@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "packageId": "content-743dbc300e077d47b9bf5c27",
+  "version": 1,
+  "createdAt": "2026-10-05T00:00:00.000Z",
+  "supersedes": null,
+  "packageStatus": "ELIGIBLE",
+  "eligibleForPhase38": true,
+  "libraryPresentation": {
+    "description": "Maritime heritage preserves and protects valuable historical, cultural, and archaeological resources within our coastal, marine, and Great Lakes environments.",
+    "genre": "History",
+    "level": "B1",
+    "readingTime": "Under 3 min",
+    "imageReference": null
+  },
+  "content": {
+    "recordId": "noaa-ocean-service-marheritage",
+    "title": "What is maritime heritage?",
+    "contentType": "expository",
+    "contentGroup": "articles",
+    "categories": {
+      "primary": "history",
+      "secondary": [
+        "culture"
+      ]
+    },
+    "language": "en",
+    "authors": [
+      "NOAA"
+    ],
+    "reuseMode": "verified-full-text",
+    "body": "Maritime heritage preserves and protects valuable historical, cultural, and archaeological resources within our coastal, marine, and Great Lakes environments.\n\nMaritime heritage includes not only physical resources such as historic shipwrecks and prehistoric archaeological sites, but also archival documents and oral histories. Maritime heritage can also include the stories of indigenous cultures that have lived and used the oceans for thousands of years.\n\nThere is a maritime heritage component in each of our national marine sanctuaries and two national monuments, whether this is a shipwreck or study of indigenous cultures. The first sanctuary that was created with a maritime heritage component was the Monitor National Marine Sanctuary off the coast of North Carolina in 1975.\n\nMaritime heritage resources are best studied without disturbing them and leaving them in place. In some rare cases, careful archaeological recovery followed by long-term conservation is done to preserve these artifacts in a museum for future generations.\n\nMaritime heritage resources, when properly studied and interpreted, add an important dimension to our understanding and appreciation of our nation’s rich maritime legacy, and make us more aware of the critical need for us to be wise stewards of our ocean planet.",
+    "bodyReference": null
+  },
+  "source": {
+    "sourceId": "noaa-ocean-service",
+    "sourceName": "NOAA National Ocean Service",
+    "sourceUrl": "https://oceanservice.noaa.gov/",
+    "canonicalUrl": "https://oceanservice.noaa.gov/facts/marheritage.html",
+    "externalId": "marheritage",
+    "doi": null
+  },
+  "rights": {
+    "verificationStatus": "verified",
+    "permittedReuseMode": "verified-full-text",
+    "rightsBasis": "public-domain",
+    "sourcePolicy": {
+      "rightsStatus": "verified",
+      "maxReuseMode": "verified-full-text"
+    },
+    "license": {
+      "type": null,
+      "identifier": null,
+      "url": null
+    },
+    "attributionRequired": true,
+    "attributionText": "NOAA Ocean Service, oceanservice.noaa.gov",
+    "evidence": [
+      {
+        "evidenceId": "noaa-ocean-service-marheritage-metadata",
+        "evidenceType": "item-metadata",
+        "sourceUrl": "https://oceanservice.noaa.gov/facts/marheritage.html",
+        "reference": "Item metadata captured from the canonical source page.",
+        "excerpt": null,
+        "retrievedAt": "2026-10-05",
+        "scope": "item",
+        "appliesToRecordId": "noaa-ocean-service-marheritage"
+      },
+      {
+        "evidenceId": "noaa-ocean-service-marheritage-item-rights",
+        "evidenceType": "item-rights",
+        "sourceUrl": "https://oceanservice.noaa.gov/disclaimer.html",
+        "reference": "https://oceanservice.noaa.gov/disclaimer.html",
+        "excerpt": "Information presented on this website is considered public information and may be distributed or copied, unless specifically noted otherwise. This website is maintained by NOAA’s National Ocean Service.",
+        "retrievedAt": "2026-10-05",
+        "scope": "item",
+        "appliesToRecordId": "noaa-ocean-service-marheritage"
+      }
+    ]
+  },
+  "validation": {
+    "validator": "Phase 3.5 validateIntake",
+    "result": "PASS",
+    "errorCodes": []
+  },
+  "review": {
+    "reviewStatus": "approved",
+    "reviewer": "User (explicit request to import NOAA Ocean Service articles)",
+    "decision": "The user explicitly authorized a real NOAA Ocean Service import batch. Each official oceanservice.noaa.gov page was fetched and its full text extracted verbatim, then reviewed individually for reuse rights and provenance: a NOAA author credit and citation date are required, and any copyright, third-party credit, courtesy/licence or restriction notice excludes the item. The official NOS disclaimer is recorded as source-policy evidence. No images or media are reused: imageReference is null for every item.",
+    "reviewedAt": "2026-10-05T00:00:00.000Z"
+  },
+  "provenance": {
+    "sourceRecordId": "noaa-ocean-service-marheritage",
+    "intakeRecordId": "noaa-ocean-service-marheritage",
+    "intakeSchemaVersion": "phase3.5-independent-intake-v1",
+    "intakeValidationResult": "PASS",
+    "dryRunResult": "PASS",
+    "dryRunRecordId": "noaa-ocean-service-marheritage",
+    "reviewStatus": "approved",
+    "packageCreatedAt": "2026-10-05T00:00:00.000Z",
+    "sourceManifest": "research/phase4-6-noaa-ocean-service/intake/noaa-ocean-service-seafoam.json; research/phase4-6-noaa-ocean-service/intake/noaa-ocean-service-oceaneconomy.json; research/phase4-6-noaa-ocean-service/intake/noaa-ocean-service-lighthouse.json; research/phase4-6-noaa-ocean-service/intake/noaa-ocean-service-marheritage.json; research/phase4-6-noaa-ocean-service/intake/noaa-ocean-service-ocean-gliders.json; research/phase4-6-noaa-ocean-service/intake/noaa-ocean-service-lawofsea.json; research/phase4-6-noaa-ocean-service/intake/noaa-ocean-service-coral_medicine.json; research/phase4-6-noaa-ocean-service/intake/noaa-ocean-service-greenland-shark.json; research/phase4-6-noaa-ocean-service/intake/noaa-ocean-service-coral_bleach.json; research/phase4-6-noaa-ocean-service/intake/noaa-ocean-service-amoc.json"
+  }
+}

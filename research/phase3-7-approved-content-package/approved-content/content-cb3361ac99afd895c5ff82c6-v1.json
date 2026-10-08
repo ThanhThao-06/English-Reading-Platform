@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "packageId": "content-cb3361ac99afd895c5ff82c6",
+  "version": 1,
+  "createdAt": "2026-10-05T00:00:00.000Z",
+  "supersedes": null,
+  "packageStatus": "ELIGIBLE",
+  "eligibleForPhase38": true,
+  "libraryPresentation": {
+    "description": "An ocean glider is an autonomous underwater vehicle used to collect ocean data.",
+    "genre": "Technology & AI",
+    "level": "B2",
+    "readingTime": "Under 3 min",
+    "imageReference": null
+  },
+  "content": {
+    "recordId": "noaa-ocean-service-ocean-gliders",
+    "title": "What is an ocean glider?",
+    "contentType": "expository",
+    "contentGroup": "articles",
+    "categories": {
+      "primary": "technology",
+      "secondary": [
+        "science"
+      ]
+    },
+    "language": "en",
+    "authors": [
+      "NOAA"
+    ],
+    "reuseMode": "verified-full-text",
+    "body": "An ocean glider is an autonomous underwater vehicle used to collect ocean data.\n\nDid you know?\n\nIn 2009, a glider named the \"Scarlet Knight\" made history by crossing the Atlantic Ocean from New Jersey to Spain. Learn more.\n\nAn ocean glider is an autonomous, unmanned underwater vehicle used for ocean science. Since gliders require little or no human assistance while traveling, these little robots are uniquely suited for collecting data in remote locations, safely and at relatively low cost.\n\nGliders may be equipped with a wide variety of sensors to monitor temperature, salinity, currents, and other ocean conditions. This information creates a more complete picture of what is happening in the ocean, as well as trends scientists might not otherwise be able to detect from satellites or large research ships.\n\nWhile there are many glider designs that use different techniques to move through the water, all gliders share the ability to travel far distances over long periods, without servicing. Unmanned gliders sample the ocean in places where it is impractical to send people, and at a fraction of the cost, allowing us to collect data even in the middle of a hurricane. It is these characteristics along with advancements in sensor technologies that make gliders increasingly important as tools for collecting ocean data.\n\nThe glider illustrated in this animation is the Slocum glider. It may look like a torpedo, but it doesn’t have propellors or an internal engine. Instead, it uses a pump to gently change its buoyancy over time. This allows the glider to slowly move up and down through the water. And as it does so, the big fins sticking out of the sides of the craft create lift to propel it forward. It’s similar to how a glider in the air works, except the ocean glider can glide up as easily as it glides down.\n\nVideo Transcript\n\nAn ocean glider is autonomous: it travels through the ocean without human help. It is pre-programmed with travel waypoints and then set free to collect ocean data for days, weeks, or months. Different sensors mounted on the glider collect different kinds of data. This glider is fitted with an acoustic sensor to listen for and record noises made by fish during spawning season. After collecting data for a set period of time, the glider completes its journey. The glider then surfaces and transmits its position so people can come pick it up. Mission complete!",
+    "bodyReference": null
+  },
+  "source": {
+    "sourceId": "noaa-ocean-service",
+    "sourceName": "NOAA National Ocean Service",
+    "sourceUrl": "https://oceanservice.noaa.gov/",
+    "canonicalUrl": "https://oceanservice.noaa.gov/facts/ocean-gliders.html",
+    "externalId": "ocean-gliders",
+    "doi": null
+  },
+  "rights": {
+    "verificationStatus": "verified",
+    "permittedReuseMode": "verified-full-text",
+    "rightsBasis": "public-domain",
+    "sourcePolicy": {
+      "rightsStatus": "verified",
+      "maxReuseMode": "verified-full-text"
+    },
+    "license": {
+      "type": null,
+      "identifier": null,
+      "url": null
+    },
+    "attributionRequired": true,
+    "attributionText": "NOAA Ocean Service, oceanservice.noaa.gov",
+    "evidence": [
+      {
+        "evidenceId": "noaa-ocean-service-ocean-gliders-metadata",
+        "evidenceType": "item-metadata",
+        "sourceUrl": "https://oceanservice.noaa.gov/facts/ocean-gliders.html",
+        "reference": "Item metadata captured from the canonical source page.",
+        "excerpt": null,
+        "retrievedAt": "2026-10-05",
+        "scope": "item",
+        "appliesToRecordId": "noaa-ocean-service-ocean-gliders"
+      },
+      {
+        "evidenceId": "noaa-ocean-service-ocean-gliders-item-rights",
+        "evidenceType": "item-rights",
+        "sourceUrl": "https://oceanservice.noaa.gov/disclaimer.html",
+        "reference": "https://oceanservice.noaa.gov/disclaimer.html",
+        "excerpt": "Information presented on this website is considered public information and may be distributed or copied, unless specifically noted otherwise. This website is maintained by NOAA’s National Ocean Service.",
+        "retrievedAt": "2026-10-05",
+        "scope": "item",
+        "appliesToRecordId": "noaa-ocean-service-ocean-gliders"
+      }
+    ]
+  },
+  "validation": {
+    "validator": "Phase 3.5 validateIntake",
+    "result": "PASS",
+    "errorCodes": []
+  },
+  "review": {
+    "reviewStatus": "approved",
+    "reviewer": "User (explicit request to import NOAA Ocean Service articles)",
+    "decision": "The user explicitly authorized a real NOAA Ocean Service import batch. Each official oceanservice.noaa.gov page was fetched and its full text extracted verbatim, then reviewed individually for reuse rights and provenance: a NOAA author credit and citation date are required, and any copyright, third-party credit, courtesy/licence or restriction notice excludes the item. The official NOS disclaimer is recorded as source-policy evidence. No images or media are reused: imageReference is null for every item.",
+    "reviewedAt": "2026-10-05T00:00:00.000Z"
+  },
+  "provenance": {
+    "sourceRecordId": "noaa-ocean-service-ocean-gliders",
+    "intakeRecordId": "noaa-ocean-service-ocean-gliders",
+    "intakeSchemaVersion": "phase3.5-independent-intake-v1",
+    "intakeValidationResult": "PASS",
+    "dryRunResult": "PASS",
+    "dryRunRecordId": "noaa-ocean-service-ocean-gliders",
+    "reviewStatus": "approved",
+    "packageCreatedAt": "2026-10-05T00:00:00.000Z",
+    "sourceManifest": "research/phase4-6-noaa-ocean-service/intake/noaa-ocean-service-seafoam.json; research/phase4-6-noaa-ocean-service/intake/noaa-ocean-service-oceaneconomy.json; research/phase4-6-noaa-ocean-service/intake/noaa-ocean-service-lighthouse.json; research/phase4-6-noaa-ocean-service/intake/noaa-ocean-service-marheritage.json; research/phase4-6-noaa-ocean-service/intake/noaa-ocean-service-ocean-gliders.json; research/phase4-6-noaa-ocean-service/intake/noaa-ocean-service-lawofsea.json; research/phase4-6-noaa-ocean-service/intake/noaa-ocean-service-coral_medicine.json; research/phase4-6-noaa-ocean-service/intake/noaa-ocean-service-greenland-shark.json; research/phase4-6-noaa-ocean-service/intake/noaa-ocean-service-coral_bleach.json; research/phase4-6-noaa-ocean-service/intake/noaa-ocean-service-amoc.json"
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "integration-run.schema.json",
+  "title": "Phase 3.8 Controlled Library Integration Run",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "phase",
+    "runId",
+    "mode",
+    "generatedAt",
+    "outcome",
+    "input",
+    "upstreamPhase36",
+    "summary",
+    "safety",
+    "packageResults"
+  ],
+  "properties": {
+    "phase": { "const": "3.8-controlled-library-integration" },
+    "runId": { "type": "string", "minLength": 1 },
+    "mode": { "enum": ["DRY_RUN", "IMPORT"] },
+    "generatedAt": { "type": "string", "format": "date-time" },
+    "outcome": { "enum": ["DRY_RUN_ONLY", "IMPORT_BLOCKED", "NO_CANDIDATES"] },
+    "input": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["packageDirectory", "packageDirectoryState", "packageCount", "librarySnapshotAvailable", "protectedSourcePolicies"],
+      "properties": {
+        "packageDirectory": { "type": "string" },
+        "packageDirectoryState": { "enum": ["PRESENT", "ABSENT"] },
+        "packageCount": { "type": "integer", "minimum": 0 },
+        "librarySnapshotAvailable": { "const": false },
+        "protectedSourcePolicies": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["rightsStatus", "maxReuseMode"],
+            "properties": {
+              "rightsStatus": { "enum": ["verified", "partially-verified", "unknown", "restricted", "not-allowed"] },
+              "maxReuseMode": { "enum": ["verified-full-text", "metadata-only", "link-only", "unknown", "restricted"] }
+            }
+          }
+        }
+      }
+    },
+    "upstreamPhase36": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": ["dataScope", "summary", "recordResults"],
+      "properties": {
+        "dataScope": { "type": "string" },
+        "summary": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "recordsProcessed",
+            "pass",
+            "blocked",
+            "reviewRequired",
+            "readyForPhase37Review",
+            "approvedForLibraryImport"
+          ],
+          "properties": {
+            "recordsProcessed": { "type": "integer", "minimum": 0 },
+            "pass": { "type": "integer", "minimum": 0 },
+            "blocked": { "type": "integer", "minimum": 0 },
+            "reviewRequired": { "type": "integer", "minimum": 0 },
+            "readyForPhase37Review": { "type": "integer", "minimum": 0 },
+            "approvedForLibraryImport": { "const": 0 }
+          }
+        },
+        "recordResults": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "recordId",
+              "sourceId",
+              "validationResult",
+              "simulatedReviewStatus",
+              "errorCodes",
+              "missingEvidence",
+              "nextAction",
+              "readyForPhase37Review"
+            ],
+            "properties": {
+              "recordId": { "type": "string", "minLength": 1 },
+              "sourceId": { "type": "string", "minLength": 1 },
+              "validationResult": { "enum": ["PASS", "BLOCKED", "REVIEW_REQUIRED"] },
+              "simulatedReviewStatus": { "type": "string" },
+              "errorCodes": { "type": "array", "items": { "type": "string" } },
+              "missingEvidence": { "type": "array", "items": { "type": "string" } },
+              "nextAction": { "type": "string" },
+              "readyForPhase37Review": { "type": "boolean" }
+            }
+          }
+        }
+      }
+    },
+    "summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "packagesDiscovered",
+        "readyForImport",
+        "blocked",
+        "reviewRequired",
+        "exactDuplicates",
+        "possibleDuplicates",
+        "recordsImported",
+        "approvedForLibraryImport"
+      ],
+      "properties": {
+        "packagesDiscovered": { "type": "integer", "minimum": 0 },
+        "readyForImport": { "type": "integer", "minimum": 0 },
+        "blocked": { "type": "integer", "minimum": 0 },
+        "reviewRequired": { "type": "integer", "minimum": 0 },
+        "exactDuplicates": { "type": "integer", "minimum": 0 },
+        "possibleDuplicates": { "type": "integer", "minimum": 0 },
+        "recordsImported": { "const": 0 },
+        "approvedForLibraryImport": { "const": 0 }
+      }
+    },
+    "safety": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "appImported",
+        "libraryModified",
+        "frontendModified",
+        "networkAccessed",
+        "published",
+        "productionWriterConfigured",
+        "partialImport",
+        "rollback"
+      ],
+      "properties": {
+        "appImported": { "const": false },
+        "libraryModified": { "const": false },
+        "frontendModified": { "const": false },
+        "networkAccessed": { "const": false },
+        "published": { "const": false },
+        "productionWriterConfigured": { "const": false },
+        "partialImport": { "const": false },
+        "rollback": { "enum": ["NOT_APPLICABLE", "NOT_PERFORMED"] }
+      }
+    },
+    "packageResults": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "packageId",
+          "recordId",
+          "sourceId",
+          "sourceName",
+          "contentType",
+          "reuseMode",
+          "rightsStatus",
+          "status",
+          "duplicateOutcome",
+          "gates",
+          "errorCodes",
+          "missingEvidence",
+          "nextAction",
+          "readyForPhase37"
+        ],
+        "properties": {
+          "packageId": { "type": ["string", "null"] },
+          "recordId": { "type": ["string", "null"] },
+          "sourceId": { "type": ["string", "null"] },
+          "sourceName": { "type": ["string", "null"] },
+          "contentType": { "type": ["string", "null"] },
+          "reuseMode": { "type": ["string", "null"] },
+          "rightsStatus": { "type": ["string", "null"] },
+          "status": { "enum": ["READY_FOR_IMPORT", "IMPORT_BLOCKED", "REVIEW_REQUIRED", "EXACT_DUPLICATE_SKIPPED"] },
+          "duplicateOutcome": { "enum": ["EXACT_DUPLICATE", "POSSIBLE_DUPLICATE", "NO_DUPLICATE", "NOT_CHECKED"] },
+          "gates": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["name", "status", "errorCodes"],
+              "properties": {
+                "name": {
+                  "enum": [
+                    "PACKAGE_SCHEMA_VALID",
+                    "SOURCE_VALID",
+                    "RIGHTS_VALID",
+                    "EVIDENCE_VALID",
+                    "PROVENANCE_VALID",
+                    "REVIEW_VALID",
+                    "DUPLICATE_CHECK_PASS",
+                    "LIBRARY_MAPPING_VALID"
+                  ]
+                },
+                "status": { "enum": ["PASS", "BLOCKED", "REVIEW_REQUIRED"] },
+                "errorCodes": { "type": "array", "items": { "type": "string" } }
+              }
+            }
+          },
+          "errorCodes": { "type": "array", "items": { "type": "string" } },
+          "missingEvidence": { "type": "array", "items": { "type": "string" } },
+          "nextAction": { "type": "string" },
+          "readyForPhase37": { "const": false }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "packageId": "content-260adcec1e1018a424dd7775",
+  "version": 1,
+  "createdAt": "2026-10-05T00:00:00.000Z",
+  "supersedes": null,
+  "packageStatus": "ELIGIBLE",
+  "eligibleForPhase38": true,
+  "libraryPresentation": {
+    "description": "Etymology From quarentena and quarentīna via quarentine , quarenteine , quarenteine , and quarantina , via proposed quaranta + -ēna , from quadrāgintā .",
+    "genre": "Education",
+    "level": "B2",
+    "readingTime": "Under 3 min",
+    "imageReference": null
+  },
+  "content": {
+    "recordId": "wiktionary-quarantine",
+    "title": "quarantine",
+    "contentType": "educational",
+    "contentGroup": "articles",
+    "categories": {
+      "primary": "language-learning",
+      "secondary": [
+        "history"
+      ]
+    },
+    "language": "en",
+    "authors": [
+      "Wiktionary contributors"
+    ],
+    "reuseMode": "verified-full-text",
+    "body": "Etymology\n\nFrom quarentena and quarentīna via quarentine , quarenteine , quarenteine , and quarantina , via proposed quaranta + -ēna , from quadrāgintā .\n\nIn reference to French politics, calque of quarantaine after edicts of . In reference to a severance of political relations, popularized by the administration's 1937 approach to the Axis powers and the later administration's 1962 approach to Cuba during the .\n\nNoun\n\nA period of 40 days, particularly\n\nThe 40-day period during which a widow is entitled to remain in her deceased husband's home while any dower is collected and returned.\n\n, John Rastell, Exposiciones Terminorum Legum Anglorum, fol. 4v\n\nQuerentyne is where a man dyeth seisyd of a maner place and other landis where of the wyfe ought to be indowed, than the woman shall hold the maner place by .xl. days within which tyme her dower shalbe to her assyned.\n\nThe 40-day period of isolation required after at Venice's lazaret to avoid renewed outbreaks of the bubonic plague and identical policies in other locations.\n\nA 40-day period formerly imposed by the French king upon warring nobles during which they were forbidden from exacting revenge or continuing to fight.\n\n1728, Ephraim Chambers, , \"Quarantaine\"\n\nQuarantain of the King, is a Truce of forty Days appointed by during which it was expressly forbid to take any Revenge of the Relation or Friends of People.\n\nA period, instance, or state of isolation from the general public or from native livestock and flora enacted to prevent the spread of any contagious disease.\n\nA similar period, instance, or state of rigidly enforced or self-enforced detention or isolation.\n\nA place where such isolation is enforced, a lazaret.\n\nA period of time where people are not allowed to leave their homes to contain the spread of an infectious disease.\n\nA blockade of trade, suspension of diplomatic relations, or other action whereby one country seeks to isolate another.\n\nAn isolation of one program, drive, computer, etc. from the rest of a computer network to limit the damage from a bug, computer virus, etc.\n\nThe program, drive, computer, etc. thus isolated.\n\nVerb\n\nTo place into isolation to prevent the spread of any contagious disease.\n\nTo enter or stay in quarantine, particularly to self-quarantine to avoid an epidemic disease.\n\nTo impose a quarantine, to establish quarantine regulations.\n\nmore generally.",
+    "bodyReference": null
+  },
+  "source": {
+    "sourceId": "wiktionary",
+    "sourceName": "Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/",
+    "canonicalUrl": "https://en.wiktionary.org/wiki/quarantine",
+    "externalId": "quarantine",
+    "doi": null
+  },
+  "rights": {
+    "verificationStatus": "verified",
+    "permittedReuseMode": "verified-full-text",
+    "rightsBasis": "license",
+    "sourcePolicy": null,
+    "license": {
+      "type": "creative-commons",
+      "identifier": "CC-BY-SA-4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "attributionRequired": true,
+    "attributionText": "Wiktionary contributors, CC BY-SA 4.0 (via https://en.wiktionary.org/wiki/quarantine)",
+    "evidence": [
+      {
+        "evidenceId": "wiktionary-quarantine-metadata",
+        "evidenceType": "item-metadata",
+        "sourceUrl": "https://en.wiktionary.org/wiki/quarantine",
+        "reference": "Item metadata captured from the canonical source page.",
+        "excerpt": null,
+        "retrievedAt": "2026-10-05",
+        "scope": "item",
+        "appliesToRecordId": "wiktionary-quarantine"
+      },
+      {
+        "evidenceId": "wiktionary-quarantine-item-license",
+        "evidenceType": "item-license",
+        "sourceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "reference": "CC-BY-SA-4.0",
+        "excerpt": "Definitions and other text are available under the Creative Commons Attribution-ShareAlike License ; additional terms may apply.",
+        "retrievedAt": "2026-10-05",
+        "scope": "item",
+        "appliesToRecordId": "wiktionary-quarantine"
+      }
+    ]
+  },
+  "validation": {
+    "validator": "Phase 3.5 validateIntake",
+    "result": "PASS",
+    "errorCodes": []
+  },
+  "review": {
+    "reviewStatus": "approved",
+    "reviewer": "User (explicit request to import a PDR + Wiktionary batch for educational reading)",
+    "decision": "The user explicitly authorized this real import batch for educational reading. Every item was fetched from its official source page and its full text extracted, then reviewed individually. For The Public Domain Review the item's OWN page had to carry article-level CC BY or CC BY-SA evidence: the publisher states that some of its Articles are \"published under more restrictive terms\", so the site-wide statement was never used to decide an item, and any \"All rights reserved\", \"Reprinted by permission\" or NonCommercial-only item was excluded. For Wiktionary the CC BY-SA statement carried on each page was required, and third-party or non-free content (fair-use quotations, usage examples carrying quotations, File/Image links) was excluded from the stored body rather than assumed compatible. No image, audio or other media is reused from either source: imageReference is null for every item.",
+    "reviewedAt": "2026-10-05T00:00:00.000Z"
+  },
+  "provenance": {
+    "sourceRecordId": "wiktionary-quarantine",
+    "intakeRecordId": "wiktionary-quarantine",
+    "intakeSchemaVersion": "phase3.5-independent-intake-v1",
+    "intakeValidationResult": "PASS",
+    "dryRunResult": "PASS",
+    "dryRunRecordId": "wiktionary-quarantine",
+    "reviewStatus": "approved",
+    "packageCreatedAt": "2026-10-05T00:00:00.000Z",
+    "sourceManifest": "research/phase4-8-pdr-wiktionary/intake/public-domain-review-the-mowing-devil.json; research/phase4-8-pdr-wiktionary/intake/public-domain-review-animal-vegetable-lamb.json; research/phase4-8-pdr-wiktionary/intake/public-domain-review-glass-delusion.json; research/phase4-8-pdr-wiktionary/intake/public-domain-review-maskenfest.json; research/phase4-8-pdr-wiktionary/intake/public-domain-review-mail-order-occult.json; research/phase4-8-pdr-wiktionary/intake/wiktionary-salary.json; research/phase4-8-pdr-wiktionary/intake/wiktionary-quarantine.json; research/phase4-8-pdr-wiktionary/intake/wiktionary-window.json; research/phase4-8-pdr-wiktionary/intake/wiktionary-posh.json; research/phase4-8-pdr-wiktionary/intake/wiktionary-gossip.json"
+  }
+}

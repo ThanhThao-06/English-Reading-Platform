@@ -1,0 +1,397 @@
+{
+  "phase": "3.6-content-import-dry-run",
+  "dataScope": "Phase 3.4 source-derived pilot records only; Phase 3.5 synthetic fixtures excluded.",
+  "generatedAt": "2026-10-03T09:44:29.874Z",
+  "outcome": "DRY_RUN_ONLY",
+  "summary": {
+    "recordsProcessed": 8,
+    "pass": 0,
+    "blocked": 2,
+    "reviewRequired": 6,
+    "readyForPhase37Review": 0,
+    "approvedForLibraryImport": 0,
+    "schemaErrorRecords": 6,
+    "rightsRestrictionRecords": 2,
+    "duplicateRecords": 0,
+    "otherErrorRecords": 2,
+    "totalValidationErrors": 16,
+    "errorCountsByCode": {
+      "SOURCE_POLICY_EXCEEDED": 2,
+      "FULL_TEXT_BODY_REQUIRED": 2,
+      "SCHEMA_FIELD_TYPE": 6,
+      "URL_INVALID": 6
+    }
+  },
+  "sourcePolicySnapshots": {
+    "plos-one": {
+      "rightsStatus": "unknown",
+      "maxReuseMode": "link-only"
+    },
+    "voa-learning-english": {
+      "rightsStatus": "partially-verified",
+      "maxReuseMode": "metadata-only"
+    }
+  },
+  "recordResults": [
+    {
+      "recordId": "plos-one-0309377",
+      "sourceId": "plos-one",
+      "source": "PLOS ONE",
+      "title": "First evidence of microplastic inhalation among free-ranging small cetaceans",
+      "contentType": "other",
+      "rightsStatus": "verified",
+      "reuseMode": "verified-full-text",
+      "sourcePolicy": {
+        "rightsStatus": "unknown",
+        "maxReuseMode": "link-only"
+      },
+      "validationResult": "BLOCKED",
+      "validationErrors": [
+        {
+          "code": "SOURCE_POLICY_EXCEEDED",
+          "message": "Requested item reuse is broader than the source-policy ceiling.",
+          "field": "reuseMode",
+          "severity": "error"
+        },
+        {
+          "code": "FULL_TEXT_BODY_REQUIRED",
+          "message": "verified-full-text intake requires a non-empty body supplied in the record.",
+          "field": "body",
+          "severity": "error"
+        }
+      ],
+      "errorCodes": [
+        "SOURCE_POLICY_EXCEEDED",
+        "FULL_TEXT_BODY_REQUIRED"
+      ],
+      "missingEvidence": [
+        "The Phase 3.4 artifact is abstract-only and was deliberately not supplied as intake body under the link-only source ceiling."
+      ],
+      "simulatedReviewStatus": "needs-rights-review",
+      "nextAction": "Do not carry the abstract into intake. Keep the source at unknown/link-only; a human must decide whether to propose link-only handling in a separately reviewed next phase.",
+      "readyForPhase37Review": false,
+      "readinessLabel": null,
+      "approvedForLibraryImport": false,
+      "mappedBodyPresent": false,
+      "pilotExcludedAssetCount": 2
+    },
+    {
+      "recordId": "plos-one-0257734",
+      "sourceId": "plos-one",
+      "source": "PLOS ONE",
+      "title": "Conceptions of university students on microplastics in Germany",
+      "contentType": "other",
+      "rightsStatus": "verified",
+      "reuseMode": "verified-full-text",
+      "sourcePolicy": {
+        "rightsStatus": "unknown",
+        "maxReuseMode": "link-only"
+      },
+      "validationResult": "BLOCKED",
+      "validationErrors": [
+        {
+          "code": "SOURCE_POLICY_EXCEEDED",
+          "message": "Requested item reuse is broader than the source-policy ceiling.",
+          "field": "reuseMode",
+          "severity": "error"
+        },
+        {
+          "code": "FULL_TEXT_BODY_REQUIRED",
+          "message": "verified-full-text intake requires a non-empty body supplied in the record.",
+          "field": "body",
+          "severity": "error"
+        }
+      ],
+      "errorCodes": [
+        "SOURCE_POLICY_EXCEEDED",
+        "FULL_TEXT_BODY_REQUIRED"
+      ],
+      "missingEvidence": [
+        "The Phase 3.4 artifact is abstract-only and was deliberately not supplied as intake body under the link-only source ceiling."
+      ],
+      "simulatedReviewStatus": "needs-rights-review",
+      "nextAction": "Do not carry the abstract into intake. Keep the source at unknown/link-only; a human must decide whether to propose link-only handling in a separately reviewed next phase.",
+      "readyForPhase37Review": false,
+      "readinessLabel": null,
+      "approvedForLibraryImport": false,
+      "mappedBodyPresent": false,
+      "pilotExcludedAssetCount": 1
+    },
+    {
+      "recordId": "voa-8008342",
+      "sourceId": "voa-learning-english",
+      "source": "VOA Learning English",
+      "title": "Everyday Grammar Video: Ramen, A Popular Food in Japan",
+      "contentType": null,
+      "rightsStatus": "partially-verified",
+      "reuseMode": "metadata-only",
+      "sourcePolicy": {
+        "rightsStatus": "partially-verified",
+        "maxReuseMode": "metadata-only"
+      },
+      "validationResult": "REVIEW_REQUIRED",
+      "validationErrors": [
+        {
+          "code": "SCHEMA_FIELD_TYPE",
+          "message": "canonicalUrl must be a non-empty string.",
+          "field": "canonicalUrl",
+          "severity": "error"
+        },
+        {
+          "code": "URL_INVALID",
+          "message": "canonicalUrl must be an absolute HTTP(S) URL without credentials or whitespace.",
+          "field": "canonicalUrl",
+          "severity": "error"
+        }
+      ],
+      "errorCodes": [
+        "SCHEMA_FIELD_TYPE",
+        "URL_INVALID"
+      ],
+      "missingEvidence": [
+        "canonicalUrl is null in Phase 3.4; the recorded RSS/source link has not been verified as canonical.",
+        "No author was recorded in Phase 3.4 metadata.",
+        "contentType is unassigned in Phase 3.4.",
+        "Classification categories are unassigned in Phase 3.4.",
+        "No item-level rights/ownership evidence URL was recorded; third-party authorship clearance remains unresolved."
+      ],
+      "simulatedReviewStatus": "needs-source-review",
+      "nextAction": "Keep metadata-only scope. Resolve canonical URL status and any needed metadata from recorded evidence before a Phase 3.7 review; do not fetch or retain a story body in this dry run.",
+      "readyForPhase37Review": false,
+      "readinessLabel": null,
+      "approvedForLibraryImport": false,
+      "mappedBodyPresent": false,
+      "pilotExcludedAssetCount": 0
+    },
+    {
+      "recordId": "voa-8008344",
+      "sourceId": "voa-learning-english",
+      "source": "VOA Learning English",
+      "title": "Everyday Grammar Video: A Popular Person in Turkey",
+      "contentType": null,
+      "rightsStatus": "partially-verified",
+      "reuseMode": "metadata-only",
+      "sourcePolicy": {
+        "rightsStatus": "partially-verified",
+        "maxReuseMode": "metadata-only"
+      },
+      "validationResult": "REVIEW_REQUIRED",
+      "validationErrors": [
+        {
+          "code": "SCHEMA_FIELD_TYPE",
+          "message": "canonicalUrl must be a non-empty string.",
+          "field": "canonicalUrl",
+          "severity": "error"
+        },
+        {
+          "code": "URL_INVALID",
+          "message": "canonicalUrl must be an absolute HTTP(S) URL without credentials or whitespace.",
+          "field": "canonicalUrl",
+          "severity": "error"
+        }
+      ],
+      "errorCodes": [
+        "SCHEMA_FIELD_TYPE",
+        "URL_INVALID"
+      ],
+      "missingEvidence": [
+        "canonicalUrl is null in Phase 3.4; the recorded RSS/source link has not been verified as canonical.",
+        "No author was recorded in Phase 3.4 metadata.",
+        "contentType is unassigned in Phase 3.4.",
+        "Classification categories are unassigned in Phase 3.4.",
+        "No item-level rights/ownership evidence URL was recorded; third-party authorship clearance remains unresolved."
+      ],
+      "simulatedReviewStatus": "needs-source-review",
+      "nextAction": "Keep metadata-only scope. Resolve canonical URL status and any needed metadata from recorded evidence before a Phase 3.7 review; do not fetch or retain a story body in this dry run.",
+      "readyForPhase37Review": false,
+      "readinessLabel": null,
+      "approvedForLibraryImport": false,
+      "mappedBodyPresent": false,
+      "pilotExcludedAssetCount": 0
+    },
+    {
+      "recordId": "voa-7979346",
+      "sourceId": "voa-learning-english",
+      "source": "VOA Learning English",
+      "title": "Everyday Grammar Video: Feedback on Writing Submissions",
+      "contentType": null,
+      "rightsStatus": "partially-verified",
+      "reuseMode": "metadata-only",
+      "sourcePolicy": {
+        "rightsStatus": "partially-verified",
+        "maxReuseMode": "metadata-only"
+      },
+      "validationResult": "REVIEW_REQUIRED",
+      "validationErrors": [
+        {
+          "code": "SCHEMA_FIELD_TYPE",
+          "message": "canonicalUrl must be a non-empty string.",
+          "field": "canonicalUrl",
+          "severity": "error"
+        },
+        {
+          "code": "URL_INVALID",
+          "message": "canonicalUrl must be an absolute HTTP(S) URL without credentials or whitespace.",
+          "field": "canonicalUrl",
+          "severity": "error"
+        }
+      ],
+      "errorCodes": [
+        "SCHEMA_FIELD_TYPE",
+        "URL_INVALID"
+      ],
+      "missingEvidence": [
+        "canonicalUrl is null in Phase 3.4; the recorded RSS/source link has not been verified as canonical.",
+        "No author was recorded in Phase 3.4 metadata.",
+        "contentType is unassigned in Phase 3.4.",
+        "Classification categories are unassigned in Phase 3.4.",
+        "No item-level rights/ownership evidence URL was recorded; third-party authorship clearance remains unresolved."
+      ],
+      "simulatedReviewStatus": "needs-source-review",
+      "nextAction": "Keep metadata-only scope. Resolve canonical URL status and any needed metadata from recorded evidence before a Phase 3.7 review; do not fetch or retain a story body in this dry run.",
+      "readyForPhase37Review": false,
+      "readinessLabel": null,
+      "approvedForLibraryImport": false,
+      "mappedBodyPresent": false,
+      "pilotExcludedAssetCount": 0
+    },
+    {
+      "recordId": "voa-7979350",
+      "sourceId": "voa-learning-english",
+      "source": "VOA Learning English",
+      "title": "Everyday Grammar Video: 'Population' in Sentences",
+      "contentType": null,
+      "rightsStatus": "partially-verified",
+      "reuseMode": "metadata-only",
+      "sourcePolicy": {
+        "rightsStatus": "partially-verified",
+        "maxReuseMode": "metadata-only"
+      },
+      "validationResult": "REVIEW_REQUIRED",
+      "validationErrors": [
+        {
+          "code": "SCHEMA_FIELD_TYPE",
+          "message": "canonicalUrl must be a non-empty string.",
+          "field": "canonicalUrl",
+          "severity": "error"
+        },
+        {
+          "code": "URL_INVALID",
+          "message": "canonicalUrl must be an absolute HTTP(S) URL without credentials or whitespace.",
+          "field": "canonicalUrl",
+          "severity": "error"
+        }
+      ],
+      "errorCodes": [
+        "SCHEMA_FIELD_TYPE",
+        "URL_INVALID"
+      ],
+      "missingEvidence": [
+        "canonicalUrl is null in Phase 3.4; the recorded RSS/source link has not been verified as canonical.",
+        "No author was recorded in Phase 3.4 metadata.",
+        "contentType is unassigned in Phase 3.4.",
+        "Classification categories are unassigned in Phase 3.4.",
+        "No item-level rights/ownership evidence URL was recorded; third-party authorship clearance remains unresolved."
+      ],
+      "simulatedReviewStatus": "needs-source-review",
+      "nextAction": "Keep metadata-only scope. Resolve canonical URL status and any needed metadata from recorded evidence before a Phase 3.7 review; do not fetch or retain a story body in this dry run.",
+      "readyForPhase37Review": false,
+      "readinessLabel": null,
+      "approvedForLibraryImport": false,
+      "mappedBodyPresent": false,
+      "pilotExcludedAssetCount": 0
+    },
+    {
+      "recordId": "voa-7979347",
+      "sourceId": "voa-learning-english",
+      "source": "VOA Learning English",
+      "title": "Everyday Grammar Video: Population",
+      "contentType": null,
+      "rightsStatus": "partially-verified",
+      "reuseMode": "metadata-only",
+      "sourcePolicy": {
+        "rightsStatus": "partially-verified",
+        "maxReuseMode": "metadata-only"
+      },
+      "validationResult": "REVIEW_REQUIRED",
+      "validationErrors": [
+        {
+          "code": "SCHEMA_FIELD_TYPE",
+          "message": "canonicalUrl must be a non-empty string.",
+          "field": "canonicalUrl",
+          "severity": "error"
+        },
+        {
+          "code": "URL_INVALID",
+          "message": "canonicalUrl must be an absolute HTTP(S) URL without credentials or whitespace.",
+          "field": "canonicalUrl",
+          "severity": "error"
+        }
+      ],
+      "errorCodes": [
+        "SCHEMA_FIELD_TYPE",
+        "URL_INVALID"
+      ],
+      "missingEvidence": [
+        "canonicalUrl is null in Phase 3.4; the recorded RSS/source link has not been verified as canonical.",
+        "No author was recorded in Phase 3.4 metadata.",
+        "contentType is unassigned in Phase 3.4.",
+        "Classification categories are unassigned in Phase 3.4.",
+        "No item-level rights/ownership evidence URL was recorded; third-party authorship clearance remains unresolved."
+      ],
+      "simulatedReviewStatus": "needs-source-review",
+      "nextAction": "Keep metadata-only scope. Resolve canonical URL status and any needed metadata from recorded evidence before a Phase 3.7 review; do not fetch or retain a story body in this dry run.",
+      "readyForPhase37Review": false,
+      "readinessLabel": null,
+      "approvedForLibraryImport": false,
+      "mappedBodyPresent": false,
+      "pilotExcludedAssetCount": 0
+    },
+    {
+      "recordId": "voa-7979349",
+      "sourceId": "voa-learning-english",
+      "source": "VOA Learning English",
+      "title": "Everyday Grammar Video: Goodbye In Informal Conversations",
+      "contentType": null,
+      "rightsStatus": "partially-verified",
+      "reuseMode": "metadata-only",
+      "sourcePolicy": {
+        "rightsStatus": "partially-verified",
+        "maxReuseMode": "metadata-only"
+      },
+      "validationResult": "REVIEW_REQUIRED",
+      "validationErrors": [
+        {
+          "code": "SCHEMA_FIELD_TYPE",
+          "message": "canonicalUrl must be a non-empty string.",
+          "field": "canonicalUrl",
+          "severity": "error"
+        },
+        {
+          "code": "URL_INVALID",
+          "message": "canonicalUrl must be an absolute HTTP(S) URL without credentials or whitespace.",
+          "field": "canonicalUrl",
+          "severity": "error"
+        }
+      ],
+      "errorCodes": [
+        "SCHEMA_FIELD_TYPE",
+        "URL_INVALID"
+      ],
+      "missingEvidence": [
+        "canonicalUrl is null in Phase 3.4; the recorded RSS/source link has not been verified as canonical.",
+        "No author was recorded in Phase 3.4 metadata.",
+        "contentType is unassigned in Phase 3.4.",
+        "Classification categories are unassigned in Phase 3.4.",
+        "No item-level rights/ownership evidence URL was recorded; third-party authorship clearance remains unresolved."
+      ],
+      "simulatedReviewStatus": "needs-source-review",
+      "nextAction": "Keep metadata-only scope. Resolve canonical URL status and any needed metadata from recorded evidence before a Phase 3.7 review; do not fetch or retain a story body in this dry run.",
+      "readyForPhase37Review": false,
+      "readinessLabel": null,
+      "approvedForLibraryImport": false,
+      "mappedBodyPresent": false,
+      "pilotExcludedAssetCount": 0
+    }
+  ]
+}

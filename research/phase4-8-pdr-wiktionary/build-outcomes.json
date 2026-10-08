@@ -1,0 +1,872 @@
+[
+  {
+    "recordId": "public-domain-review-the-mowing-devil",
+    "slug": "the-mowing-devil",
+    "status": "INTENDED",
+    "reason": "passed per-item rights review (CC-BY-SA)",
+    "words": 553,
+    "genre": "History",
+    "level": "B1",
+    "curiosityTopic": "Mythology, Folklore & Dark History"
+  },
+  {
+    "recordId": "public-domain-review-the-mowing-devil",
+    "slug": "public-domain-review-the-mowing-devil",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-the-mowing-devil",
+    "slug": "public-domain-review-the-mowing-devil",
+    "status": "PACKAGED",
+    "reason": "package content-7d6972910713ba2149f8d7fc v1 + approval written",
+    "genre": "History",
+    "level": "B1"
+  },
+  {
+    "recordId": "public-domain-review-animal-vegetable-lamb",
+    "slug": "animal-vegetable-lamb",
+    "status": "INTENDED",
+    "reason": "passed per-item rights review (CC-BY-SA)",
+    "words": 2893,
+    "genre": "History",
+    "level": "B2",
+    "curiosityTopic": "Mythology, Folklore & Dark History"
+  },
+  {
+    "recordId": "public-domain-review-the-mowing-devil",
+    "slug": "public-domain-review-the-mowing-devil",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-animal-vegetable-lamb",
+    "slug": "public-domain-review-animal-vegetable-lamb",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-the-mowing-devil",
+    "slug": "public-domain-review-the-mowing-devil",
+    "status": "PACKAGED",
+    "reason": "package content-7d6972910713ba2149f8d7fc v1 + approval written",
+    "genre": "History",
+    "level": "B1"
+  },
+  {
+    "recordId": "public-domain-review-animal-vegetable-lamb",
+    "slug": "public-domain-review-animal-vegetable-lamb",
+    "status": "PACKAGED",
+    "reason": "package content-c5a7ec35f308c502d1352c14 v1 + approval written",
+    "genre": "History",
+    "level": "B2"
+  },
+  {
+    "recordId": "public-domain-review-glass-delusion",
+    "slug": "glass-delusion",
+    "status": "INTENDED",
+    "reason": "passed per-item rights review (CC-BY-SA)",
+    "words": 3376,
+    "genre": "History",
+    "level": "B2",
+    "curiosityTopic": "Mythology, Folklore & Dark History"
+  },
+  {
+    "recordId": "public-domain-review-the-mowing-devil",
+    "slug": "public-domain-review-the-mowing-devil",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-animal-vegetable-lamb",
+    "slug": "public-domain-review-animal-vegetable-lamb",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-glass-delusion",
+    "slug": "public-domain-review-glass-delusion",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-the-mowing-devil",
+    "slug": "public-domain-review-the-mowing-devil",
+    "status": "PACKAGED",
+    "reason": "package content-7d6972910713ba2149f8d7fc v1 + approval written",
+    "genre": "History",
+    "level": "B1"
+  },
+  {
+    "recordId": "public-domain-review-animal-vegetable-lamb",
+    "slug": "public-domain-review-animal-vegetable-lamb",
+    "status": "PACKAGED",
+    "reason": "package content-c5a7ec35f308c502d1352c14 v1 + approval written",
+    "genre": "History",
+    "level": "B2"
+  },
+  {
+    "recordId": "public-domain-review-glass-delusion",
+    "slug": "public-domain-review-glass-delusion",
+    "status": "PACKAGED",
+    "reason": "package content-19d41ea093255cbd2b65f39d v1 + approval written",
+    "genre": "History",
+    "level": "B2"
+  },
+  {
+    "recordId": "public-domain-review-maskenfest",
+    "slug": "maskenfest",
+    "status": "INTENDED",
+    "reason": "passed per-item rights review (CC-BY-SA)",
+    "words": 631,
+    "genre": "Culture, Art & Travel",
+    "level": "A2",
+    "curiosityTopic": "Mythology, Folklore & Dark History"
+  },
+  {
+    "recordId": "public-domain-review-the-mowing-devil",
+    "slug": "public-domain-review-the-mowing-devil",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-animal-vegetable-lamb",
+    "slug": "public-domain-review-animal-vegetable-lamb",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-glass-delusion",
+    "slug": "public-domain-review-glass-delusion",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-maskenfest",
+    "slug": "public-domain-review-maskenfest",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-the-mowing-devil",
+    "slug": "public-domain-review-the-mowing-devil",
+    "status": "PACKAGED",
+    "reason": "package content-7d6972910713ba2149f8d7fc v1 + approval written",
+    "genre": "History",
+    "level": "B1"
+  },
+  {
+    "recordId": "public-domain-review-animal-vegetable-lamb",
+    "slug": "public-domain-review-animal-vegetable-lamb",
+    "status": "PACKAGED",
+    "reason": "package content-c5a7ec35f308c502d1352c14 v1 + approval written",
+    "genre": "History",
+    "level": "B2"
+  },
+  {
+    "recordId": "public-domain-review-glass-delusion",
+    "slug": "public-domain-review-glass-delusion",
+    "status": "PACKAGED",
+    "reason": "package content-19d41ea093255cbd2b65f39d v1 + approval written",
+    "genre": "History",
+    "level": "B2"
+  },
+  {
+    "recordId": "public-domain-review-maskenfest",
+    "slug": "public-domain-review-maskenfest",
+    "status": "PACKAGED",
+    "reason": "package content-f80622ccc27e7ced25a9fd50 v1 + approval written",
+    "genre": "Culture, Art & Travel",
+    "level": "A2"
+  },
+  {
+    "recordId": "public-domain-review-mail-order-occult",
+    "slug": "mail-order-occult",
+    "status": "INTENDED",
+    "reason": "passed per-item rights review (CC-BY-SA)",
+    "words": 3811,
+    "genre": "History",
+    "level": "B2",
+    "curiosityTopic": "Mythology, Folklore & Dark History"
+  },
+  {
+    "recordId": "public-domain-review-the-mowing-devil",
+    "slug": "public-domain-review-the-mowing-devil",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-animal-vegetable-lamb",
+    "slug": "public-domain-review-animal-vegetable-lamb",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-glass-delusion",
+    "slug": "public-domain-review-glass-delusion",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-maskenfest",
+    "slug": "public-domain-review-maskenfest",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-mail-order-occult",
+    "slug": "public-domain-review-mail-order-occult",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-the-mowing-devil",
+    "slug": "public-domain-review-the-mowing-devil",
+    "status": "PACKAGED",
+    "reason": "package content-7d6972910713ba2149f8d7fc v1 + approval written",
+    "genre": "History",
+    "level": "B1"
+  },
+  {
+    "recordId": "public-domain-review-animal-vegetable-lamb",
+    "slug": "public-domain-review-animal-vegetable-lamb",
+    "status": "PACKAGED",
+    "reason": "package content-c5a7ec35f308c502d1352c14 v1 + approval written",
+    "genre": "History",
+    "level": "B2"
+  },
+  {
+    "recordId": "public-domain-review-glass-delusion",
+    "slug": "public-domain-review-glass-delusion",
+    "status": "PACKAGED",
+    "reason": "package content-19d41ea093255cbd2b65f39d v1 + approval written",
+    "genre": "History",
+    "level": "B2"
+  },
+  {
+    "recordId": "public-domain-review-maskenfest",
+    "slug": "public-domain-review-maskenfest",
+    "status": "PACKAGED",
+    "reason": "package content-f80622ccc27e7ced25a9fd50 v1 + approval written",
+    "genre": "Culture, Art & Travel",
+    "level": "A2"
+  },
+  {
+    "recordId": "public-domain-review-mail-order-occult",
+    "slug": "public-domain-review-mail-order-occult",
+    "status": "PACKAGED",
+    "reason": "package content-d37e51ab83818a3e0bb06e36 v1 + approval written",
+    "genre": "History",
+    "level": "B2"
+  },
+  {
+    "recordId": "wiktionary-salary",
+    "slug": "salary",
+    "status": "INTENDED",
+    "reason": "passed per-item rights review (CC-BY-SA-4.0)",
+    "words": 166,
+    "genre": "Education",
+    "level": "B1",
+    "curiosityTopic": "Linguistics & Etymology"
+  },
+  {
+    "recordId": "public-domain-review-the-mowing-devil",
+    "slug": "public-domain-review-the-mowing-devil",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-animal-vegetable-lamb",
+    "slug": "public-domain-review-animal-vegetable-lamb",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-glass-delusion",
+    "slug": "public-domain-review-glass-delusion",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-maskenfest",
+    "slug": "public-domain-review-maskenfest",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-mail-order-occult",
+    "slug": "public-domain-review-mail-order-occult",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "wiktionary-salary",
+    "slug": "wiktionary-salary",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-the-mowing-devil",
+    "slug": "public-domain-review-the-mowing-devil",
+    "status": "PACKAGED",
+    "reason": "package content-7d6972910713ba2149f8d7fc v1 + approval written",
+    "genre": "History",
+    "level": "B1"
+  },
+  {
+    "recordId": "public-domain-review-animal-vegetable-lamb",
+    "slug": "public-domain-review-animal-vegetable-lamb",
+    "status": "PACKAGED",
+    "reason": "package content-c5a7ec35f308c502d1352c14 v1 + approval written",
+    "genre": "History",
+    "level": "B2"
+  },
+  {
+    "recordId": "public-domain-review-glass-delusion",
+    "slug": "public-domain-review-glass-delusion",
+    "status": "PACKAGED",
+    "reason": "package content-19d41ea093255cbd2b65f39d v1 + approval written",
+    "genre": "History",
+    "level": "B2"
+  },
+  {
+    "recordId": "public-domain-review-maskenfest",
+    "slug": "public-domain-review-maskenfest",
+    "status": "PACKAGED",
+    "reason": "package content-f80622ccc27e7ced25a9fd50 v1 + approval written",
+    "genre": "Culture, Art & Travel",
+    "level": "A2"
+  },
+  {
+    "recordId": "public-domain-review-mail-order-occult",
+    "slug": "public-domain-review-mail-order-occult",
+    "status": "PACKAGED",
+    "reason": "package content-d37e51ab83818a3e0bb06e36 v1 + approval written",
+    "genre": "History",
+    "level": "B2"
+  },
+  {
+    "recordId": "wiktionary-salary",
+    "slug": "wiktionary-salary",
+    "status": "PACKAGED",
+    "reason": "package content-4618ef03e72775c956aceff2 v1 + approval written",
+    "genre": "Education",
+    "level": "B1"
+  },
+  {
+    "recordId": "wiktionary-quarantine",
+    "slug": "quarantine",
+    "status": "INTENDED",
+    "reason": "passed per-item rights review (CC-BY-SA-4.0)",
+    "words": 385,
+    "genre": "Education",
+    "level": "B2",
+    "curiosityTopic": "Linguistics & Etymology"
+  },
+  {
+    "recordId": "public-domain-review-the-mowing-devil",
+    "slug": "public-domain-review-the-mowing-devil",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-animal-vegetable-lamb",
+    "slug": "public-domain-review-animal-vegetable-lamb",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-glass-delusion",
+    "slug": "public-domain-review-glass-delusion",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-maskenfest",
+    "slug": "public-domain-review-maskenfest",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-mail-order-occult",
+    "slug": "public-domain-review-mail-order-occult",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "wiktionary-salary",
+    "slug": "wiktionary-salary",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "wiktionary-quarantine",
+    "slug": "wiktionary-quarantine",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-the-mowing-devil",
+    "slug": "public-domain-review-the-mowing-devil",
+    "status": "PACKAGED",
+    "reason": "package content-7d6972910713ba2149f8d7fc v1 + approval written",
+    "genre": "History",
+    "level": "B1"
+  },
+  {
+    "recordId": "public-domain-review-animal-vegetable-lamb",
+    "slug": "public-domain-review-animal-vegetable-lamb",
+    "status": "PACKAGED",
+    "reason": "package content-c5a7ec35f308c502d1352c14 v1 + approval written",
+    "genre": "History",
+    "level": "B2"
+  },
+  {
+    "recordId": "public-domain-review-glass-delusion",
+    "slug": "public-domain-review-glass-delusion",
+    "status": "PACKAGED",
+    "reason": "package content-19d41ea093255cbd2b65f39d v1 + approval written",
+    "genre": "History",
+    "level": "B2"
+  },
+  {
+    "recordId": "public-domain-review-maskenfest",
+    "slug": "public-domain-review-maskenfest",
+    "status": "PACKAGED",
+    "reason": "package content-f80622ccc27e7ced25a9fd50 v1 + approval written",
+    "genre": "Culture, Art & Travel",
+    "level": "A2"
+  },
+  {
+    "recordId": "public-domain-review-mail-order-occult",
+    "slug": "public-domain-review-mail-order-occult",
+    "status": "PACKAGED",
+    "reason": "package content-d37e51ab83818a3e0bb06e36 v1 + approval written",
+    "genre": "History",
+    "level": "B2"
+  },
+  {
+    "recordId": "wiktionary-salary",
+    "slug": "wiktionary-salary",
+    "status": "PACKAGED",
+    "reason": "package content-4618ef03e72775c956aceff2 v1 + approval written",
+    "genre": "Education",
+    "level": "B1"
+  },
+  {
+    "recordId": "wiktionary-quarantine",
+    "slug": "wiktionary-quarantine",
+    "status": "PACKAGED",
+    "reason": "package content-260adcec1e1018a424dd7775 v1 + approval written",
+    "genre": "Education",
+    "level": "B2"
+  },
+  {
+    "recordId": "wiktionary-window",
+    "slug": "window",
+    "status": "INTENDED",
+    "reason": "passed per-item rights review (CC-BY-SA-4.0)",
+    "words": 233,
+    "genre": "Education",
+    "level": "B1",
+    "curiosityTopic": "Linguistics & Etymology"
+  },
+  {
+    "recordId": "public-domain-review-the-mowing-devil",
+    "slug": "public-domain-review-the-mowing-devil",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-animal-vegetable-lamb",
+    "slug": "public-domain-review-animal-vegetable-lamb",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-glass-delusion",
+    "slug": "public-domain-review-glass-delusion",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-maskenfest",
+    "slug": "public-domain-review-maskenfest",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-mail-order-occult",
+    "slug": "public-domain-review-mail-order-occult",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "wiktionary-salary",
+    "slug": "wiktionary-salary",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "wiktionary-quarantine",
+    "slug": "wiktionary-quarantine",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "wiktionary-window",
+    "slug": "wiktionary-window",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-the-mowing-devil",
+    "slug": "public-domain-review-the-mowing-devil",
+    "status": "PACKAGED",
+    "reason": "package content-7d6972910713ba2149f8d7fc v1 + approval written",
+    "genre": "History",
+    "level": "B1"
+  },
+  {
+    "recordId": "public-domain-review-animal-vegetable-lamb",
+    "slug": "public-domain-review-animal-vegetable-lamb",
+    "status": "PACKAGED",
+    "reason": "package content-c5a7ec35f308c502d1352c14 v1 + approval written",
+    "genre": "History",
+    "level": "B2"
+  },
+  {
+    "recordId": "public-domain-review-glass-delusion",
+    "slug": "public-domain-review-glass-delusion",
+    "status": "PACKAGED",
+    "reason": "package content-19d41ea093255cbd2b65f39d v1 + approval written",
+    "genre": "History",
+    "level": "B2"
+  },
+  {
+    "recordId": "public-domain-review-maskenfest",
+    "slug": "public-domain-review-maskenfest",
+    "status": "PACKAGED",
+    "reason": "package content-f80622ccc27e7ced25a9fd50 v1 + approval written",
+    "genre": "Culture, Art & Travel",
+    "level": "A2"
+  },
+  {
+    "recordId": "public-domain-review-mail-order-occult",
+    "slug": "public-domain-review-mail-order-occult",
+    "status": "PACKAGED",
+    "reason": "package content-d37e51ab83818a3e0bb06e36 v1 + approval written",
+    "genre": "History",
+    "level": "B2"
+  },
+  {
+    "recordId": "wiktionary-salary",
+    "slug": "wiktionary-salary",
+    "status": "PACKAGED",
+    "reason": "package content-4618ef03e72775c956aceff2 v1 + approval written",
+    "genre": "Education",
+    "level": "B1"
+  },
+  {
+    "recordId": "wiktionary-quarantine",
+    "slug": "wiktionary-quarantine",
+    "status": "PACKAGED",
+    "reason": "package content-260adcec1e1018a424dd7775 v1 + approval written",
+    "genre": "Education",
+    "level": "B2"
+  },
+  {
+    "recordId": "wiktionary-window",
+    "slug": "wiktionary-window",
+    "status": "PACKAGED",
+    "reason": "package content-b2b4bdfdcee3c03234add89c v1 + approval written",
+    "genre": "Education",
+    "level": "B1"
+  },
+  {
+    "recordId": "wiktionary-posh",
+    "slug": "posh",
+    "status": "INTENDED",
+    "reason": "passed per-item rights review (CC-BY-SA-4.0)",
+    "words": 180,
+    "genre": "Education",
+    "level": "A2",
+    "curiosityTopic": "Linguistics & Etymology"
+  },
+  {
+    "recordId": "public-domain-review-the-mowing-devil",
+    "slug": "public-domain-review-the-mowing-devil",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-animal-vegetable-lamb",
+    "slug": "public-domain-review-animal-vegetable-lamb",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-glass-delusion",
+    "slug": "public-domain-review-glass-delusion",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-maskenfest",
+    "slug": "public-domain-review-maskenfest",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-mail-order-occult",
+    "slug": "public-domain-review-mail-order-occult",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "wiktionary-salary",
+    "slug": "wiktionary-salary",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "wiktionary-quarantine",
+    "slug": "wiktionary-quarantine",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "wiktionary-window",
+    "slug": "wiktionary-window",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "wiktionary-posh",
+    "slug": "wiktionary-posh",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-the-mowing-devil",
+    "slug": "public-domain-review-the-mowing-devil",
+    "status": "PACKAGED",
+    "reason": "package content-7d6972910713ba2149f8d7fc v1 + approval written",
+    "genre": "History",
+    "level": "B1"
+  },
+  {
+    "recordId": "public-domain-review-animal-vegetable-lamb",
+    "slug": "public-domain-review-animal-vegetable-lamb",
+    "status": "PACKAGED",
+    "reason": "package content-c5a7ec35f308c502d1352c14 v1 + approval written",
+    "genre": "History",
+    "level": "B2"
+  },
+  {
+    "recordId": "public-domain-review-glass-delusion",
+    "slug": "public-domain-review-glass-delusion",
+    "status": "PACKAGED",
+    "reason": "package content-19d41ea093255cbd2b65f39d v1 + approval written",
+    "genre": "History",
+    "level": "B2"
+  },
+  {
+    "recordId": "public-domain-review-maskenfest",
+    "slug": "public-domain-review-maskenfest",
+    "status": "PACKAGED",
+    "reason": "package content-f80622ccc27e7ced25a9fd50 v1 + approval written",
+    "genre": "Culture, Art & Travel",
+    "level": "A2"
+  },
+  {
+    "recordId": "public-domain-review-mail-order-occult",
+    "slug": "public-domain-review-mail-order-occult",
+    "status": "PACKAGED",
+    "reason": "package content-d37e51ab83818a3e0bb06e36 v1 + approval written",
+    "genre": "History",
+    "level": "B2"
+  },
+  {
+    "recordId": "wiktionary-salary",
+    "slug": "wiktionary-salary",
+    "status": "PACKAGED",
+    "reason": "package content-4618ef03e72775c956aceff2 v1 + approval written",
+    "genre": "Education",
+    "level": "B1"
+  },
+  {
+    "recordId": "wiktionary-quarantine",
+    "slug": "wiktionary-quarantine",
+    "status": "PACKAGED",
+    "reason": "package content-260adcec1e1018a424dd7775 v1 + approval written",
+    "genre": "Education",
+    "level": "B2"
+  },
+  {
+    "recordId": "wiktionary-window",
+    "slug": "wiktionary-window",
+    "status": "PACKAGED",
+    "reason": "package content-b2b4bdfdcee3c03234add89c v1 + approval written",
+    "genre": "Education",
+    "level": "B1"
+  },
+  {
+    "recordId": "wiktionary-posh",
+    "slug": "wiktionary-posh",
+    "status": "PACKAGED",
+    "reason": "package content-23b485b8b2af3b8ed50c7812 v1 + approval written",
+    "genre": "Education",
+    "level": "A2"
+  },
+  {
+    "recordId": "wiktionary-gossip",
+    "slug": "gossip",
+    "status": "INTENDED",
+    "reason": "passed per-item rights review (CC-BY-SA-4.0)",
+    "words": 157,
+    "genre": "Education",
+    "level": "B1",
+    "curiosityTopic": "Linguistics & Etymology"
+  },
+  {
+    "recordId": "public-domain-review-the-mowing-devil",
+    "slug": "public-domain-review-the-mowing-devil",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-animal-vegetable-lamb",
+    "slug": "public-domain-review-animal-vegetable-lamb",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-glass-delusion",
+    "slug": "public-domain-review-glass-delusion",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-maskenfest",
+    "slug": "public-domain-review-maskenfest",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-mail-order-occult",
+    "slug": "public-domain-review-mail-order-occult",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "wiktionary-salary",
+    "slug": "wiktionary-salary",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "wiktionary-quarantine",
+    "slug": "wiktionary-quarantine",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "wiktionary-window",
+    "slug": "wiktionary-window",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "wiktionary-posh",
+    "slug": "wiktionary-posh",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "wiktionary-gossip",
+    "slug": "wiktionary-gossip",
+    "status": "ELIGIBLE",
+    "reason": ""
+  },
+  {
+    "recordId": "public-domain-review-the-mowing-devil",
+    "slug": "public-domain-review-the-mowing-devil",
+    "status": "PACKAGED",
+    "reason": "package content-7d6972910713ba2149f8d7fc v1 + approval written",
+    "genre": "History",
+    "level": "B1"
+  },
+  {
+    "recordId": "public-domain-review-animal-vegetable-lamb",
+    "slug": "public-domain-review-animal-vegetable-lamb",
+    "status": "PACKAGED",
+    "reason": "package content-c5a7ec35f308c502d1352c14 v1 + approval written",
+    "genre": "History",
+    "level": "B2"
+  },
+  {
+    "recordId": "public-domain-review-glass-delusion",
+    "slug": "public-domain-review-glass-delusion",
+    "status": "PACKAGED",
+    "reason": "package content-19d41ea093255cbd2b65f39d v1 + approval written",
+    "genre": "History",
+    "level": "B2"
+  },
+  {
+    "recordId": "public-domain-review-maskenfest",
+    "slug": "public-domain-review-maskenfest",
+    "status": "PACKAGED",
+    "reason": "package content-f80622ccc27e7ced25a9fd50 v1 + approval written",
+    "genre": "Culture, Art & Travel",
+    "level": "A2"
+  },
+  {
+    "recordId": "public-domain-review-mail-order-occult",
+    "slug": "public-domain-review-mail-order-occult",
+    "status": "PACKAGED",
+    "reason": "package content-d37e51ab83818a3e0bb06e36 v1 + approval written",
+    "genre": "History",
+    "level": "B2"
+  },
+  {
+    "recordId": "wiktionary-salary",
+    "slug": "wiktionary-salary",
+    "status": "PACKAGED",
+    "reason": "package content-4618ef03e72775c956aceff2 v1 + approval written",
+    "genre": "Education",
+    "level": "B1"
+  },
+  {
+    "recordId": "wiktionary-quarantine",
+    "slug": "wiktionary-quarantine",
+    "status": "PACKAGED",
+    "reason": "package content-260adcec1e1018a424dd7775 v1 + approval written",
+    "genre": "Education",
+    "level": "B2"
+  },
+  {
+    "recordId": "wiktionary-window",
+    "slug": "wiktionary-window",
+    "status": "PACKAGED",
+    "reason": "package content-b2b4bdfdcee3c03234add89c v1 + approval written",
+    "genre": "Education",
+    "level": "B1"
+  },
+  {
+    "recordId": "wiktionary-posh",
+    "slug": "wiktionary-posh",
+    "status": "PACKAGED",
+    "reason": "package content-23b485b8b2af3b8ed50c7812 v1 + approval written",
+    "genre": "Education",
+    "level": "A2"
+  },
+  {
+    "recordId": "wiktionary-gossip",
+    "slug": "wiktionary-gossip",
+    "status": "PACKAGED",
+    "reason": "package content-5c3973748d42b612da0b8fce v1 + approval written",
+    "genre": "Education",
+    "level": "B1"
+  }
+]

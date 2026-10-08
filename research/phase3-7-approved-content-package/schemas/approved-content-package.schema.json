@@ -1,0 +1,190 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "approved-content-package.schema.json",
+  "title": "Phase 3.7 Approved Content Package",
+  "description": "Versioned, provenance-preserving package. ELIGIBLE is not approval to import into the Reading Library.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "packageId",
+    "version",
+    "createdAt",
+    "packageStatus",
+    "eligibleForPhase38",
+    "content",
+    "source",
+    "rights",
+    "validation",
+    "review",
+    "provenance"
+  ],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "packageId": { "type": "string", "minLength": 1 },
+    "version": { "type": "integer", "minimum": 1 },
+    "createdAt": { "type": "string", "format": "date-time" },
+    "supersedes": { "type": ["string", "null"] },
+    "packageStatus": { "enum": ["DRAFT", "VALIDATED", "ELIGIBLE", "NOT_ELIGIBLE", "REJECTED"] },
+    "eligibleForPhase38": { "type": "boolean" },
+    "testOnly": { "type": "boolean" },
+    "libraryPresentation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["description", "imageReference", "level", "genre", "readingTime"],
+      "properties": {
+        "description": { "type": "string", "minLength": 1 },
+        "imageReference": { "type": ["string", "null"], "minLength": 1 },
+        "level": { "enum": ["A1", "A2", "B1", "B2", "C1", "C2"] },
+        "genre": { "enum": ["News", "Business & Economics", "Science", "Society", "Fiction / Stories"] },
+        "readingTime": { "enum": ["Under 3 min", "5–10 min", "Chapter"] }
+      }
+    },
+    "content": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["recordId", "title", "contentType", "contentGroup", "categories", "language", "reuseMode", "body"],
+      "properties": {
+        "recordId": { "type": "string", "minLength": 1 },
+        "title": { "type": "string", "minLength": 1 },
+        "contentType": { "type": ["string", "null"] },
+        "contentGroup": { "type": ["string", "null"] },
+        "authors": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "categories": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["primary", "secondary"],
+          "properties": {
+            "primary": { "type": ["string", "null"] },
+            "secondary": { "type": "array", "items": { "type": "string" }, "uniqueItems": true }
+          }
+        },
+        "language": { "type": ["string", "null"] },
+        "reuseMode": { "enum": ["verified-full-text", "metadata-only", "link-only", "unknown", "restricted"] },
+        "body": { "type": ["string", "null"] },
+        "bodyReference": { "type": ["string", "null"] }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sourceId", "sourceName", "sourceUrl", "canonicalUrl", "externalId", "doi"],
+      "properties": {
+        "sourceId": { "type": "string", "minLength": 1 },
+        "sourceName": { "type": "string", "minLength": 1 },
+        "sourceUrl": { "type": ["string", "null"], "format": "uri" },
+        "canonicalUrl": { "type": ["string", "null"] },
+        "externalId": { "type": ["string", "null"] },
+        "doi": { "type": ["string", "null"] }
+      }
+    },
+    "rights": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "verificationStatus",
+        "permittedReuseMode",
+        "sourcePolicy",
+        "license",
+        "attributionRequired",
+        "attributionText",
+        "evidence"
+      ],
+      "properties": {
+        "verificationStatus": { "enum": ["verified", "partially-verified", "unknown", "restricted", "not-allowed"] },
+        "permittedReuseMode": { "enum": ["verified-full-text", "metadata-only", "link-only", "unknown", "restricted"] },
+        "rightsBasis": { "type": ["string", "null"], "enum": ["public-domain", "license", "permission", "conditional-source-policy", null] },
+        "sourcePolicy": {
+          "oneOf": [
+            { "type": "null" },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["rightsStatus", "maxReuseMode"],
+              "properties": {
+                "rightsStatus": { "enum": ["verified", "partially-verified", "unknown", "restricted", "not-allowed"] },
+                "maxReuseMode": { "enum": ["verified-full-text", "metadata-only", "link-only", "unknown", "restricted"] }
+              }
+            }
+          ]
+        },
+        "license": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["type", "identifier", "url"],
+          "properties": {
+            "type": { "type": ["string", "null"] },
+            "identifier": { "type": ["string", "null"] },
+            "url": { "type": ["string", "null"], "format": "uri" }
+          }
+        },
+        "attributionRequired": { "type": "boolean" },
+        "attributionText": { "type": ["string", "null"] },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["evidenceId", "evidenceType", "sourceUrl", "reference", "retrievedAt", "scope", "appliesToRecordId"],
+            "properties": {
+              "evidenceId": { "type": "string", "minLength": 1 },
+              "evidenceType": { "enum": ["item-license", "item-rights", "source-policy", "item-metadata", "attribution", "asset-rights"] },
+              "sourceUrl": { "type": "string", "format": "uri" },
+              "reference": { "type": "string", "minLength": 1 },
+              "excerpt": { "type": ["string", "null"] },
+              "retrievedAt": { "type": ["string", "null"], "format": "date" },
+              "scope": { "enum": ["item", "source", "asset"] },
+              "appliesToRecordId": { "type": "string", "minLength": 1 }
+            }
+          }
+        }
+      }
+    },
+    "validation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["validator", "result", "errorCodes"],
+      "properties": {
+        "validator": { "type": "string", "minLength": 1 },
+        "result": { "enum": ["PASS", "BLOCKED", "REVIEW_REQUIRED"] },
+        "errorCodes": { "type": "array", "items": { "type": "string" }, "uniqueItems": true }
+      }
+    },
+    "review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["reviewStatus", "reviewedAt", "reviewer", "decision"],
+      "properties": {
+        "reviewStatus": { "enum": ["received", "needs-source-review", "needs-rights-review", "needs-quality-review", "approved", "rejected"] },
+        "reviewedAt": { "type": ["string", "null"], "format": "date-time" },
+        "reviewer": { "type": ["string", "null"] },
+        "decision": { "type": "string", "minLength": 1 }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sourceRecordId",
+        "intakeRecordId",
+        "intakeSchemaVersion",
+        "intakeValidationResult",
+        "dryRunResult",
+        "dryRunRecordId",
+        "reviewStatus",
+        "packageCreatedAt"
+      ],
+      "properties": {
+        "sourceRecordId": { "type": "string", "minLength": 1 },
+        "intakeRecordId": { "type": "string", "minLength": 1 },
+        "intakeSchemaVersion": { "type": "string", "minLength": 1 },
+        "intakeValidationResult": { "enum": ["PASS", "FAIL"] },
+        "dryRunResult": { "enum": ["PASS", "BLOCKED", "REVIEW_REQUIRED"] },
+        "dryRunRecordId": { "type": "string", "minLength": 1 },
+        "reviewStatus": { "enum": ["received", "needs-source-review", "needs-rights-review", "needs-quality-review", "approved", "rejected"] },
+        "packageCreatedAt": { "type": "string", "format": "date-time" },
+        "sourceManifest": { "type": "string", "minLength": 1 }
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "recordId": "nasa-saturn",
+  "sourceId": "nasa",
+  "sourceName": "NASA",
+  "sourceUrl": "https://www.nasa.gov/",
+  "title": "Saturn",
+  "canonicalUrl": "https://science.nasa.gov/saturn/",
+  "externalId": "saturn",
+  "authors": [
+    "NASA"
+  ],
+  "publishedAt": "2026-09-30",
+  "language": "en",
+  "description": "Saturn Saturn is the sixth planet from the Sun, and the second largest in the solar system.",
+  "contentType": "expository",
+  "classification": {
+    "contentGroup": "articles",
+    "primaryCategory": "science",
+    "secondaryCategories": []
+  },
+  "libraryPresentation": {
+    "description": "Saturn Saturn is the sixth planet from the Sun, and the second largest in the solar system.",
+    "genre": "Science & Nature",
+    "level": "A2",
+    "readingTime": "Under 3 min",
+    "imageReference": null
+  },
+  "receivedAt": "2026-10-05",
+  "rightsStatus": "verified",
+  "reuseMode": "verified-full-text",
+  "rightsBasis": "permission",
+  "rightsEvidenceUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+  "rightsEvidenceExcerpt": "NASA content - images, audio, video, and media files used in the rendition of 3-dimensional models, such as texture maps and polygon data in any format - generally are not subject to copyright in the United States. You may use this material for educational or informational purposes, including photo collections, textbooks, public exhibits, computer graphical simulations and Internet Web pages. News outlets, schools, and text-book authors may use NASA content without needing explicit permission, subject to compliance with these guidelines. NASA content used in a factual manner that does not imply endorsement may be used without needing explicit permission. NASA should be acknowledged as the source of the material.",
+  "attributionRequired": true,
+  "attributionText": "NASA",
+  "body": "Saturn\n\nSaturn is the sixth planet from the Sun, and the second largest in the solar system. It’s surrounded by beautiful rings.\n\nFacts\n\nExploration\n\nMoons\n\nResources\n\nFacts About Saturn\n\nSaturn is the sixth planet from the Sun and the second largest planet in our solar system.\n\nSaturn is a massive ball made mostly of hydrogen and helium. It's surrounded by a beautiful ring system. It's the farthest planet from Earth discovered by the unaided human eye.\n\nGet the Facts\n\nExploring Saturn\n\nFour robotic spacecraft have visited Saturn.\n\nNASA's Pioneer 11 provided the first close look in September 1979. NASA's twin Voyager 1 and Voyager 2 spacecraft followed up with flybys nine months apart in 1980 and 1981. Each flyby revealed intriguing details about the ringed giant world, but it wasn't until Cassini arrived in orbit in 2004 that our understanding of Saturn really started to take shape.\n\nMore About Saturn Missions\n\nMoons of Saturn\n\nSaturn has dozens of officially recognized moons in its orbit, more than any other planet.\n\nSaturn's moons range in size from Titan, which is larger than the planet Mercury – to a moon that's as small as a sports arena. Enceladus has a global ocean under a thick, icy shell.\n\nMore About Saturn's Moons\n\nSaturn and Titan Resources\n\nExplore a curated collection of resources about Saturn.\n\nThis resource package is suitable for educators, students, and anyone interested in learning more about Saturn and Titan!\n\nSaturn's Shapes\n\nNASA’s Hubble Tracks New Decagon Encircling Saturn’s South Pole\n\nRecent observations with NASA’s Hubble Space Telescope have revealed a giant, evolving, 10-sided atmospheric wave encircling Saturn's south pole. This discovery marks the first time a large, regular-sided jet pattern has been observed in the planet's southern hemisphere.\n\nExplore\n\nSaturn's Hexagon\n\nIn Saturn's northern hemisphere, an enormous spinning hexagon in the clouds at its north pole was first spotted in the 1980s. The hurricane-like vortex has an eye about 50 times larger than a typical Earth hurricane, and a maximum wind speed about double that of the strongest cyclones here.\n\nExplore\n\nEyes on the Solar System: Saturn",
+  "mediaAssets": [],
+  "reviewStatus": "approved",
+  "reviewNotes": [
+    "Official NASA page fetched and its full text extracted verbatim: 29 paragraphs, 346 words.",
+    "NASA page provenance recorded verbatim: [\"NASA Page Editor: AMANDA BARNETT\",\"Responsible NASA Official: Dana Bolles\"]; \"Page Last Updated\" 2026-09-30.",
+    "Page text inspected individually for copyright notices, third-party credits, courtesy/licence notes, syndicated or contributed/guest content and news-agency credits: none found.",
+    "In-body link density checked: 12 links across 29 blocks - this is an article, not a topic hub.",
+    "No image, insignia, logotype or NASA identifier is retained: no item-level asset-rights evidence was recorded and those marks are expressly not in the public domain, so imageReference is null.",
+    "A2 is a Library-level editorial mapping for this English-learning article, not a claimed formal CEFR label.",
+    "Reading time \"Under 3 min\" is mapped from the full-text word count (346) at 200 WPM.",
+    "Genre \"Science & Nature\": Short, plain-language guide to the planet Saturn: size, rings and moons.",
+    "Reuse is educational/informational, factual, and does not imply NASA endorsement; NASA is acknowledged as the source."
+  ]
+}

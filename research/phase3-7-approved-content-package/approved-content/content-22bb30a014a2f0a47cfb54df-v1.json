@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "packageId": "content-22bb30a014a2f0a47cfb54df",
+  "version": 1,
+  "createdAt": "2026-10-05T00:00:00.000Z",
+  "supersedes": null,
+  "packageStatus": "ELIGIBLE",
+  "eligibleForPhase38": true,
+  "libraryPresentation": {
+    "description": "Saturn Saturn is the sixth planet from the Sun, and the second largest in the solar system.",
+    "genre": "Science & Nature",
+    "level": "A2",
+    "readingTime": "Under 3 min",
+    "imageReference": null
+  },
+  "content": {
+    "recordId": "nasa-saturn",
+    "title": "Saturn",
+    "contentType": "expository",
+    "contentGroup": "articles",
+    "categories": {
+      "primary": "science",
+      "secondary": []
+    },
+    "language": "en",
+    "authors": [
+      "NASA"
+    ],
+    "reuseMode": "verified-full-text",
+    "body": "Saturn\n\nSaturn is the sixth planet from the Sun, and the second largest in the solar system. It’s surrounded by beautiful rings.\n\nFacts\n\nExploration\n\nMoons\n\nResources\n\nFacts About Saturn\n\nSaturn is the sixth planet from the Sun and the second largest planet in our solar system.\n\nSaturn is a massive ball made mostly of hydrogen and helium. It's surrounded by a beautiful ring system. It's the farthest planet from Earth discovered by the unaided human eye.\n\nGet the Facts\n\nExploring Saturn\n\nFour robotic spacecraft have visited Saturn.\n\nNASA's Pioneer 11 provided the first close look in September 1979. NASA's twin Voyager 1 and Voyager 2 spacecraft followed up with flybys nine months apart in 1980 and 1981. Each flyby revealed intriguing details about the ringed giant world, but it wasn't until Cassini arrived in orbit in 2004 that our understanding of Saturn really started to take shape.\n\nMore About Saturn Missions\n\nMoons of Saturn\n\nSaturn has dozens of officially recognized moons in its orbit, more than any other planet.\n\nSaturn's moons range in size from Titan, which is larger than the planet Mercury – to a moon that's as small as a sports arena. Enceladus has a global ocean under a thick, icy shell.\n\nMore About Saturn's Moons\n\nSaturn and Titan Resources\n\nExplore a curated collection of resources about Saturn.\n\nThis resource package is suitable for educators, students, and anyone interested in learning more about Saturn and Titan!\n\nSaturn's Shapes\n\nNASA’s Hubble Tracks New Decagon Encircling Saturn’s South Pole\n\nRecent observations with NASA’s Hubble Space Telescope have revealed a giant, evolving, 10-sided atmospheric wave encircling Saturn's south pole. This discovery marks the first time a large, regular-sided jet pattern has been observed in the planet's southern hemisphere.\n\nExplore\n\nSaturn's Hexagon\n\nIn Saturn's northern hemisphere, an enormous spinning hexagon in the clouds at its north pole was first spotted in the 1980s. The hurricane-like vortex has an eye about 50 times larger than a typical Earth hurricane, and a maximum wind speed about double that of the strongest cyclones here.\n\nExplore\n\nEyes on the Solar System: Saturn",
+    "bodyReference": null
+  },
+  "source": {
+    "sourceId": "nasa",
+    "sourceName": "NASA",
+    "sourceUrl": "https://www.nasa.gov/",
+    "canonicalUrl": "https://science.nasa.gov/saturn/",
+    "externalId": "saturn",
+    "doi": null
+  },
+  "rights": {
+    "verificationStatus": "verified",
+    "permittedReuseMode": "verified-full-text",
+    "rightsBasis": "permission",
+    "sourcePolicy": {
+      "rightsStatus": "verified",
+      "maxReuseMode": "verified-full-text"
+    },
+    "license": {
+      "type": null,
+      "identifier": null,
+      "url": null
+    },
+    "attributionRequired": true,
+    "attributionText": "NASA",
+    "evidence": [
+      {
+        "evidenceId": "nasa-saturn-metadata",
+        "evidenceType": "item-metadata",
+        "sourceUrl": "https://science.nasa.gov/saturn/",
+        "reference": "Item metadata captured from the canonical source page.",
+        "excerpt": null,
+        "retrievedAt": "2026-10-05",
+        "scope": "item",
+        "appliesToRecordId": "nasa-saturn"
+      },
+      {
+        "evidenceId": "nasa-saturn-item-rights",
+        "evidenceType": "item-rights",
+        "sourceUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "reference": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "excerpt": "NASA content - images, audio, video, and media files used in the rendition of 3-dimensional models, such as texture maps and polygon data in any format - generally are not subject to copyright in the United States. You may use this material for educational or informational purposes, including photo collections, textbooks, public exhibits, computer graphical simulations and Internet Web pages. News outlets, schools, and text-book authors may use NASA content without needing explicit permission, subject to compliance with these guidelines. NASA content used in a factual manner that does not imply endorsement may be used without needing explicit permission. NASA should be acknowledged as the source of the material.",
+        "retrievedAt": "2026-10-05",
+        "scope": "item",
+        "appliesToRecordId": "nasa-saturn"
+      }
+    ]
+  },
+  "validation": {
+    "validator": "Phase 3.5 validateIntake",
+    "result": "PASS",
+    "errorCodes": []
+  },
+  "review": {
+    "reviewStatus": "approved",
+    "reviewer": "User (explicit request to import the next real article batch from NASA)",
+    "decision": "The user explicitly authorized a real NASA import batch for educational and informational use. Each official NASA page was fetched and its full text extracted verbatim, then reviewed individually: NASA page provenance and a readable citation date are required, and any third-party credit, courtesy/licence notice, syndicated or contributed content, or topic-hub shape excludes the item. NASA Images and Media Usage Guidelines are recorded as the source-policy evidence. No NASA image, insignia or identifier is reused: imageReference is null for every item.",
+    "reviewedAt": "2026-10-05T00:00:00.000Z"
+  },
+  "provenance": {
+    "sourceRecordId": "nasa-saturn",
+    "intakeRecordId": "nasa-saturn",
+    "intakeSchemaVersion": "phase3.5-independent-intake-v1",
+    "intakeValidationResult": "PASS",
+    "dryRunResult": "PASS",
+    "dryRunRecordId": "nasa-saturn",
+    "reviewStatus": "approved",
+    "packageCreatedAt": "2026-10-05T00:00:00.000Z",
+    "sourceManifest": "research/phase4-7-nasa/intake/nasa-saturn.json; research/phase4-7-nasa/intake/nasa-black-holes.json; research/phase4-7-nasa/intake/nasa-sun.json; research/phase4-7-nasa/intake/nasa-moon.json; research/phase4-7-nasa/intake/nasa-exoplanets.json; research/phase4-7-nasa/intake/nasa-dark-matter.json; research/phase4-7-nasa/intake/nasa-earth-science.json; research/phase4-7-nasa/intake/nasa-climate-change.json; research/phase4-7-nasa/intake/nasa-skywatching.json; research/phase4-7-nasa/intake/nasa-machine-learning.json"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "packageId": "content-e638ddaf798dc6f2376989f5",
+  "version": 1,
+  "createdAt": "2026-10-06T00:00:00.000Z",
+  "supersedes": null,
+  "packageStatus": "ELIGIBLE",
+  "eligibleForPhase38": true,
+  "libraryPresentation": {
+    "description": "Etymology From dentdelyon , from dent de lion , also in dēns leōnis , referring to the jagged shape of the plant's leaves.",
+    "genre": "Education",
+    "level": "B1",
+    "readingTime": "Under 3 min",
+    "imageReference": null
+  },
+  "content": {
+    "recordId": "wiktionary-dandelion",
+    "title": "dandelion",
+    "contentType": "educational",
+    "contentGroup": "articles",
+    "categories": {
+      "primary": "language-learning",
+      "secondary": [
+        "food"
+      ]
+    },
+    "language": "en",
+    "authors": [
+      "Wiktionary contributors"
+    ],
+    "reuseMode": "verified-full-text",
+    "body": "Etymology\n\nFrom dentdelyon , from dent de lion , also in dēns leōnis , referring to the jagged shape of the plant's leaves. The term is now rare in French (together with liondent, calque from Germanic), but compare , , , , , , all descendants, calques, or loan translations of the Latin term.\n\nDisplaced various words, including native , native , and and swine's snout and mostly displaced , monk's head , and pissabed .\n\nNoun\n\nAny of the several species of plant in the genus , characterised by yellow flower heads and notched, broad-ended leaves, especially the common dandelion ( ).\n\nThe flower head or fruiting head of the dandelion plant.\n\nA yellow colour, like that of the flower.\n\nAdjective\n\nOf a yellow colour, like that of the flower.",
+    "bodyReference": null
+  },
+  "source": {
+    "sourceId": "wiktionary",
+    "sourceName": "Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/",
+    "canonicalUrl": "https://en.wiktionary.org/wiki/dandelion",
+    "externalId": "dandelion",
+    "doi": null
+  },
+  "rights": {
+    "verificationStatus": "verified",
+    "permittedReuseMode": "verified-full-text",
+    "rightsBasis": "license",
+    "sourcePolicy": null,
+    "license": {
+      "type": "creative-commons",
+      "identifier": "CC-BY-SA-4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "attributionRequired": true,
+    "attributionText": "Wiktionary contributors, CC BY-SA 4.0 (via https://en.wiktionary.org/wiki/dandelion)",
+    "evidence": [
+      {
+        "evidenceId": "wiktionary-dandelion-metadata",
+        "evidenceType": "item-metadata",
+        "sourceUrl": "https://en.wiktionary.org/wiki/dandelion",
+        "reference": "Item metadata captured from the canonical source page.",
+        "excerpt": null,
+        "retrievedAt": "2026-10-06",
+        "scope": "item",
+        "appliesToRecordId": "wiktionary-dandelion"
+      },
+      {
+        "evidenceId": "wiktionary-dandelion-item-license",
+        "evidenceType": "item-license",
+        "sourceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "reference": "CC-BY-SA-4.0",
+        "excerpt": "Definitions and other text are available under the Creative Commons Attribution-ShareAlike License ; additional terms may apply.",
+        "retrievedAt": "2026-10-06",
+        "scope": "item",
+        "appliesToRecordId": "wiktionary-dandelion"
+      }
+    ]
+  },
+  "validation": {
+    "validator": "Phase 3.5 validateIntake",
+    "result": "PASS",
+    "errorCodes": []
+  },
+  "review": {
+    "reviewStatus": "approved",
+    "reviewer": "User (explicit request to import a Gastronomy + Urbanism batch for educational reading)",
+    "decision": "The user explicitly authorized this real import batch for educational reading. The 10 articles (5 Gastronomy & Food History, 5 Urbanism & Everyday Objects) were selected from the existing Phase 4.8 audit artifacts (pdr-audit.json, wiktionary-audit.json, pdr-licence-probe.json); no new research or new source was used to form the selection. Every selected item was then fetched from its official source page and its full text extracted, then reviewed individually. For The Public Domain Review the item's OWN page had to carry article-level CC BY or CC BY-SA evidence: the publisher states that some of its Articles are \"published under more restrictive terms\", so the site-wide statement was never used to decide an item, and any \"All rights reserved\", \"Reprinted by permission\" or NonCommercial-only item was excluded. For Wiktionary the CC BY-SA statement carried on each page was required, and third-party or non-free content (fair-use quotations, usage examples carrying quotations, File/Image links) was excluded from the stored body rather than assumed compatible. No image, audio or other media is reused from either source: imageReference is null for every item.",
+    "reviewedAt": "2026-10-06T00:00:00.000Z"
+  },
+  "provenance": {
+    "sourceRecordId": "wiktionary-dandelion",
+    "intakeRecordId": "wiktionary-dandelion",
+    "intakeSchemaVersion": "phase3.5-independent-intake-v1",
+    "intakeValidationResult": "PASS",
+    "dryRunResult": "PASS",
+    "dryRunRecordId": "wiktionary-dandelion",
+    "reviewStatus": "approved",
+    "packageCreatedAt": "2026-10-06T00:00:00.000Z",
+    "sourceManifest": "research/phase4-9-gastronomy-urbanism/intake/public-domain-review-the-tragical-death-of-a-apple-pye.json; research/phase4-9-gastronomy-urbanism/intake/public-domain-review-rarebit-fiend.json; research/phase4-9-gastronomy-urbanism/intake/public-domain-review-giant-produce-postcards.json; research/phase4-9-gastronomy-urbanism/intake/public-domain-review-women-having-tea.json; research/phase4-9-gastronomy-urbanism/intake/wiktionary-dandelion.json; research/phase4-9-gastronomy-urbanism/intake/public-domain-review-the-blinkered-flaneur.json; research/phase4-9-gastronomy-urbanism/intake/public-domain-review-typing-for-love-or-money.json; research/phase4-9-gastronomy-urbanism/intake/public-domain-review-cybernetic-attention.json; research/phase4-9-gastronomy-urbanism/intake/wiktionary-robot.json; research/phase4-9-gastronomy-urbanism/intake/public-domain-review-twilight-of-the-velocipede.json"
+  }
+}

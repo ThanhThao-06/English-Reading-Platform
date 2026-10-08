@@ -1,0 +1,7 @@
+{
+  "sourceId": "synthetic-metadata-source",
+  "rightsStatus": "partially-verified",
+  "maxReuseMode": "metadata-only",
+  "synthetic": true,
+  "note": "Synthetic metadata-only policy fixture; not a real source or evidence."
+}

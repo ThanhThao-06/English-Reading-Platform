@@ -1,0 +1,211 @@
+{
+  "phase": "4.0",
+  "retrievedAt": "2026-10-03",
+  "source": {
+    "name": "VOA Learning English",
+    "sourceId": "voa-learning-english",
+    "policyReferences": [
+      {
+        "url": "https://learningenglish.voanews.com/p/6861.html",
+        "retrievedAt": "2026-10-03",
+        "relevantWording": "Learning English texts, MP3s, photos and videos are in the public domain. You are allowed to reprint them for educational and commercial purposes, with credit to learningenglish.voanews.com. However, stories, photos and video images from news agencies such as AP, Reuters and AFP are copyrighted, so you are not allowed to republish them.",
+        "use": "Primary VOA Learning English usage policy; conditional on material being produced by VOA."
+      },
+      {
+        "url": "https://learningenglish.voanews.com/p/6021.html",
+        "retrievedAt": "2026-10-03",
+        "relevantWording": "All text, audio and video material produced exclusively by the Voice of America is in the public domain. Credit for any use of VOA material should be given to voanews.com, Voice of America, or VOA. However, voanews.com content may also contain text, video, audio, images, graphics, and other copyrighted material that is licensed for use in VOA programming only. This material is not in the public domain and may not be copied, redistributed, sold, or published without the express permission of the copyright owner.",
+        "use": "Additional general VOA terms; confirms the exclusive-VOA-production condition and third-party exclusion."
+      },
+      {
+        "url": "https://learningenglish.voanews.com/p/5374.html",
+        "retrievedAt": "2026-10-03",
+        "relevantWording": "Privacy Statement",
+        "use": "Inspected but not used as rights evidence; page is a privacy notice."
+      }
+    ],
+    "currentProjectPolicy": {
+      "path": "research/phase3-5-content-intake/fixtures/source-policies/voa-learning-english.json",
+      "rightsStatus": "partially-verified",
+      "maxReuseMode": "metadata-only",
+      "changed": false,
+      "reason": "The Phase 3.3/3.4 source-policy ceiling is preserved unchanged. A reviewed conditionalFullText grant block was added to the same policy fixture, recording the official VOA Learning English reuse policy (p/6861.html, supported by p/6021.html) so that VOA-produced articles no longer need a separate per-item license document. The grant never widens the ceiling by itself: each item must independently show an official-host URL, a VOA producer byline, the recorded policy evidence, the required credit line, and no third-party copyright attribution."
+    }
+  },
+  "candidates": [
+    {
+      "recordId": "voa-learning-english-3111026",
+      "title": "Lesson 1: Welcome!",
+      "source": "VOA Learning English",
+      "canonicalUrl": "https://learningenglish.voanews.com/a/lets-learn-english-lesson-one/3111026.html",
+      "articleUrl": "https://learningenglish.voanews.com/a/lets-learn-english-lesson-one/3111026.html",
+      "author": {
+        "value": "VOA Learning English",
+        "evidence": "Official page JSON-LD author field; no individual byline observed."
+      },
+      "publishedAt": "2019-09-10",
+      "pageContentType": "NewsArticle (page JSON-LD); educational lesson (VOA course section)",
+      "topic": "Language learning; Let's Learn English - Level 1",
+      "sourceLevel": "Level 1; page description says beginning English learners.",
+      "libraryCefrLevel": null,
+      "sourcePolicyUrl": "https://learningenglish.voanews.com/p/6861.html",
+      "rightsEvidence": {
+        "sourcePolicy": "The policy explicitly allows reuse of Learning English text, MP3s, photos and video produced by VOA with credit, and excludes agency material.",
+        "itemLevelEvidence": "The official item page names VOA Learning English as author and places the lesson in the official VOA Level 1 course. No separate item license, individual byline, or signed item-level clearance was recorded.",
+        "retrievedAt": "2026-10-03"
+      },
+      "clearlyVoaOriginal": "Strong publisher evidence for the lesson text (official VOA course and VOA Learning English author); not an authorized human rights decision.",
+      "thirdPartyMaterial": "No third-party credit was observed in the reviewed lesson text. Page-associated image/video assets were not cleared individually and are excluded.",
+      "fullTextReuseEligibility": "Conditionally permitted by the official policy only if exclusive VOA production is confirmed. Current project policy remains metadata-only; intake records no item-level full-text clearance, so full text is not eligible for this run.",
+      "attribution": "Credit to learningenglish.voanews.com",
+      "evidenceUrls": [
+        "https://learningenglish.voanews.com/a/lets-learn-english-lesson-one/3111026.html",
+        "https://learningenglish.voanews.com/p/6861.html",
+        "https://learningenglish.voanews.com/p/6021.html"
+      ],
+      "media": [
+        {
+          "asset": "Page image / lesson thumbnail",
+          "evidence": "Official article page exposes a page image, but no asset-specific production credit was recorded.",
+          "reuseStatus": "Not established independently; excluded."
+        },
+        {
+          "asset": "Lesson and practice videos",
+          "evidence": "VOA embeds course/practice videos on the page; no separate asset-rights evidence was entered for each video.",
+          "reuseStatus": "Not established independently; excluded."
+        }
+      ],
+      "provenance": {
+        "pageUid": "3111026",
+        "intakeRecordId": "voa-learning-english-3111026",
+        "retrievedAt": "2026-10-03",
+        "bodyStored": false,
+        "contentHash": null,
+        "packageId": null,
+        "packageVersion": null,
+        "importBatchId": null
+      },
+      "decision": "BLOCKED — rights review and Library-required presentation fields remain unresolved.",
+      "exactLibraryGaps": [
+        "content.body: not retained because the active Phase 3.5 VOA policy caps reuse at metadata-only and item-level full-text clearance has not been recorded.",
+        "libraryPresentation.level: source says Level 1 / beginning; no CEFR A1-C2 mapping is supplied.",
+        "libraryPresentation.genre: the Library has no language-learning/dialogue genre. No genre was invented.",
+        "libraryPresentation.readingTime: the source supplies no reading-time value; no estimate was generated.",
+        "libraryPresentation.imageReference and applicable asset-rights evidence: page image exists but was not independently cleared; no replacement image was sourced.",
+        "library-import approval sidecar: no authorized APPROVED_FOR_LIBRARY_IMPORT approval exists."
+      ]
+    },
+    {
+      "recordId": "voa-learning-english-7972239",
+      "title": "Senegal Starts Introducing English in Preschools",
+      "source": "VOA Learning English",
+      "canonicalUrl": "https://learningenglish.voanews.com/a/senegal-starts-introducing-english-in-preschools/7972239.html",
+      "articleUrl": "https://learningenglish.voanews.com/a/senegal-starts-introducing-english-in-preschools/7972239.html",
+      "author": {
+        "value": "Andrew Smith; Malick Rokhy Ba (Agence France-Presse); Anna Matteo (adapted for VOA Learning English)",
+        "evidence": "Article closing credit states Andrew Smith, reports the story was reported by Malick Rokhy Ba for AFP, and Anna Matteo adapted it for VOA Learning English."
+      },
+      "publishedAt": "2025-02-19",
+      "pageContentType": "News article",
+      "topic": "Education / English in Senegal",
+      "sourceLevel": null,
+      "libraryCefrLevel": null,
+      "sourcePolicyUrl": "https://learningenglish.voanews.com/p/6861.html",
+      "rightsEvidence": {
+        "sourcePolicy": "VOA policy excludes stories, photos and video images from AFP and other news agencies unless separate permission exists.",
+        "itemLevelEvidence": "The article credits original reporting to AFP and repeatedly attributes material to AFP. No separate permission was found.",
+        "retrievedAt": "2026-10-03"
+      },
+      "clearlyVoaOriginal": "No. The article identifies AFP reporting and VOA adaptation.",
+      "thirdPartyMaterial": "Yes — AFP reporting and copyrighted story material are explicitly identified.",
+      "fullTextReuseEligibility": "Not eligible; excluded under the official VOA policy. No article body is retained in the Phase 4 intake record.",
+      "attribution": "No reuse; therefore no publication attribution is applied. The VOA policy credit would be required only for allowed reused VOA material.",
+      "evidenceUrls": [
+        "https://learningenglish.voanews.com/a/senegal-starts-introducing-english-in-preschools/7972239.html",
+        "https://learningenglish.voanews.com/p/6861.html"
+      ],
+      "media": [
+        {
+          "asset": "Lead photo",
+          "evidence": "Category listing caption states “Photo: Sofia Christensen for VOA.”",
+          "reuseStatus": "VOA credit observed, but excluded together with the AFP-derived article."
+        }
+      ],
+      "provenance": {
+        "pageUid": "7972239",
+        "intakeRecordId": "voa-learning-english-7972239",
+        "retrievedAt": "2026-10-03",
+        "bodyStored": false,
+        "contentHash": null,
+        "packageId": null,
+        "packageVersion": null,
+        "importBatchId": null
+      },
+      "decision": "REJECTED — AFP-reported story material is explicitly credited and no separate permission is evidenced.",
+      "exactLibraryGaps": [
+        "full-text rights: AFP copyrighted reporting is not cleared for republication.",
+        "No package, production import approval, or Library record created."
+      ]
+    },
+    {
+      "recordId": "voa-learning-english-8008342",
+      "title": "Everyday Grammar Video: Ramen, A Popular Food in Japan",
+      "source": "VOA Learning English",
+      "canonicalUrl": "https://learningenglish.voanews.com/a/8008342.html",
+      "articleUrl": "https://learningenglish.voanews.com/a/8008342.html",
+      "author": {
+        "value": "VOA Learning English",
+        "evidence": "Official page JSON-LD VideoObject author field."
+      },
+      "publishedAt": "2025-04-29",
+      "pageContentType": "VideoObject / video",
+      "topic": "Food / ramen; title and Everyday Grammar Video series",
+      "sourceLevel": null,
+      "libraryCefrLevel": null,
+      "sourcePolicyUrl": "https://learningenglish.voanews.com/p/6861.html",
+      "rightsEvidence": {
+        "sourcePolicy": "Learning English videos produced by VOA may be reused with required credit; third-party material is excluded.",
+        "itemLevelEvidence": "The page is a VOA Learning English video page and has no article text body or individual byline.",
+        "retrievedAt": "2026-10-03"
+      },
+      "clearlyVoaOriginal": "Official publisher metadata names VOA Learning English; video content not transcribed or retained.",
+      "thirdPartyMaterial": "Not assessed inside the video; no media was retained.",
+      "fullTextReuseEligibility": "Not applicable as an article body; the page is a video item and supplies no reading text.",
+      "attribution": "If the VOA video were reused, the policy requires credit to learningenglish.voanews.com; no reuse occurred.",
+      "evidenceUrls": [
+        "https://learningenglish.voanews.com/a/8008342.html",
+        "https://learningenglish.voanews.com/p/6861.html"
+      ],
+      "media": [
+        {
+          "asset": "VOA-hosted lesson video and page thumbnail",
+          "evidence": "Official page is typed VideoObject and contains a video player; no asset was copied or retained.",
+          "reuseStatus": "Not included; first batch is for text articles."
+        }
+      ],
+      "provenance": {
+        "pageUid": "8008342",
+        "intakeRecordId": null,
+        "retrievedAt": "2026-10-03",
+        "bodyStored": false,
+        "contentHash": null,
+        "packageId": null,
+        "packageVersion": null,
+        "importBatchId": null
+      },
+      "decision": "EXCLUDED AT DISCOVERY — video-only page without article body; not an English-reading article candidate.",
+      "exactLibraryGaps": [
+        "content.body: no article text is supplied on the page.",
+        "No article package or Library import was created."
+      ]
+    }
+  ],
+  "batchOutcome": {
+    "candidateArticlesReviewed": 3,
+    "accepted": 0,
+    "blocked": 1,
+    "rejected": 1,
+    "excludedAtDiscovery": 1,
+    "realContentImported": false
+  }
+}

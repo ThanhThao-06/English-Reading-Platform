@@ -1,0 +1,148 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "intake-record.schema.json",
+  "title": "Controlled content intake record",
+  "description": "Independent Phase 3.5 record schema. URLs are syntax-checked only; this schema is not a license determination.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "recordId",
+    "sourceId",
+    "title",
+    "canonicalUrl",
+    "receivedAt",
+    "rightsStatus",
+    "reuseMode",
+    "attributionRequired",
+    "reviewStatus"
+  ],
+  "properties": {
+    "recordId": { "type": "string", "minLength": 1 },
+    "testOnly": { "type": "boolean" },
+    "sourceId": { "type": "string", "minLength": 1 },
+    "sourceName": { "type": "string", "minLength": 1 },
+    "sourceUrl": { "type": "string", "format": "uri" },
+    "title": { "type": "string", "minLength": 1 },
+    "canonicalUrl": { "type": "string", "format": "uri" },
+    "doi": { "type": "string", "minLength": 1 },
+    "externalId": { "type": "string", "minLength": 1 },
+    "authors": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true
+    },
+    "publishedAt": { "type": "string", "format": "date" },
+    "receivedAt": { "type": "string", "format": "date" },
+    "contentType": {
+      "enum": [
+        "news",
+        "editorial",
+        "educational",
+        "expository",
+        "short-story",
+        "novel",
+        "classic-literature",
+        "poetry",
+        "dialogue",
+        "other"
+      ]
+    },
+    "language": { "type": "string", "minLength": 1 },
+    "description": { "type": "string", "minLength": 1 },
+    "libraryPresentation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["description", "level", "genre", "readingTime"],
+      "properties": {
+        "description": { "type": "string", "minLength": 1 },
+        "imageReference": { "type": ["string", "null"], "minLength": 1 },
+        "level": { "enum": ["A1", "A2", "B1", "B2", "C1", "C2"] },
+        "genre": { "enum": ["News", "Business & Economics", "Science", "Society", "Fiction / Stories"] },
+        "readingTime": { "enum": ["Under 3 min", "5–10 min", "Chapter"] }
+      }
+    },
+    "classification": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "contentGroup": {
+          "enum": ["articles", "encyclopedia", "specialized", "short-story", "novel", "classic-literature"]
+        },
+        "primaryCategory": {
+          "enum": [
+            "science", "technology", "business", "finance", "healthcare",
+            "history", "culture", "environment", "education", "psychology",
+            "travel", "sports", "society", "politics", "literature",
+            "language-learning", "food", "art", "career", "other"
+          ]
+        },
+        "secondaryCategories": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "science", "technology", "business", "finance", "healthcare",
+              "history", "culture", "environment", "education", "psychology",
+              "travel", "sports", "society", "politics", "literature",
+              "language-learning", "food", "art", "career", "other"
+            ]
+          }
+        }
+      }
+    },
+    "rightsStatus": {
+      "enum": ["verified", "partially-verified", "unknown", "restricted", "not-allowed"]
+    },
+    "reuseMode": {
+      "enum": ["verified-full-text", "metadata-only", "link-only", "unknown", "restricted"]
+    },
+    "rightsBasis": {
+      "enum": ["public-domain", "license", "permission"]
+    },
+    "itemLicenseUrl": { "type": "string", "format": "uri" },
+    "licenseType": { "type": "string", "minLength": 1 },
+    "licenseIdentifier": { "type": "string", "minLength": 1 },
+    "rightsEvidenceUrl": { "type": "string", "format": "uri" },
+    "rightsEvidenceExcerpt": { "type": "string", "minLength": 1 },
+    "attributionRequired": { "type": "boolean" },
+    "attributionText": { "type": "string" },
+    "body": { "type": "string", "minLength": 1 },
+    "mediaAssets": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/mediaAsset" }
+    },
+    "reviewStatus": {
+      "enum": [
+        "received",
+        "needs-source-review",
+        "needs-rights-review",
+        "needs-quality-review",
+        "approved",
+        "rejected"
+      ]
+    },
+    "reviewNotes": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "rejectionReasons": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    }
+  },
+  "$defs": {
+    "mediaAsset": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "assetId": { "type": "string", "minLength": 1 },
+        "assetType": { "enum": ["image", "figure", "table", "audio", "video", "supplementary", "other"] },
+        "rightsStatus": { "enum": ["verified", "partially-verified", "unknown", "restricted", "not-allowed"] },
+        "disposition": { "enum": ["retain", "exclude"] },
+        "evidenceUrl": { "type": "string", "format": "uri" },
+        "attributionRequired": { "type": "boolean" },
+        "attributionText": { "type": "string" }
+      }
+    }
+  }
+}

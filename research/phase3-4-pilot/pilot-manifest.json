@@ -1,0 +1,431 @@
+{
+  "schemaVersion": 1,
+  "phase": "3.4-modern-reading-content-pilot",
+  "createdAt": "2026-10-03",
+  "purpose": "Manual, isolated content-quality and item-level rights pilot. Not application content.",
+  "sourcePolicySnapshots": {
+    "plos-one": {
+      "rightsStatus": "unknown",
+      "contentReuse": "link-only",
+      "licenseType": null,
+      "licenseUrl": null,
+      "registrySource": "frontend/src/data/contentSources.ts"
+    },
+    "voa-learning-english": {
+      "rightsStatus": "partially-verified",
+      "contentReuse": "metadata-only",
+      "licenseType": "public-domain",
+      "licenseUrl": "https://learningenglish.voanews.com/p/6861.html"
+    }
+  },
+  "acquisition": {
+    "voaFeedUrl": "https://learningenglish.voanews.com/api/z_riqtl-vomx-tpevtmqr",
+    "voaFeedLastBuildDate": "2026-10-03T03:22:35Z",
+    "voaRetrievedAt": "2026-10-03",
+    "voaItemsInspected": 8,
+    "voaBodiesFetched": false,
+    "plosLicensePolicyUrl": "https://journals.plos.org/plosone/s/licenses-and-copyright",
+    "plosItemPagesInspectedAt": "2026-10-03"
+  },
+  "records": [
+    {
+      "id": "plos-one-0309377",
+      "sourceId": "plos-one",
+      "publisher": "PLOS ONE",
+      "title": "First evidence of microplastic inhalation among free-ranging small cetaceans",
+      "sourceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0309377",
+      "canonicalUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0309377",
+      "canonicalUrlStatus": "publisher-article-page-and-doi-verified",
+      "externalId": "10.1371/journal.pone.0309377",
+      "doi": "10.1371/journal.pone.0309377",
+      "authors": [
+        "Miranda K. Dziobak",
+        "Andreas Fahlman",
+        "Randall S. Wells",
+        "Ryan Takeshita",
+        "Cynthia Smith",
+        "Austin Gray",
+        "John Weinstein",
+        "Leslie B. Hart"
+      ],
+      "publishedAt": "2024-10-16",
+      "retrievedAt": "2026-10-03",
+      "contentGroup": "specialized",
+      "contentType": "other",
+      "contentTypeNote": "The PLOS page labels this a Research Article; the existing content-type vocabulary has no research-article member.",
+      "categories": {
+        "primaryCategory": "science",
+        "secondaryCategories": ["environment"]
+      },
+      "geography": {
+        "publisherCountryCode": "US",
+        "countriesAbout": ["US"]
+      },
+      "readingLevel": {
+        "status": "not-assessed",
+        "cefr": null
+      },
+      "itemLicense": {
+        "type": "creative-commons",
+        "name": "Creative Commons Attribution License",
+        "identifier": "CC BY 4.0",
+        "version": "4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "evidenceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0309377",
+        "evidenceExcerpt": "Copyright: © 2024 Dziobak et al. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.",
+        "verifiedAt": "2026-10-03"
+      },
+      "rights": {
+        "verificationStatus": "verified",
+        "permittedReuseMode": "verified-full-text",
+        "reason": "The individual article page itself states CC BY 4.0. The PLOS ONE source-registry entry remains unknown/link-only; this item decision is based on direct item evidence in this isolated pilot only.",
+        "sourcePolicySnapshot": {
+          "rightsStatus": "unknown",
+          "contentReuse": "link-only"
+        },
+        "itemLevelEvidenceException": {
+          "applied": true,
+          "reason": "Direct copyright/license statement on this individual PLOS article page; does not change the source registry or production source policy.",
+          "evidenceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0309377"
+        },
+        "attributionRequired": true,
+        "attributionText": "Dziobak MK, Fahlman A, Wells RS, Takeshita R, Smith C, Gray A, et al. (2024). First evidence of microplastic inhalation among free-ranging small cetaceans. PLOS ONE 19(10): e0309377. https://doi.org/10.1371/journal.pone.0309377. CC BY 4.0.",
+        "evidenceUrls": [
+          "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0309377",
+          "https://creativecommons.org/licenses/by/4.0/",
+          "https://journals.plos.org/plosone/s/licenses-and-copyright"
+        ]
+      },
+      "storedContent": {
+        "path": "content/plos-one-0309377-abstract.txt",
+        "scope": "abstract-only",
+        "format": "plain-text-utf8",
+        "normalization": "Publisher abstract text only; no figures, tables, references, navigation, footer, or third-party media copied."
+      },
+      "excludedAssets": [
+        {
+          "assetRef": "Fig 1 map",
+          "assetType": "map",
+          "evidenceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0309377",
+          "evidenceExcerpt": "Map created using Esri ArcGIS Pro basemap, Esri, TomTom, Garmin, FAO, NOAA, USGS, © OpenStreetMap contributors, and the GIS User Community.",
+          "decision": "excluded-unresolved-third-party-rights",
+          "reason": "The map names multiple basemap and data providers; no separate item-level permission/license review was performed and the map was not downloaded or retained."
+        },
+        {
+          "assetRef": "All other figures, tables, and supplementary media",
+          "assetType": "mixed-media",
+          "evidenceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0309377",
+          "decision": "excluded-not-needed-for-text-normalization",
+          "reason": "No embedded media or supplementary files are part of this abstract-only pilot record."
+        }
+      ],
+      "reviewerNotes": "PLOS page lists published date, DOI, authors, and the item-specific CC BY statement. Article page was also checked for the figure caption identifying third-party basemap sources; all media was excluded.",
+      "exclusionReason": null
+    },
+    {
+      "id": "plos-one-0257734",
+      "sourceId": "plos-one",
+      "publisher": "PLOS ONE",
+      "title": "Conceptions of university students on microplastics in Germany",
+      "sourceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0257734",
+      "canonicalUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0257734",
+      "canonicalUrlStatus": "publisher-article-page-and-doi-verified",
+      "externalId": "10.1371/journal.pone.0257734",
+      "doi": "10.1371/journal.pone.0257734",
+      "authors": ["Patricia Raab", "Franz X. Bogner"],
+      "publishedAt": "2021-09-23",
+      "retrievedAt": "2026-10-03",
+      "contentGroup": "specialized",
+      "contentType": "other",
+      "contentTypeNote": "The PLOS page labels this a Research Article; the existing content-type vocabulary has no research-article member.",
+      "categories": {
+        "primaryCategory": "environment",
+        "secondaryCategories": ["education"]
+      },
+      "geography": {
+        "publisherCountryCode": "US",
+        "countriesAbout": ["DE"]
+      },
+      "readingLevel": {
+        "status": "not-assessed",
+        "cefr": null
+      },
+      "itemLicense": {
+        "type": "creative-commons",
+        "name": "Creative Commons Attribution License",
+        "identifier": "CC BY 4.0",
+        "version": "4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "evidenceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0257734",
+        "evidenceExcerpt": "Copyright: © 2021 Raab, Bogner. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.",
+        "verifiedAt": "2026-10-03"
+      },
+      "rights": {
+        "verificationStatus": "verified",
+        "permittedReuseMode": "verified-full-text",
+        "reason": "The individual article page itself states CC BY 4.0. The PLOS ONE source-registry entry remains unknown/link-only; this item decision is based on direct item evidence in this isolated pilot only.",
+        "sourcePolicySnapshot": {
+          "rightsStatus": "unknown",
+          "contentReuse": "link-only"
+        },
+        "itemLevelEvidenceException": {
+          "applied": true,
+          "reason": "Direct copyright/license statement on this individual PLOS article page; does not change the source registry or production source policy.",
+          "evidenceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0257734"
+        },
+        "attributionRequired": true,
+        "attributionText": "Raab P, Bogner FX (2021). Conceptions of university students on microplastics in Germany. PLOS ONE 16(9): e0257734. https://doi.org/10.1371/journal.pone.0257734. CC BY 4.0.",
+        "evidenceUrls": [
+          "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0257734",
+          "https://creativecommons.org/licenses/by/4.0/",
+          "https://journals.plos.org/plosone/s/licenses-and-copyright"
+        ]
+      },
+      "storedContent": {
+        "path": "content/plos-one-0257734-abstract.txt",
+        "scope": "abstract-only",
+        "format": "plain-text-utf8",
+        "normalization": "Publisher abstract text only; no figures, tables, references, navigation, footer, or third-party media copied."
+      },
+      "excludedAssets": [
+        {
+          "assetRef": "All figures, tables, and supplementary media",
+          "assetType": "mixed-media",
+          "evidenceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0257734",
+          "decision": "excluded-not-needed-for-text-normalization",
+          "reason": "No embedded media or supplementary files are part of this abstract-only pilot record; individual asset rights were not separately verified."
+        }
+      ],
+      "reviewerNotes": "PLOS page lists authors, publication date, DOI, and the article-specific CC BY statement. Article reports participant data; only the abstract is retained, not response data or supplementary files.",
+      "exclusionReason": null
+    },
+    {
+      "id": "voa-8008342",
+      "sourceId": "voa-learning-english",
+      "publisher": "VOA Learning English",
+      "title": "Everyday Grammar Video: Ramen, A Popular Food in Japan",
+      "sourceUrl": "https://learningenglish.voanews.com/a/8008342.html",
+      "canonicalUrl": null,
+      "canonicalUrlStatus": "not-independently-checked; RSS link retained",
+      "externalId": "https://learningenglish.voanews.com/a/8008342.html",
+      "doi": null,
+      "authors": [],
+      "publishedAt": "2025-04-29T22:05:00Z",
+      "retrievedAt": "2026-10-03",
+      "contentGroup": "articles",
+      "contentType": null,
+      "categories": null,
+      "geography": null,
+      "readingLevel": {"status": "not-assessed", "cefr": null},
+      "itemLicense": null,
+      "rights": {
+        "verificationStatus": "partially-verified",
+        "permittedReuseMode": "metadata-only",
+        "reason": "RSS supplies metadata and a publisher link. The item was not checked for exclusive VOA authorship; official terms exclude third-party licensed content from reuse.",
+        "sourcePolicySnapshot": {"rightsStatus": "partially-verified", "contentReuse": "metadata-only"},
+        "itemLevelEvidenceException": {"applied": false, "reason": "No item-level ownership clearance was established."},
+        "attributionRequired": true,
+        "attributionText": "Credit to learningenglish.voanews.com",
+        "evidenceUrls": [
+          "https://learningenglish.voanews.com/api/z_riqtl-vomx-tpevtmqr",
+          "https://learningenglish.voanews.com/p/6021.html",
+          "https://learningenglish.voanews.com/p/6861.html"
+        ]
+      },
+      "storedContent": null,
+      "excludedAssets": [],
+      "reviewerNotes": "First RSS record inspected. Author absent from feed; canonical tag not checked; no article page/body fetched.",
+      "exclusionReason": "Body withheld because item-level first-party authorship was not established."
+    },
+    {
+      "id": "voa-8008344",
+      "sourceId": "voa-learning-english",
+      "publisher": "VOA Learning English",
+      "title": "Everyday Grammar Video: A Popular Person in Turkey",
+      "sourceUrl": "https://learningenglish.voanews.com/a/8008344.html",
+      "canonicalUrl": null,
+      "canonicalUrlStatus": "not-independently-checked; RSS link retained",
+      "externalId": "https://learningenglish.voanews.com/a/8008344.html",
+      "doi": null,
+      "authors": [],
+      "publishedAt": "2025-04-22T22:05:00Z",
+      "retrievedAt": "2026-10-03",
+      "contentGroup": "articles",
+      "contentType": null,
+      "categories": null,
+      "geography": null,
+      "readingLevel": {"status": "not-assessed", "cefr": null},
+      "itemLicense": null,
+      "rights": {
+        "verificationStatus": "partially-verified",
+        "permittedReuseMode": "metadata-only",
+        "reason": "RSS supplies metadata and a publisher link. The item was not checked for exclusive VOA authorship; official terms exclude third-party licensed content from reuse.",
+        "sourcePolicySnapshot": {"rightsStatus": "partially-verified", "contentReuse": "metadata-only"},
+        "itemLevelEvidenceException": {"applied": false, "reason": "No item-level ownership clearance was established."},
+        "attributionRequired": true,
+        "attributionText": "Credit to learningenglish.voanews.com",
+        "evidenceUrls": [
+          "https://learningenglish.voanews.com/api/z_riqtl-vomx-tpevtmqr",
+          "https://learningenglish.voanews.com/p/6021.html",
+          "https://learningenglish.voanews.com/p/6861.html"
+        ]
+      },
+      "storedContent": null,
+      "excludedAssets": [],
+      "reviewerNotes": "Second RSS record inspected. Author absent from feed; canonical tag not checked; no article page/body fetched.",
+      "exclusionReason": "Body withheld because item-level first-party authorship was not established."
+    },
+    {
+      "id": "voa-7979346",
+      "sourceId": "voa-learning-english",
+      "publisher": "VOA Learning English",
+      "title": "Everyday Grammar Video: Feedback on Writing Submissions",
+      "sourceUrl": "https://learningenglish.voanews.com/a/7979346.html",
+      "canonicalUrl": null,
+      "canonicalUrlStatus": "not-independently-checked; RSS link retained",
+      "externalId": "https://learningenglish.voanews.com/a/7979346.html",
+      "doi": null,
+      "authors": [],
+      "publishedAt": "2025-03-25T22:00:00Z",
+      "retrievedAt": "2026-10-03",
+      "contentGroup": "articles",
+      "contentType": null,
+      "categories": null,
+      "geography": null,
+      "readingLevel": {"status": "not-assessed", "cefr": null},
+      "itemLicense": null,
+      "rights": {
+        "verificationStatus": "partially-verified",
+        "permittedReuseMode": "metadata-only",
+        "reason": "RSS supplies metadata and a publisher link. The item was not checked for exclusive VOA authorship; official terms exclude third-party licensed content from reuse.",
+        "sourcePolicySnapshot": {"rightsStatus": "partially-verified", "contentReuse": "metadata-only"},
+        "itemLevelEvidenceException": {"applied": false, "reason": "No item-level ownership clearance was established."},
+        "attributionRequired": true,
+        "attributionText": "Credit to learningenglish.voanews.com",
+        "evidenceUrls": [
+          "https://learningenglish.voanews.com/api/z_riqtl-vomx-tpevtmqr",
+          "https://learningenglish.voanews.com/p/6021.html",
+          "https://learningenglish.voanews.com/p/6861.html"
+        ]
+      },
+      "storedContent": null,
+      "excludedAssets": [],
+      "reviewerNotes": "Third RSS record inspected. Author absent from feed; canonical tag not checked; no article page/body fetched.",
+      "exclusionReason": "Body withheld because item-level first-party authorship was not established."
+    },
+    {
+      "id": "voa-7979350",
+      "sourceId": "voa-learning-english",
+      "publisher": "VOA Learning English",
+      "title": "Everyday Grammar Video: 'Population' in Sentences",
+      "sourceUrl": "https://learningenglish.voanews.com/a/7979350.html",
+      "canonicalUrl": null,
+      "canonicalUrlStatus": "not-independently-checked; RSS link retained",
+      "externalId": "https://learningenglish.voanews.com/a/7979350.html",
+      "doi": null,
+      "authors": [],
+      "publishedAt": "2025-03-18T22:00:00Z",
+      "retrievedAt": "2026-10-03",
+      "contentGroup": "articles",
+      "contentType": null,
+      "categories": null,
+      "geography": null,
+      "readingLevel": {"status": "not-assessed", "cefr": null},
+      "itemLicense": null,
+      "rights": {
+        "verificationStatus": "partially-verified",
+        "permittedReuseMode": "metadata-only",
+        "reason": "RSS supplies metadata and a publisher link. The item was not checked for exclusive VOA authorship; official terms exclude third-party licensed content from reuse.",
+        "sourcePolicySnapshot": {"rightsStatus": "partially-verified", "contentReuse": "metadata-only"},
+        "itemLevelEvidenceException": {"applied": false, "reason": "No item-level ownership clearance was established."},
+        "attributionRequired": true,
+        "attributionText": "Credit to learningenglish.voanews.com",
+        "evidenceUrls": [
+          "https://learningenglish.voanews.com/api/z_riqtl-vomx-tpevtmqr",
+          "https://learningenglish.voanews.com/p/6021.html",
+          "https://learningenglish.voanews.com/p/6861.html"
+        ]
+      },
+      "storedContent": null,
+      "excludedAssets": [],
+      "reviewerNotes": "Fourth RSS record inspected. Author absent from feed; canonical tag not checked; no article page/body fetched.",
+      "exclusionReason": "Body withheld because item-level first-party authorship was not established."
+    },
+    {
+      "id": "voa-7979347",
+      "sourceId": "voa-learning-english",
+      "publisher": "VOA Learning English",
+      "title": "Everyday Grammar Video: Population",
+      "sourceUrl": "https://learningenglish.voanews.com/a/7979347.html",
+      "canonicalUrl": null,
+      "canonicalUrlStatus": "not-independently-checked; RSS link retained",
+      "externalId": "https://learningenglish.voanews.com/a/7979347.html",
+      "doi": null,
+      "authors": [],
+      "publishedAt": "2025-03-11T22:00:00Z",
+      "retrievedAt": "2026-10-03",
+      "contentGroup": "articles",
+      "contentType": null,
+      "categories": null,
+      "geography": null,
+      "readingLevel": {"status": "not-assessed", "cefr": null},
+      "itemLicense": null,
+      "rights": {
+        "verificationStatus": "partially-verified",
+        "permittedReuseMode": "metadata-only",
+        "reason": "RSS supplies metadata and a publisher link. The item was not checked for exclusive VOA authorship; official terms exclude third-party licensed content from reuse.",
+        "sourcePolicySnapshot": {"rightsStatus": "partially-verified", "contentReuse": "metadata-only"},
+        "itemLevelEvidenceException": {"applied": false, "reason": "No item-level ownership clearance was established."},
+        "attributionRequired": true,
+        "attributionText": "Credit to learningenglish.voanews.com",
+        "evidenceUrls": [
+          "https://learningenglish.voanews.com/api/z_riqtl-vomx-tpevtmqr",
+          "https://learningenglish.voanews.com/p/6021.html",
+          "https://learningenglish.voanews.com/p/6861.html"
+        ]
+      },
+      "storedContent": null,
+      "excludedAssets": [],
+      "reviewerNotes": "Fifth RSS record inspected. Author absent from feed; canonical tag not checked; no article page/body fetched.",
+      "exclusionReason": "Body withheld because item-level first-party authorship was not established."
+    },
+    {
+      "id": "voa-7979349",
+      "sourceId": "voa-learning-english",
+      "publisher": "VOA Learning English",
+      "title": "Everyday Grammar Video: Goodbye In Informal Conversations",
+      "sourceUrl": "https://learningenglish.voanews.com/a/7979349.html",
+      "canonicalUrl": null,
+      "canonicalUrlStatus": "not-independently-checked; RSS link retained",
+      "externalId": "https://learningenglish.voanews.com/a/7979349.html",
+      "doi": null,
+      "authors": [],
+      "publishedAt": "2025-03-04T22:00:00Z",
+      "retrievedAt": "2026-10-03",
+      "contentGroup": "articles",
+      "contentType": null,
+      "categories": null,
+      "geography": null,
+      "readingLevel": {"status": "not-assessed", "cefr": null},
+      "itemLicense": null,
+      "rights": {
+        "verificationStatus": "partially-verified",
+        "permittedReuseMode": "metadata-only",
+        "reason": "RSS supplies metadata and a publisher link. The item was not checked for exclusive VOA authorship; official terms exclude third-party licensed content from reuse.",
+        "sourcePolicySnapshot": {"rightsStatus": "partially-verified", "contentReuse": "metadata-only"},
+        "itemLevelEvidenceException": {"applied": false, "reason": "No item-level ownership clearance was established."},
+        "attributionRequired": true,
+        "attributionText": "Credit to learningenglish.voanews.com",
+        "evidenceUrls": [
+          "https://learningenglish.voanews.com/api/z_riqtl-vomx-tpevtmqr",
+          "https://learningenglish.voanews.com/p/6021.html",
+          "https://learningenglish.voanews.com/p/6861.html"
+        ]
+      },
+      "storedContent": null,
+      "excludedAssets": [],
+      "reviewerNotes": "Sixth RSS record inspected. Author absent from feed; canonical tag not checked; no article page/body fetched.",
+      "exclusionReason": "Body withheld because item-level first-party authorship was not established."
+    }
+  ]
+}

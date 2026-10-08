@@ -1,0 +1,53 @@
+{
+  "recordId": "wiktionary-posh",
+  "sourceId": "wiktionary",
+  "sourceName": "Wiktionary",
+  "sourceUrl": "https://en.wiktionary.org/",
+  "title": "posh",
+  "canonicalUrl": "https://en.wiktionary.org/wiki/posh",
+  "externalId": "posh",
+  "authors": [
+    "Wiktionary contributors"
+  ],
+  "language": "en",
+  "description": "Etymology 1 Most likely derived from posh , either because posh-kooroona (originally a substantial sum of money) was used metaphorically for anything pricey or upper-class, or because posh-houri came to refer to money generally.",
+  "contentType": "educational",
+  "classification": {
+    "contentGroup": "articles",
+    "primaryCategory": "language-learning",
+    "secondaryCategories": []
+  },
+  "libraryPresentation": {
+    "description": "Etymology 1 Most likely derived from posh , either because posh-kooroona (originally a substantial sum of money) was used metaphorically for anything pricey or upper-class, or because posh-houri came to refer to money generally.",
+    "genre": "Education",
+    "level": "A2",
+    "readingTime": "Under 3 min",
+    "imageReference": null
+  },
+  "receivedAt": "2026-10-05",
+  "rightsStatus": "verified",
+  "reuseMode": "verified-full-text",
+  "rightsBasis": "license",
+  "itemLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "licenseType": "creative-commons",
+  "licenseIdentifier": "CC-BY-SA-4.0",
+  "rightsEvidenceUrl": "https://en.wiktionary.org/wiki/posh",
+  "rightsEvidenceExcerpt": "Definitions and other text are available under the Creative Commons Attribution-ShareAlike License ; additional terms may apply.",
+  "attributionRequired": true,
+  "attributionText": "Wiktionary contributors, CC BY-SA 4.0 (via https://en.wiktionary.org/wiki/posh)",
+  "body": "Etymology 1\n\nMost likely derived from posh , either because posh-kooroona (originally a substantial sum of money) was used metaphorically for anything pricey or upper-class, or because posh-houri came to refer to money generally.\n\nA period slang dictionary defines \"posh\" as a term used by thieves for \"money generic, but specifically, a halfpenny or other small coin\". An example is given from James Payn's The Eavesdropper (1888) \"They used such funny terms 'brads,' and 'dibbs,' and 'mopusses,' and 'posh' ... at last it was borne in upon me that they were talking about money.\"\n\nEvidence exists for a slang sense from the 1890s meaning dandy , which is quite possibly related.\n\nA popular folk etymology holds that the term is an acronym for \"port out, starboard home\", describing the cooler, north-facing cabins taken by the most aristocratic or rich passengers travelling from Britain to India and back. However, there is no evidence for this claim.\n\nIt could also possibly be a .\n\nSee also the articles mentioned in the References section below for additional discussion.\n\nEtymology 2\n\nCompare pash .",
+  "mediaAssets": [],
+  "reviewStatus": "approved",
+  "reviewNotes": [
+    "Official source page fetched and its full text extracted verbatim: 180 words.",
+    "CC BY-SA statement captured from the Wiktionary page footer: \"Definitions and other text are available under the Creative Commons Attribution-ShareAlike License ; additional terms may apply.\"",
+    "Entry read through the official MediaWiki API; only the English Etymology and part-of-speech definition prose is stored.",
+    "Third-party and non-free content excluded from the stored body: 0 block(s) removed.",
+    "Curiosity Topic (Curiosities & Deep Dives shelf): \"Linguistics & Etymology\".",
+    "No image, audio or other media is retained: no item-level asset-rights evidence was recorded, so imageReference is null.",
+    "A2 is a Library-level editorial mapping, not a claimed formal CEFR label.",
+    "Reading time \"Under 3 min\" is mapped from the full-text word count (180) at 200 WPM.",
+    "Genre \"Education\": A word whose confident origin story turns out to be a myth.",
+    "Reuse is educational and attributed; it does not imply any endorsement by the source."
+  ]
+}

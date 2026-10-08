@@ -1,0 +1,13 @@
+{
+  "name": "english-reading-library-service",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.mjs",
+    "import": "node src/import-packages.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.4.1"
+  }
+}

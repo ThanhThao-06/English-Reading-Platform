@@ -1,0 +1,51 @@
+{
+  "recordId": "noaa-ocean-service-lawofsea",
+  "sourceId": "noaa-ocean-service",
+  "sourceName": "NOAA National Ocean Service",
+  "sourceUrl": "https://oceanservice.noaa.gov/",
+  "title": "What is the law of the sea?",
+  "canonicalUrl": "https://oceanservice.noaa.gov/facts/lawofsea.html",
+  "externalId": "lawofsea",
+  "authors": [
+    "NOAA"
+  ],
+  "publishedAt": "2026-09-23",
+  "language": "en",
+  "description": "The law of the sea is a body of customs, treaties, and international agreements by which governments maintain order, productivity, and peaceful relations on the sea.",
+  "contentType": "expository",
+  "classification": {
+    "contentGroup": "articles",
+    "primaryCategory": "politics",
+    "secondaryCategories": [
+      "society"
+    ]
+  },
+  "libraryPresentation": {
+    "description": "The law of the sea is a body of customs, treaties, and international agreements by which governments maintain order, productivity, and peaceful relations on the sea.",
+    "genre": "Law & Politics",
+    "level": "B2",
+    "readingTime": "Under 3 min",
+    "imageReference": null
+  },
+  "receivedAt": "2026-10-05",
+  "rightsStatus": "verified",
+  "reuseMode": "verified-full-text",
+  "rightsBasis": "public-domain",
+  "rightsEvidenceUrl": "https://oceanservice.noaa.gov/disclaimer.html",
+  "rightsEvidenceExcerpt": "Information presented on this website is considered public information and may be distributed or copied, unless specifically noted otherwise. This website is maintained by NOAA’s National Ocean Service.",
+  "attributionRequired": true,
+  "attributionText": "NOAA Ocean Service, oceanservice.noaa.gov",
+  "body": "The law of the sea is a body of customs, treaties, and international agreements by which governments maintain order, productivity, and peaceful relations on the sea.\n\nNotable in the development of the law of the sea are a number of international conventions signed in the latter half of the 20th century. The United Nations (UN) held its first Conference on the Law of the Sea (UNCLOS I) in 1956, which resulted in a 1958 Convention. The final conference, held in Montego Bay, Jamaica, in 1982, resulted in the 1982 Law of the Sea Convention (LOSC). The LOSC came into force in 1994 upon receiving the necessary number of UN signatories.\n\nWhile the United States ratified the 1958 Convention, as of late 2013, it had not become a party to the 1982 Convention. The United States recognizes that the 1982 Convention reflects customary international law and complies with its provisions.\n\nNOAA's Rule\n\nNOAA is responsible for depicting on its nautical charts the limits of the 12 nautical mile Territorial Sea, 24 nautical mile Contiguous Zone, and 200 nautical mile Exclusive Economic Zone (EEZ). Each of these maritime zones is projected from what is called a “normal baseline,” which is derived from NOAA nautical charts. A “normal baseline” is defined under the Law of the Sea as the low-water line along the coast as marked on officially recognized, large-scale charts or the lowest charted datum, which is mean lower low water (MLLW) in the United States. The method of arriving at this baseline is described in the 1958 Convention and in the 1982 Convention. The U.S. normal baselines are ambulatory and subject to changes such as accretion (addition of land) and erosion. Unless the seaward boundary or zone is fixed, it will be subject to corresponding change.\n\nThe location of maritime zones and boundaries can have potentially far-reaching effects. As a result, NOAA works with other federal agencies, particularly the U.S. Department of State, to periodically update U.S. maritime zones and boundaries as depicted on NOAA navigational charts.",
+  "mediaAssets": [],
+  "reviewStatus": "approved",
+  "reviewNotes": [
+    "Official NOAA Ocean Service page fetched and its full text extracted verbatim: 6 paragraphs, 336 words.",
+    "Page-level author credit recorded verbatim as authors: [\"NOAA\"]; page citation date 2026-09-23.",
+    "Page text inspected individually for copyright, third-party credit, courtesy/licence and restriction notices: none found.",
+    "Page-level provenance signals recorded: []. Any image/media credit on the page is excluded because no asset is reused.",
+    "No image or media is retained: no item-level asset-rights evidence was recorded, so imageReference is null.",
+    "B2 is a Library-level editorial mapping for this English-learning article, not a claimed formal CEFR label.",
+    "Reading time \"Under 3 min\" is mapped from the full-text word count (336) at 200 WPM.",
+    "Genre \"Law & Politics\": Explainer on the international law of the sea and which body administers it."
+  ]
+}

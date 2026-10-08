@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "packageId": "content-716506b943224bb4f3779570",
+  "version": 1,
+  "createdAt": "2026-10-04T03:01:01.620Z",
+  "supersedes": null,
+  "packageStatus": "ELIGIBLE",
+  "eligibleForPhase38": true,
+  "libraryPresentation": {
+    "description": "A dish is more than something you put food on. Find out about different uses of the term on this Words and Their Stories program.",
+    "imageReference": null,
+    "level": "B1",
+    "genre": "Society",
+    "readingTime": "Under 3 min"
+  },
+  "content": {
+    "recordId": "voa-learning-english-7980848",
+    "title": "How to Dish Up Something Good",
+    "contentType": "educational",
+    "contentGroup": "articles",
+    "categories": {
+      "primary": "language-learning",
+      "secondary": [
+        "food",
+        "culture"
+      ]
+    },
+    "language": "en",
+    "authors": [
+      "Anna Matteo wrote this story for VOA Learning English"
+    ],
+    "reuseMode": "verified-full-text",
+    "body": "And now, Words and Their Stories, from VOA Learning English.\n\nFood is a popular subject with many people around the world. It is fun to talk about our favorite dishes. It is even more fun to share a favorite dish with others.\n\nToday we talk about the word “dish.” A dish can be the object on which you serve food. But, a dish can also mean a specially prepared food.\n\nDo you have a signature dish? Our signature is how we sign our names. So, a signature dish is a dish we are known for making well. In a way, it identifies us.\n\nMy signature dish is sweet potato rosemary dinner rolls. I am often asked to make them, especially for holiday parties. In my circle of friends, I am known for this dish. When the rolls are on the table, people know that I made them.\n\nA tasty dish is something that makes a table look good and inviting. Sometimes the same can be said about a person. Someone who is good-looking can be called a dish. While this usage might be a bit dated, it is still used.\n\nNow, let’s talk about the verb “dish.”\n\n“To dish” can mean to talk about private or personal information. It might be gossip. But I can also dish about myself. For example, a friend may ask me to dish about my new job.\n\nI could also use a phrasal verb form and say my friend wants me to dish out all the interesting details.\n\nNow, to dish up something means to put food on a dish for someone to eat. However, it can also mean sharing personal details, our own and others.\n\nWe can also dish out things, like jokes or even insults.\n\nSome people like to tease or insult. They can dish out jokes and insults all day long. But sometimes these same people do not like it if you do the same to them.\n\nWe have a saying for just such people. We say, “They can dish it out, but they can’t take it.” They are able and willing to share harsh thoughts, criticisms, or insults about others, but they do not think they, themselves, deserve such treatment.\n\nAnd that’s Words and Their Stories. Until next time, I’m Anna Matteo.\n\nAnna Matteo wrote this story for VOA Learning English.\n\nWords in This Story\n\nsignature – n. the name of a person written with his or her own hand\n\ngossip – n. rumor or report of a personal nature\n\ntease – v. to make fun of\n\nharsh – adj. excessively critical or negative",
+    "bodyReference": null
+  },
+  "source": {
+    "sourceId": "voa-learning-english",
+    "sourceName": "VOA Learning English",
+    "sourceUrl": "https://learningenglish.voanews.com/",
+    "canonicalUrl": "https://learningenglish.voanews.com/a/how-to-dish-up-something-good/7980848.html",
+    "externalId": "7980848",
+    "doi": null
+  },
+  "rights": {
+    "verificationStatus": "verified",
+    "permittedReuseMode": "verified-full-text",
+    "rightsBasis": "conditional-source-policy",
+    "sourcePolicy": {
+      "rightsStatus": "partially-verified",
+      "maxReuseMode": "metadata-only"
+    },
+    "license": {
+      "type": null,
+      "identifier": null,
+      "url": null
+    },
+    "attributionRequired": true,
+    "attributionText": "Credit to learningenglish.voanews.com",
+    "evidence": [
+      {
+        "evidenceId": "voa-learning-english-7980848-metadata",
+        "evidenceType": "item-metadata",
+        "sourceUrl": "https://learningenglish.voanews.com/a/how-to-dish-up-something-good/7980848.html",
+        "reference": "Item metadata captured from the canonical source page.",
+        "excerpt": null,
+        "retrievedAt": "2026-10-04",
+        "scope": "item",
+        "appliesToRecordId": "voa-learning-english-7980848"
+      },
+      {
+        "evidenceId": "voa-learning-english-7980848-source-policy",
+        "evidenceType": "source-policy",
+        "sourceUrl": "https://learningenglish.voanews.com/p/6861.html",
+        "reference": "https://learningenglish.voanews.com/p/6861.html",
+        "excerpt": "Learning English texts, MP3s, photos and videos are in the public domain. You are allowed to reprint them for educational and commercial purposes, with credit to learningenglish.voanews.com. However, stories, photos and video images from news agencies such as AP, Reuters and AFP are copyrighted, so you are not allowed to republish them.",
+        "retrievedAt": "2026-10-04",
+        "scope": "source",
+        "appliesToRecordId": "voa-learning-english"
+      }
+    ]
+  },
+  "validation": {
+    "validator": "Phase 3.5 validateIntake",
+    "result": "PASS",
+    "errorCodes": []
+  },
+  "review": {
+    "reviewStatus": "approved",
+    "reviewedAt": "2026-10-04T03:01:01.620Z",
+    "reviewer": "User (explicit request to import five articles)",
+    "decision": "The user explicitly authorized importing up to five new VOA Learning English articles subject to every existing rights, validation, approval, duplicate, and provenance gate passing. The official source pages and full article text were inspected; unverified third-party media was excluded."
+  },
+  "provenance": {
+    "sourceRecordId": "voa-learning-english-7980848",
+    "intakeRecordId": "voa-learning-english-7980848",
+    "intakeSchemaVersion": "phase3.5-independent-intake-v1",
+    "intakeValidationResult": "PASS",
+    "dryRunResult": "PASS",
+    "dryRunRecordId": "voa-learning-english-7980848",
+    "reviewStatus": "approved",
+    "packageCreatedAt": "2026-10-04T03:01:01.620Z",
+    "sourceManifest": "research/phase4-1-voa-first-import/intake/voa-learning-english-3947928.json; research/phase4-1-voa-first-import/intake/voa-learning-english-7979814.json; research/phase4-1-voa-first-import/intake/voa-learning-english-7940837.json; research/phase4-1-voa-first-import/intake/voa-learning-english-7963076.json; research/phase4-1-voa-first-import/intake/voa-learning-english-7980848.json"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "packageId": "content-7aa7cf15a69fc0faee53c829",
+  "version": 1,
+  "createdAt": "2026-10-05T00:00:00.000Z",
+  "supersedes": null,
+  "packageStatus": "ELIGIBLE",
+  "eligibleForPhase38": true,
+  "libraryPresentation": {
+    "description": "The Sun The Sun is the star at the heart of our solar system.",
+    "genre": "Science & Nature",
+    "level": "B1",
+    "readingTime": "Under 3 min",
+    "imageReference": null
+  },
+  "content": {
+    "recordId": "nasa-sun",
+    "title": "The Sun",
+    "contentType": "expository",
+    "contentGroup": "articles",
+    "categories": {
+      "primary": "science",
+      "secondary": [
+        "environment"
+      ]
+    },
+    "language": "en",
+    "authors": [
+      "NASA"
+    ],
+    "reuseMode": "verified-full-text",
+    "body": "The Sun\n\nThe Sun is the star at the heart of our solar system. Its gravity holds the solar system together, keeping everything — from the biggest planets to the smallest bits of debris — in its orbit.\n\n22\n\nActive Missions\n\nOverview\n\nThe Sun's gravity holds the solar system together, keeping everything — from the biggest planets to the smallest particles of debris — in its orbit. The connection and interactions between the Sun and Earth drive the seasons, ocean currents, weather, climate, radiation belts and auroras. Though it is special to us, there are billions of stars like our Sun scattered across the Milky Way galaxy.\n\nThe Sun has many names in many cultures. The Latin word for Sun is “sol,” which is the main adjective for all things Sun-related: solar.\n\n2026 Total Solar Eclipse\n\nOn Wednesday, Aug. 12, a total solar eclipse swept across Greenland, Iceland, northern Russia, the Atlantic Ocean, Spain, and a small corner of Portugal.\n\nMany other places in the Northern Hemisphere experienced a partial solar eclipse that day, including parts of the northern U.S. (from Alaska to North Carolina), most of Canada, much of Europe, and northwestern Africa.\n\nWatch NASA's coverage of the eclipse\n\nVersión en español\n\nLearn more\n\nAbout Eclipses\n\nPop Culture\n\nThe Sun has inspired us since ancient times. It’s central to mythology and religion in cultures around the world, including the ancient Egyptians, the Aztecs of Mexico, Native American tribes of North and South America, the Chinese, and many others.\n\nCountless musicians have written songs about the Sun. The Beatles had a hit in 1969 with “Here Comes the Sun.” Other popular songs that reference the Sun include: “Walkin’ on the Sun” by Smashmouth; “Ain’t No Sunshine” by Bill Withers; “Walking on Sunshine” by Katrina and the Waves; “Pocketful of Sunshine” by Natasha Bedingfield; and “Let the Sunshine In” by the Fifth Dimension.\n\nIf you're Superman or a fellow Kryptonian of comic book fame, your powers are heightened by the yellow glow of our Sun. There are several science fiction films featuring the Sun in the storyline.\n\nFeatured Story\n\nTo Protect Artemis II Astronauts, NASA Experts Keep Eyes on Sun\n\nAs four astronauts travel around the Moon on NASA’s Artemis II mission, they will venture beyond Earth’s protective magnetic field. The crew’s…\n\nRead the Story\n\nNASA HEAT — Resources for Educators\n\nThe Sun can provide a fun and exciting laboratory for exploring magnetism, gravity, light, energy, and much more! Learn how to integrate heliophysics concepts and resources into existing educational and outreach activities with the NASA Heliophysics Education Activation Team (NASA HEAT).\n\nGet Involved\n\nThe Sungrazer Project\n\nWant to be a part of science and discovery? Join this research effort to hunt for comets that pass close to the Sun.\n\nLearn More\n\nSun Stories\n\nMore Sun Stories\n\nBlog\n\n3 Min Read\n\nAfter Latest Swing Past Sun, NASA’s Parker Solar Probe Checks in\n\nArticle\n\n5 Min Read\n\nNASA Rocket Takes First Multi-Point Look Inside Radio-Disrupting Clouds\n\n6 Min Read\n\nStarstruck: NASA Research Shows How Sun’s Ancient History Shaped Earth\n\nArticle\n\n3 Min Read\n\nNASA Shares Views of August Solar Eclipse from Ground, Air, Space\n\nArticle\n\n6 Min Read\n\nNASA’s COFFIES Uses AI to Predict Storm-Causing Active Regions on Sun\n\nArticle\n\nThe Sun\n\n16 Images\n\nGo To Gallery\n\nGo To Gallery\n\nLearn More and Get Involved\n\nFor Kids: All About the Sun\n\nFacts and activities for K-4 explorers\n\nNASA Photojournal: The Sun\n\nImages and videos of scientific interest\n\nKeep Exploring",
+    "bodyReference": null
+  },
+  "source": {
+    "sourceId": "nasa",
+    "sourceName": "NASA",
+    "sourceUrl": "https://www.nasa.gov/",
+    "canonicalUrl": "https://science.nasa.gov/sun/",
+    "externalId": "sun",
+    "doi": null
+  },
+  "rights": {
+    "verificationStatus": "verified",
+    "permittedReuseMode": "verified-full-text",
+    "rightsBasis": "permission",
+    "sourcePolicy": {
+      "rightsStatus": "verified",
+      "maxReuseMode": "verified-full-text"
+    },
+    "license": {
+      "type": null,
+      "identifier": null,
+      "url": null
+    },
+    "attributionRequired": true,
+    "attributionText": "NASA",
+    "evidence": [
+      {
+        "evidenceId": "nasa-sun-metadata",
+        "evidenceType": "item-metadata",
+        "sourceUrl": "https://science.nasa.gov/sun/",
+        "reference": "Item metadata captured from the canonical source page.",
+        "excerpt": null,
+        "retrievedAt": "2026-10-05",
+        "scope": "item",
+        "appliesToRecordId": "nasa-sun"
+      },
+      {
+        "evidenceId": "nasa-sun-item-rights",
+        "evidenceType": "item-rights",
+        "sourceUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "reference": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "excerpt": "NASA content - images, audio, video, and media files used in the rendition of 3-dimensional models, such as texture maps and polygon data in any format - generally are not subject to copyright in the United States. You may use this material for educational or informational purposes, including photo collections, textbooks, public exhibits, computer graphical simulations and Internet Web pages. News outlets, schools, and text-book authors may use NASA content without needing explicit permission, subject to compliance with these guidelines. NASA content used in a factual manner that does not imply endorsement may be used without needing explicit permission. NASA should be acknowledged as the source of the material.",
+        "retrievedAt": "2026-10-05",
+        "scope": "item",
+        "appliesToRecordId": "nasa-sun"
+      }
+    ]
+  },
+  "validation": {
+    "validator": "Phase 3.5 validateIntake",
+    "result": "PASS",
+    "errorCodes": []
+  },
+  "review": {
+    "reviewStatus": "approved",
+    "reviewer": "User (explicit request to import the next real article batch from NASA)",
+    "decision": "The user explicitly authorized a real NASA import batch for educational and informational use. Each official NASA page was fetched and its full text extracted verbatim, then reviewed individually: NASA page provenance and a readable citation date are required, and any third-party credit, courtesy/licence notice, syndicated or contributed content, or topic-hub shape excludes the item. NASA Images and Media Usage Guidelines are recorded as the source-policy evidence. No NASA image, insignia or identifier is reused: imageReference is null for every item.",
+    "reviewedAt": "2026-10-05T00:00:00.000Z"
+  },
+  "provenance": {
+    "sourceRecordId": "nasa-sun",
+    "intakeRecordId": "nasa-sun",
+    "intakeSchemaVersion": "phase3.5-independent-intake-v1",
+    "intakeValidationResult": "PASS",
+    "dryRunResult": "PASS",
+    "dryRunRecordId": "nasa-sun",
+    "reviewStatus": "approved",
+    "packageCreatedAt": "2026-10-05T00:00:00.000Z",
+    "sourceManifest": "research/phase4-7-nasa/intake/nasa-saturn.json; research/phase4-7-nasa/intake/nasa-black-holes.json; research/phase4-7-nasa/intake/nasa-sun.json; research/phase4-7-nasa/intake/nasa-moon.json; research/phase4-7-nasa/intake/nasa-exoplanets.json; research/phase4-7-nasa/intake/nasa-dark-matter.json; research/phase4-7-nasa/intake/nasa-earth-science.json; research/phase4-7-nasa/intake/nasa-climate-change.json; research/phase4-7-nasa/intake/nasa-skywatching.json; research/phase4-7-nasa/intake/nasa-machine-learning.json"
+  }
+}

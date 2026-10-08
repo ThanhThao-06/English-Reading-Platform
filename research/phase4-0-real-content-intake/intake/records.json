@@ -1,0 +1,108 @@
+[
+  {
+    "recordId": "voa-learning-english-3111026",
+    "sourceId": "voa-learning-english",
+    "title": "Lesson 1: Welcome!",
+    "canonicalUrl": "https://learningenglish.voanews.com/a/lets-learn-english-lesson-one/3111026.html",
+    "externalId": "3111026",
+    "authors": ["VOA Learning English"],
+    "publishedAt": "2019-09-10",
+    "receivedAt": "2026-10-03",
+    "contentType": "educational",
+    "classification": {
+      "contentGroup": "articles",
+      "primaryCategory": "language-learning"
+    },
+    "rightsStatus": "partially-verified",
+    "reuseMode": "metadata-only",
+    "rightsEvidenceUrl": "https://learningenglish.voanews.com/p/6861.html",
+    "rightsEvidenceExcerpt": "Learning English texts, MP3s, photos and videos are in the public domain. You are allowed to reprint them for educational and commercial purposes, with credit to learningenglish.voanews.com. However, stories, photos and video images from news agencies such as AP, Reuters and AFP are copyrighted, so you are not allowed to republish them.",
+    "attributionRequired": true,
+    "attributionText": "Credit to learningenglish.voanews.com",
+    "mediaAssets": [
+      {
+        "assetId": "3111026-lesson-video",
+        "assetType": "video",
+        "rightsStatus": "unknown",
+        "disposition": "exclude"
+      },
+      {
+        "assetId": "3111026-page-image",
+        "assetType": "image",
+        "rightsStatus": "unknown",
+        "disposition": "exclude"
+      },
+      {
+        "assetId": "3111026-speaking-practice-video",
+        "assetType": "video",
+        "rightsStatus": "unknown",
+        "disposition": "exclude"
+      },
+      {
+        "assetId": "3111026-pronunciation-practice-video",
+        "assetType": "video",
+        "rightsStatus": "unknown",
+        "disposition": "exclude"
+      },
+      {
+        "assetId": "3111026-alphabet-video",
+        "assetType": "video",
+        "rightsStatus": "unknown",
+        "disposition": "exclude"
+      }
+    ],
+    "reviewStatus": "needs-rights-review",
+    "reviewNotes": [
+      "Official VOA item page and JSON-LD identify the series as Let's Learn English - Level 1 and the author as VOA Learning English; the page description says the course is for beginning English learners.",
+      "The current Phase 3.5 VOA policy fixture is partially-verified / metadata-only. The reviewed VOA policy permits reuse only for material produced by VOA and excludes third-party copyrighted material; no Phase 4 policy update or item-specific clearance has been approved.",
+      "No body is retained: item-level full-text rights have not been approved through the existing intake policy.",
+      "All page-associated media are excluded because asset-specific reuse evidence has not been recorded.",
+      "The source says Level 1 / beginning, not a CEFR level. No A1-C2 equivalence is supplied.",
+      "The Library has no matching genre for a language-learning dialogue. A reading-time value is not supplied by the source and has not been estimated."
+    ]
+  },
+  {
+    "recordId": "voa-learning-english-7972239",
+    "sourceId": "voa-learning-english",
+    "title": "Senegal Starts Introducing English in Preschools",
+    "canonicalUrl": "https://learningenglish.voanews.com/a/senegal-starts-introducing-english-in-preschools/7972239.html",
+    "externalId": "7972239",
+    "authors": [
+      "Andrew Smith",
+      "Malick Rokhy Ba (Agence France-Presse)",
+      "Anna Matteo (adapted for VOA Learning English)"
+    ],
+    "publishedAt": "2025-02-19",
+    "receivedAt": "2026-10-03",
+    "contentType": "news",
+    "classification": {
+      "contentGroup": "articles",
+      "primaryCategory": "education"
+    },
+    "rightsStatus": "partially-verified",
+    "reuseMode": "metadata-only",
+    "rightsEvidenceUrl": "https://learningenglish.voanews.com/p/6861.html",
+    "rightsEvidenceExcerpt": "Learning English texts, MP3s, photos and videos are in the public domain. You are allowed to reprint them for educational and commercial purposes, with credit to learningenglish.voanews.com. However, stories, photos and video images from news agencies such as AP, Reuters and AFP are copyrighted, so you are not allowed to republish them.",
+    "attributionRequired": true,
+    "attributionText": "Credit to learningenglish.voanews.com",
+    "mediaAssets": [
+      {
+        "assetId": "7972239-lead-photo",
+        "assetType": "image",
+        "rightsStatus": "verified",
+        "disposition": "exclude",
+        "evidenceUrl": "https://learningenglish.voanews.com/a/senegal-starts-introducing-english-in-preschools/7972239.html",
+        "attributionRequired": true,
+        "attributionText": "Page caption: Photo: Sofia Christensen for VOA. Credit to learningenglish.voanews.com"
+      }
+    ],
+    "reviewStatus": "rejected",
+    "rejectionReasons": [
+      "The article explicitly credits reporting to Malick Rokhy Ba for Agence France-Presse (AFP), and its text attributes reporting and quotes to AFP. VOA policy at https://learningenglish.voanews.com/p/6861.html excludes AFP-copyrighted stories from republication. The article body is not retained."
+    ],
+    "reviewNotes": [
+      "The article listing and page were examined only to screen rights; no full text is retained in this intake record.",
+      "The lead-photo caption identifies Sofia Christensen for VOA, but the separately reusable image is excluded with the rejected article."
+    ]
+  }
+]

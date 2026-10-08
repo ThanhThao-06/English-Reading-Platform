@@ -1,0 +1,959 @@
+/* ==========================================================================
+   Reader Layout & Container
+   ========================================================================== */
+
+.reader-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Theme variables */
+.reader-page[data-theme='dark'] {
+  --reader-bg: #0d1117;
+  --reader-toolbar-bg: rgba(22, 27, 34, 0.9);
+  --reader-card-bg: #161b22;
+  --reader-text-primary: #f0f6fc;
+  --reader-text-secondary: #8b949e;
+  --reader-text-muted: #6e7681;
+  --reader-border: #30363d;
+  --reader-btn-bg: #21262d;
+  --reader-btn-hover: #30363d;
+  --reader-btn-active: #388bfd;
+  --reader-btn-active-text: #ffffff;
+  --reader-highlight: #d9b26a;
+  --reader-highlight-bg: rgba(217, 178, 106, 0.28);
+  background-color: var(--reader-bg);
+  color: var(--reader-text-primary);
+}
+
+.reader-page[data-theme='light'] {
+  --reader-bg: #f4f6f8;
+  --reader-toolbar-bg: rgba(255, 255, 255, 0.95);
+  --reader-card-bg: #ffffff;
+  --reader-text-primary: #1f2328;
+  --reader-text-secondary: #57606a;
+  --reader-text-muted: #8c959f;
+  --reader-border: #d0d7de;
+  --reader-btn-bg: #f6f8fa;
+  --reader-btn-hover: #eaeef2;
+  --reader-btn-active: #0969da;
+  --reader-btn-active-text: #ffffff;
+  --reader-highlight: #b58900;
+  --reader-highlight-bg: rgba(255, 214, 102, 0.55);
+  background-color: var(--reader-bg);
+  color: var(--reader-text-primary);
+}
+
+.reader-page[data-theme='sepia'] {
+  --reader-bg: #efe6d5;
+  --reader-toolbar-bg: rgba(247, 240, 227, 0.95);
+  --reader-card-bg: #fbf7ee;
+  --reader-text-primary: #3c2f21;
+  --reader-text-secondary: #6e5944;
+  --reader-text-muted: #957d66;
+  --reader-border: #ded1bd;
+  --reader-btn-bg: #f3ebdc;
+  --reader-btn-hover: #e8ddc9;
+  --reader-btn-active: #8b572a;
+  --reader-btn-active-text: #ffffff;
+  --reader-highlight: #a5762a;
+  --reader-highlight-bg: rgba(224, 184, 92, 0.45);
+  background-color: var(--reader-bg);
+  color: var(--reader-text-primary);
+}
+
+/* ==========================================================================
+   Reader Toolbar
+   ========================================================================== */
+
+.reader-toolbar-wrapper {
+  position: sticky;
+  top: 0;
+  z-index: 90;
+  background-color: var(--reader-toolbar-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--reader-border);
+  padding: 10px 24px;
+  transition: all 0.3s ease;
+}
+
+.reader-page.is-focus-mode .reader-toolbar-wrapper {
+  border-bottom-color: var(--reader-border);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.reader-toolbar {
+  max-width: 840px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.reader-back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--reader-text-secondary);
+  padding: 6px 12px;
+  border-radius: var(--radius-sm);
+  background: var(--reader-btn-bg);
+  border: 1px solid var(--reader-border);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.reader-back-btn:hover {
+  color: var(--reader-text-primary);
+  background: var(--reader-btn-hover);
+}
+
+.reader-controls-group {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+/* Control Pill Blocks */
+.control-block {
+  display: inline-flex;
+  align-items: center;
+  background: var(--reader-btn-bg);
+  border: 1px solid var(--reader-border);
+  border-radius: var(--radius-sm);
+  padding: 2px;
+  gap: 2px;
+}
+
+.control-btn {
+  padding: 4px 10px;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--reader-text-secondary);
+  border-radius: 4px;
+  transition: all 0.15s ease;
+  cursor: pointer;
+}
+
+.control-btn:hover:not(:disabled) {
+  color: var(--reader-text-primary);
+  background-color: var(--reader-btn-hover);
+}
+
+.control-btn.active {
+  background-color: var(--reader-btn-active);
+  color: var(--reader-btn-active-text);
+}
+
+.control-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.font-size-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0 4px;
+  color: var(--reader-text-muted);
+  min-width: 28px;
+  text-align: center;
+}
+
+/* Focus Mode Button */
+.focus-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: var(--radius-sm);
+  background: var(--reader-btn-bg);
+  border: 1px solid var(--reader-border);
+  color: var(--reader-text-secondary);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.focus-toggle-btn:hover {
+  color: var(--reader-text-primary);
+  background: var(--reader-btn-hover);
+}
+
+.focus-toggle-btn.is-active {
+  background: rgba(235, 87, 87, 0.15);
+  border-color: rgba(235, 87, 87, 0.4);
+  color: #ff7b72;
+}
+
+.reader-page[data-theme='light'] .focus-toggle-btn.is-active {
+  color: #cf222e;
+}
+
+.reader-page[data-theme='sepia'] .focus-toggle-btn.is-active {
+  color: #b33924;
+}
+
+/* ==========================================================================
+   Reader Main Content Area
+   ========================================================================== */
+
+.reader-main {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 48px 24px 96px;
+}
+
+.reader-page.is-focus-mode .reader-main {
+  padding-top: 60px;
+}
+
+.reader-content-container {
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+/* Article Header inside Reader */
+.reader-article-header {
+  margin-bottom: 40px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--reader-border);
+}
+
+.reader-article-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--reader-text-secondary);
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.meta-dot {
+  opacity: 0.5;
+}
+
+.reader-level-tag {
+  display: inline-flex;
+  padding: 2px 8px;
+  border-radius: var(--radius-sm);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.reader-level-tag[data-level='A1'] { background: var(--badge-a1-bg); color: var(--badge-a1-text); }
+.reader-level-tag[data-level='A2'] { background: var(--badge-a2-bg); color: var(--badge-a2-text); }
+.reader-level-tag[data-level='B1'] { background: var(--badge-b1-bg); color: var(--badge-b1-text); }
+.reader-level-tag[data-level='B2'] { background: var(--badge-b2-bg); color: var(--badge-b2-text); }
+.reader-level-tag[data-level='C1'] { background: var(--badge-c1-bg); color: var(--badge-c1-text); }
+.reader-level-tag[data-level='C2'] { background: var(--badge-c2-bg); color: var(--badge-c2-text); }
+
+.reader-article-title {
+  font-size: 2.35rem;
+  font-weight: 800;
+  line-height: 1.25;
+  color: var(--reader-text-primary);
+  letter-spacing: -0.02em;
+}
+
+/* ==========================================================================
+   Article Body & Paragraphs
+   ========================================================================== */
+
+.reader-body {
+  display: flex;
+  flex-direction: column;
+  color: var(--reader-text-primary);
+  transition: font-size 0.2s ease, line-height 0.2s ease;
+}
+
+/* Font Size Modifiers */
+.reader-body[data-font-size='small'] {
+  font-size: 16px;
+}
+
+.reader-body[data-font-size='medium'] {
+  font-size: 18px;
+}
+
+.reader-body[data-font-size='large'] {
+  font-size: 20px;
+}
+
+.reader-body[data-font-size='xlarge'] {
+  font-size: 22px;
+}
+
+/* Line Spacing Modifiers */
+.reader-body[data-line-spacing='compact'] {
+  line-height: 1.6;
+}
+
+.reader-body[data-line-spacing='normal'] {
+  line-height: 1.85;
+}
+
+.reader-body[data-line-spacing='relaxed'] {
+  line-height: 2.15;
+}
+
+.reader-paragraph {
+  margin-bottom: 1.6em;
+  text-wrap: pretty;
+}
+
+.reader-paragraph:last-child {
+  margin-bottom: 0;
+}
+
+/* Reader Footer End Indicator */
+.reader-end-marker {
+  margin-top: 56px;
+  padding-top: 24px;
+  border-top: 1px solid var(--reader-border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.reader-end-text {
+  font-size: 0.875rem;
+  color: var(--reader-text-muted);
+  font-weight: 500;
+}
+
+.reader-end-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: var(--radius-sm);
+  background: var(--reader-btn-bg);
+  border: 1px solid var(--reader-border);
+  color: var(--reader-text-primary);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.reader-end-btn:hover {
+  background: var(--reader-btn-hover);
+}
+
+/* ==========================================================================
+   Chapters
+   Each chapter is its own page, so the "Chapter N of M" line sits above the
+   chapter title and the article title becomes a quiet context line above it.
+   ========================================================================== */
+
+.reader-article-parent-title {
+  margin: 0 0 4px;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--reader-text-muted, #6e7681);
+}
+
+.reader-chapter-position {
+  margin: 12px 0 2px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--reader-btn-active, #388bfd);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Collapsible in-reader chapter list. Selecting a chapter opens that chapter's
+   own page rather than scrolling within the current one. */
+.reader-toc {
+  margin-top: 20px;
+  padding: 6px 14px;
+  border-radius: var(--radius-md, 10px);
+  border: 1px solid var(--reader-border, #30363d);
+  background-color: var(--reader-card-bg, #161b22);
+}
+
+.reader-toc-toggle {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+  padding: 6px 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+.reader-toc-toggle:focus-visible {
+  outline: 2px solid var(--reader-btn-active, #388bfd);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm, 6px);
+}
+
+.reader-toc-label {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--reader-text-muted, #6e7681);
+}
+
+.reader-toc-count {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  color: var(--reader-btn-active, #388bfd);
+  font-variant-numeric: tabular-nums;
+}
+
+.reader-toc-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  list-style: none;
+  margin: 0;
+  padding: 0 0 10px;
+  max-height: 40vh;
+  overflow-y: auto;
+}
+
+.reader-toc-link {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 6px 10px;
+  border-radius: var(--radius-full, 9999px);
+  border: 1px solid var(--reader-border, #30363d);
+  background-color: var(--reader-btn-bg, #21262d);
+  color: var(--reader-text-secondary, #8b949e);
+  font-size: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  text-align: left;
+}
+
+.reader-toc-link:hover {
+  background-color: var(--reader-btn-hover, #30363d);
+  color: var(--reader-text-primary, #f0f6fc);
+}
+
+.reader-toc-link:focus-visible {
+  outline: 2px solid var(--reader-btn-active, #388bfd);
+  outline-offset: 2px;
+}
+
+.reader-toc-link[data-active='true'] {
+  color: var(--reader-btn-active-text, #ffffff);
+  background-color: var(--reader-btn-active, #388bfd);
+  border-color: var(--reader-btn-active, #388bfd);
+}
+
+.reader-toc-number {
+  font-variant-numeric: tabular-nums;
+  opacity: 0.75;
+}
+
+.reader-toc-link[data-active='true'] .reader-toc-number {
+  opacity: 0.9;
+}
+
+/* Previous / Next navigation at the foot of a chapter */
+.reader-chapter-nav {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 48px;
+  padding-top: 28px;
+  border-top: 1px solid var(--reader-border, #30363d);
+}
+
+.reader-chapter-nav-btn {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1 1 0;
+  min-width: 0;
+  max-width: 48%;
+  padding: 14px 16px;
+  border-radius: var(--radius-md, 10px);
+  border: 1px solid var(--reader-border, #30363d);
+  background-color: var(--reader-card-bg, #161b22);
+  color: var(--reader-text-primary, #f0f6fc);
+  cursor: pointer;
+  text-align: left;
+  transition: all 0.15s ease;
+}
+
+.reader-chapter-nav-btn[data-align='next'] {
+  text-align: right;
+}
+
+.reader-chapter-nav-btn:hover {
+  background-color: var(--reader-btn-hover, #30363d);
+  border-color: var(--reader-btn-active, #388bfd);
+}
+
+.reader-chapter-nav-btn:focus-visible {
+  outline: 2px solid var(--reader-btn-active, #388bfd);
+  outline-offset: 2px;
+}
+
+.reader-chapter-nav-direction {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--reader-btn-active, #388bfd);
+}
+
+.reader-chapter-nav-title {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--reader-text-secondary, #8b949e);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Keeps "Next" pinned to the right on the first chapter, where Previous is
+   replaced by an empty spacer. */
+.reader-chapter-nav-spacer {
+  flex: 1 1 0;
+  max-width: 48%;
+}
+
+/* ==========================================================================
+   Reading Progress Indicator
+   ========================================================================== */
+
+/* Thin bar pinned to the bottom edge of the sticky toolbar. */
+.reader-progress-track {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 3px;
+  background-color: var(--reader-btn-bg);
+  overflow: hidden;
+}
+
+.reader-progress-bar {
+  height: 100%;
+  width: 0;
+  background-color: var(--reader-btn-active);
+  transition: width 0.15s linear, background-color 0.3s ease;
+}
+
+.reader-progress-bar[data-completed='true'] {
+  background-color: #3fb950;
+}
+
+.reader-page[data-theme='light'] .reader-progress-bar[data-completed='true'] {
+  background-color: #1a7f37;
+}
+
+.reader-page[data-theme='sepia'] .reader-progress-bar[data-completed='true'] {
+  background-color: #2f6f43;
+}
+
+/* Percentage label inside the toolbar controls. */
+.reader-progress-text {
+  display: inline-flex;
+  align-items: center;
+  height: 26px;
+  padding: 0 10px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--reader-border);
+  background-color: var(--reader-btn-bg);
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--reader-text-muted);
+  white-space: nowrap;
+  min-width: 52px;
+  justify-content: center;
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.reader-progress-text[data-completed='true'] {
+  color: #3fb950;
+  border-color: rgba(63, 185, 80, 0.4);
+}
+
+.reader-page[data-theme='light'] .reader-progress-text[data-completed='true'] {
+  color: #1a7f37;
+  border-color: rgba(26, 127, 55, 0.35);
+}
+
+.reader-page[data-theme='sepia'] .reader-progress-text[data-completed='true'] {
+  color: #2f6f43;
+  border-color: rgba(47, 111, 67, 0.35);
+}
+
+/* ==========================================================================
+   Highlights & Notes
+   All colours come from the Reader theme variables so Dark / Light / Sepia and
+   Focus Mode keep working without a separate design system.
+   ========================================================================== */
+
+/* The highlighted passage itself. */
+.reader-highlight {
+  background-color: var(--reader-highlight-bg, rgba(217, 178, 106, 0.28));
+  color: inherit;
+  border-radius: 2px;
+  padding: 0.05em 0;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.reader-highlight:hover {
+  background-color: var(--reader-highlight-bg, rgba(217, 178, 106, 0.28));
+  filter: brightness(1.12);
+}
+
+/* Highlights that carry a note get a subtle underline as a visual cue. */
+.reader-highlight[data-has-note='true'] {
+  border-bottom: 2px solid var(--reader-highlight, #d9b26a);
+  padding-bottom: 1px;
+}
+
+/* Small contextual toolbar shown next to a passage selection. */
+.highlight-selection-toolbar {
+  position: fixed;
+  z-index: 902;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px;
+  border-radius: var(--radius-md);
+  background-color: var(--reader-card-bg, #161b22);
+  border: 1px solid var(--reader-border, #30363d);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  animation: highlightPopIn 0.14s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.highlight-selection-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--reader-text-primary, #f0f6fc);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+  white-space: nowrap;
+}
+
+.highlight-selection-btn:hover {
+  background-color: var(--reader-btn-hover, #30363d);
+}
+
+.highlight-selection-btn svg {
+  width: 13px;
+  height: 13px;
+}
+
+.highlight-selection-divider {
+  width: 1px;
+  height: 18px;
+  background-color: var(--reader-border, #30363d);
+}
+
+/* Inline hint shown when an action cannot run (e.g. overlapping highlight). */
+.highlight-selection-message {
+  padding: 5px 10px;
+  font-size: 0.75rem;
+  color: #ff7b72;
+  white-space: nowrap;
+}
+
+.highlight-popover-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 900;
+  background: transparent;
+}
+
+.highlight-popover {
+  position: fixed;
+  z-index: 901;
+  width: 320px;
+  max-width: calc(100vw - 24px);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 14px 16px;
+  border-radius: var(--radius-lg);
+  background-color: var(--reader-card-bg, #161b22);
+  border: 1px solid var(--reader-border, #30363d);
+  color: var(--reader-text-primary, #f0f6fc);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.45);
+  animation: highlightPopIn 0.16s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes highlightPopIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.highlight-popover-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.highlight-popover-title {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--reader-text-muted, #6e7681);
+}
+
+.highlight-popover-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border: none;
+  border-radius: var(--radius-full);
+  background: transparent;
+  color: var(--reader-text-secondary, #8b949e);
+  font-size: 1.125rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.highlight-popover-close:hover {
+  background-color: var(--reader-btn-hover, #30363d);
+  color: var(--reader-text-primary, #f0f6fc);
+}
+
+.highlight-popover-quote {
+  margin: 0;
+  padding-left: 10px;
+  border-left: 3px solid var(--reader-highlight, #d9b26a);
+  font-size: 0.8125rem;
+  line-height: 1.55;
+  color: var(--reader-text-secondary, #8b949e);
+}
+
+.highlight-popover-note {
+  margin: 0;
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  background-color: var(--reader-btn-bg, #21262d);
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: var(--reader-text-primary, #f0f6fc);
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.highlight-popover-empty {
+  margin: 0;
+  font-size: 0.8125rem;
+  font-style: italic;
+  color: var(--reader-text-muted, #6e7681);
+}
+
+.highlight-note-editor {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.highlight-note-input {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--reader-border, #30363d);
+  background-color: var(--reader-bg, #0d1117);
+  color: var(--reader-text-primary, #f0f6fc);
+  font-family: inherit;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  resize: vertical;
+  min-height: 76px;
+}
+
+.highlight-note-input:focus {
+  outline: none;
+  border-color: var(--reader-btn-active, #388bfd);
+}
+
+.highlight-note-error {
+  margin: 0;
+  font-size: 0.75rem;
+  color: #ff7b72;
+}
+
+.highlight-popover-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.highlight-btn {
+  padding: 6px 14px;
+  border-radius: var(--radius-sm);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  border: 1px solid transparent;
+}
+
+.highlight-btn-primary {
+  background-color: var(--reader-btn-active, #388bfd);
+  color: var(--reader-btn-active-text, #ffffff);
+}
+
+.highlight-btn-primary:hover {
+  filter: brightness(1.12);
+}
+
+.highlight-btn-ghost {
+  background-color: var(--reader-btn-bg, #21262d);
+  border-color: var(--reader-border, #30363d);
+  color: var(--reader-text-secondary, #8b949e);
+}
+
+.highlight-btn-ghost:hover {
+  background-color: var(--reader-btn-hover, #30363d);
+  color: var(--reader-text-primary, #f0f6fc);
+}
+
+.highlight-btn-danger {
+  background-color: #da3633;
+  color: #ffffff;
+}
+
+.highlight-btn-danger:hover {
+  background-color: #f85149;
+}
+
+.highlight-btn-danger-ghost {
+  background-color: transparent;
+  border-color: var(--reader-border, #30363d);
+  color: #ff7b72;
+  margin-right: auto;
+}
+
+.highlight-btn-danger-ghost:hover {
+  background-color: rgba(248, 81, 73, 0.15);
+  border-color: rgba(255, 123, 114, 0.4);
+}
+
+.highlight-confirm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.highlight-confirm-text {
+  margin: 0;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--reader-text-primary, #f0f6fc);
+}
+
+/* ==========================================================================
+   Article Not Found View
+   ========================================================================== */
+
+.reader-not-found-card {
+  text-align: center;
+  padding: 72px 24px;
+  background-color: var(--bg-card);
+  border: 1px dashed var(--border-subtle);
+  border-radius: var(--radius-lg);
+  max-width: 600px;
+  margin: 60px auto;
+}
+
+.reader-not-found-card h1 {
+  font-size: 1.75rem;
+  margin-bottom: 12px;
+  color: var(--text-primary);
+}
+
+.reader-not-found-card p {
+  color: var(--text-secondary);
+  font-size: 1rem;
+  margin-bottom: 28px;
+}
+
+/* ==========================================================================
+   Responsive Adjustments
+   ========================================================================== */
+
+@media (max-width: 768px) {
+  .reader-toolbar {
+    gap: 10px;
+  }
+
+  .reader-toolbar-wrapper {
+    padding: 8px 16px;
+  }
+
+  .reader-main {
+    padding: 24px 16px 64px;
+  }
+
+  .reader-article-title {
+    font-size: 1.75rem;
+  }
+
+  .reader-controls-group {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .reader-toc {
+    padding: 6px 12px;
+  }
+
+  /* Keep Previous/Next legible on narrow screens: the titles are the first thing
+     to go, since the direction labels still convey the action. */
+  .reader-chapter-nav-btn {
+    max-width: 50%;
+    padding: 12px 14px;
+  }
+
+  .reader-chapter-nav-title {
+    font-size: 0.8125rem;
+  }
+}

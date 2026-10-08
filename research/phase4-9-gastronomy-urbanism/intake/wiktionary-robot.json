@@ -1,0 +1,55 @@
+{
+  "recordId": "wiktionary-robot",
+  "sourceId": "wiktionary",
+  "sourceName": "Wiktionary",
+  "sourceUrl": "https://en.wiktionary.org/",
+  "title": "robot",
+  "canonicalUrl": "https://en.wiktionary.org/wiki/robot",
+  "externalId": "robot",
+  "authors": [
+    "Wiktionary contributors"
+  ],
+  "language": "en",
+  "description": "Etymology 1 From Robot , from a English language, ultimately related to Etymology 2, below.",
+  "contentType": "educational",
+  "classification": {
+    "contentGroup": "articles",
+    "primaryCategory": "language-learning",
+    "secondaryCategories": [
+      "technology"
+    ]
+  },
+  "libraryPresentation": {
+    "description": "Etymology 1 From Robot , from a English language, ultimately related to Etymology 2, below.",
+    "genre": "Education",
+    "level": "B2",
+    "readingTime": "Under 3 min",
+    "imageReference": null
+  },
+  "receivedAt": "2026-10-06",
+  "rightsStatus": "verified",
+  "reuseMode": "verified-full-text",
+  "rightsBasis": "license",
+  "itemLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "licenseType": "creative-commons",
+  "licenseIdentifier": "CC-BY-SA-4.0",
+  "rightsEvidenceUrl": "https://en.wiktionary.org/wiki/robot",
+  "rightsEvidenceExcerpt": "Definitions and other text are available under the Creative Commons Attribution-ShareAlike License ; additional terms may apply.",
+  "attributionRequired": true,
+  "attributionText": "Wiktionary contributors, CC BY-SA 4.0 (via https://en.wiktionary.org/wiki/robot)",
+  "body": "Etymology 1\n\nFrom Robot , from a English language, ultimately related to Etymology 2, below.\n\nEtymology 2\n\nrobot , from robota . in the play after having been suggested to him by his brother . Largely displaced .\n\nUltimately a cognate with from , and see dialectal English . . Related to orphan , but with a -t- suffix from - instead of the -an- from .\n\nCompare and , sometimes mistakenly cited as the direct source of the English word.\n\nEtymology 3\n\nReferencing the origin of the name of the imageboard (created in 2008), so-called because it implements the algorithm by to prevent the reposting of content.\n\nPossibly overlapping with the sense of robot , alluding to , due to the prevalence of personal stories describing awkward or embarrassing situations on the board.",
+  "mediaAssets": [],
+  "reviewStatus": "approved",
+  "reviewNotes": [
+    "Official source page fetched and its full text extracted verbatim: 134 words.",
+    "CC BY-SA statement captured from the Wiktionary page footer: \"Definitions and other text are available under the Creative Commons Attribution-ShareAlike License ; additional terms may apply.\"",
+    "Entry read through the official MediaWiki API; only the English Etymology and part-of-speech definition prose is stored.",
+    "Third-party and non-free content excluded from the stored body: 1 block(s) removed.",
+    "Curiosity Topic (Curiosities & Deep Dives shelf): \"Urbanism & Everyday Objects\".",
+    "No image, audio or other media is retained: no item-level asset-rights evidence was recorded, so imageReference is null.",
+    "B2 is a Library-level editorial mapping, not a claimed formal CEFR label.",
+    "Reading time \"Under 3 min\" is mapped from the full-text word count (134) at 200 WPM.",
+    "Genre \"Education\": From Czech robota, \"forced labour\": the word behind an everyday machine.",
+    "Reuse is educational and attributed; it does not imply any endorsement by the source."
+  ]
+}

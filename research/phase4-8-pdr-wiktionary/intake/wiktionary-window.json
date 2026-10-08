@@ -1,0 +1,53 @@
+{
+  "recordId": "wiktionary-window",
+  "sourceId": "wiktionary",
+  "sourceName": "Wiktionary",
+  "sourceUrl": "https://en.wiktionary.org/",
+  "title": "window",
+  "canonicalUrl": "https://en.wiktionary.org/wiki/window",
+  "externalId": "window",
+  "authors": [
+    "Wiktionary contributors"
+  ],
+  "language": "en",
+  "description": "Etymology From wyndowe , wyndown , from vindauga , equivalent to .",
+  "contentType": "educational",
+  "classification": {
+    "contentGroup": "articles",
+    "primaryCategory": "language-learning",
+    "secondaryCategories": []
+  },
+  "libraryPresentation": {
+    "description": "Etymology From wyndowe , wyndown , from vindauga , equivalent to .",
+    "genre": "Education",
+    "level": "B1",
+    "readingTime": "Under 3 min",
+    "imageReference": null
+  },
+  "receivedAt": "2026-10-05",
+  "rightsStatus": "verified",
+  "reuseMode": "verified-full-text",
+  "rightsBasis": "license",
+  "itemLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "licenseType": "creative-commons",
+  "licenseIdentifier": "CC-BY-SA-4.0",
+  "rightsEvidenceUrl": "https://en.wiktionary.org/wiki/window",
+  "rightsEvidenceExcerpt": "Definitions and other text are available under the Creative Commons Attribution-ShareAlike License ; additional terms may apply.",
+  "attributionRequired": true,
+  "attributionText": "Wiktionary contributors, CC BY-SA 4.0 (via https://en.wiktionary.org/wiki/window)",
+  "body": "Etymology\n\nFrom wyndowe , wyndown , from vindauga , equivalent to . Cognate with and windock , , , , , archaic , . Displaced native (the rare direct descendant is eyethurl ). The “windows” among early Germanic peoples were just unglazed holes (eyes) in the wall or roof that permitted wind to pass through .\n\nNoun\n\nAn opening, usually covered by one or more panes of clear glass, to allow light and air from outside to enter a building or vehicle.\n\nAn opening, usually covered by glass, in a shop which allows people to view the shop and its products from outside a shop window.\n\nThe shutter, casement, sash with its fittings, or other framework, which closes a window opening.\n\nA period of time when something is available or possible a limited opportunity.\n\nSomething that allows one to see through or into something.\n\nA restricted range.\n\nA rectangular area on a computer terminal or screen containing some kind of user interface, displaying output and allowing input, often for a single task in a multitasking system.\n\nA figure formed of lines crossing each other.\n\nThe time between first infection and detectability.\n\nA function multiplied with a signal to reduce spectral leakage when performing a Fourier transform.\n\nA fenster a geologic or tectonic window.\n\nVerb\n\nTo furnish with windows.\n\nTo place at or in a window.\n\nTo apply a window function to (a signal).",
+  "mediaAssets": [],
+  "reviewStatus": "approved",
+  "reviewNotes": [
+    "Official source page fetched and its full text extracted verbatim: 233 words.",
+    "CC BY-SA statement captured from the Wiktionary page footer: \"Definitions and other text are available under the Creative Commons Attribution-ShareAlike License ; additional terms may apply.\"",
+    "Entry read through the official MediaWiki API; only the English Etymology and part-of-speech definition prose is stored.",
+    "Third-party and non-free content excluded from the stored body: 14 block(s) removed.",
+    "Curiosity Topic (Curiosities & Deep Dives shelf): \"Linguistics & Etymology\".",
+    "No image, audio or other media is retained: no item-level asset-rights evidence was recorded, so imageReference is null.",
+    "B1 is a Library-level editorial mapping, not a claimed formal CEFR label.",
+    "Reading time \"Under 3 min\" is mapped from the full-text word count (233) at 200 WPM.",
+    "Genre \"Education\": From Old Norse vindauga, \"wind-eye\": the eye of the wind.",
+    "Reuse is educational and attributed; it does not imply any endorsement by the source."
+  ]
+}

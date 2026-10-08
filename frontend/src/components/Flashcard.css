@@ -1,0 +1,146 @@
+/* ==========================================================================
+   Flashcard (Phase 2.4 review card)
+   Front shows the word only; the answer is revealed on demand.
+   ========================================================================== */
+
+.flashcard {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  padding: 32px 28px;
+  text-align: center;
+}
+
+.flashcard-face {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.flashcard-label {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+}
+
+.flashcard-word {
+  font-family: var(--font-family-display);
+  font-size: 2.75rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+  margin: 4px 0 0;
+  word-break: break-word;
+}
+
+.flashcard-word-small {
+  font-size: 1.75rem;
+  margin: 0;
+}
+
+.flashcard-part-of-speech {
+  font-size: 0.875rem;
+  font-style: italic;
+  color: var(--text-muted);
+}
+
+.flashcard-reveal-btn {
+  margin-top: 20px;
+  padding: 10px 26px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--accent-primary);
+  background-color: var(--accent-primary);
+  color: var(--text-inverse);
+  font-family: var(--font-family-body);
+  font-size: 0.9375rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.flashcard-reveal-btn:hover {
+  background-color: var(--accent-primary-hover);
+  border-color: var(--accent-primary-hover);
+}
+
+.flashcard-reveal-btn:focus-visible {
+  outline: 2px solid var(--border-focus);
+  outline-offset: 2px;
+}
+
+/* Back of the card */
+.flashcard-back {
+  gap: 10px;
+}
+
+.flashcard-back-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.flashcard-audio-btn {
+  background: none;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-full);
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  line-height: 1;
+  transition: all 0.2s ease;
+}
+
+.flashcard-audio-btn:hover {
+  background-color: var(--bg-card-hover);
+}
+
+.flashcard-audio-btn:focus-visible {
+  outline: 2px solid var(--border-focus);
+  outline-offset: 2px;
+}
+
+.flashcard-phonetic {
+  font-size: 0.9375rem;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.flashcard-meaning {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 6px 0 0;
+}
+
+.flashcard-meaning-vi {
+  font-size: 0.9375rem;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.flashcard-example {
+  margin-top: 14px;
+  padding: 14px 16px;
+  border-radius: var(--radius-md);
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-subtle);
+  max-width: 100%;
+}
+
+.flashcard-example-text {
+  font-size: 0.9375rem;
+  color: var(--text-secondary);
+  font-style: italic;
+  margin: 0;
+}
+
+.flashcard-example-vi {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  margin: 6px 0 0;
+}

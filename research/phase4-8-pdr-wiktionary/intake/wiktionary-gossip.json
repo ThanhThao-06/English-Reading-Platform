@@ -1,0 +1,53 @@
+{
+  "recordId": "wiktionary-gossip",
+  "sourceId": "wiktionary",
+  "sourceName": "Wiktionary",
+  "sourceUrl": "https://en.wiktionary.org/",
+  "title": "gossip",
+  "canonicalUrl": "https://en.wiktionary.org/wiki/gossip",
+  "externalId": "gossip",
+  "authors": [
+    "Wiktionary contributors"
+  ],
+  "language": "en",
+  "description": "Etymology From gossib , godsib , from godsibb , equivalent to .",
+  "contentType": "educational",
+  "classification": {
+    "contentGroup": "articles",
+    "primaryCategory": "language-learning",
+    "secondaryCategories": []
+  },
+  "libraryPresentation": {
+    "description": "Etymology From gossib , godsib , from godsibb , equivalent to .",
+    "genre": "Education",
+    "level": "B1",
+    "readingTime": "Under 3 min",
+    "imageReference": null
+  },
+  "receivedAt": "2026-10-05",
+  "rightsStatus": "verified",
+  "reuseMode": "verified-full-text",
+  "rightsBasis": "license",
+  "itemLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "licenseType": "creative-commons",
+  "licenseIdentifier": "CC-BY-SA-4.0",
+  "rightsEvidenceUrl": "https://en.wiktionary.org/wiki/gossip",
+  "rightsEvidenceExcerpt": "Definitions and other text are available under the Creative Commons Attribution-ShareAlike License ; additional terms may apply.",
+  "attributionRequired": true,
+  "attributionText": "Wiktionary contributors, CC BY-SA 4.0 (via https://en.wiktionary.org/wiki/gossip)",
+  "body": "Etymology\n\nFrom gossib , godsib , from godsibb , equivalent to . . For sense evolution to \"gossip, discussing others' personal affairs,\" compare French commérage .\n\nNoun\n\nSomeone who likes to talk about other people's private or personal business.\n\nIdle talk about someone’s private or personal matters, especially about someone not present.\n\nIdle conversation in general.\n\nA genre in contemporary media, usually focused on the personal affairs of celebrities.\n\nCommunication done using a .\n\nA sponsor a godfather or godmother the godparent of one's child or godchild, or the parent of one's godchild.\n\n|year=2010\n\n|author=Susan E. Phillips\n\n|title=Transforming Talk The Problem with Gossip in Late Medieval England\n\n|publisher=Penn State Press\n\n|isbn=9780271047393\n\n|page=154\n\nA familiar acquaintance.\n\nVerb\n\nTo talk about someone else's private or personal business, especially in a manner that spreads the information.\n\nTo talk idly.\n\nTo stand godfather to to provide godparents for.\n\nTo enjoy oneself during festivities, to make merry.\n\nTo communicate using a .",
+  "mediaAssets": [],
+  "reviewStatus": "approved",
+  "reviewNotes": [
+    "Official source page fetched and its full text extracted verbatim: 157 words.",
+    "CC BY-SA statement captured from the Wiktionary page footer: \"Definitions and other text are available under the Creative Commons Attribution-ShareAlike License ; additional terms may apply.\"",
+    "Entry read through the official MediaWiki API; only the English Etymology and part-of-speech definition prose is stored.",
+    "Third-party and non-free content excluded from the stored body: 26 block(s) removed.",
+    "Curiosity Topic (Curiosities & Deep Dives shelf): \"Linguistics & Etymology\".",
+    "No image, audio or other media is retained: no item-level asset-rights evidence was recorded, so imageReference is null.",
+    "B1 is a Library-level editorial mapping, not a claimed formal CEFR label.",
+    "Reading time \"Under 3 min\" is mapped from the full-text word count (157) at 200 WPM.",
+    "Genre \"Education\": From godparent: how a word for a kinsman became idle talk.",
+    "Reuse is educational and attributed; it does not imply any endorsement by the source."
+  ]
+}

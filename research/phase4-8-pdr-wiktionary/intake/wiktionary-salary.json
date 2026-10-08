@@ -1,0 +1,55 @@
+{
+  "recordId": "wiktionary-salary",
+  "sourceId": "wiktionary",
+  "sourceName": "Wiktionary",
+  "sourceUrl": "https://en.wiktionary.org/",
+  "title": "salary",
+  "canonicalUrl": "https://en.wiktionary.org/wiki/salary",
+  "externalId": "salary",
+  "authors": [
+    "Wiktionary contributors"
+  ],
+  "language": "en",
+  "description": "Etymology From salarie , from salarie , from salaire , from salārium , the neuter form of the adjective salārius , from salt .",
+  "contentType": "educational",
+  "classification": {
+    "contentGroup": "articles",
+    "primaryCategory": "language-learning",
+    "secondaryCategories": [
+      "education"
+    ]
+  },
+  "libraryPresentation": {
+    "description": "Etymology From salarie , from salarie , from salaire , from salārium , the neuter form of the adjective salārius , from salt .",
+    "genre": "Education",
+    "level": "B1",
+    "readingTime": "Under 3 min",
+    "imageReference": null
+  },
+  "receivedAt": "2026-10-05",
+  "rightsStatus": "verified",
+  "reuseMode": "verified-full-text",
+  "rightsBasis": "license",
+  "itemLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "licenseType": "creative-commons",
+  "licenseIdentifier": "CC-BY-SA-4.0",
+  "rightsEvidenceUrl": "https://en.wiktionary.org/wiki/salary",
+  "rightsEvidenceExcerpt": "Definitions and other text are available under the Creative Commons Attribution-ShareAlike License ; additional terms may apply.",
+  "attributionRequired": true,
+  "attributionText": "Wiktionary contributors, CC BY-SA 4.0 (via https://en.wiktionary.org/wiki/salary)",
+  "body": "Etymology\n\nFrom salarie , from salarie , from salaire , from salārium , the neuter form of the adjective salārius , from salt . There have been various attempts to explain how the Latin term for “wages” came from the adjective “related to salt”. It is generally assumed that salārium was an abbreviation of salārium argentum , though that phrase is not attested. A commonly cited theory states that the phrase meant “money consisting of salt”, because, supposedly, Roman soldiers were sometimes paid in salt, but there is no evidence for either of these claims from ancient sources. Another is that the phrase meant “money used to buy salt [and other miscellaneous items]”.\n\nNoun\n\nA fixed amount of money paid to a worker, usually calculated on a monthly or annual basis, not hourly, as wages. Implies a degree of professionalism and/or autonomy.\n\nVerb\n\nTo pay on the basis of a period of a week or longer, especially to convert from another form of compensation.\n\nAdjective\n\nSaline.",
+  "mediaAssets": [],
+  "reviewStatus": "approved",
+  "reviewNotes": [
+    "Official source page fetched and its full text extracted verbatim: 166 words.",
+    "CC BY-SA statement captured from the Wiktionary page footer: \"Definitions and other text are available under the Creative Commons Attribution-ShareAlike License ; additional terms may apply.\"",
+    "Entry read through the official MediaWiki API; only the English Etymology and part-of-speech definition prose is stored.",
+    "Third-party and non-free content excluded from the stored body: 2 block(s) removed.",
+    "Curiosity Topic (Curiosities & Deep Dives shelf): \"Linguistics & Etymology\".",
+    "No image, audio or other media is retained: no item-level asset-rights evidence was recorded, so imageReference is null.",
+    "B1 is a Library-level editorial mapping, not a claimed formal CEFR label.",
+    "Reading time \"Under 3 min\" is mapped from the full-text word count (166) at 200 WPM.",
+    "Genre \"Education\": From Latin salarium: how \"salary\" came to be linked with salt.",
+    "Reuse is educational and attributed; it does not imply any endorsement by the source."
+  ]
+}

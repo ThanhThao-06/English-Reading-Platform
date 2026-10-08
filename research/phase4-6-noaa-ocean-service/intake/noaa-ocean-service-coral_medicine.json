@@ -1,0 +1,51 @@
+{
+  "recordId": "noaa-ocean-service-coral_medicine",
+  "sourceId": "noaa-ocean-service",
+  "sourceName": "NOAA National Ocean Service",
+  "sourceUrl": "https://oceanservice.noaa.gov/",
+  "title": "What does the ocean have to do with human health?",
+  "canonicalUrl": "https://oceanservice.noaa.gov/facts/coral_medicine.html",
+  "externalId": "coral_medicine",
+  "authors": [
+    "NOAA"
+  ],
+  "publishedAt": "2026-09-23",
+  "language": "en",
+  "description": "The ocean is closely tied to human health.",
+  "contentType": "expository",
+  "classification": {
+    "contentGroup": "articles",
+    "primaryCategory": "healthcare",
+    "secondaryCategories": [
+      "science"
+    ]
+  },
+  "libraryPresentation": {
+    "description": "The ocean is closely tied to human health.",
+    "genre": "Health & Psychology",
+    "level": "B2",
+    "readingTime": "5–10 min",
+    "imageReference": null
+  },
+  "receivedAt": "2026-10-05",
+  "rightsStatus": "verified",
+  "reuseMode": "verified-full-text",
+  "rightsBasis": "public-domain",
+  "rightsEvidenceUrl": "https://oceanservice.noaa.gov/disclaimer.html",
+  "rightsEvidenceExcerpt": "Information presented on this website is considered public information and may be distributed or copied, unless specifically noted otherwise. This website is maintained by NOAA’s National Ocean Service.",
+  "attributionRequired": true,
+  "attributionText": "NOAA Ocean Service, oceanservice.noaa.gov",
+  "body": "The ocean is closely tied to human health.\n\nOur ocean and coasts affect us all—even those of us who don't live near the shoreline. Consider the economy. Through the fishing and boating industry, tourism and recreation, and ocean transport, our coastal and marine waters support millions of jobs. U.S. consumers spend over billions annually for fishery products. Then there's travel and tourism. Our beaches are a top destination, attracting millions of people a year. And let's not forget about the Great Lakes—these vast bodies of water supply more than 40 million people with drinking water. Our ocean, coasts, and Great Lakes serve other critical needs, too—needs that are harder to measure, but no less important—such as climate regulation, nutrient recycling, and maritime heritage. Last but not least, a healthy ocean and coasts provide us with resources we rely on every day, ranging from food, to medicines, to compounds that make our peanut butter easier to spread! So what does all of this have to do with human health?\n\nOcean in Distress\n\nWhen we think of public health risks, we may not think of the ocean as a factor. But increasingly, the health of the ocean is intimately tied to our health. One sign of an ocean in distress is an increase in beach or shellfish harvesting closures across the nation. Intensive use of our ocean and runoff from land-based pollution sources are just two of many factors that stress our fragile ecosystems—and increasingly lead to human health concerns. Waterborne infectious diseases, harmful algal bloom toxins, contaminated seafood, and chemical pollutants are other signals. Just as we can threaten the health of our ocean, so, too, can our ocean threaten our health. And it is not public health alone that may be threatened; our coastal economies, too, could be at significant risk.\n\nClosing the Safety Gap\n\nThroughout the U.S., there are thousands of beach and shellfish closures or advisories each year due to the presence of harmful marine organisms, chemical pollutants, or algal toxins. To address public health threats and benefits from the sea, NOAA scientists and partners are developing and delivering useful tools, technologies, and environmental information to public health and natural resource managers, decision-makers, and the public. These products and services include predictions for harmful algal blooms and harmful microbes to reduce exposure to contaminated seafood, and early warning systems for contaminated beaches and drinking water sources to protect and prevent human illness.\n\nEmerging Health Threats\n\nWhales, dolphins, and other marine mammals eat much of the same seafood that we consume, and we swim in shared coastal waters. Unlike us, however, they are exposed to potential ocean health threats such as toxic algae or poor water quality 24 hours a day, seven days a week. These mammals, and other sentinel species, can shed important light on how the condition of ocean environments may affect human health now and in the future. As the principal stewardship agency responsible for protecting marine mammals in the wild, NOAA's Marine Mammal Health and Stranding Response Program supports a network of national and international projects aimed at investigating health concerns. This research can not only warn us about potential public health risks and lead to improved management of the protected species, but may also lead to new medical discoveries.\n\nCures from the Deep\n\nKeeping our ocean healthy is about more than protecting human health—it's also about finding new ways to save lives. The diversity of species found in our ocean offers great promise for a treasure chest of pharmaceuticals and natural products to combat illness and improve our quality of life. Many new marine-based drugs have already been discovered that treat some types of cancer, antibiotic resistant staph infections, pain, asthma, and inflammation.",
+  "mediaAssets": [],
+  "reviewStatus": "approved",
+  "reviewNotes": [
+    "Official NOAA Ocean Service page fetched and its full text extracted verbatim: 10 paragraphs, 619 words.",
+    "Page-level author credit recorded verbatim as authors: [\"NOAA\"]; page citation date 2026-09-23.",
+    "Page text inspected individually for copyright, third-party credit, courtesy/licence and restriction notices: none found.",
+    "Page-level provenance signals recorded: []. Any image/media credit on the page is excluded because no asset is reused.",
+    "No image or media is retained: no item-level asset-rights evidence was recorded, so imageReference is null.",
+    "B2 is a Library-level editorial mapping for this English-learning article, not a claimed formal CEFR label.",
+    "Reading time \"5–10 min\" is mapped from the full-text word count (619) at 200 WPM.",
+    "Genre \"Health & Psychology\": Surveys marine organisms as sources of potential medicines; subject is human health."
+  ]
+}

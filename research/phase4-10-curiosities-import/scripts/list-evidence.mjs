@@ -1,0 +1,12 @@
+import { readFileSync } from 'node:fs';
+const pdr = JSON.parse(readFileSync('research/phase4-10-curiosities-import/pdr-probe-clear.json','utf8'));
+console.log('PDR_CLEAR_COUNT=' + pdr.length);
+for (const e of pdr.slice(0,25)) console.log(JSON.stringify({title:e.title||e.pageTitle, url:e.url, licence:e.licence||e.articleLevelCc||e.license}));
+const w = JSON.parse(readFileSync('research/phase4-10-curiosities-import/wiktionary-probe.json','utf8'));
+const warr = Array.isArray(w)?w:(w.entries||w.words||w.report||[]);
+console.log('WIKT_COUNT=' + (Array.isArray(warr)?warr.length:'nonarray:'+Object.keys(w).join(',')));
+if (Array.isArray(warr)) for (const e of warr.slice(0,25)) console.log('W:'+JSON.stringify({word:e.word||e.title, licence:e.licence}));
+const ia = JSON.parse(readFileSync('research/phase4-10-curiosities-import/ia-probe.json','utf8'));
+const iaarr = Array.isArray(ia)?ia:(ia.items||ia.results||[]);
+console.log('IA_COUNT=' + (Array.isArray(iaarr)?iaarr.length:'nonarray:'+Object.keys(ia).join(',')));
+if (Array.isArray(iaarr)) for (const e of iaarr.slice(0,25)) console.log('IA:'+JSON.stringify(e).slice(0,300));

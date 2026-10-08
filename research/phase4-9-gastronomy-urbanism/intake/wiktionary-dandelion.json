@@ -1,0 +1,55 @@
+{
+  "recordId": "wiktionary-dandelion",
+  "sourceId": "wiktionary",
+  "sourceName": "Wiktionary",
+  "sourceUrl": "https://en.wiktionary.org/",
+  "title": "dandelion",
+  "canonicalUrl": "https://en.wiktionary.org/wiki/dandelion",
+  "externalId": "dandelion",
+  "authors": [
+    "Wiktionary contributors"
+  ],
+  "language": "en",
+  "description": "Etymology From dentdelyon , from dent de lion , also in dēns leōnis , referring to the jagged shape of the plant's leaves.",
+  "contentType": "educational",
+  "classification": {
+    "contentGroup": "articles",
+    "primaryCategory": "language-learning",
+    "secondaryCategories": [
+      "food"
+    ]
+  },
+  "libraryPresentation": {
+    "description": "Etymology From dentdelyon , from dent de lion , also in dēns leōnis , referring to the jagged shape of the plant's leaves.",
+    "genre": "Education",
+    "level": "B1",
+    "readingTime": "Under 3 min",
+    "imageReference": null
+  },
+  "receivedAt": "2026-10-06",
+  "rightsStatus": "verified",
+  "reuseMode": "verified-full-text",
+  "rightsBasis": "license",
+  "itemLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "licenseType": "creative-commons",
+  "licenseIdentifier": "CC-BY-SA-4.0",
+  "rightsEvidenceUrl": "https://en.wiktionary.org/wiki/dandelion",
+  "rightsEvidenceExcerpt": "Definitions and other text are available under the Creative Commons Attribution-ShareAlike License ; additional terms may apply.",
+  "attributionRequired": true,
+  "attributionText": "Wiktionary contributors, CC BY-SA 4.0 (via https://en.wiktionary.org/wiki/dandelion)",
+  "body": "Etymology\n\nFrom dentdelyon , from dent de lion , also in dēns leōnis , referring to the jagged shape of the plant's leaves. The term is now rare in French (together with liondent, calque from Germanic), but compare , , , , , , all descendants, calques, or loan translations of the Latin term.\n\nDisplaced various words, including native , native , and and swine's snout and mostly displaced , monk's head , and pissabed .\n\nNoun\n\nAny of the several species of plant in the genus , characterised by yellow flower heads and notched, broad-ended leaves, especially the common dandelion ( ).\n\nThe flower head or fruiting head of the dandelion plant.\n\nA yellow colour, like that of the flower.\n\nAdjective\n\nOf a yellow colour, like that of the flower.",
+  "mediaAssets": [],
+  "reviewStatus": "approved",
+  "reviewNotes": [
+    "Official source page fetched and its full text extracted verbatim: 131 words.",
+    "CC BY-SA statement captured from the Wiktionary page footer: \"Definitions and other text are available under the Creative Commons Attribution-ShareAlike License ; additional terms may apply.\"",
+    "Entry read through the official MediaWiki API; only the English Etymology and part-of-speech definition prose is stored.",
+    "Third-party and non-free content excluded from the stored body: 2 block(s) removed.",
+    "Curiosity Topic (Curiosities & Deep Dives shelf): \"Gastronomy & Food History\".",
+    "No image, audio or other media is retained: no item-level asset-rights evidence was recorded, so imageReference is null.",
+    "B1 is a Library-level editorial mapping, not a claimed formal CEFR label.",
+    "Reading time \"Under 3 min\" is mapped from the full-text word count (131) at 200 WPM.",
+    "Genre \"Education\": From Latin dens leonis, \"lion's tooth\": a plant that passed from herbals into salads and wine.",
+    "Reuse is educational and attributed; it does not imply any endorsement by the source."
+  ]
+}

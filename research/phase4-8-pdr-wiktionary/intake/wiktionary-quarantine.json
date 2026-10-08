@@ -1,0 +1,55 @@
+{
+  "recordId": "wiktionary-quarantine",
+  "sourceId": "wiktionary",
+  "sourceName": "Wiktionary",
+  "sourceUrl": "https://en.wiktionary.org/",
+  "title": "quarantine",
+  "canonicalUrl": "https://en.wiktionary.org/wiki/quarantine",
+  "externalId": "quarantine",
+  "authors": [
+    "Wiktionary contributors"
+  ],
+  "language": "en",
+  "description": "Etymology From quarentena and quarentīna via quarentine , quarenteine , quarenteine , and quarantina , via proposed quaranta + -ēna , from quadrāgintā .",
+  "contentType": "educational",
+  "classification": {
+    "contentGroup": "articles",
+    "primaryCategory": "language-learning",
+    "secondaryCategories": [
+      "history"
+    ]
+  },
+  "libraryPresentation": {
+    "description": "Etymology From quarentena and quarentīna via quarentine , quarenteine , quarenteine , and quarantina , via proposed quaranta + -ēna , from quadrāgintā .",
+    "genre": "Education",
+    "level": "B2",
+    "readingTime": "Under 3 min",
+    "imageReference": null
+  },
+  "receivedAt": "2026-10-05",
+  "rightsStatus": "verified",
+  "reuseMode": "verified-full-text",
+  "rightsBasis": "license",
+  "itemLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "licenseType": "creative-commons",
+  "licenseIdentifier": "CC-BY-SA-4.0",
+  "rightsEvidenceUrl": "https://en.wiktionary.org/wiki/quarantine",
+  "rightsEvidenceExcerpt": "Definitions and other text are available under the Creative Commons Attribution-ShareAlike License ; additional terms may apply.",
+  "attributionRequired": true,
+  "attributionText": "Wiktionary contributors, CC BY-SA 4.0 (via https://en.wiktionary.org/wiki/quarantine)",
+  "body": "Etymology\n\nFrom quarentena and quarentīna via quarentine , quarenteine , quarenteine , and quarantina , via proposed quaranta + -ēna , from quadrāgintā .\n\nIn reference to French politics, calque of quarantaine after edicts of . In reference to a severance of political relations, popularized by the administration's 1937 approach to the Axis powers and the later administration's 1962 approach to Cuba during the .\n\nNoun\n\nA period of 40 days, particularly\n\nThe 40-day period during which a widow is entitled to remain in her deceased husband's home while any dower is collected and returned.\n\n, John Rastell, Exposiciones Terminorum Legum Anglorum, fol. 4v\n\nQuerentyne is where a man dyeth seisyd of a maner place and other landis where of the wyfe ought to be indowed, than the woman shall hold the maner place by .xl. days within which tyme her dower shalbe to her assyned.\n\nThe 40-day period of isolation required after at Venice's lazaret to avoid renewed outbreaks of the bubonic plague and identical policies in other locations.\n\nA 40-day period formerly imposed by the French king upon warring nobles during which they were forbidden from exacting revenge or continuing to fight.\n\n1728, Ephraim Chambers, , \"Quarantaine\"\n\nQuarantain of the King, is a Truce of forty Days appointed by during which it was expressly forbid to take any Revenge of the Relation or Friends of People.\n\nA period, instance, or state of isolation from the general public or from native livestock and flora enacted to prevent the spread of any contagious disease.\n\nA similar period, instance, or state of rigidly enforced or self-enforced detention or isolation.\n\nA place where such isolation is enforced, a lazaret.\n\nA period of time where people are not allowed to leave their homes to contain the spread of an infectious disease.\n\nA blockade of trade, suspension of diplomatic relations, or other action whereby one country seeks to isolate another.\n\nAn isolation of one program, drive, computer, etc. from the rest of a computer network to limit the damage from a bug, computer virus, etc.\n\nThe program, drive, computer, etc. thus isolated.\n\nVerb\n\nTo place into isolation to prevent the spread of any contagious disease.\n\nTo enter or stay in quarantine, particularly to self-quarantine to avoid an epidemic disease.\n\nTo impose a quarantine, to establish quarantine regulations.\n\nmore generally.",
+  "mediaAssets": [],
+  "reviewStatus": "approved",
+  "reviewNotes": [
+    "Official source page fetched and its full text extracted verbatim: 385 words.",
+    "CC BY-SA statement captured from the Wiktionary page footer: \"Definitions and other text are available under the Creative Commons Attribution-ShareAlike License ; additional terms may apply.\"",
+    "Entry read through the official MediaWiki API; only the English Etymology and part-of-speech definition prose is stored.",
+    "Third-party and non-free content excluded from the stored body: 9 block(s) removed.",
+    "Curiosity Topic (Curiosities & Deep Dives shelf): \"Linguistics & Etymology\".",
+    "No image, audio or other media is retained: no item-level asset-rights evidence was recorded, so imageReference is null.",
+    "B2 is a Library-level editorial mapping, not a claimed formal CEFR label.",
+    "Reading time \"Under 3 min\" is mapped from the full-text word count (385) at 200 WPM.",
+    "Genre \"Education\": From the Latin forty: the word behind quarantine and its legal history.",
+    "Reuse is educational and attributed; it does not imply any endorsement by the source."
+  ]
+}

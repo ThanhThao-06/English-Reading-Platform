@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "packageId": "content-059d3f099944c30c73502a53",
+  "version": 1,
+  "createdAt": "2026-10-06T00:00:00.000Z",
+  "supersedes": null,
+  "packageStatus": "ELIGIBLE",
+  "eligibleForPhase38": true,
+  "libraryPresentation": {
+    "description": "Etymology 1 From Robot , from a English language, ultimately related to Etymology 2, below.",
+    "genre": "Education",
+    "level": "B2",
+    "readingTime": "Under 3 min",
+    "imageReference": null
+  },
+  "content": {
+    "recordId": "wiktionary-robot",
+    "title": "robot",
+    "contentType": "educational",
+    "contentGroup": "articles",
+    "categories": {
+      "primary": "language-learning",
+      "secondary": [
+        "technology"
+      ]
+    },
+    "language": "en",
+    "authors": [
+      "Wiktionary contributors"
+    ],
+    "reuseMode": "verified-full-text",
+    "body": "Etymology 1\n\nFrom Robot , from a English language, ultimately related to Etymology 2, below.\n\nEtymology 2\n\nrobot , from robota . in the play after having been suggested to him by his brother . Largely displaced .\n\nUltimately a cognate with from , and see dialectal English . . Related to orphan , but with a -t- suffix from - instead of the -an- from .\n\nCompare and , sometimes mistakenly cited as the direct source of the English word.\n\nEtymology 3\n\nReferencing the origin of the name of the imageboard (created in 2008), so-called because it implements the algorithm by to prevent the reposting of content.\n\nPossibly overlapping with the sense of robot , alluding to , due to the prevalence of personal stories describing awkward or embarrassing situations on the board.",
+    "bodyReference": null
+  },
+  "source": {
+    "sourceId": "wiktionary",
+    "sourceName": "Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/",
+    "canonicalUrl": "https://en.wiktionary.org/wiki/robot",
+    "externalId": "robot",
+    "doi": null
+  },
+  "rights": {
+    "verificationStatus": "verified",
+    "permittedReuseMode": "verified-full-text",
+    "rightsBasis": "license",
+    "sourcePolicy": null,
+    "license": {
+      "type": "creative-commons",
+      "identifier": "CC-BY-SA-4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "attributionRequired": true,
+    "attributionText": "Wiktionary contributors, CC BY-SA 4.0 (via https://en.wiktionary.org/wiki/robot)",
+    "evidence": [
+      {
+        "evidenceId": "wiktionary-robot-metadata",
+        "evidenceType": "item-metadata",
+        "sourceUrl": "https://en.wiktionary.org/wiki/robot",
+        "reference": "Item metadata captured from the canonical source page.",
+        "excerpt": null,
+        "retrievedAt": "2026-10-06",
+        "scope": "item",
+        "appliesToRecordId": "wiktionary-robot"
+      },
+      {
+        "evidenceId": "wiktionary-robot-item-license",
+        "evidenceType": "item-license",
+        "sourceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "reference": "CC-BY-SA-4.0",
+        "excerpt": "Definitions and other text are available under the Creative Commons Attribution-ShareAlike License ; additional terms may apply.",
+        "retrievedAt": "2026-10-06",
+        "scope": "item",
+        "appliesToRecordId": "wiktionary-robot"
+      }
+    ]
+  },
+  "validation": {
+    "validator": "Phase 3.5 validateIntake",
+    "result": "PASS",
+    "errorCodes": []
+  },
+  "review": {
+    "reviewStatus": "approved",
+    "reviewer": "User (explicit request to import a Gastronomy + Urbanism batch for educational reading)",
+    "decision": "The user explicitly authorized this real import batch for educational reading. The 10 articles (5 Gastronomy & Food History, 5 Urbanism & Everyday Objects) were selected from the existing Phase 4.8 audit artifacts (pdr-audit.json, wiktionary-audit.json, pdr-licence-probe.json); no new research or new source was used to form the selection. Every selected item was then fetched from its official source page and its full text extracted, then reviewed individually. For The Public Domain Review the item's OWN page had to carry article-level CC BY or CC BY-SA evidence: the publisher states that some of its Articles are \"published under more restrictive terms\", so the site-wide statement was never used to decide an item, and any \"All rights reserved\", \"Reprinted by permission\" or NonCommercial-only item was excluded. For Wiktionary the CC BY-SA statement carried on each page was required, and third-party or non-free content (fair-use quotations, usage examples carrying quotations, File/Image links) was excluded from the stored body rather than assumed compatible. No image, audio or other media is reused from either source: imageReference is null for every item.",
+    "reviewedAt": "2026-10-06T00:00:00.000Z"
+  },
+  "provenance": {
+    "sourceRecordId": "wiktionary-robot",
+    "intakeRecordId": "wiktionary-robot",
+    "intakeSchemaVersion": "phase3.5-independent-intake-v1",
+    "intakeValidationResult": "PASS",
+    "dryRunResult": "PASS",
+    "dryRunRecordId": "wiktionary-robot",
+    "reviewStatus": "approved",
+    "packageCreatedAt": "2026-10-06T00:00:00.000Z",
+    "sourceManifest": "research/phase4-9-gastronomy-urbanism/intake/public-domain-review-the-tragical-death-of-a-apple-pye.json; research/phase4-9-gastronomy-urbanism/intake/public-domain-review-rarebit-fiend.json; research/phase4-9-gastronomy-urbanism/intake/public-domain-review-giant-produce-postcards.json; research/phase4-9-gastronomy-urbanism/intake/public-domain-review-women-having-tea.json; research/phase4-9-gastronomy-urbanism/intake/wiktionary-dandelion.json; research/phase4-9-gastronomy-urbanism/intake/public-domain-review-the-blinkered-flaneur.json; research/phase4-9-gastronomy-urbanism/intake/public-domain-review-typing-for-love-or-money.json; research/phase4-9-gastronomy-urbanism/intake/public-domain-review-cybernetic-attention.json; research/phase4-9-gastronomy-urbanism/intake/wiktionary-robot.json; research/phase4-9-gastronomy-urbanism/intake/public-domain-review-twilight-of-the-velocipede.json"
+  }
+}

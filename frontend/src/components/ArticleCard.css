@@ -1,0 +1,218 @@
+.article-card {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-card);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  outline: none;
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1),
+              box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1),
+              border-color 0.25s ease;
+  height: 100%;
+}
+
+.article-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: rgba(240, 246, 252, 0.2);
+  background-color: var(--bg-card-hover);
+}
+
+.article-card:focus-visible {
+  box-shadow: 0 0 0 3px var(--accent-subtle), var(--shadow-lg);
+  border-color: var(--border-focus);
+}
+
+.article-card-cover-wrapper {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  overflow: hidden;
+  background-color: var(--bg-secondary);
+}
+
+.article-card-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.article-card:hover .article-card-cover {
+  transform: scale(1.04);
+}
+
+.article-card-genre-badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+  background: rgba(13, 17, 23, 0.75);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: var(--text-primary);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  z-index: 2;
+}
+
+.article-card-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.article-card-title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 8px;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.article-card-description {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin-bottom: 20px;
+  flex: 1;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.article-card-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 14px;
+  border-top: 1px solid var(--border-subtle);
+  margin-top: auto;
+}
+
+.article-level-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border-radius: var(--radius-sm);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  border: 1px solid transparent;
+}
+
+.article-level-badge[data-level='A1'] {
+  background-color: var(--badge-a1-bg);
+  color: var(--badge-a1-text);
+  border-color: var(--badge-a1-border);
+}
+
+.article-level-badge[data-level='A2'] {
+  background-color: var(--badge-a2-bg);
+  color: var(--badge-a2-text);
+  border-color: var(--badge-a2-border);
+}
+
+.article-level-badge[data-level='B1'] {
+  background-color: var(--badge-b1-bg);
+  color: var(--badge-b1-text);
+  border-color: var(--badge-b1-border);
+}
+
+.article-level-badge[data-level='B2'] {
+  background-color: var(--badge-b2-bg);
+  color: var(--badge-b2-text);
+  border-color: var(--badge-b2-border);
+}
+
+.article-level-badge[data-level='C1'] {
+  background-color: var(--badge-c1-bg);
+  color: var(--badge-c1-text);
+  border-color: var(--badge-c1-border);
+}
+
+.article-level-badge[data-level='C2'] {
+  background-color: var(--badge-c2-bg);
+  color: var(--badge-c2-text);
+  border-color: var(--badge-c2-border);
+}
+
+.article-time-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+.article-time-badge svg {
+  width: 14px;
+  height: 14px;
+}
+
+/* ==========================================================================
+   Reading Progress Indicator (small, shown only after reading has started)
+   ========================================================================== */
+
+.article-card-progress {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.article-card-progress-track {
+  flex: 1;
+  height: 4px;
+  border-radius: var(--radius-full);
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-subtle);
+  overflow: hidden;
+}
+
+.article-card-progress-fill {
+  height: 100%;
+  border-radius: var(--radius-full);
+  background-color: var(--accent-primary);
+  transition: width 0.3s ease;
+}
+
+.article-card-progress-text {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.article-card-progress[data-status='in-progress'] .article-card-progress-fill {
+  background-color: var(--accent-primary-hover);
+}
+
+.article-card-progress[data-status='in-progress'] .article-card-progress-text {
+  color: var(--accent-primary-hover);
+}
+
+.article-card-progress[data-status='completed'] .article-card-progress-track {
+  display: none;
+}
+
+.article-card-progress[data-status='completed'] .article-card-progress-text {
+  color: #3fb950;
+  font-weight: 700;
+}

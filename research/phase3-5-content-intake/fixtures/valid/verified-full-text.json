@@ -1,0 +1,44 @@
+{
+  "recordId": "synthetic-fulltext-001",
+  "sourceId": "synthetic-open-source",
+  "title": "Synthetic full-text example",
+  "canonicalUrl": "https://example.invalid/items/fulltext-001",
+  "doi": "10.5555/synthetic.001",
+  "authors": ["Synthetic Example Author"],
+  "publishedAt": "2024-05-20",
+  "receivedAt": "2026-10-03",
+  "contentType": "expository",
+  "classification": {
+    "contentGroup": "specialized",
+    "primaryCategory": "science"
+  },
+  "rightsStatus": "verified",
+  "reuseMode": "verified-full-text",
+  "rightsBasis": "license",
+  "itemLicenseUrl": "https://example.invalid/licenses/synthetic-cc-by",
+  "licenseType": "synthetic-creative-commons",
+  "licenseIdentifier": "SYNTHETIC-CC-BY",
+  "rightsEvidenceUrl": "https://example.invalid/items/fulltext-001",
+  "rightsEvidenceExcerpt": "SYNTHETIC FIXTURE: illustrative item-level license statement, not real evidence.",
+  "attributionRequired": true,
+  "attributionText": "Synthetic Example Author, Synthetic full-text example (2024), synthetic fixture attribution.",
+  "body": "Synthetic fixture body text. This text is invented for deterministic validation tests.",
+  "mediaAssets": [
+    {
+      "assetId": "synthetic-figure-1",
+      "assetType": "figure",
+      "rightsStatus": "verified",
+      "disposition": "retain",
+      "evidenceUrl": "https://example.invalid/items/fulltext-001#figure-1",
+      "attributionRequired": false
+    },
+    {
+      "assetId": "synthetic-supplement-1",
+      "assetType": "supplementary",
+      "rightsStatus": "unknown",
+      "disposition": "exclude"
+    }
+  ],
+  "reviewStatus": "needs-quality-review",
+  "reviewNotes": ["Synthetic fixture; all evidence-shaped values are placeholders."]
+}

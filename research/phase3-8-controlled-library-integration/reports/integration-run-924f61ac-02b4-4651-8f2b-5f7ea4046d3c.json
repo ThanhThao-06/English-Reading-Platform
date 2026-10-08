@@ -1,0 +1,201 @@
+{
+  "phase": "3.8-controlled-library-integration",
+  "runId": "924f61ac-02b4-4651-8f2b-5f7ea4046d3c",
+  "mode": "DRY_RUN",
+  "generatedAt": "2026-10-03T10:13:17.852Z",
+  "outcome": "NO_CANDIDATES",
+  "input": {
+    "packageDirectory": "research/phase3-7-approved-content-package/approved-content",
+    "packageDirectoryState": "ABSENT",
+    "packageCount": 0,
+    "librarySnapshotAvailable": false,
+    "protectedSourcePolicies": {
+      "plos-one": {
+        "rightsStatus": "unknown",
+        "maxReuseMode": "link-only"
+      },
+      "voa-learning-english": {
+        "rightsStatus": "partially-verified",
+        "maxReuseMode": "metadata-only"
+      }
+    }
+  },
+  "upstreamPhase36": {
+    "dataScope": "Phase 3.4 source-derived pilot records only; Phase 3.5 synthetic fixtures excluded.",
+    "summary": {
+      "recordsProcessed": 8,
+      "pass": 0,
+      "blocked": 2,
+      "reviewRequired": 6,
+      "readyForPhase37Review": 0,
+      "approvedForLibraryImport": 0
+    },
+    "recordResults": [
+      {
+        "recordId": "plos-one-0309377",
+        "sourceId": "plos-one",
+        "validationResult": "BLOCKED",
+        "simulatedReviewStatus": "needs-rights-review",
+        "errorCodes": [
+          "SOURCE_POLICY_EXCEEDED",
+          "FULL_TEXT_BODY_REQUIRED"
+        ],
+        "missingEvidence": [
+          "The Phase 3.4 artifact is abstract-only and was deliberately not supplied as intake body under the link-only source ceiling."
+        ],
+        "nextAction": "Do not carry the abstract into intake. Keep the source at unknown/link-only; a human must decide whether to propose link-only handling in a separately reviewed next phase.",
+        "readyForPhase37Review": false
+      },
+      {
+        "recordId": "plos-one-0257734",
+        "sourceId": "plos-one",
+        "validationResult": "BLOCKED",
+        "simulatedReviewStatus": "needs-rights-review",
+        "errorCodes": [
+          "SOURCE_POLICY_EXCEEDED",
+          "FULL_TEXT_BODY_REQUIRED"
+        ],
+        "missingEvidence": [
+          "The Phase 3.4 artifact is abstract-only and was deliberately not supplied as intake body under the link-only source ceiling."
+        ],
+        "nextAction": "Do not carry the abstract into intake. Keep the source at unknown/link-only; a human must decide whether to propose link-only handling in a separately reviewed next phase.",
+        "readyForPhase37Review": false
+      },
+      {
+        "recordId": "voa-8008342",
+        "sourceId": "voa-learning-english",
+        "validationResult": "REVIEW_REQUIRED",
+        "simulatedReviewStatus": "needs-source-review",
+        "errorCodes": [
+          "SCHEMA_FIELD_TYPE",
+          "URL_INVALID"
+        ],
+        "missingEvidence": [
+          "canonicalUrl is null in Phase 3.4; the recorded RSS/source link has not been verified as canonical.",
+          "No author was recorded in Phase 3.4 metadata.",
+          "contentType is unassigned in Phase 3.4.",
+          "Classification categories are unassigned in Phase 3.4.",
+          "No item-level rights/ownership evidence URL was recorded; third-party authorship clearance remains unresolved."
+        ],
+        "nextAction": "Keep metadata-only scope. Resolve canonical URL status and any needed metadata from recorded evidence before a Phase 3.7 review; do not fetch or retain a story body in this dry run.",
+        "readyForPhase37Review": false
+      },
+      {
+        "recordId": "voa-8008344",
+        "sourceId": "voa-learning-english",
+        "validationResult": "REVIEW_REQUIRED",
+        "simulatedReviewStatus": "needs-source-review",
+        "errorCodes": [
+          "SCHEMA_FIELD_TYPE",
+          "URL_INVALID"
+        ],
+        "missingEvidence": [
+          "canonicalUrl is null in Phase 3.4; the recorded RSS/source link has not been verified as canonical.",
+          "No author was recorded in Phase 3.4 metadata.",
+          "contentType is unassigned in Phase 3.4.",
+          "Classification categories are unassigned in Phase 3.4.",
+          "No item-level rights/ownership evidence URL was recorded; third-party authorship clearance remains unresolved."
+        ],
+        "nextAction": "Keep metadata-only scope. Resolve canonical URL status and any needed metadata from recorded evidence before a Phase 3.7 review; do not fetch or retain a story body in this dry run.",
+        "readyForPhase37Review": false
+      },
+      {
+        "recordId": "voa-7979346",
+        "sourceId": "voa-learning-english",
+        "validationResult": "REVIEW_REQUIRED",
+        "simulatedReviewStatus": "needs-source-review",
+        "errorCodes": [
+          "SCHEMA_FIELD_TYPE",
+          "URL_INVALID"
+        ],
+        "missingEvidence": [
+          "canonicalUrl is null in Phase 3.4; the recorded RSS/source link has not been verified as canonical.",
+          "No author was recorded in Phase 3.4 metadata.",
+          "contentType is unassigned in Phase 3.4.",
+          "Classification categories are unassigned in Phase 3.4.",
+          "No item-level rights/ownership evidence URL was recorded; third-party authorship clearance remains unresolved."
+        ],
+        "nextAction": "Keep metadata-only scope. Resolve canonical URL status and any needed metadata from recorded evidence before a Phase 3.7 review; do not fetch or retain a story body in this dry run.",
+        "readyForPhase37Review": false
+      },
+      {
+        "recordId": "voa-7979350",
+        "sourceId": "voa-learning-english",
+        "validationResult": "REVIEW_REQUIRED",
+        "simulatedReviewStatus": "needs-source-review",
+        "errorCodes": [
+          "SCHEMA_FIELD_TYPE",
+          "URL_INVALID"
+        ],
+        "missingEvidence": [
+          "canonicalUrl is null in Phase 3.4; the recorded RSS/source link has not been verified as canonical.",
+          "No author was recorded in Phase 3.4 metadata.",
+          "contentType is unassigned in Phase 3.4.",
+          "Classification categories are unassigned in Phase 3.4.",
+          "No item-level rights/ownership evidence URL was recorded; third-party authorship clearance remains unresolved."
+        ],
+        "nextAction": "Keep metadata-only scope. Resolve canonical URL status and any needed metadata from recorded evidence before a Phase 3.7 review; do not fetch or retain a story body in this dry run.",
+        "readyForPhase37Review": false
+      },
+      {
+        "recordId": "voa-7979347",
+        "sourceId": "voa-learning-english",
+        "validationResult": "REVIEW_REQUIRED",
+        "simulatedReviewStatus": "needs-source-review",
+        "errorCodes": [
+          "SCHEMA_FIELD_TYPE",
+          "URL_INVALID"
+        ],
+        "missingEvidence": [
+          "canonicalUrl is null in Phase 3.4; the recorded RSS/source link has not been verified as canonical.",
+          "No author was recorded in Phase 3.4 metadata.",
+          "contentType is unassigned in Phase 3.4.",
+          "Classification categories are unassigned in Phase 3.4.",
+          "No item-level rights/ownership evidence URL was recorded; third-party authorship clearance remains unresolved."
+        ],
+        "nextAction": "Keep metadata-only scope. Resolve canonical URL status and any needed metadata from recorded evidence before a Phase 3.7 review; do not fetch or retain a story body in this dry run.",
+        "readyForPhase37Review": false
+      },
+      {
+        "recordId": "voa-7979349",
+        "sourceId": "voa-learning-english",
+        "validationResult": "REVIEW_REQUIRED",
+        "simulatedReviewStatus": "needs-source-review",
+        "errorCodes": [
+          "SCHEMA_FIELD_TYPE",
+          "URL_INVALID"
+        ],
+        "missingEvidence": [
+          "canonicalUrl is null in Phase 3.4; the recorded RSS/source link has not been verified as canonical.",
+          "No author was recorded in Phase 3.4 metadata.",
+          "contentType is unassigned in Phase 3.4.",
+          "Classification categories are unassigned in Phase 3.4.",
+          "No item-level rights/ownership evidence URL was recorded; third-party authorship clearance remains unresolved."
+        ],
+        "nextAction": "Keep metadata-only scope. Resolve canonical URL status and any needed metadata from recorded evidence before a Phase 3.7 review; do not fetch or retain a story body in this dry run.",
+        "readyForPhase37Review": false
+      }
+    ]
+  },
+  "summary": {
+    "packagesDiscovered": 0,
+    "readyForImport": 0,
+    "blocked": 0,
+    "reviewRequired": 0,
+    "exactDuplicates": 0,
+    "possibleDuplicates": 0,
+    "recordsImported": 0,
+    "approvedForLibraryImport": 0
+  },
+  "safety": {
+    "appImported": false,
+    "libraryModified": false,
+    "frontendModified": false,
+    "networkAccessed": false,
+    "published": false,
+    "productionWriterConfigured": false,
+    "partialImport": false,
+    "rollback": "NOT_APPLICABLE"
+  },
+  "packageResults": []
+}

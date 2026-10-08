@@ -1,0 +1,9 @@
+{
+  "approvalStatus": "APPROVED_FOR_LIBRARY_IMPORT",
+  "packageId": "content-584ab6f2845aa59b5102d519",
+  "packageVersion": 1,
+  "packageSha256": "a18ee3780950a0d686cf49df97523ae8690a41da6bedce976319beda244cec80",
+  "approvedAt": "2026-10-05T00:00:00.000Z",
+  "approver": "User (explicit request to import the next real article batch from NASA)",
+  "decision": "The user explicitly authorized a real NASA import batch for educational and informational use. Each official NASA page was fetched and its full text extracted verbatim, then reviewed individually: NASA page provenance and a readable citation date are required, and any third-party credit, courtesy/licence notice, syndicated or contributed content, or topic-hub shape excludes the item. NASA Images and Media Usage Guidelines are recorded as the source-policy evidence. No NASA image, insignia or identifier is reused: imageReference is null for every item."
+}

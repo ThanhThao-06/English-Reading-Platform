@@ -1,0 +1,52 @@
+{
+  "recordId": "nasa-sun",
+  "sourceId": "nasa",
+  "sourceName": "NASA",
+  "sourceUrl": "https://www.nasa.gov/",
+  "title": "The Sun",
+  "canonicalUrl": "https://science.nasa.gov/sun/",
+  "externalId": "sun",
+  "authors": [
+    "NASA"
+  ],
+  "publishedAt": "2026-09-17",
+  "language": "en",
+  "description": "The Sun The Sun is the star at the heart of our solar system.",
+  "contentType": "expository",
+  "classification": {
+    "contentGroup": "articles",
+    "primaryCategory": "science",
+    "secondaryCategories": [
+      "environment"
+    ]
+  },
+  "libraryPresentation": {
+    "description": "The Sun The Sun is the star at the heart of our solar system.",
+    "genre": "Science & Nature",
+    "level": "B1",
+    "readingTime": "Under 3 min",
+    "imageReference": null
+  },
+  "receivedAt": "2026-10-05",
+  "rightsStatus": "verified",
+  "reuseMode": "verified-full-text",
+  "rightsBasis": "permission",
+  "rightsEvidenceUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+  "rightsEvidenceExcerpt": "NASA content - images, audio, video, and media files used in the rendition of 3-dimensional models, such as texture maps and polygon data in any format - generally are not subject to copyright in the United States. You may use this material for educational or informational purposes, including photo collections, textbooks, public exhibits, computer graphical simulations and Internet Web pages. News outlets, schools, and text-book authors may use NASA content without needing explicit permission, subject to compliance with these guidelines. NASA content used in a factual manner that does not imply endorsement may be used without needing explicit permission. NASA should be acknowledged as the source of the material.",
+  "attributionRequired": true,
+  "attributionText": "NASA",
+  "body": "The Sun\n\nThe Sun is the star at the heart of our solar system. Its gravity holds the solar system together, keeping everything — from the biggest planets to the smallest bits of debris — in its orbit.\n\n22\n\nActive Missions\n\nOverview\n\nThe Sun's gravity holds the solar system together, keeping everything — from the biggest planets to the smallest particles of debris — in its orbit. The connection and interactions between the Sun and Earth drive the seasons, ocean currents, weather, climate, radiation belts and auroras. Though it is special to us, there are billions of stars like our Sun scattered across the Milky Way galaxy.\n\nThe Sun has many names in many cultures. The Latin word for Sun is “sol,” which is the main adjective for all things Sun-related: solar.\n\n2026 Total Solar Eclipse\n\nOn Wednesday, Aug. 12, a total solar eclipse swept across Greenland, Iceland, northern Russia, the Atlantic Ocean, Spain, and a small corner of Portugal.\n\nMany other places in the Northern Hemisphere experienced a partial solar eclipse that day, including parts of the northern U.S. (from Alaska to North Carolina), most of Canada, much of Europe, and northwestern Africa.\n\nWatch NASA's coverage of the eclipse\n\nVersión en español\n\nLearn more\n\nAbout Eclipses\n\nPop Culture\n\nThe Sun has inspired us since ancient times. It’s central to mythology and religion in cultures around the world, including the ancient Egyptians, the Aztecs of Mexico, Native American tribes of North and South America, the Chinese, and many others.\n\nCountless musicians have written songs about the Sun. The Beatles had a hit in 1969 with “Here Comes the Sun.” Other popular songs that reference the Sun include: “Walkin’ on the Sun” by Smashmouth; “Ain’t No Sunshine” by Bill Withers; “Walking on Sunshine” by Katrina and the Waves; “Pocketful of Sunshine” by Natasha Bedingfield; and “Let the Sunshine In” by the Fifth Dimension.\n\nIf you're Superman or a fellow Kryptonian of comic book fame, your powers are heightened by the yellow glow of our Sun. There are several science fiction films featuring the Sun in the storyline.\n\nFeatured Story\n\nTo Protect Artemis II Astronauts, NASA Experts Keep Eyes on Sun\n\nAs four astronauts travel around the Moon on NASA’s Artemis II mission, they will venture beyond Earth’s protective magnetic field. The crew’s…\n\nRead the Story\n\nNASA HEAT — Resources for Educators\n\nThe Sun can provide a fun and exciting laboratory for exploring magnetism, gravity, light, energy, and much more! Learn how to integrate heliophysics concepts and resources into existing educational and outreach activities with the NASA Heliophysics Education Activation Team (NASA HEAT).\n\nGet Involved\n\nThe Sungrazer Project\n\nWant to be a part of science and discovery? Join this research effort to hunt for comets that pass close to the Sun.\n\nLearn More\n\nSun Stories\n\nMore Sun Stories\n\nBlog\n\n3 Min Read\n\nAfter Latest Swing Past Sun, NASA’s Parker Solar Probe Checks in\n\nArticle\n\n5 Min Read\n\nNASA Rocket Takes First Multi-Point Look Inside Radio-Disrupting Clouds\n\n6 Min Read\n\nStarstruck: NASA Research Shows How Sun’s Ancient History Shaped Earth\n\nArticle\n\n3 Min Read\n\nNASA Shares Views of August Solar Eclipse from Ground, Air, Space\n\nArticle\n\n6 Min Read\n\nNASA’s COFFIES Uses AI to Predict Storm-Causing Active Regions on Sun\n\nArticle\n\nThe Sun\n\n16 Images\n\nGo To Gallery\n\nGo To Gallery\n\nLearn More and Get Involved\n\nFor Kids: All About the Sun\n\nFacts and activities for K-4 explorers\n\nNASA Photojournal: The Sun\n\nImages and videos of scientific interest\n\nKeep Exploring",
+  "mediaAssets": [],
+  "reviewStatus": "approved",
+  "reviewNotes": [
+    "Official NASA page fetched and its full text extracted verbatim: 55 paragraphs, 577 words.",
+    "NASA page provenance recorded verbatim: [\"NASA Page Editor: Vanessa Thomas\",\"Responsible NASA Official: Dana Bolles\"]; \"Page Last Updated\" 2026-09-17.",
+    "Page text inspected individually for copyright notices, third-party credits, courtesy/licence notes, syndicated or contributed/guest content and news-agency credits: none found.",
+    "In-body link density checked: 18 links across 55 blocks - this is an article, not a topic hub.",
+    "No image, insignia, logotype or NASA identifier is retained: no item-level asset-rights evidence was recorded and those marks are expressly not in the public domain, so imageReference is null.",
+    "B1 is a Library-level editorial mapping for this English-learning article, not a claimed formal CEFR label.",
+    "Reading time \"Under 3 min\" is mapped from the full-text word count (577) at 200 WPM.",
+    "Genre \"Science & Nature\": Explainer on the Sun and how scientists study it from space.",
+    "Reuse is educational/informational, factual, and does not imply NASA endorsement; NASA is acknowledged as the source."
+  ]
+}

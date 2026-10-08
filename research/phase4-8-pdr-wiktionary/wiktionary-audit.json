@@ -1,0 +1,1067 @@
+{
+  "licence": {
+    "identifier": "CC-BY-SA-4.0",
+    "name": "Creative Commons Attribution-ShareAlike 4.0 International",
+    "termsPage": "https://en.wiktionary.org/wiki/Wikimedia:Terms_of_Use",
+    "copyrightPage": "https://en.wiktionary.org/wiki/Wiktionary:Copyrights",
+    "dualLicenceNote": "Entry text is dual-licensed CC BY-SA 4.0 and GFDL; CC BY-SA 4.0 is relied on here."
+  },
+  "licenceCheck": {
+    "url": "https://en.wiktionary.org/wiki/English",
+    "status": 200,
+    "footerStatesCcBySa": true,
+    "footerExcerpt": "Definitions and other text are available under the Creative Commons Attribution-ShareAlike License ; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy."
+  },
+  "report": [
+    {
+      "word": "assassin",
+      "licence": "CC-BY-SA-4.0",
+      "title": "assassin",
+      "canonicalUrl": "https://en.wiktionary.org/wiki/assassin",
+      "subsections": [
+        "Etymology",
+        "Pronunciation",
+        "Noun",
+        "Verb"
+      ],
+      "hasEtymology": true,
+      "thirdPartyIndicators": {
+        "quoteTemplates": 0,
+        "fairUseTemplates": 0,
+        "fileOrMediaLinks": 0,
+        "copyrightNotices": 0,
+        "externalSourceTemplates": 0
+      },
+      "excludedBlocks": [
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{RQ:Landon Francesca Carrara|page=233|volume=II|text=The hand that held the bond of so many jarring interests lay powerless beneath the pall. The perils of "
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-text|en|year=1968|title=s:en:On the Mindless Menace of Violence|author= w:Robert F. Kennedy|passage=What has violence ever accomplished? What has it "
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-journal|en|date=2013-06-29|volume=407|issue=8842|page=55|magazine=w:The Economist"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{RQ:Montaigne Florio Essayes|chapter=29|book=II|passage=The '''Assassines''', a nation depending of Phœnicia, are esteemed among the Mahometists of a sovera"
+        }
+      ],
+      "wordCount": 87,
+      "bodyPreview": "Etymology\n\nFrom either assassin or assassino , from أَسَاسِيِّين and the folkloric etymology حَشَّاشِين .\n\nThe mathematical sense was introduced by , playing on the notation \\operatorname{Ass}(M) and the fact that an associated prime is the annihilator of an element, and so is said to kill that elem",
+      "verdict": "AUDITED"
+    },
+    {
+      "word": "salary",
+      "licence": "CC-BY-SA-4.0",
+      "title": "salary",
+      "canonicalUrl": "https://en.wiktionary.org/wiki/salary",
+      "subsections": [
+        "Alternative forms",
+        "Etymology",
+        "Pronunciation",
+        "Noun",
+        "Verb",
+        "Adjective",
+        "References",
+        "Further reading"
+      ],
+      "hasEtymology": true,
+      "thirdPartyIndicators": {
+        "quoteTemplates": 0,
+        "fairUseTemplates": 0,
+        "fileOrMediaLinks": 0,
+        "copyrightNotices": 0,
+        "externalSourceTemplates": 0
+      },
+      "excludedBlocks": [
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{RQ:Shakespeare Hamlet|III|iii|passage=This is hire and '''salary''', not revenge.}}"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-book|en|year=1935|title=I, Candidate for Governor: And How I Got Licked|author=w:Upton Sinclair|page=109|chapter=XX|pageurl=https://books.google.com/"
+        }
+      ],
+      "wordCount": 166,
+      "bodyPreview": "Etymology\n\nFrom salarie , from salarie , from salaire , from salārium , the neuter form of the adjective salārius , from salt . There have been various attempts to explain how the Latin term for “wages” came from the adjective “related to salt”. It is generally assumed that salārium was an abbreviat",
+      "verdict": "AUDITED"
+    },
+    {
+      "word": "ephemeral",
+      "licence": "CC-BY-SA-4.0",
+      "title": "ephemeral",
+      "canonicalUrl": "https://en.wiktionary.org/wiki/ephemeral",
+      "subsections": [
+        "Etymology",
+        "Pronunciation",
+        "Adjective",
+        "Noun",
+        "Further reading"
+      ],
+      "hasEtymology": true,
+      "thirdPartyIndicators": {
+        "quoteTemplates": 0,
+        "fairUseTemplates": 0,
+        "fileOrMediaLinks": 0,
+        "copyrightNotices": 0,
+        "externalSourceTemplates": 0
+      },
+      "excludedBlocks": [
+        {
+          "heading": "Adjective",
+          "kind": "third-party-block",
+          "text": "#* {{quote-text|en|year=1853|author={{w|James Stephen (civil servant)|James Stephen}}|title=Lecture on the right use of Books"
+        },
+        {
+          "heading": "Adjective",
+          "kind": "third-party-block",
+          "text": "#* {{quote-book|en|year=1818|author=Mary Shelley|title=Frankenstein|chapter=9|url=http://ebooks.adelaide.edu.au/s/shelley/mary/s53f/chapter9.html|passage=It was"
+        }
+      ],
+      "wordCount": 62,
+      "bodyPreview": "Etymology\n\nFrom ephemerus , from ἐφήμερος , the more common form of ἐφημέριος , from ἐπί + ἡμέρα .\n\nAdjective\n\nLasting for a short period of time.\n\nExisting for only one day, as with some flowers, insects, and diseases.\n\nUsually dry, but filling with water for brief periods during and after precipit",
+      "verdict": "AUDITED"
+    },
+    {
+      "word": "shibboleth",
+      "licence": "CC-BY-SA-4.0",
+      "title": "shibboleth",
+      "canonicalUrl": "https://en.wiktionary.org/wiki/shibboleth",
+      "subsections": [
+        "Alternative forms",
+        "Etymology",
+        "Pronunciation",
+        "Noun",
+        "See also",
+        "References",
+        "Further reading"
+      ],
+      "hasEtymology": true,
+      "thirdPartyIndicators": {
+        "quoteTemplates": 0,
+        "fairUseTemplates": 0,
+        "fileOrMediaLinks": 0,
+        "copyrightNotices": 0,
+        "externalSourceTemplates": 0
+      },
+      "excludedBlocks": [
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-text|en|year=1933|title=Oxford English Dictionary|chapter=H|passage=In recent times, the correct treatment of initial ''h'' in speech has come to be "
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-book|en|year=1922|author=Pennsylvania-German Society|title=The Pennsylvania-German Society|page=110|text=He also declares that \"th\" is the veritable "
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-book|en|year=1924|title=Modern Languages|page=112|text=The teacher says he must stick largely to the old methods and cling to the old '''shibboleths'"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-journal|en|year=1964|month=May|author=R. & M.|title=What chance for an outstanding prototype?|journal=Modern Railways|page=319|text=I pose the iconoc"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-web|en|date=2019-01-11|author=Tina Jordan|quotee=w:J. K. Rowling|title=Some Dos and Don’ts From Famous Writers|work=New York Times|url=https://www.ny"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-book|en|year=2022|section=Part I. The New Deal Order, 1930–1980|chapter=2|author=w:Gary Gerstle|publisher=Oxford University Press|title=The Rise and "
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-journal|en-US|author=w:Andrew Marantz|quotee=w:Hasan Piker|title=The Battle for the Bros|work=The New Yorker|date=2025-03-17|url=https://www.newyorke"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{RQ:CSM|author=Simon Montlake|date=2026-05-22|title=The GOP has been a pro-Israel party for decades. Is that changing|titleurl=https://www.csmonitor.com/USA"
+        }
+      ],
+      "wordCount": 55,
+      "bodyPreview": "Etymology\n\n. and sebolech , both from sebboleth in the .\n\nNoun\n\nA particular pronunciation or custom that is regarded as distinguishing members of a group from non-members, especially when used as a test.\n\nA common or longstanding belief, custom, or catchphrase associated with a particular group, es",
+      "verdict": "AUDITED"
+    },
+    {
+      "word": "amok",
+      "licence": "CC-BY-SA-4.0",
+      "title": "amok",
+      "canonicalUrl": "https://en.wiktionary.org/wiki/amok",
+      "subsections": [
+        "Etymology 1",
+        "Etymology 2",
+        "Anagrams"
+      ],
+      "hasEtymology": true,
+      "thirdPartyIndicators": {
+        "quoteTemplates": 0,
+        "fairUseTemplates": 0,
+        "fileOrMediaLinks": 0,
+        "copyrightNotices": 0,
+        "externalSourceTemplates": 0
+      },
+      "excludedBlocks": [],
+      "wordCount": 42,
+      "bodyPreview": "Etymology 1\n\namouco , from amuk . The term first appeared in English around the 16th century, associated with the people of Malaysia and Java, first described in the 1516 text , which was translated to English by Henry E. J. Stanley.",
+      "verdict": "AUDITED"
+    },
+    {
+      "word": "robot",
+      "licence": "CC-BY-SA-4.0",
+      "title": "robot",
+      "canonicalUrl": "https://en.wiktionary.org/wiki/robot",
+      "subsections": [
+        "Pronunciation",
+        "Etymology 1",
+        "Etymology 2",
+        "Etymology 3",
+        "References",
+        "Further reading",
+        "Anagrams"
+      ],
+      "hasEtymology": true,
+      "thirdPartyIndicators": {
+        "quoteTemplates": 0,
+        "fairUseTemplates": 0,
+        "fileOrMediaLinks": 0,
+        "copyrightNotices": 0,
+        "externalSourceTemplates": 0
+      },
+      "excludedBlocks": [
+        {
+          "heading": "Etymology 2",
+          "kind": "media-link",
+          "text": "[[File:Paris Motor Show 2018, Paris (1Y7A1752).jpg|thumb|An industrial '''robot''' ({{senseno|en|Q11012}}) engraving on a metal plate]]"
+        }
+      ],
+      "wordCount": 134,
+      "bodyPreview": "Etymology 1\n\nFrom Robot , from a English language, ultimately related to Etymology 2, below.\n\nEtymology 2\n\nrobot , from robota . in the play after having been suggested to him by his brother . Largely displaced .\n\nUltimately a cognate with from , and see dialectal English . . Related to orphan , but",
+      "verdict": "AUDITED"
+    },
+    {
+      "word": "gossip",
+      "licence": "CC-BY-SA-4.0",
+      "title": "gossip",
+      "canonicalUrl": "https://en.wiktionary.org/wiki/gossip",
+      "subsections": [
+        "Etymology",
+        "Pronunciation",
+        "Noun",
+        "Verb"
+      ],
+      "hasEtymology": true,
+      "thirdPartyIndicators": {
+        "quoteTemplates": 0,
+        "fairUseTemplates": 0,
+        "fileOrMediaLinks": 0,
+        "copyrightNotices": 0,
+        "externalSourceTemplates": 0
+      },
+      "excludedBlocks": [
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-book|en|year=1752|author={{w|Arthur Murphy (writer)|Arthur Murphy}}|title=The Gray’s Inn Journal|volume=1|issue=11|page=73|url=http://name.umdl.umich"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-book|en|year=1846|author=w:Herman Melville|title=w:Typee|chapter=Sequel Containing the Story of Toby|url=http://www.gutenberg.org/files/28656/28656-h"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-book|en|year=1952|author=w:John Steinbeck|title={{w|East of Eden (novel)|East of Eden}}|location=London|publisher=Heinemann|chapter=48|page=456|url=h"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{RQ:Austen Persuasion|chapter=18|text={{...}} the thing is certainly true. It is not a mere bit of '''gossip'''. We have it from Frederick himself.}}"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{RQ:Chambers Younger Set|II|passage=I ought to arise and go forth with timbrels and with dances; but, do you know, I am not inclined to revels? There has be"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-text|en|year=1953|year_published=1955|author=w:Ian Fleming|title={{w|Casino Royale (novel)|Casino Royale}}|volume=|location=London|publisher=Pan Book"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-book|en|year=1980|author=w:J. M. Coetzee| title=w:Waiting for the Barbarians| publisher=Penguin| year_published=1982| chapter=2|page=32| url=https://"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-book|en|year=2018|author=w:Anna Burns|title={{w|Milkman (novel)|Milkman}}|location=London|publisher=Faber & Faber|chapter=1|url=https://books.google."
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{RQ:Alcott Little Women|chapter=38|text=The parlor was always bright and attractive, the chessboard ready, the piano in tune, plenty of gay '''gossip''', an"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{RQ:Vance Outsider|page=373|column=2|passage=Little disappointed, then, she turned attention to \"Chat of the Social World,\" '''gossip''' which exercised pot"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{RQ:Shakespeare Verona|act=III|scene=i|text=’tis not a maid, for she hath had '''gossips''' [''[[i.e.]]'' she could not be a virgin, because she has childre"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-book|en|year=1689|author=w:John Selden|title=Table-Talk|location=London|publisher=Jacob Tonson ''et al.,'' 1696, “Prayer”|page=134|url=http://name.um"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{RQ:Richardson Pamela|volume=III|page=400|text=It seems, Miss, that if he stood not himself, or procur’d not '''Gossips''' for the Christening of the Childr"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-book|en|year=1850|author=w:Thomas Keightley|title=The Fairy Mythology|location=London|publisher=H.G. Bohn|page=299|passage=A young woman of our town,"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-text|en|year=1908|author=Patrick Weston Joyce|title=A Smaller Social History of Ancient Ireland: Treating of the Government, Military System, and Law"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-book"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{RQ:Shakespeare Henry 8|act=V|scene=v|text=My noble '''gossips''', ye have been too prodigal:<br>I thank ye heartily;}}"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{RQ:Shakespeare Merry Wives|act=IV|scene=ii|text=What, ho, '''gossip''' Ford! what, ho!}}"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-book|en|year=1905|author=w:William John Locke|title={{w|The Morals of Marcus Ordeyne (novel)|The Morals of Marcus Ordeyne}}|chapter=11|url=http://www"
+        },
+        {
+          "heading": "Verb",
+          "kind": "third-party-block",
+          "text": "#* {{RQ:Fielding Tom Jones|volume=I|book=2|chapter=4|page=66|text=This Place then is no other than the Chandler’s Shop; the known Seat of all the News; or, as i"
+        },
+        {
+          "heading": "Verb",
+          "kind": "third-party-block",
+          "text": "#* {{quote-book|en|year=1959|author=w:Muriel Spark|title={{w|Memento Mori (novel)|Memento Mori}}|location=New York|publisher=Time-Life, 1964|chapter=8|page=109|"
+        },
+        {
+          "heading": "Verb",
+          "kind": "third-party-block",
+          "text": "#* {{RQ:Jerome Three Men|chapter=14|passage={{...}} on seats beneath the trees, the old men group of an evening to drink their ale and '''gossip''' over village"
+        },
+        {
+          "heading": "Verb",
+          "kind": "third-party-block",
+          "text": "#* {{RQ:Doyle Land of Mist|passage=\"Tut! tut! The unchanging woman. They '''gossiped''' in my time and they '''gossip''' still.\"}}"
+        },
+        {
+          "heading": "Verb",
+          "kind": "third-party-block",
+          "text": "#* {{RQ:Shakespeare All's Well|act=I|scene=i|text={{...}} a world<br>Of pretty, fond, adoptious christendoms [''[[i.e.]]'' Christian names],<br>That blinking Cu"
+        },
+        {
+          "heading": "Verb",
+          "kind": "third-party-block",
+          "text": "#* {{quote-journal|en|year=1709|author=w:Richard Steele|work={{w|Tatler (1709 journal)|The Tatler}}|title=No.{{nbsp}}95 in ''The Lucubrations of Isaac Bickersta"
+        },
+        {
+          "heading": "Verb",
+          "kind": "third-party-block",
+          "text": "#* {{RQ:Shakespeare King John|act=V|scene=ii|text={{...}} those baby eyes<br>That never saw the giant world enraged;<br>Nor met with fortune other than at feast"
+        }
+      ],
+      "wordCount": 157,
+      "bodyPreview": "Etymology\n\nFrom gossib , godsib , from godsibb , equivalent to . . For sense evolution to \"gossip, discussing others' personal affairs,\" compare French commérage .\n\nNoun\n\nSomeone who likes to talk about other people's private or personal business.\n\nIdle talk about someone’s private or personal matte",
+      "verdict": "AUDITED"
+    },
+    {
+      "word": "ostrich",
+      "licence": "CC-BY-SA-4.0",
+      "title": "ostrich",
+      "canonicalUrl": "https://en.wiktionary.org/wiki/ostrich",
+      "subsections": [
+        "Alternative forms",
+        "Etymology",
+        "Pronunciation",
+        "Noun",
+        "See also",
+        "Further reading",
+        "Anagrams"
+      ],
+      "hasEtymology": true,
+      "thirdPartyIndicators": {
+        "quoteTemplates": 0,
+        "fairUseTemplates": 0,
+        "fileOrMediaLinks": 1,
+        "copyrightNotices": 0,
+        "externalSourceTemplates": 0
+      },
+      "excludedBlocks": [
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "##* {{RQ:Davenant Wits|page=1|passage=Could a Taff'ta ſcarf, a long '''Eſtridge''' vvhing, / A ſtiffe Iron Doublet, and a Brazeel Pole / Tempt thee from Cambric"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "##* {{RQ:Browne Works|volume=IV|title=On the Ostrich|page=337|passage=The '''Ostrich''' hath a compounded name in Greek and Latin—''Struthio-Camelus'', borrowed"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "##* {{RQ:Landon Francesca Carrara|page=17|volume=II|text=\"But is not this fortunate?\" continued she, taking up a superb plume of white '''ostrich''' feathers, f"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "##* {{quote-journal|en|date=2013-07-26|author=[http://www.theguardian.com/profile/nick-miroff Nick Miroff]|volume=189|issue=7|page=32|magazine=w:The Guardian We"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-book|en|author=James George Frazer|title=The Golden Bough|year=1911|volume=8|page=245|text=The Lengua Indians of the Gran Chaco love to hunt the '''o"
+        }
+      ],
+      "wordCount": 101,
+      "bodyPreview": "Etymology\n\nFrom ostrich , ostriche , ostryche , ostrige , borrowed from ostrige and ostruce , from austruthio , from - avis + strūthiō , from στρουθίων , or shortened from strūthiocamēlus , from στρουθοκᾰ́μηλος , from στρουθός + κάμηλος . Compare and .\n\nNoun\n\nA large flightless bird of the order .\n\n",
+      "verdict": "AUDITED"
+    },
+    {
+      "word": "posh",
+      "licence": "CC-BY-SA-4.0",
+      "title": "posh",
+      "canonicalUrl": "https://en.wiktionary.org/wiki/posh",
+      "subsections": [
+        "Etymology 1",
+        "Etymology 2",
+        "Anagrams"
+      ],
+      "hasEtymology": true,
+      "thirdPartyIndicators": {
+        "quoteTemplates": 0,
+        "fairUseTemplates": 0,
+        "fileOrMediaLinks": 0,
+        "copyrightNotices": 0,
+        "externalSourceTemplates": 0
+      },
+      "excludedBlocks": [],
+      "wordCount": 180,
+      "bodyPreview": "Etymology 1\n\nMost likely derived from posh , either because posh-kooroona (originally a substantial sum of money) was used metaphorically for anything pricey or upper-class, or because posh-houri came to refer to money generally.\n\nA period slang dictionary defines \"posh\" as a term used by thieves fo",
+      "verdict": "AUDITED"
+    },
+    {
+      "word": "sincere",
+      "licence": "CC-BY-SA-4.0",
+      "title": "sincere",
+      "canonicalUrl": "https://en.wiktionary.org/wiki/sincere",
+      "subsections": [
+        "Etymology",
+        "Pronunciation",
+        "Adjective",
+        "Anagrams"
+      ],
+      "hasEtymology": true,
+      "thirdPartyIndicators": {
+        "quoteTemplates": 0,
+        "fairUseTemplates": 0,
+        "fileOrMediaLinks": 0,
+        "copyrightNotices": 0,
+        "externalSourceTemplates": 0
+      },
+      "excludedBlocks": [
+        {
+          "heading": "Adjective",
+          "kind": "third-party-block",
+          "text": "#* {{RQ:Carlyle French Revolution|II|I|III|19|text=Tumid blustering, with more or less of sincerity, which need not be entirely '''sincere''', yet the '''sincer"
+        },
+        {
+          "heading": "Adjective",
+          "kind": "third-party-block",
+          "text": "#* {{quote-journal|en|year=1967|month=June|author=Drake Maynard|magazine=[[wikipedia:If (magazine)|If]]|url=|volume=17|issue=6|page=160|passage=My '''sincerest'"
+        },
+        {
+          "heading": "Adjective",
+          "kind": "third-party-block",
+          "text": "#* {{quote-song|en|year=2003|artist={{w|A Perfect Circle|A Perfect Circle}}|title={{w|The Outsider (song)|The Outsider}}|passage=If you choose to pull the trigg"
+        },
+        {
+          "heading": "Adjective",
+          "kind": "third-party-block",
+          "text": "#* {{quote-book|en|year=1996|author=Macy Nulman|title=The Encyclopedia of Jewish Prayer|page=161|text=The message that through '''sincere''' ''teshuvah'' and re"
+        }
+      ],
+      "wordCount": 52,
+      "bodyPreview": "Etymology\n\nFrom sincere , from sincerus , from sem- (whence sam Adverb ) + ḱer- (whence Ceres , the goddess of harvest, of cereal ). Not from sine + cera , which is a see .\n\nAdjective\n\nGenuine, honest, and free from pretense or deceit heartfelt.\n\nMeant truly or earnestly.\n\nClean pure.",
+      "verdict": "AUDITED"
+    },
+    {
+      "word": "quarantine",
+      "licence": "CC-BY-SA-4.0",
+      "title": "quarantine",
+      "canonicalUrl": "https://en.wiktionary.org/wiki/quarantine",
+      "subsections": [
+        "Alternative forms",
+        "Etymology",
+        "Pronunciation",
+        "Noun",
+        "Verb",
+        "Proper noun",
+        "References"
+      ],
+      "hasEtymology": true,
+      "thirdPartyIndicators": {
+        "quoteTemplates": 0,
+        "fairUseTemplates": 0,
+        "fileOrMediaLinks": 0,
+        "copyrightNotices": 0,
+        "externalSourceTemplates": 0
+      },
+      "excludedBlocks": [
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-book|en|year=1722|author=w:Daniel Defoe|title=w:Journal of the Plague Year|page=235"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "##* {{quote-text|en|year=1818|author=Alexander Ranken|title=The History of France|volume=IV|page=233"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-text|en|year=1796|author=Edward Darwin|title=Zoonomia|volume=II|page=265"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{RQ:Landon Romance|pages=137–138|passage=The lady stared; but a single question elicited the fatal truth—the vessel was under '''quarantine''', and once on "
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{RQ:Dickens Little Dorrit|passage=‘... these people are always howling. Never happy otherwise... the French people. They’re always at it. As to [[Marseilles"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-text|en|year=1859|author=John Mounteney Jephson; et al|title=Narrative of a Walking Tour in Brittany|page=77"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-web|url=https://www.taiwannews.com.tw/en/news/3900962|en|date=20 March 2020|work=w:Taiwan News|title=Next 14 Days Are Critical for Taiwan's Wuhan Vir"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-text|en|year=1667|author=John Denham|title=The Second Advice to a Painter|pages=13–14"
+        },
+        {
+          "heading": "Verb",
+          "kind": "third-party-block",
+          "text": "#* {{quote-book|en|year=c. 1912|author=E.H. Grubb; et al|title=Potato|page=479"
+        }
+      ],
+      "wordCount": 385,
+      "bodyPreview": "Etymology\n\nFrom quarentena and quarentīna via quarentine , quarenteine , quarenteine , and quarantina , via proposed quaranta + -ēna , from quadrāgintā .\n\nIn reference to French politics, calque of quarantaine after edicts of . In reference to a severance of political relations, popularized by the a",
+      "verdict": "AUDITED"
+    },
+    {
+      "word": "nickname",
+      "licence": "CC-BY-SA-4.0",
+      "title": "nickname",
+      "canonicalUrl": "https://en.wiktionary.org/wiki/nickname",
+      "subsections": [
+        "Etymology",
+        "Pronunciation",
+        "Noun",
+        "Verb"
+      ],
+      "hasEtymology": true,
+      "thirdPartyIndicators": {
+        "quoteTemplates": 0,
+        "fairUseTemplates": 0,
+        "fileOrMediaLinks": 0,
+        "copyrightNotices": 0,
+        "externalSourceTemplates": 0
+      },
+      "excludedBlocks": [
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{RQ:Withycombe Christian Names|edition=1st|chapter=Introduction|page=xiii|passage={{...|Nicknames, added to or substituted for the genuine name, were common"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-book|en|year=2011| title=Jerusalem: The Biography – A History of the Middle East|author=Simon Sebag Montefiore | page=329| passage=He excelled with t"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-journal|en|author=Corinne Whiting|title=The dazzling sides of ‘Grit City’|magazine=w:CNN|url=https://edition.cnn.com/travel/tacoma-washington-best-to"
+        },
+        {
+          "heading": "Verb",
+          "kind": "third-party-block",
+          "text": "#* {{quote-web|en|date=2010-01-25|work=w:The Guardian|title=Iraq executes Chemical Ali|url=https://www.theguardian.com/world/2010/jan/25/chemical-ali-execution-"
+        }
+      ],
+      "wordCount": 103,
+      "bodyPreview": "Etymology\n\nFrom neke name , alteration (due to a of an ekename as a nekename) of earlier ekename , from additional + name . Compare , auknafn , auknefni , , , , , and .\n\nFor other similar cases of incorrect division, see also apron , daffodil , newt , orange , umpire .\n\nNoun\n\nA familiar, invented na",
+      "verdict": "AUDITED"
+    },
+    {
+      "word": "serendipity",
+      "licence": "CC-BY-SA-4.0",
+      "title": "serendipity",
+      "canonicalUrl": "https://en.wiktionary.org/wiki/serendipity",
+      "subsections": [
+        "Etymology",
+        "Pronunciation",
+        "Noun",
+        "References",
+        "Further reading"
+      ],
+      "hasEtymology": true,
+      "thirdPartyIndicators": {
+        "quoteTemplates": 0,
+        "fairUseTemplates": 0,
+        "fileOrMediaLinks": 0,
+        "copyrightNotices": 0,
+        "externalSourceTemplates": 0
+      },
+      "excludedBlocks": [
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-journal|en|date=2020 December 2|author=Andy Byford talks to Paul Clifton|title=I enjoy really big challenges...|journal=Rail|page=54|text=After I got"
+        }
+      ],
+      "wordCount": 81,
+      "bodyPreview": "Etymology\n\nFrom . based on the Persian story of the , who (Walpole wrote to a friend) were “always making discoveries, by accidents and sagacity, of things which they were not in quest of”.\n\nNoun\n\nThe phenomenon of making an unplanned, fortunate discovery through a combination of unexpected circumst",
+      "verdict": "AUDITED"
+    },
+    {
+      "word": "taboo",
+      "licence": "CC-BY-SA-4.0",
+      "title": "taboo",
+      "canonicalUrl": "https://en.wiktionary.org/wiki/taboo",
+      "subsections": [
+        "Alternative forms",
+        "Etymology",
+        "Pronunciation",
+        "Noun",
+        "Adjective",
+        "Verb",
+        "Anagrams"
+      ],
+      "hasEtymology": true,
+      "thirdPartyIndicators": {
+        "quoteTemplates": 0,
+        "fairUseTemplates": 0,
+        "fileOrMediaLinks": 0,
+        "copyrightNotices": 0,
+        "externalSourceTemplates": 0
+      },
+      "excludedBlocks": [
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-book|en|year=1920|author=Edward Carpenter|authorlink=Edward Carpenter|title=Pagan and Christian Creeds|year_published=1921|location=New York|publishe"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-book|en|passage=So among the Alfoors of the island of Buru it is '''taboo''' to mention the names of parents and parents-in-law, or even to speak of "
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-text|en|year=1974|author=w:Lawrence Durrell|title=Monsieur|page=213|publisher=Faber & Faber|year_published=1992"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-book|en|year=1981|author=w:William Irwin Thompson|title=The Time Falling Bodies Take to Light:Mythology, Sexuality and the Origins of Culture|page=12"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-journal|en|author=Rey Junco|title=What’s the big deal about sexting?|magazine=w:CNN|url=https://www.cnn.com/2014/05/21/opinion/junco-sexting-teenager"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-journal|en|author=Kevin Roose|title=Why I Can’t Bet Against Apple’s Mixed-Reality Prowess|work=w:The New York Times|date=2023-06-06|url=https://www.n"
+        },
+        {
+          "heading": "Verb",
+          "kind": "third-party-block",
+          "text": "#* {{RQ:Bramah Max Carrados|passage=They lunched, but if the subject of Carrados had been '''tabooed''' the meal would have been a silent one.}}"
+        }
+      ],
+      "wordCount": 72,
+      "bodyPreview": "Etymology\n\ntapu , from poz-pol-pro , from poz-oce-pro , from tambu . . .\n\nThe p in the Tongan source was misheard as b.\n\nNoun\n\nAn inhibition or ban that results from social custom or emotional aversion.\n\nSomething which may not be used, approached or mentioned because it is sacred.\n\nAdjective\n\nExclu",
+      "verdict": "AUDITED"
+    },
+    {
+      "word": "avocado",
+      "licence": "CC-BY-SA-4.0",
+      "title": "avocado",
+      "canonicalUrl": "https://en.wiktionary.org/wiki/avocado",
+      "subsections": [
+        "Etymology",
+        "Pronunciation",
+        "Noun",
+        "Adjective",
+        "References",
+        "Further reading"
+      ],
+      "hasEtymology": true,
+      "thirdPartyIndicators": {
+        "quoteTemplates": 0,
+        "fairUseTemplates": 0,
+        "fileOrMediaLinks": 1,
+        "copyrightNotices": 0,
+        "externalSourceTemplates": 0
+      },
+      "excludedBlocks": [
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-journal|en|author=Elisabeth Buchwald|title=What could get more expensive if Trump launches a new trade war with Mexico and Canada|magazine=w:CNN Busi"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{RQ:Smith Swing Time|page=57|passage=It was exactly the same as my bathroom. Same cork floor, same '''avocado''' bathroom set.}}"
+        }
+      ],
+      "wordCount": 77,
+      "bodyPreview": "Etymology\n\nBorrowed from Latin American avocado , from the earlier aguacate , which comes from āhuacatl . . Compare aguacatillo , avocadillo .\n\nThe first mention can be found in a catalogue of Jamaican plants in 1696.\n\nNoun\n\nThe large, usually yellowish-green or black, savory fruit of the avocado tr",
+      "verdict": "AUDITED"
+    },
+    {
+      "word": "dandelion",
+      "licence": "CC-BY-SA-4.0",
+      "title": "dandelion",
+      "canonicalUrl": "https://en.wiktionary.org/wiki/dandelion",
+      "subsections": [
+        "Etymology",
+        "Pronunciation",
+        "Noun",
+        "Adjective",
+        "See also",
+        "Anagrams"
+      ],
+      "hasEtymology": true,
+      "thirdPartyIndicators": {
+        "quoteTemplates": 0,
+        "fairUseTemplates": 0,
+        "fileOrMediaLinks": 2,
+        "copyrightNotices": 0,
+        "externalSourceTemplates": 0
+      },
+      "excludedBlocks": [
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-book|en|year=1910|author=Joseph Richardson Parke|title=The Wizard of the Damavant: A Tale of the Crusades|page=151|text=the sanguine hue of the poppy"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-journal|en|author=John Launer|title=Do We Even Need Men?|magazine=w:Literary Hub|url=https://lithub.com/do-we-even-need-men/|date=2018-04-24|passage="
+        }
+      ],
+      "wordCount": 131,
+      "bodyPreview": "Etymology\n\nFrom dentdelyon , from dent de lion , also in dēns leōnis , referring to the jagged shape of the plant's leaves. The term is now rare in French (together with liondent, calque from Germanic), but compare , , , , , , all descendants, calques, or loan translations of the Latin term.\n\nDispla",
+      "verdict": "AUDITED"
+    },
+    {
+      "word": "meadow",
+      "licence": "CC-BY-SA-4.0",
+      "title": "meadow",
+      "canonicalUrl": "https://en.wiktionary.org/wiki/meadow",
+      "subsections": [
+        "Etymology",
+        "Pronunciation",
+        "Noun",
+        "Verb"
+      ],
+      "hasEtymology": true,
+      "thirdPartyIndicators": {
+        "quoteTemplates": 0,
+        "fairUseTemplates": 0,
+        "fileOrMediaLinks": 0,
+        "copyrightNotices": 0,
+        "externalSourceTemplates": 0
+      },
+      "excludedBlocks": [
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{RQ:Jefferies Amateur Poacher|chapter=1|passage=But then I had the [massive] flintlock by me for protection. {{...}}The linen-press and a chest on the top o"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{RQ:Bindloss Dust of Conflict|chapter=1|passage={{...}}belts of thin white mist streaked the brown plough land in the hollow where Appleby could see the pal"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-book|en|year=1956|author=w:Delano Ames|chapter=7|title=[http://openlibrary.org/works/OL5915292W Crime out of Mind]|passage=Our part of the veranda di"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-journal|en|date=2013-01|author=Nancy Langston"
+        },
+        {
+          "heading": "Verb",
+          "kind": "third-party-block",
+          "text": "#* {{quote-book|en|year=1917| author=| title=The English Reports: Exchequer |page=789| passage=That there is and from time immemorial has been within that part "
+        }
+      ],
+      "wordCount": 128,
+      "bodyPreview": "Etymology\n\nFrom medowe , medewe , medwe (also mede > Modern English mead ), from mǣdwe , inflected form of mǣd (see mead ), from mēdwō , from h₂met- , enlargement of h₂meh₁- . Related to mead and to math . More at English .\n\nCognate with , , , , also , , , .\n\nNoun\n\nA field or pasture a piece of land",
+      "verdict": "AUDITED"
+    },
+    {
+      "word": "window",
+      "licence": "CC-BY-SA-4.0",
+      "title": "window",
+      "canonicalUrl": "https://en.wiktionary.org/wiki/window",
+      "subsections": [
+        "Etymology",
+        "Pronunciation",
+        "Noun",
+        "Verb"
+      ],
+      "hasEtymology": true,
+      "thirdPartyIndicators": {
+        "quoteTemplates": 0,
+        "fairUseTemplates": 0,
+        "fileOrMediaLinks": 1,
+        "copyrightNotices": 0,
+        "externalSourceTemplates": 0
+      },
+      "excludedBlocks": [
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{RQ:Jefferies Amateur Poacher|chapter=1|passage=But then I had the [massive] flintlock by me for protection. ¶{{...}}The linen-press and a chest on the top "
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-text|en|year=1952|author=w:L. F. Salzman|title=Building in England|page=173"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{RQ:Allingham China Governess|chapter=14|passage=Nanny Broome was looking up at the outer wall.&nbsp; Just under the ceiling there were three lunette '''win"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{RQ:Birmingham Gossamer|chapter=I|passage=There is an hour or two, after the passengers have embarked, which is disquieting and fussy.{{...}}Passengers wand"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-web|en|author=Euan McKirdy; Hilary Whiteman|title=Thai cave rescue: Divers enter cave to free boys|work=edition.cnn.com|url=https://edition.cnn.com/a"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-web|en|author=Euan McKirdy; et al.|work=edition.cnn.com|title=Arrest warrant to be issued for former Thai PM Yingluck Shinawatra|publisher=CNN|date=2"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-journal|en|date=2019 November 6|title=Network News|journal=Rail|page=26|text=An extensive period of trial running will then take place in the first q"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-journal|en-GB|author=Luke Harding|quotee={{w|Institute for the Study of War}}|title=Russian forces make significant gains in eastern Ukraine|work=The"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-journal|en|date=17 Dec 77|volume=5|number=24|journal=Gay Community News|page=4|author=Circle of Loving Companions|title=Critical Friends|text=Then we"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-journal|en|journal=w:National Geographic|year=1989|month=May|volume=175|number=5|title=The Baltic: Arena of Power|author=Priit J. Vesilind|page=604"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-text|en|year=2015|author=Patrick R. Nicolas|title=Scala for Machine Learning|page=109"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-text|en|year=1709|author={{w|William King (poet)|William King}}|title=Art of Cookery"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-book|en|year=1927|author=Léon William Collet|title=The Structure of the Alps|page=232"
+        },
+        {
+          "heading": "Verb",
+          "kind": "third-party-block",
+          "text": "#* {{RQ:Shakespeare Antony and Cleopatra|IV|xiii|passage=Wouldst thou be '''windowed''' in great Rome and see / Thy master thus with pleach'd arms, bending down"
+        }
+      ],
+      "wordCount": 233,
+      "bodyPreview": "Etymology\n\nFrom wyndowe , wyndown , from vindauga , equivalent to . Cognate with and windock , , , , , archaic , . Displaced native (the rare direct descendant is eyethurl ). The “windows” among early Germanic peoples were just unglazed holes (eyes) in the wall or roof that permitted wind to pass th",
+      "verdict": "AUDITED"
+    },
+    {
+      "word": "penguin",
+      "licence": "CC-BY-SA-4.0",
+      "title": "penguin",
+      "canonicalUrl": "https://en.wiktionary.org/wiki/penguin",
+      "subsections": [
+        "Alternative forms",
+        "Etymology",
+        "Pronunciation",
+        "Noun",
+        "References",
+        "Further reading"
+      ],
+      "hasEtymology": true,
+      "thirdPartyIndicators": {
+        "quoteTemplates": 0,
+        "fairUseTemplates": 0,
+        "fileOrMediaLinks": 1,
+        "copyrightNotices": 0,
+        "externalSourceTemplates": 0
+      },
+      "excludedBlocks": [
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-text|en|year=1638|author=w:Thomas Herbert|title=Some Yeares Travels|section=I"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-journal|en|year=1772|month=March|title=Account of the Settlement of the Malouines|journal=The Gentleman's and London Magazine|page=166"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-text|en|year=1885|title=Journal of the American Geographical Society of New York"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-av|en|writer={{w|Dan Aykroyd}}|title={{w|The Blues Brothers (film)|The Blues Brothers}}|text=''Jake ({{w|John Belushi}})'': What are we doing here? <"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-text|en|year=1942|author=Hermann Hagedorn|title=Sunward I've Climbed|page=143"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-book|en|url=https://archive.org/details/invasionswithout0000berg/page/n15/mode/2up?q=%22penguin%22|page=xi|title=Invasions without tears: the story o"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-book|en|url=https://www.google.com/books/edition/In_the_Company_of_Women/LurcDAAAQBAJ?hl=en&gbpv=1&dq=%22a%20penguin%22%20air%20force&pg=PT55&printse"
+        },
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-book|en|url=https://books.google.com/books?id=Kxq7DwAAQBAJ&newbks=1&newbks_redir=0&lpg=PA46&dq=%22penguins%22%20ground%20air%20force&pg=PA46#v=onepag"
+        }
+      ],
+      "wordCount": 147,
+      "bodyPreview": "Etymology\n\n. in reference to the auk of the Northern hemisphere the word was later applied to the superficially similar birds of the Southern hemisphere (as was woggin ). Possibly from head and gwyn , or from pinguis . See citations and the .\n\noriginates from the often black-and-white habit worn by ",
+      "verdict": "AUDITED"
+    },
+    {
+      "word": "lotus",
+      "licence": "CC-BY-SA-4.0",
+      "title": "lotus",
+      "canonicalUrl": "https://en.wiktionary.org/wiki/lotus",
+      "subsections": [
+        "Alternative forms",
+        "Etymology",
+        "Pronunciation",
+        "Noun",
+        "Further reading",
+        "Anagrams"
+      ],
+      "hasEtymology": true,
+      "thirdPartyIndicators": {
+        "quoteTemplates": 0,
+        "fairUseTemplates": 0,
+        "fileOrMediaLinks": 2,
+        "copyrightNotices": 0,
+        "externalSourceTemplates": 0
+      },
+      "excludedBlocks": [
+        {
+          "heading": "Noun",
+          "kind": "third-party-block",
+          "text": "#* {{quote-song|en|year=1979|author=Charlie King|title=Vaguely Reminiscent of the Sixties (The Story)|text=Since the '60s ended abruptly on January 1, 1970, eve"
+        }
+      ],
+      "wordCount": 111,
+      "bodyPreview": "Etymology\n\nlōtus , from λωτός . . . Ultimately from .\n\nNoun\n\nAny member of the genus of aquatic plants in the family .\n\nA water lily ( ), especially those of Egypt or India.\n\nA legendary plant eaten by the Lotophagi of the that caused drowsiness and euphoria.\n\nA number of other plants bearing lotus ",
+      "verdict": "AUDITED"
+    }
+  ]
+}
